@@ -2,7 +2,15 @@ title: CIE A/L IT (9626) - Crash Course
 description: >-
   My journey doing the CIE Advanced Level: Information Technology (9626) syllabus in 3 months.
 
+author:
+  name: Hirusha Adikari
+  email: "hirushaadi@gmail.com"
+
 theme: minima
 
 minima:
   skin: dark
+  social_links:
+    - { platform: github,  user_url: "https://github.com/hirusha-adi" }
+    - { platform: twitter, user_url: "https://twitter.com/hirushaadi" }
+    - { platform: telegram, user_url: "https://t.me/hirushaadi" }
