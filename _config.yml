@@ -2,8 +2,7 @@ title: CIE A/L IT (9626) - Crash Course
 description: >-
   My journey doing the CIE Advanced Level: Information Technology (9626) syllabus in 3 months.
 
-remote_theme: pages-themes/modernist@v0.2.0
+theme: minima
 
-plugins:
-- jekyll-remote-theme
-
+minima:
+  skin: dark
