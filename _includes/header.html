@@ -18,27 +18,26 @@
         </label>
 
         <div class="trigger">
-          <a class="page-link" href="">{{ my_page.title | escape }}</a>
-          <ul>
-            <li>Theory notes
-              <ul>
-                <li><a href="/theory_notes/p1">p1</a></li>
-                <li><a href="/theory_notes/p2">p2</a></li>
-                <li><a href="/theory_notes/p3">p3</a></li>
-                <li><a href="/theory_notes/p4">p4</a></li>
-              </ul>
-            </li>
-            <li>Revision notes
-              <ul>
-                <li><a href="/revision_notes/p1">p1</a></li>
-                <li><a href="/revision_notes/p2">p2</a></li>
-                <li><a href="/revision_notes/p3">p3</a></li>
-                <li><a href="/revision_notes/p4">p4</a></li>
-              </ul>
-            </li>
-            <li><a href="/others">Others</a></li>
-            <li><a href="/blog">Blog</a></li>
-          </ul>
+          <div class="dropdown">
+            <a class="dropdown-toggle" href="#">Theory notes</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="/theory/p1">p1</a>
+              <a class="dropdown-item" href="/theory/p2">p2</a>
+              <a class="dropdown-item" href="/theory/p3">p3</a>
+              <a class="dropdown-item" href="/theory/p4">p4</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <a class="dropdown-toggle" href="#">Revision notes</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="/revision/p1">p1</a>
+              <a class="dropdown-item" href="/revision/p2">p2</a>
+              <a class="dropdown-item" href="/revision/p3">p3</a>
+              <a class="dropdown-item" href="/revision/p4">p4</a>
+            </div>
+          </div>
+          <a class="page-link" href="/others">Others</a>
+          <a class="page-link" href="/blog">Blog</a>
         </div>
 
       </nav>
