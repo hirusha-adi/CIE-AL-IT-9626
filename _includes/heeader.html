@@ -17,30 +17,62 @@
             </span>
           </label>
   
-          <div class="trigger">
-            <div class="dropdown">
-              <a class="dropdown-toggle" href="#">Theory notes</a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="/theory/p1">p1</a>
-                <a class="dropdown-item" href="/theory/p2">p2</a>
-                <a class="dropdown-item" href="/theory/p3">p3</a>
-                <a class="dropdown-item" href="/theory/p4">p4</a>
+          <div class="trigger" style="display: flex; flex-direction: column;">
+            <div style="position: relative; display: inline-block;">
+              <a href="#" style="padding: 8px 16px; text-decoration: none; color: #333;">Theory notes</a>
+              <div style="display: none; position: absolute; background-color: #f9f9f9; min-width: 160px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1;">
+                <a href="/theory/p1" style="color: black; padding: 12px 16px; text-decoration: none; display: block;">p1</a>
+                <a href="/theory/p2" style="color: black; padding: 12px 16px; text-decoration: none; display: block;">p2</a>
+                <a href="/theory/p3" style="color: black; padding: 12px 16px; text-decoration: none; display: block;">p3</a>
+                <a href="/theory/p4" style="color: black; padding: 12px 16px; text-decoration: none; display: block;">p4</a>
               </div>
             </div>
-            <div class="dropdown">
-              <a class="dropdown-toggle" href="#">Revision notes</a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="/revision/p1">p1</a>
-                <a class="dropdown-item" href="/revision/p2">p2</a>
-                <a class="dropdown-item" href="/revision/p3">p3</a>
-                <a class="dropdown-item" href="/revision/p4">p4</a>
+            <div style="position: relative; display: inline-block;">
+              <a href="#" style="padding: 8px 16px; text-decoration: none; color: #333;">Revision notes</a>
+              <div style="display: none; position: absolute; background-color: #f9f9f9; min-width: 160px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1;">
+                <a href="/revision/p1" style="color: black; padding: 12px 16px; text-decoration: none; display: block;">p1</a>
+                <a href="/revision/p2" style="color: black; padding: 12px 16px; text-decoration: none; display: block;">p2</a>
+                <a href="/revision/p3" style="color: black; padding: 12px 16px; text-decoration: none; display: block;">p3</a>
+                <a href="/revision/p4" style="color: black; padding: 12px 16px; text-decoration: none; display: block;">p4</a>
               </div>
             </div>
-            <a class="page-link" href="/others">Others</a>
-            <a class="page-link" href="/blog">Blog</a>
+            <a href="/others" style="padding: 8px 16px; text-decoration: none; color: #333;">Others</a>
+            <a href="/blog" style="padding: 8px 16px; text-decoration: none; color: #333;">Blog</a>
           </div>
           
         </nav>
       {%- endif -%}
     </div>
   </header>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var dropdowns = document.querySelectorAll('.site-nav .trigger > div');
+  
+      dropdowns.forEach(function(dropdown) {
+        var toggle = dropdown.querySelector('a');
+        var menu = dropdown.querySelector('div');
+  
+        toggle.addEventListener('mouseover', function() {
+          menu.style.display = 'block';
+        });
+  
+        toggle.addEventListener('mouseout', function() {
+          setTimeout(function() {
+            if (!menu.matches(':hover')) {
+              menu.style.display = 'none';
+            }
+          }, 200);
+        });
+  
+        menu.addEventListener('mouseover', function() {
+          menu.style.display = 'block';
+        });
+  
+        menu.addEventListener('mouseout', function() {
+          menu.style.display = 'none';
+        });
+      });
+    });
+  </script>
+  
