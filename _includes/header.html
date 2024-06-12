@@ -23,40 +23,9 @@
           <a class="page-link" href="/others">Others</a>
           <a class="page-link" href="/blog">Blog</a>
         </div>
-        
+
       </nav>
     {%- endif -%}
   </div>
 
 </header>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    var dropdowns = document.querySelectorAll('.site-nav .trigger > div');
-
-    dropdowns.forEach(function(dropdown) {
-      var toggle = dropdown.querySelector('a');
-      var menu = dropdown.querySelector('div');
-
-      toggle.addEventListener('mouseover', function() {
-        menu.style.display = 'block';
-      });
-
-      toggle.addEventListener('mouseout', function() {
-        setTimeout(function() {
-          if (!menu.matches(':hover')) {
-            menu.style.display = 'none';
-          }
-        }, 200);
-      });
-
-      menu.addEventListener('mouseover', function() {
-        menu.style.display = 'block';
-      });
-
-      menu.addEventListener('mouseout', function() {
-        menu.style.display = 'none';
-      });
-    });
-  });
-</script>
