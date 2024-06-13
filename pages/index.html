@@ -7,65 +7,135 @@ permalink: /
 <section class="intro">
   <div class="grid">
     <div class="unit whole center-on-mobiles">
-      <p class="first">Transform your plain text into static&nbsp;websites and&nbsp;blogs.</p>
+      <p class="first">My journey doing the CIE Advanced Level - Information Technology (9626) syllabus in 3 months.</p>
     </div>
   </div>
 </section>
+
+<!-- first 3 columns -->
 <section class="features center-on-mobiles">
   <div class="grid">
-    <div class="unit one-third">
-      <h2>Simple</h2>
+
+    <div class="unit one-fourth">
+      <h2>Theory Notes</h2>
       <p>
-        No more databases, comment moderation, or pesky updates to install—just <em>your content</em>.
+        These notes are well detailed and will help you understand the subject matter.
+        <em>Based on the Hodders Textbooks.</em>
       </p>
-      <a href="{{ 'docs/usage/' | relative_url }}">How Jekyll works &rarr;</a>
+      <a href="{{ 'docs/usage/' | relative_url }}">View theory notes &rarr;</a>
     </div>
-    <div class="unit one-third">
-      <h2>Static</h2>
-      <p><a href="https://daringfireball.net/projects/markdown/">Markdown</a>, <a href="https://github.com/Shopify/liquid/wiki">Liquid</a>, HTML <span class="amp">&amp;</span> CSS go in. Static sites come out ready for deployment.</p>
-      <a href="{{ 'docs/templates/' | relative_url }}">Jekyll template guide &rarr;</a>
-    </div>
-    <div class="unit one-third">
-      <h2>Blog-aware</h2>
+
+    <div class="unit one-fourth">
+      <h2>Revision Notes</h2>
       <p>
-        Permalinks, categories, pages, posts, and custom layouts are all first-class citizens here.
+        These notes are targeted towards answers exam questions.
+        <em>Based on all the Past Papers.</em>
       </p>
-      <a href="https://import.jekyllrb.com">Migrate your blog &rarr;</a>
+      <a href="{{ 'docs/templates/' | relative_url }}">View revision notes &rarr;</a>
     </div>
+
+    <div class="unit one-fourth">
+      <h2>Other Resources</h2>
+      <p>
+        Other resources include: textbooks, topical past paper questions, notes collected online, etc...
+      </p>
+      <a href="https://import.jekyllrb.com">View other resources &rarr;</a>
+    </div>
+
+    <div class="unit one-fourth">
+      <h2>Blog</h2>
+      <p>
+        This is where I will post special notices, my study routine and other stuff.
+      </p>
+      <a href="{{ 'docs/usage/' | relative_url }}">View blog &rarr;</a>
+    </div>
+
     <div class="clear"></div>
   </div>
 </section>
+
 <section class="quickstart">
   <div class="grid">
     <div class="unit golden-small center-on-mobiles">
-      <h3>Get up and running <em>in&nbsp;seconds</em>.</h3>
+      <h3>Developer guide:</em></h3>
+      <p>
+        Refer to the <a href="https://github.com/hirusha-adi/CIE-AL-IT-9626" target="_blank"
+          rel="noopener noreferrer">README</a> file in the <a href="https://github.com/hirusha-adi/CIE-AL-IT-9626"
+          target="_blank" rel="noopener noreferrer">Github repository</a> for a detailed guide.
+        This is my first time doing something with ruby (i usually use docusaurus for stuff like this). Unfortunately,
+        with the lack of time,
+        I wont be able to learn it properly. This is hosted after hours of googling and after 100s of queries to
+        ChatGPT.
+        I still have no idea about how it works nor why it works, but, it works...
+
+      </p>
     </div>
     <div class="unit golden-large code">
-      <p class="title">Quick-start Instructions</p>
+      <p class="title">Summarized Instructions</p>
       <div class="shell">
+
         <p class="line">
-          <span class="path">~</span>
-          <span class="prompt">$</span>
-          <span class="command">gem install bundler jekyll</span>
+          <span class="output"># => Download and install Ruby (with Devkit)</span>
+        </p>
+        <p class="line">
+          <span class="output">#</span>
+        </p>
+        <p class="line">
+          <span class="output"># => Verify Installation</span>
         </p>
         <p class="line">
           <span class="path">~</span>
           <span class="prompt">$</span>
-          <span class="command">jekyll new my-awesome-site</span>
+          <span class="command">ruby -v</span>
+        </p>
+        <p class="line">
+          <span class="output">#</span>
+        </p>
+        <p class="line">
+          <span class="output"># => Install bundler</span>
         </p>
         <p class="line">
           <span class="path">~</span>
           <span class="prompt">$</span>
-          <span class="command">cd my-awesome-site</span>
+          <span class="command">gem install bundler</span>
         </p>
         <p class="line">
-          <span class="path">~/my-awesome-site</span>
+          <span class="output">#</span>
+        </p>
+        <p class="line">
+          <span class="output"># => Backup old Gemfile.lock</span>
+        </p>
+        <p class="line">
+          <span class="path">~</span>
           <span class="prompt">$</span>
-          <span class="command">bundle exec jekyll serve</span>
+          <span class="command">cd rename Gemfile.lock Gemfile.lock.bak</span>
+        </p>
+        <p class="line">
+          <span class="output">#</span>
+        </p>
+        <p class="line">
+          <span class="output"># => Install Dependencies</span>
+        </p>
+        <p class="line">
+          <span class="path">~</span>
+          <span class="prompt">$</span>
+          <span class="command">bundle install --verbose</span>
+        </p>
+        <p class="line">
+          <span class="output">#</span>
+        </p>
+        <p class="line">
+          <span class="output"># => Start local server</span>
+        </p>
+        <p class="line">
+          <span class="path">~</span>
+          <span class="prompt">$</span>
+          <span class="command">bundle install --verbose</span>
         </p>
         <p class="line">
           <span class="output"># => Now browse to http://localhost:4000</span>
         </p>
+
       </div>
     </div>
     <div class="clear"></div>
@@ -76,10 +146,15 @@ permalink: /
     <div class="unit whole">
       <div class="grid pane">
         <div class="unit whole center-on-mobiles">
-          <img src="{{ 'img/octojekyll.png' | relative_url }}" width="300" height="251" alt="Free Jekyll hosting on GitHub Pages">
+          <img src="{{ 'img/octojekyll.png' | relative_url }}" width="300" height="251"
+            alt="Free Jekyll hosting on GitHub Pages">
           <div class="pane-content">
             <h2 class="center-on-mobiles"><strong>Free hosting</strong> with GitHub Pages</h2>
-            <p>Sick of dealing with hosting companies? <a href="https://pages.github.com/">GitHub Pages</a> is <em>powered by Jekyll</em>, so you can easily deploy your site using GitHub for free&mdash;<a href="https://help.github.com/articles/about-supported-custom-domains/">custom domain name</a> and&nbsp;all.</p>
+            <p>Sick of dealing with hosting companies? <a href="https://pages.github.com/">GitHub Pages</a> is
+              <em>powered by Jekyll</em>, so you can easily deploy your site using GitHub for free&mdash;<a
+                href="https://help.github.com/articles/about-supported-custom-domains/">custom domain name</a>
+              and&nbsp;all.
+            </p>
             <a href="https://pages.github.com/">Learn more about GitHub Pages &rarr;</a>
           </div>
         </div>
