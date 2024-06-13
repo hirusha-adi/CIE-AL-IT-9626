@@ -1,15 +1,15 @@
 - title: Home
   link: /
   show_on_mobile: true
-- title: Docs
+- title: Theory
   link: /docs/
   show_on_mobile: true
-- title: Resources
+- title: Revision
   link: /resources/
   show_on_mobile: true
-- title: Showcase
+- title: Other
   link: /showcase/
-  show_on_mobile: false
-- title: News
+  show_on_mobile: true
+- title: Blog
   link: /news/
   show_on_mobile: true
