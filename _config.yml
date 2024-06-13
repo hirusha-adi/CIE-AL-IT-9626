@@ -1,10 +1,17 @@
 ---
-version: 4.3.3
+version: 1.0
 name: CIE A/L IT (9626) - Crash Course
 description: My journey doing the CIE Advanced Level - Information Technology (9626) syllabus in 3 months.
+
+url: https://hirusha-adi.github.io/CIE-AL-IT-9626
+repository: https://github.com/hirusha-adi/CIE-AL-IT-9626
+timezone: Asia/Colombo
+
 twitter:
   username: hirushaadi
+
 logo: "/img/logo-2x.png"
+
 collections:
   docs:
     permalink: "/:collection/:path/"
@@ -15,6 +22,7 @@ collections:
   tutorials:
     permalink: "/:collection/:path/"
     output: true
+
 defaults:
   - scope:
       path: _docs
@@ -35,7 +43,9 @@ defaults:
       path: ""
     values:
       image: "/img/jekyll-og.png"
+
 future: true
+
 plugins:
   - jekyll-avatar
   - jekyll-feed
@@ -44,15 +54,20 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jemoji
+
 feed:
   categories:
     - release
+
 kramdown:
   syntax_highlighter_opts:
     default_lang: plaintext
+
 sass:
   style: compressed
+
 strict_front_matter: true
+
 exclude:
   - icomoon-selection.json
-  - readme.md
+  - README.md
