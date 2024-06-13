@@ -1,4 +1,4 @@
-- title: Paper 1
+- title: Paper 1 (Theory)
   docs:
     - link: /docs/p1/
     - link: /docs/p1/1-data-processing-and-information/
@@ -8,27 +8,23 @@
     - link: /docs/p1/5-esecurity/
     - link: /docs/p1/6-digital-divide/
     - link: /docs/p1/7-expert-systems/
-- title: Paper 2
+- title: Paper 2 (Practical)
   docs:
-    - link: /docs/usage/
-    - link: /docs/configuration/
-    - link: /docs/rendering-process/
-- title: Paper 3
+    - link: /docs/p2/8-spreadsheets/
+    - link: /docs/p2/9-modelling/
+    - link: /docs/p2/10-database-and-file-concepts/
+    - link: /docs/p2/11-sound-and-video-editing/
+- title: Paper 3 (Advanced Theory)
   docs:
-    - link: /docs/pages/
-    - link: /docs/posts/
-    - link: /docs/front-matter/
-    - link: /docs/collections/
-    - link: /docs/datafiles/
-    - link: /docs/assets/
-    - link: /docs/static-files/
-- title: Paper 4
+    - link: /docs/p3/12-it-in-society/
+    - link: /docs/p3/13-new-and-emerging-technologies/
+    - link: /docs/p3/14-communications-technology/
+    - link: /docs/p3/15-project-management/
+    - link: /docs/p3/16-system-life-cycle/
+    - link: /docs/p3/17-data-analysis-and-visualization/
+- title: Paper 4 (Advanced Practical)
   docs:
-    - link: /docs/structure/
-    - link: /docs/liquid/
-    - link: /docs/variables/
-    - link: /docs/includes/
-    - link: /docs/layouts/
-    - link: /docs/permalinks/
-    - link: /docs/themes/
-    - link: /docs/pagination/
+    - link: /docs/p4/18-mail-merge/
+    - link: /docs/p4/19-graphics-creation/
+    - link: /docs/p4/20-animation/
+    - link: /docs/p4/21-programming-for-the-web/
