@@ -1,16 +1,17 @@
-- title: Getting Started
+- title: Paper 1
   docs:
     - link: /docs/
+    - link: /docs/p1/1-data-processing-and-information/
     - link: /docs/installation/
     - link: /docs/ruby-101/
     - link: /docs/community/
     - link: /docs/step-by-step/01-setup/
-- title: Build
+- title: Paper 2
   docs:
     - link: /docs/usage/
     - link: /docs/configuration/
     - link: /docs/rendering-process/
-- title: Content
+- title: Paper 3
   docs:
     - link: /docs/pages/
     - link: /docs/posts/
@@ -19,7 +20,7 @@
     - link: /docs/datafiles/
     - link: /docs/assets/
     - link: /docs/static-files/
-- title: Site Structure
+- title: Paper 4
   docs:
     - link: /docs/structure/
     - link: /docs/liquid/
@@ -29,9 +30,3 @@
     - link: /docs/permalinks/
     - link: /docs/themes/
     - link: /docs/pagination/
-- title: Guides
-  docs:
-    - link: /docs/plugins/
-    - link: /docs/migrations/
-    - link: /docs/upgrading/
-    - link: /docs/deployment/
