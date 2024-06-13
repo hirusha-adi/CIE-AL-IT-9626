@@ -1,6 +1,9 @@
-- title: Tutorials
+- title: Paper 1
   tutorials:
     - 1-data-representation
+- title: Paper 2
+  tutorials:
+    - 2-testing
 #- title: Another section
 #  tutorials:
 #  - sample
