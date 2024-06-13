@@ -3,8 +3,7 @@ title: Quickstart
 permalink: /docs/
 redirect_from:
   - /docs/home/
-  - /docs/quickstart/
-  - /docs/extras/
+  - /docs/index/
 ---
 
 Jekyll is a static site generator. It takes text written in your
