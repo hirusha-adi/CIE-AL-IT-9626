@@ -1,0 +1,6 @@
+_site/
+.idea/
+*.swp
+pkg/
+test/
+jekyll-master.zip

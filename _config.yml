@@ -1,16 +1,58 @@
-title: CIE A/L IT (9626) - Crash Course
-description: >-
-  My journey doing the CIE Advanced Level: Information Technology (9626) syllabus in 3 months.
-
-author:
-  name: Hirusha Adikari
-  email: "hirushaadi@gmail.com"
-
-theme: minima
-
-minima:
-  skin: dark
-  social_links:
-    - { platform: github,  user_url: "https://github.com/hirusha-adi" }
-    - { platform: twitter, user_url: "https://twitter.com/hirushaadi" }
-    - { platform: telegram, user_url: "https://t.me/hirushaadi" }
+---
+version: 4.3.3
+name: CIE A/L IT (9626) - Crash Course
+description: My journey doing the CIE Advanced Level - Information Technology (9626) syllabus in 3 months.
+twitter:
+  username: hirushaadi
+logo: "/img/logo-2x.png"
+collections:
+  docs:
+    permalink: "/:collection/:path/"
+    output: true
+  posts:
+    permalink: "/news/:year/:month/:day/:title/"
+    output: true
+  tutorials:
+    permalink: "/:collection/:path/"
+    output: true
+defaults:
+  - scope:
+      path: _docs
+      type: docs
+    values:
+      layout: docs
+  - scope:
+      path: _posts
+      type: posts
+    values:
+      layout: news_item
+  - scope:
+      path: _tutorials
+      type: tutorials
+    values:
+      layout: tutorials
+  - scope:
+      path: ""
+    values:
+      image: "/img/jekyll-og.png"
+future: true
+plugins:
+  - jekyll-avatar
+  - jekyll-feed
+  - jekyll-mentions
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jemoji
+feed:
+  categories:
+    - release
+kramdown:
+  syntax_highlighter_opts:
+    default_lang: plaintext
+sass:
+  style: compressed
+strict_front_matter: true
+exclude:
+  - icomoon-selection.json
+  - readme.md
