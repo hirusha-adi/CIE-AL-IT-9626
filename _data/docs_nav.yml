@@ -1,11 +1,13 @@
 - title: Paper 1
   docs:
-    - link: /docs/
+    - link: /docs/p1/
     - link: /docs/p1/1-data-processing-and-information/
-    - link: /docs/installation/
-    - link: /docs/ruby-101/
-    - link: /docs/community/
-    - link: /docs/step-by-step/01-setup/
+    - link: /docs/p1/2-hardware-and-software/
+    - link: /docs/p1/3-monitoring-and-control/
+    - link: /docs/p1/4-algorithms-and-flowcharts/
+    - link: /docs/p1/5-esecurity/
+    - link: /docs/p1/6-digital-divide/
+    - link: /docs/p1/7-expert-systems/
 - title: Paper 2
   docs:
     - link: /docs/usage/
