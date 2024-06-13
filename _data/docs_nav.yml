@@ -1,29 +1,37 @@
-- title: Paper 1 (Theory)
+- title: Getting Started
   docs:
-    - link: /theory/p1/1_data_processing_and_information
-    - link: /theory/p1/2_hardware_and_software
-    - link: /theory/p1/3_monitoring_and_control
-    - link: /theory/p1/4_algorithms_and_flowcharts
-    - link: /theory/p1/5_esecurity
-    - link: /theory/p1/6_digital_divide
-    - link: /theory/p1/7_expert_systems
-# - title: Paper 2 (Practical)
-#   docs:
-#     - link: /docs/p2/8_spreadsheets
-#     - link: /docs/p2/9_modelling
-#     - link: /docs/p2/10_database_and_file_concepts
-#     - link: /docs/p2/11_sound_and_video_editing
-# - title: Paper 3 (Advanced Theory)
-#   docs:
-#     - link: /docs/p3/12_it_in_society
-#     - link: /docs/p3/13_new_and_emerging_technologies
-#     - link: /docs/p3/14_communications_technology
-#     - link: /docs/p3/15_project_management
-#     - link: /docs/p3/16_system_life_cycle
-#     - link: /docs/p3/17_data_analysis_and_visualization
-# - title: Paper 4 (Advanced Practical)
-#   docs:
-#     - link: /docs/p4/18_mail_merge
-#     - link: /docs/p4/19_graphics_creation
-#     - link: /docs/p4/20_animation
-#     - link: /docs/p4/21_programming_for_the_web
+    - link: /docs/
+    - link: /docs/installation/
+    - link: /docs/ruby-101/
+    - link: /docs/community/
+    - link: /docs/step-by-step/01-setup/
+- title: Build
+  docs:
+    - link: /docs/usage/
+    - link: /docs/configuration/
+    - link: /docs/rendering-process/
+- title: Content
+  docs:
+    - link: /docs/pages/
+    - link: /docs/posts/
+    - link: /docs/front-matter/
+    - link: /docs/collections/
+    - link: /docs/datafiles/
+    - link: /docs/assets/
+    - link: /docs/static-files/
+- title: Site Structure
+  docs:
+    - link: /docs/structure/
+    - link: /docs/liquid/
+    - link: /docs/variables/
+    - link: /docs/includes/
+    - link: /docs/layouts/
+    - link: /docs/permalinks/
+    - link: /docs/themes/
+    - link: /docs/pagination/
+- title: Guides
+  docs:
+    - link: /docs/plugins/
+    - link: /docs/migrations/
+    - link: /docs/upgrading/
+    - link: /docs/deployment/
