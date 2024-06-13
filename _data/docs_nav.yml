@@ -10,12 +10,14 @@
     - link: /docs/p1/7-expert-systems/
 - title: Paper 2 (Practical)
   docs:
+    - link: /docs/p2/
     - link: /docs/p2/8-spreadsheets/
     - link: /docs/p2/9-modelling/
     - link: /docs/p2/10-database-and-file-concepts/
     - link: /docs/p2/11-sound-and-video-editing/
 - title: Paper 3 (Advanced Theory)
   docs:
+    - link: /docs/p3/
     - link: /docs/p3/12-it-in-society/
     - link: /docs/p3/13-new-and-emerging-technologies/
     - link: /docs/p3/14-communications-technology/
@@ -24,6 +26,7 @@
     - link: /docs/p3/17-data-analysis-and-visualization/
 - title: Paper 4 (Advanced Practical)
   docs:
+    - link: /docs/p4/
     - link: /docs/p4/18-mail-merge/
     - link: /docs/p4/19-graphics-creation/
     - link: /docs/p4/20-animation/
