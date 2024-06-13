@@ -12,4 +12,4 @@
   show_on_mobile: true
 - title: Blog
   link: /news/
-  show_on_mobile: true
+  show_on_mobile: false
