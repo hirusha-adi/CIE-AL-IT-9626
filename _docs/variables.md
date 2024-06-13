@@ -35,6 +35,7 @@ The following is a reference of the available data.
 </div>
 
 ## Theme Variables {%- include docs_version_badge.html version="4.3.0" -%}
+
 {: #theme-variables }
 
 {% include docs_variables_table.html scope=site.data.jekyll_variables.theme %}
