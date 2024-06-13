@@ -1,19 +1,55 @@
-# Jekyll docs site
+# CIE A/L IT (9626) - Crash Course - Resources Website
 
-This directory contains the code for the Jekyll docs site, [jekyllrb.com](https://jekyllrb.com/).
+My journey doing the CIE Advanced Level - Information Technology (9626) syllabus in 3 months.
 
-## Contributing
+## Deploying
 
-For information about contributing, see the [Contributing page](https://jekyllrb.com/docs/contributing/).
+After every push to the `master` branch, github-pages will build and deploy it.
 
-## Running locally
+## Testing Locally
 
-You can preview your contributions before opening a pull request by running from within the directory:
+### Windows
 
-1. `bundle install --without test test_legacy benchmark`
-2. `bundle exec rake site:preview`
+- Download and install [Ruby (with Devkit)](https://rubyinstaller.org/downloads/). Run `ruby -v` in the command-line to verify installation.
 
-It's just a jekyll site, afterall! :wink:
+- Install [Bundler](https://bundler.io/).
+
+  ```
+  gem install bundler
+  ```
+
+  - Update Bundler:
+
+    ```
+    bundle update --bundler
+    ```
+
+- Come to the current working directory
+
+- Backup already existing `Gemfile.lock` if it exists
+
+  ```
+  rename Gemfile.lock Gemfile.lock.bak
+  ```
+
+- Install dependencies:
+
+  ```
+  bundle install --verbose
+  ```
+
+  - Clear cache and install
+
+    ```
+    bundle clean --force
+    bundle install
+    ```
+
+- Start serving:
+
+  ```
+  bundle exec jekyll serve
+  ```
 
 ## Updating Font Awesome
 
