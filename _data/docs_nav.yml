@@ -7,23 +7,23 @@
     - link: /theory/p1/5_esecurity
     - link: /theory/p1/6_digital_divide
     - link: /theory/p1/7_expert_systems
-# - title: Paper 2 (Practical)
-#   docs:
-#     - link: /docs/p2/8_spreadsheets
-#     - link: /docs/p2/9_modelling
-#     - link: /docs/p2/10_database_and_file_concepts
-#     - link: /docs/p2/11_sound_and_video_editing
-# - title: Paper 3 (Advanced Theory)
-#   docs:
-#     - link: /docs/p3/12_it_in_society
-#     - link: /docs/p3/13_new_and_emerging_technologies
-#     - link: /docs/p3/14_communications_technology
-#     - link: /docs/p3/15_project_management
-#     - link: /docs/p3/16_system_life_cycle
-#     - link: /docs/p3/17_data_analysis_and_visualization
-# - title: Paper 4 (Advanced Practical)
-#   docs:
-#     - link: /docs/p4/18_mail_merge
-#     - link: /docs/p4/19_graphics_creation
-#     - link: /docs/p4/20_animation
-#     - link: /docs/p4/21_programming_for_the_web
+- title: Paper 2 (Practical)
+  docs:
+    - link: /docs/p2/8_spreadsheets
+    - link: /docs/p2/9_modelling
+    - link: /docs/p2/10_database_and_file_concepts
+    - link: /docs/p2/11_sound_and_video_editing
+- title: Paper 3 (Advanced Theory)
+  docs:
+    - link: /docs/p3/12_it_in_society
+    - link: /docs/p3/13_new_and_emerging_technologies
+    - link: /docs/p3/14_communications_technology
+    - link: /docs/p3/15_project_management
+    - link: /docs/p3/16_system_life_cycle
+    - link: /docs/p3/17_data_analysis_and_visualization
+- title: Paper 4 (Advanced Practical)
+  docs:
+    - link: /docs/p4/18_mail_merge
+    - link: /docs/p4/19_graphics_creation
+    - link: /docs/p4/20_animation
+    - link: /docs/p4/21_programming_for_the_web
