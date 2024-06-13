@@ -1,8 +1,65 @@
-- name: Tom Preston Werner Blog
-  url: https://hirusha.xyz/docs/study/
-  image: https://pbs.twimg.com/profile_images/907578932463128576/DpNjXyA__400x400.jpg
 # - name: White House Social and Behavioral Sciences Team
 #   url: https://sbst.gov/
 #   image: sbst.png
 #   categories:
 #     - government
+
+- name: Edexcel IAL - Biology
+  url: https://hirusha.xyz/docs/study/edexcel_ial/biology
+  image: https://www.pearson.com/content/dam/one-dot-com/one-dot-com/apac/Im-an-educator/Edexcel.png
+
+- name: Edexcel IAL - Chemistry
+  url: https://hirusha.xyz/docs/study/edexcel_ial/chemistry
+  image: https://www.pearson.com/content/dam/one-dot-com/one-dot-com/apac/Im-an-educator/Edexcel.png
+
+- name: Edexcel IAL - Physics
+  url: https://hirusha.xyz/docs/study/edexcel_ial/physics
+  image: https://www.pearson.com/content/dam/one-dot-com/one-dot-com/apac/Im-an-educator/Edexcel.png
+
+- name: Edexcel iGCSE - Biology
+  url: https://hirusha.xyz/docs/study/edexcel_igcse/biology
+  image: https://www.pearson.com/content/dam/one-dot-com/one-dot-com/apac/Im-an-educator/Edexcel.png
+
+- name: Edexcel iGCSE - Chemistry
+  url: https://hirusha.xyz/docs/study/edexcel_igcse/chemistry
+  image: https://www.pearson.com/content/dam/one-dot-com/one-dot-com/apac/Im-an-educator/Edexcel.png
+
+- name: Edexcel iGCSE - Physics
+  url: https://hirusha.xyz/docs/study/edexcel_igcse/physics
+  image: https://www.pearson.com/content/dam/one-dot-com/one-dot-com/apac/Im-an-educator/Edexcel.png
+
+- name: Edexcel iGCSE - Maths
+  url: https://hirusha.xyz/docs/study/edexcel_igcse/mathematics
+  image: https://www.pearson.com/content/dam/one-dot-com/one-dot-com/apac/Im-an-educator/Edexcel.png
+
+- name: Sri Lankan G.C.E A/L - Biology
+  url: https://hirusha.xyz/docs/study/srilankan_al/biology
+  image: https://www.news.lk/media/k2/items/cache/bed16ceab631edf04de8580429589126_L.jpg
+
+- name: Sri Lankan G.C.E A/L - Chemistry
+  url: https://hirusha.xyz/docs/study/srilankan_al/chemistry
+  image: https://www.news.lk/media/k2/items/cache/bed16ceab631edf04de8580429589126_L.jpg
+
+- name: Sri Lankan G.C.E A/L - Physics
+  url: https://hirusha.xyz/docs/study/srilankan_al/physics
+  image: https://www.news.lk/media/k2/items/cache/bed16ceab631edf04de8580429589126_L.jpg
+
+- name: CIE A/L - Computer Science (9618)
+  url: https://www.srilankaonlineschool.com/
+  image: https://pbs.twimg.com/profile_images/907578932463128576/DpNjXyA__400x400.jpg
+
+- name: Sri Lankan G.C.E A/L - Maths
+  url: https://hirusha.xyz/docs/study/srilankan_al/mathematics
+  image: https://www.news.lk/media/k2/items/cache/bed16ceab631edf04de8580429589126_L.jpg
+
+- name: CIE A/L - Maths (9709) - for Sri Lankan students only!
+  url: https://apluseducation.lk/
+  image: https://pbs.twimg.com/profile_images/907578932463128576/DpNjXyA__400x400.jpg
+
+- name: Edexcel IAL - Maths - for Sri Lankan students only!
+  url: https://apluseducation.lk/
+  image: https://www.pearson.com/content/dam/one-dot-com/one-dot-com/apac/Im-an-educator/Edexcel.png
+
+- name: Edexcel IAL - Maths
+  url: https://hirusha.xyz/docs/study/edexcel_ial/maths
+  image: https://www.pearson.com/content/dam/one-dot-com/one-dot-com/apac/Im-an-educator/Edexcel.png
