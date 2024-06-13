@@ -1,9 +1,6 @@
 - name: Tom Preston Werner Blog
-  url: https://tom.preston-werner.com/
-  image: tom-preston-werner.png
-  categories:
-    - personal
-    - blog
+  url: https://hirusha.xyz/docs/study/
+  image: https://pbs.twimg.com/profile_images/907578932463128576/DpNjXyA__400x400.jpg
 # - name: White House Social and Behavioral Sciences Team
 #   url: https://sbst.gov/
 #   image: sbst.png

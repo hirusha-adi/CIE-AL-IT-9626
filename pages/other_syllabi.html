@@ -1,19 +1,17 @@
 ---
 layout: page
-title: Showcase
-permalink: /showcase/
-redirect_from:
-  - /docs/sites/
+title: Other Syallabi
+permalink: /other_syllabi/
 ---
 
-<p>Jekyll powers many company websites; here are a few nice ones:</p>
+<p>Below are direct links to different syllabi that i recommend:</p>
 
 <ul class="showcase" id="showcase">
   {% for entry in site.data.showcase reversed -%}
   <li>
     <a href="{{ entry.url }}" target="_blank">
       <figure>
-        <img loading="lazy" src="{{ site.cloudinary_url }}/showcase/{{ entry.image }}" alt="{{ entry.name }}" width="404" height="253">
+        <img loading="lazy" src="{{ entry.image }}" alt="{{ entry.name }}" width="400" height="400">
         <figcaption>{{ entry.name }}</figcaption>
       </figure>
     </a>

@@ -1,11 +1,10 @@
----
 version: 1.0
 name: CIE A/L IT (9626) - Crash Course
 description: My journey doing the CIE Advanced Level - Information Technology (9626) syllabus in 3 months.
 
 url: https://hirusha-adi.github.io/CIE-AL-IT-9626
 repository: https://github.com/hirusha-adi/CIE-AL-IT-9626
-timezone: Asia/Colombo
+# timezone: Asia/Colombo
 
 twitter:
   username: hirushaadi
@@ -13,32 +12,40 @@ twitter:
 logo: "/img/logo-2x.png"
 
 collections:
-  docs:
-    permalink: "/:collection/:path/"
+  theory:
+    permalink: "/theory/:path/"
     output: true
-  posts:
-    permalink: "/news/:year/:month/:day/:title/"
+  revision:
+    permalink: "/revision/:path/"
     output: true
-  tutorials:
-    permalink: "/:collection/:path/"
+  other:
+    permalink: "/other/:path/"
+    output: true
+  blog:
+    permalink: "/blog/:year/:month/:day/:title/"
     output: true
 
 defaults:
   - scope:
-      path: _docs
-      type: docs
+      path: "_theory"
+      type: theory
     values:
       layout: docs
   - scope:
-      path: _posts
+      path: "_revision"
+      type: revision
+    values:
+      layout: docs
+  - scope:
+      path: "_other"
+      type: other
+    values:
+      layout: docs
+  - scope:
+      path: "_posts"
       type: posts
     values:
       layout: news_item
-  - scope:
-      path: _tutorials
-      type: tutorials
-    values:
-      layout: tutorials
   - scope:
       path: ""
     values:
