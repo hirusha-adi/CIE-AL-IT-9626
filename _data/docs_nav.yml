@@ -1,12 +1,12 @@
 - title: Paper 1 (Theory)
   docs:
-    - link: /docs/p1/1_data_processing_and_information
-    - link: /docs/p1/2_hardware_and_software
-    - link: /docs/p1/3_monitoring_and_control
-    - link: /docs/p1/4_algorithms_and_flowcharts
-    - link: /docs/p1/5_esecurity
-    - link: /docs/p1/6_digital_divide
-    - link: /docs/p1/7_expert_systems
+    - link: /theory/p1/1_data_processing_and_information
+    - link: /theory/p1/2_hardware_and_software
+    - link: /theory/p1/3_monitoring_and_control
+    - link: /theory/p1/4_algorithms_and_flowcharts
+    - link: /theory/p1/5_esecurity
+    - link: /theory/p1/6_digital_divide
+    - link: /theory/p1/7_expert_systems
 # - title: Paper 2 (Practical)
 #   docs:
 #     - link: /docs/p2/8_spreadsheets
