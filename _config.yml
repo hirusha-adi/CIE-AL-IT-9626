@@ -15,7 +15,7 @@ collections:
   posts:
     permalink: "/news/:year/:month/:day/:title/"
     output: true
-  tutorials:
+  revision:
     permalink: "/:collection/:path/"
     output: true
 defaults:
@@ -30,10 +30,10 @@ defaults:
     values:
       layout: news_item
   - scope:
-      path: _tutorials
-      type: tutorials
+      path: _revision
+      type: revision
     values:
-      layout: tutorials
+      layout: revision
   - scope:
       path: ""
     values:

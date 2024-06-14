@@ -1,0 +1,16 @@
+<div class="unit one-fifth hide-on-mobiles">
+  <aside>
+    {% for section in site.data.revision_nav %}
+    <h4>{{ section.title }}</h4>
+    <ul>
+      {% for tutorial_path in section.tutorials %}
+      {% assign tutorial_url = "/revision/" | append: tutorial_path | append: "/" %}
+      {% assign tutorial_page = site.revision | where: "url", tutorial_url | first %}
+      <li {% if tutorial_page.url==page.url %}class="current" {% endif %}>
+        <a href="{{ tutorial_page.url | relative_url }}">{{ tutorial_page.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endfor %}
+  </aside>
+</div>
