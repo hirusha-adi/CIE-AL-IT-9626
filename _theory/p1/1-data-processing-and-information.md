@@ -70,3 +70,23 @@ redirect_from:
         -   Number of passengers using that route (Data Loggers)
 
 ### Indirect Data
+
+#### Description
+
+-   obtained from a third party
+-   and used for a different purpose than the original
+-   eg:
+    -   electoral registers,
+    -   data brokers: businesses collecting personal information for use by other organizations
+
+#### Sources
+
+third-party sources that the data gatherer can obtain data from.
+
+-   electoral register (electoral roll)
+
+    -   list of adults who can vote
+    -   contains named, addresses, age, and other personal information
+    -   the personal information must comply country's data protection
+
+-   Businesses collecting data from third parties
