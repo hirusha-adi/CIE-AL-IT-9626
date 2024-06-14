@@ -2,14 +2,14 @@
   link: /
   show_on_mobile: true
 - title: Theory
-  link: /docs/
+  link: /theory/
   show_on_mobile: true
 - title: Revision
-  link: /tutorials/
-  show_on_mobile: true
-- title: Blog
-  link: /news/
+  link: /revision/
   show_on_mobile: true
 - title: Other
   link: /other/
+  show_on_mobile: true
+- title: Blog
+  link: /blog/
   show_on_mobile: true

@@ -1,0 +1,39 @@
+{%- comment -%}
+Map grabs the revision sections, giving us an array of arrays. Join, flattens all
+the items to a comma delimited string. Split turns it into an array again.
+{%- endcomment -%}
+{%- assign revisions = site.data.revision_nav | map: 'revision' | join: ',' | split: ',' -%}
+
+{%- comment -%}
+Because this is built for every page, lets find where we are in the ordered
+document list by comparing url strings. Then if there's something previous or
+next, lets build a link to it.
+{%- endcomment -%}
+
+{% for revision in revisions -%}
+{% assign revision_url = revision | prepend:"/revision/" | append:"/" -%}
+{% if revision_url == page.url -%}
+<div class="section-nav">
+  <div class="left align-right">
+    {% if forloop.first -%}
+    <span class="prev disabled">Back</span>
+    {% else -%}
+    {% assign previous = forloop.index0 | minus: 1 -%}
+    {% assign previous_page = revisions[previous] | prepend:"/revision/" | append:"/" -%}
+    <a href="{{ previous_page | relative_url }}" class="prev">Back</a>
+    {% endif -%}
+  </div>
+  <div class="right align-left">
+    {% if forloop.last -%}
+    <span class="next disabled">Next</span>
+    {% else -%}
+    {% assign next = forloop.index0 | plus: 1 -%}
+    {% assign next_page = revisions[next] | prepend:"/revision/" | append:"/" -%}
+    <a href="{{ next_page | relative_url }}" class="next">Next</a>
+    {% endif -%}
+  </div>
+</div>
+<div class="clear"></div>
+{% break -%}
+{% endif -%}
+{% endfor -%}

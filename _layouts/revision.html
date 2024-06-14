@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<section class="docs">
+  <div class="grid">
+    {%- include revision_contents_mobile.html -%}
+    <div class="unit four-fifths">
+      <article>
+        <header class="tutorial-header">
+          <div class="improve right hide-on-mobiles">
+            <a href="https://github.com/hirusha-adi/CIE-AL-IT-9626/edit/master/{{ page.path }}"><i
+                class="fa fa-pencil"></i> &nbsp;Improve this page</a>
+          </div>
+          <h1 class="tutorial-title">{{ page.title }}</h1>
+        </header>
+        {{- content -}}
+        {% if page.plugin_disclaimer %}
+        <div class="disclaimer-ribbon">
+          Disclaimer: The Jekyll Core Team does not endorse the Ruby code in this tutorial and is
+          not liable to resolve any bugs therein or issues arising otherwise from the use of the
+          provided example(s) in production builds.
+        </div>
+        {% endif %}
+        {%- include section_nav_revision.html -%}
+      </article>
+    </div>
+    {%- include revision_contents.html -%}
+    <div class="clear"></div>
+  </div>
+</section>
