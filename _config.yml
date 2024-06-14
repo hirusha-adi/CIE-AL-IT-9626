@@ -12,9 +12,6 @@ collections:
   theory:
     permalink: "/:collection/:path/"
     output: true
-  posts:
-    permalink: "/news/:year/:month/:day/:title/"
-    output: true
   revision:
     permalink: "/:collection/:path/"
     output: true
@@ -24,11 +21,6 @@ defaults:
       type: theory
     values:
       layout: theory
-  - scope:
-      path: _posts
-      type: posts
-    values:
-      layout: news_item
   - scope:
       path: _revision
       type: revision
