@@ -9,7 +9,7 @@ twitter:
   username: jekyllrb
 logo: "/img/logo-2x.png"
 collections:
-  docs:
+  theory:
     permalink: "/:collection/:path/"
     output: true
   posts:
@@ -20,10 +20,10 @@ collections:
     output: true
 defaults:
   - scope:
-      path: _docs
-      type: docs
+      path: "_theory"
+      type: theory
     values:
-      layout: docs
+      layout: theory
   - scope:
       path: _posts
       type: posts
