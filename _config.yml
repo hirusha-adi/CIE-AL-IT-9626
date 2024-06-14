@@ -1,6 +1,7 @@
 # no idea what will happen if i remove this
 version: 1.0
 
+title: CIE A/L IT (9626) - Crash Course # to fix a warning
 name: CIE A/L IT (9626) - Crash Course
 description: My journey doing the CIE Advanced Level - Information Technology (9626) syllabus in 3 months.
 
@@ -11,7 +12,7 @@ repository: https://github.com/hirusha-adi/CIE-AL-IT-9626
 # the site functions as i wont without it. so, i don't care.
 
 twitter:
-  username: jekyllrb
+  username: hirushaadi
 
 logo: "/img/logo-2x.png"
 
@@ -52,10 +53,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jemoji
-
-feed:
-  categories:
-    - release
 
 kramdown:
   syntax_highlighter_opts:
