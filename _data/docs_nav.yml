@@ -1,29 +1,33 @@
 - title: Paper 1 (Theory)
   docs:
-    - link: /theory/p1/1_data_processing_and_information
-    - link: /theory/p1/2_hardware_and_software
-    - link: /theory/p1/3_monitoring_and_control
-    - link: /theory/p1/4_algorithms_and_flowcharts
-    - link: /theory/p1/5_esecurity
-    - link: /theory/p1/6_digital_divide
-    - link: /theory/p1/7_expert_systems
-# - title: Paper 2 (Practical)
-#   docs:
-#     - link: /docs/p2/8_spreadsheets
-#     - link: /docs/p2/9_modelling
-#     - link: /docs/p2/10_database_and_file_concepts
-#     - link: /docs/p2/11_sound_and_video_editing
-# - title: Paper 3 (Advanced Theory)
-#   docs:
-#     - link: /docs/p3/12_it_in_society
-#     - link: /docs/p3/13_new_and_emerging_technologies
-#     - link: /docs/p3/14_communications_technology
-#     - link: /docs/p3/15_project_management
-#     - link: /docs/p3/16_system_life_cycle
-#     - link: /docs/p3/17_data_analysis_and_visualization
-# - title: Paper 4 (Advanced Practical)
-#   docs:
-#     - link: /docs/p4/18_mail_merge
-#     - link: /docs/p4/19_graphics_creation
-#     - link: /docs/p4/20_animation
-#     - link: /docs/p4/21_programming_for_the_web
+    - link: /docs/p1/
+    - link: /docs/p1/1-data-processing-and-information/
+    - link: /docs/p1/2-hardware-and-software/
+    - link: /docs/p1/3-monitoring-and-control/
+    - link: /docs/p1/4-algorithms-and-flowcharts/
+    - link: /docs/p1/5-esecurity/
+    - link: /docs/p1/6-digital-divide/
+    - link: /docs/p1/7-expert-systems/
+- title: Paper 2 (Practical)
+  docs:
+    - link: /docs/p2/
+    - link: /docs/p2/8-spreadsheets/
+    - link: /docs/p2/9-modelling/
+    - link: /docs/p2/10-database-and-file-concepts/
+    - link: /docs/p2/11-sound-and-video-editing/
+- title: Paper 3 (Advanced Theory)
+  docs:
+    - link: /docs/p3/
+    - link: /docs/p3/12-it-in-society/
+    - link: /docs/p3/13-new-and-emerging-technologies/
+    - link: /docs/p3/14-communications-technology/
+    - link: /docs/p3/15-project-management/
+    - link: /docs/p3/16-system-life-cycle/
+    - link: /docs/p3/17-data-analysis-and-visualization/
+- title: Paper 4 (Advanced Practical)
+  docs:
+    - link: /docs/p4/
+    - link: /docs/p4/18-mail-merge/
+    - link: /docs/p4/19-graphics-creation/
+    - link: /docs/p4/20-animation/
+    - link: /docs/p4/21-programming-for-the-web/

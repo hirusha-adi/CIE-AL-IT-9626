@@ -1,0 +1,29 @@
+- title: Paper 1 (Theory)
+  tutorials:
+    - p1/1-data-processing-and-information
+    - p1/2-hardware-and-software
+    - p1/3-monitoring-and-control
+    - p1/4-algorithms-and-flowcharts
+    - p1/5-esecurity
+    - p1/6-digital-divide
+    - p1/7-expert-systems
+- title: Paper 2 (Practical)
+  tutorials:
+    - p2/8-spreadsheets
+    - p2/9-modelling
+    - p2/10-database-and-file-concepts
+    - p2/11-sound-and-video-editing
+- title: Paper 3 (Advanced Theory)
+  tutorials:
+    - p3/12-it-in-society
+    - p3/13-new-and-emerging-technologies
+    - p3/14-communications-technology
+    - p3/15-project-management
+    - p3/16-system-life-cycle
+    - p3/17-data-analysis-and-visualization
+- title: Paper 4 (Advanced Practical)
+  tutorials:
+    - p4/18-mail-merge
+    - p4/19-graphics-creation
+    - p4/20-animation
+    - p4/21-programming-for-the-web

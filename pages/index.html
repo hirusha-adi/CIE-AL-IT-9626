@@ -54,43 +54,8 @@ permalink: /
   </div>
 </section>
 
-<section class="quickstart">
-  <div class="grid">
-    <div class="unit golden-small center-on-mobiles">
-      <h3>Get up and running <em>in&nbsp;seconds</em>.</h3>
-    </div>
-    <div class="unit golden-large code">
-      <p class="title">Quick-start Instructions</p>
-      <div class="shell">
-        <p class="line">
-          <span class="path">~</span>
-          <span class="prompt">$</span>
-          <span class="command">gem install bundler jekyll</span>
-        </p>
-        <p class="line">
-          <span class="path">~</span>
-          <span class="prompt">$</span>
-          <span class="command">jekyll new my-awesome-site</span>
-        </p>
-        <p class="line">
-          <span class="path">~</span>
-          <span class="prompt">$</span>
-          <span class="command">cd my-awesome-site</span>
-        </p>
-        <p class="line">
-          <span class="path">~/my-awesome-site</span>
-          <span class="prompt">$</span>
-          <span class="command">bundle exec jekyll serve</span>
-        </p>
-        <p class="line">
-          <span class="output"># => Now browse to http://localhost:4000</span>
-        </p>
-      </div>
-    </div>
-    <div class="clear"></div>
-  </div>
-</section>
-<section class="free-hosting">
+<!-- box with image and arrow to bottom -->
+<section class="free-hosting" style="margin-top: 90px;">
   <div class="grid">
     <div class="unit whole">
       <div class="grid pane">
@@ -98,7 +63,9 @@ permalink: /
           <img src="{{ 'img/octojekyll.png' | relative_url }}" width="300" height="251"
             alt="Free Jekyll hosting on GitHub Pages">
           <div class="pane-content">
-            <h2 class="center-on-mobiles"><strong>Free hosting</strong> with GitHub Pages</h2>
+            <h2 class="center-on-mobiles">
+              Made with <strong>Jekyll</strong>, hosted on <strong>Github Pages</strong>
+            </h2>
             <p>Sick of dealing with hosting companies? <a href="https://pages.github.com/">GitHub Pages</a> is
               <em>powered by Jekyll</em>, so you can easily deploy your site using GitHub for free&mdash;<a
                 href="https://help.github.com/articles/about-supported-custom-domains/">custom domain name</a>
@@ -110,5 +77,94 @@ permalink: /
         <div class="clear"></div>
       </div>
     </div>
+  </div>
+</section>
+
+<!-- Box with code and description at LHS -->
+<section class="quickstart">
+  <div class="grid">
+    <div class="unit golden-small center-on-mobiles">
+      <h3>Developer guide:</em></h3>
+      <p>
+        Refer to the <a href="https://github.com/hirusha-adi/CIE-AL-IT-9626" target="_blank"
+          rel="noopener noreferrer">README</a> file in the <a href="https://github.com/hirusha-adi/CIE-AL-IT-9626"
+          target="_blank" rel="noopener noreferrer">Github repository</a> for a detailed guide.
+        This is my first time doing something with ruby (i usually use docusaurus for stuff like this). Unfortunately,
+        with the lack of time,
+        I wont be able to learn it properly. This is hosted followed by hours of googling and after 100s of queries to
+        ChatGPT.
+        I still have no idea about how it works nor why it works, but, it works...
+
+      </p>
+    </div>
+    <div class="unit golden-large code">
+      <p class="title">Summarized Instructions</p>
+      <div class="shell">
+
+        <p class="line">
+          <span class="output"># => Download and install Ruby (with Devkit)</span>
+        </p>
+        <p class="line">
+          <span class="output">#</span>
+        </p>
+        <p class="line">
+          <span class="output"># => Verify Installation</span>
+        </p>
+        <p class="line">
+          <span class="path">~</span>
+          <span class="prompt">$</span>
+          <span class="command">ruby -v</span>
+        </p>
+        <p class="line">
+          <span class="output">#</span>
+        </p>
+        <p class="line">
+          <span class="output"># => Install bundler</span>
+        </p>
+        <p class="line">
+          <span class="path">~</span>
+          <span class="prompt">$</span>
+          <span class="command">gem install bundler</span>
+        </p>
+        <p class="line">
+          <span class="output">#</span>
+        </p>
+        <p class="line">
+          <span class="output"># => Backup old Gemfile.lock</span>
+        </p>
+        <p class="line">
+          <span class="path">~</span>
+          <span class="prompt">$</span>
+          <span class="command">cd rename Gemfile.lock Gemfile.lock.bak</span>
+        </p>
+        <p class="line">
+          <span class="output">#</span>
+        </p>
+        <p class="line">
+          <span class="output"># => Install Dependencies</span>
+        </p>
+        <p class="line">
+          <span class="path">~</span>
+          <span class="prompt">$</span>
+          <span class="command">bundle install --verbose</span>
+        </p>
+        <p class="line">
+          <span class="output">#</span>
+        </p>
+        <p class="line">
+          <span class="output"># => Start local server</span>
+        </p>
+        <p class="line">
+          <span class="path">~</span>
+          <span class="prompt">$</span>
+          <span class="command">bundle exec jekyll serve</span>
+        </p>
+        <p class="line">
+          <span class="output"># => Now browse to http://localhost:4000</span>
+        </p>
+
+      </div>
+    </div>
+    <div class="clear"></div>
   </div>
 </section>
