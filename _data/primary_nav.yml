@@ -9,7 +9,7 @@
   show_on_mobile: true
 - title: Blog
   link: /news/
-  show_on_mobile: false
+  show_on_mobile: true
 - title: Other
   link: /other/
   show_on_mobile: true
