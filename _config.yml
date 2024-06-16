@@ -5,40 +5,40 @@ title: CIE A/L IT (9626) - Crash Course # to fix a warning
 name: CIE A/L IT (9626) - Crash Course
 description: My journey doing the CIE Advanced Level - Information Technology (9626) syllabus in 3 months.
 
-url: https://hirusha-adi.github.io/CIE-AL-IT-9626/
+url: https://it.hirusha.xyz/
 repository: https://github.com/hirusha-adi/CIE-AL-IT-9626
 # timezone: America/Los_Angeles
 # timezone does not work. gives a huge error. got no time to troubleshoot it.
 # the site functions as i wont without it. so, i don't care.
 
 twitter:
-  username: hirushaadi
+    username: hirushaadi
 
 logo: "/img/logo-2x.png"
 
 collections:
-  theory:
-    permalink: "/:collection/:path/"
-    output: true
-  revision:
-    permalink: "/:collection/:path/"
-    output: true
+    theory:
+        permalink: "/:collection/:path/"
+        output: true
+    revision:
+        permalink: "/:collection/:path/"
+        output: true
 
 defaults:
-  - scope:
-      path: "_theory"
-      type: theory
-    values:
-      layout: theory
-  - scope:
-      path: _revision
-      type: revision
-    values:
-      layout: revision
-  - scope:
-      path: ""
-    values:
-      image: "/img/jekyll-og.png"
+    - scope:
+          path: "_theory"
+          type: theory
+      values:
+          layout: theory
+    - scope:
+          path: _revision
+          type: revision
+      values:
+          layout: revision
+    - scope:
+          path: ""
+      values:
+          image: "/img/jekyll-og.png"
 
 # everything below this line, i have no idea...
 # -----
@@ -46,23 +46,23 @@ defaults:
 future: true
 
 plugins:
-  - jekyll-avatar
-  - jekyll-feed
-  - jekyll-mentions
-  - jekyll-redirect-from
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jemoji
+    - jekyll-avatar
+    - jekyll-feed
+    - jekyll-mentions
+    - jekyll-redirect-from
+    - jekyll-seo-tag
+    - jekyll-sitemap
+    - jemoji
 
 kramdown:
-  syntax_highlighter_opts:
-    default_lang: plaintext
+    syntax_highlighter_opts:
+        default_lang: plaintext
 
 sass:
-  style: compressed
+    style: compressed
 
 strict_front_matter: true
 
 exclude:
-  - icomoon-selection.json
-  - README.md
+    - icomoon-selection.json
+    - README.md
