@@ -410,3 +410,115 @@ third-party sources that the data gatherer can obtain data from.
 |                           | Supported by a wider range of operating systems                    | Higher costs due to client software purchase and complex setup                                                               |
 
 ## Accuracy of Data
+
+-   importance of accuracy of data
+    -   ensures accurate data processing results
+    -   data entry is time consuming
+    -   errors increase time needed for corrections
+    -   use validation and verification to minimize errors
+-   methods
+    1. Validation: ensures data is reasonable
+    2. Verification: ensures accuracy during data entry
+-   needs
+    -   complementary methods: both are needed to ensure data accuracy
+    -   validation: ensures data is reasonable and sensible
+    -   verification: ensures data is accurately transferred or enetered
+    -   combined use: ncessary for overall data integreity
+
+### Validation
+
+-   Ensures data conforms to system expectations.
+
+#### Perence Check
+
+-   ensures important fields are not left blank
+-   eg: command key fields in a database: ISBN, Book_Borrower_ID
+
+#### Range Check
+
+-   ensures numeric data falls within specific range (given)
+    -   checks data against two boundaries
+-   eg: book costs between $10 and $29
+
+#### Limit Check
+
+-   checks data against one bounary (unlike 2 boundaries in range check)
+-   eg: age must be 17 or older to apply for a driving license
+
+#### Type Check
+
+-   ensures data is of the correct data type
+-   typically checks for
+    -   numeric: 0123456789
+    -   alphanumeric: alphabetical + numeric
+    -   invalid character check (aka character check): no invalid characters are enetered
+-   eg: Borrower_ID should be numeric
+
+#### Length check
+
+-   ensurs data has the correct number of characters
+-   eg: ISBN must be 13 characters long
+
+#### Format Check
+
+-   ensures data follows a specific format
+-   eg: date of birth as DD/MM/YYYY
+
+#### Check Digit
+
+-   validates numeric data using a checksum
+-   eg: ISBN last digit verification
+
+#### Lookup Check
+
+-   compares data against a list of valid entries
+-   eg: class field with predefined class names
+
+#### Consistency Check
+
+-   ensures data across two fields is consistent
+-   eg: class and dateOfBirth consistency (age to school_grade)
+
+### Verification
+
+-   Prevents user input mistakes
+
+#### Visual Checking
+
+-   person who enters data compares enetered data with the source document
+-   methods
+    -   on screen comaprison
+    -   printout comparison
+-   drawbacks
+    -   time-consuming and potentially costly
+    -   errors maybe overlooked if the same persoan checks their own data
+        -   so, different person should check the data
+        -   so, more expensive
+
+#### Double Data Entry
+
+-   data is entered twice for comparison
+-   methods
+    -   single person enteres data twice
+    -   computer comapres both entries and alters to differences
+-   features
+    -   keyboard freez during error correction
+    -   computer-driven comparison, unlike visual verificaion done by a user
+
+### Validation vs Verification
+
+#### Comaprison
+
+| Point        | Validation                                       | Verification                                               |
+| ------------ | ------------------------------------------------ | ---------------------------------------------------------- |
+| purpose      | checks data is reasonable and sensible           | ensures data is entered (or copied) correctly              |
+| performed by | always by a computer                             | can be done by a computer or human                         |
+| limitation   | cannot detect if data was copied incorrectly     | cannot ensure if the data itself is accurate or reasonable |
+| example      | Format check accepting FD236CS, though incorrect | Detects entry errors like FD236CS instead of DF236CS       |
+
+#### Practical Example
+
+-   incorrect reading noted as 4866 instead of 4868
+-   verificaion: confirms the entered number matches the source (4868)
+-   validation: checks readings are between 2000 and 6000, passes 4866
+-   issue: incorrect data still passes, eventhough both checks passes
