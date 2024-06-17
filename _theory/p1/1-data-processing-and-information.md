@@ -689,3 +689,92 @@ how to add the parity bit
     -   Compare records from both files sequentially.
     -   Process deletions, changes, and additions as described.
     -   Create a new master file reflecting all updates.
+-   example scenerios:
+    -   a new worker starts with the company: their record needs to be added
+    -   a worker moves to different department: their record must be amended or changed
+    -   a worker leaves the company: their record needs to be removed or deleted
+
+#### Use of batch processing in payroll
+
+![alt text](/img/notes/4.png)
+![alt text](/img/notes/5.png)
+
+-   assume the transaction file is already sorted and validated
+-   system goes through each transaction file and record
+-   from the matching master file record
+-   calculated the employee's wages for the week
+-   add the wages to be paid
+-   algorithm:
+    ```
+    First record in the transaction file is read
+    First record in the old master file is read
+    REPEAT
+        IDs are compared
+        IF IDs do not match, old master file record is written to new master file
+        IF IDs match transaction/calculation is carried out
+            Computer calculates the pay, Rate (from master file) multiplied by hours worked (from transaction file)
+            Wages _ to _ date is updated and record is written to new master file
+        IF IDs match, next record from transaction file is read
+        Next record from master file is read
+    11 UNTIL end of transaction file
+    12 Remaining records of the master file are written to
+    the new master file
+    ```
+-   or in other words:
+    ```
+    Read the first record from the transaction file.
+    Read the first record from the old master file.
+        Repeat:
+        Compare the IDs from the transaction and master files.
+        If IDs do not match, write the old master file record to the new master file.
+        If IDs match:
+            Calculate the weekly pay:
+                Weekly Pay = Rate × Hours Worked
+            Update Wages_to_date:
+                Wages_to_date = Wages_to_date + Weekly Pay
+            Write the updated record to the new master file.
+        Read the next record from the transaction file.
+        Read the next record from the master file.
+    Until the end of the transaction file.
+    Write any remaining records from the old master file to the new master file.
+    ```
+
+#### Batch processing with customer orders
+
+-   Order Collection: Customer orders are added to a transaction file throughout the day
+-   End-of-Day Processing: The transaction file is processed with the master file at the end of the day.
+-   Stock Check and Updates
+    -   In Stock: If items are in stock, they are added to a picking list for the warehouse staff to prepare for shipment.
+    -   Out of Stock: If items are not in stock, they are ordered from suppliers.
+-   Warehouse Operations: Warehouse staff package the ordered goods for shipment.
+-   Delivery Allocation: Packaged goods are assigned to delivery vehicles.
+-   Invoice Generation: Invoices are created and sent to customers.
+-   algorithm:
+    ```
+    First record in the transaction file is read
+    First record in the old master file is read
+    REPEAT
+        Cust _ nos are compared
+        IF Cust _ nos do not match, old master file record is written to new master file
+        IF Cust _ nos match transaction/calculation is carried out
+            Computer calculates New _ orders minus Payment _ made and subtracts from Balance
+            Balance is updated and record is written to new master file
+        IF Cust _ nos match, next record from transaction file is read
+        Next record from master file is read
+    UNTIL end of transaction file
+    Remaining records of the master file are written to the new master file
+    ```
+-   in other words:
+    ```
+    Read Records: Read the first record from both the transaction and master files.
+    Comparison: Compare customer numbers (Cust_nos) in both files.
+        No Match: Write the master file record to the new master file.
+        Match: Calculate the new balance.
+    Balance Update:
+        Calculation: Subtract payments made from new orders and update the balance.
+        Update: Write the updated record to the new master file.
+    Next Records: Read the next records from both files and repeat the process until the end of the transaction file.
+    Finalize: Write any remaining records from the master file to the new master file.
+    ```
+
+### Online Processing
