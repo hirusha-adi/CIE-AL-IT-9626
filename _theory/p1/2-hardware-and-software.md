@@ -209,7 +209,7 @@ layout: theory
     </tr>
 </table>
 
-#### of Mainframe Computers vs. Supercomputers
+#### Mainframe Computers vs. Supercomputers
 
 <table>
     <tr>
