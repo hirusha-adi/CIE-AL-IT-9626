@@ -606,3 +606,86 @@ how to add the parity bit
 -   verificaion: confirms the entered number matches the source (4868)
 -   validation: checks readings are between 2000 and 6000, passes 4866
 -   issue: incorrect data still passes, eventhough both checks passes
+
+## Data Processing
+
+-   processing is required to give data the structure and context necessary so it can be understood
+-   data is collected and translated into usable information
+-   translated data in its raw forms to diagrams, graphs, reports, which are more
+
+### Batch Processing
+
+-   Batch processing is a method where large volumes of data, often involving millions of transactions, are collected, entered, and processed together in a single batch.
+-   This method is efficient for tasks that do not require immediate attention and can be scheduled for times when computing resources are underutilized, such as overnight.
+-   eg: payroll and customer billing systems.
+
+-   benefits of batch processing
+    -   Efficiency in Resource Utilization: Allows processing during off-peak hours, saving costs by maximizing computer usage.
+    -   Simplicity: Requires simpler systems compared to real-time processing.
+    -   Accuracy: Less human interaction during processing reduces data entry errors.
+    -   Speed: Once initiated, the processing is fast, handling multiple jobs simultaneously.
+
+#### Master File Transactions
+
+-   involves two types of files
+    -   master file
+        -   Contains static data that rarely changes (e.g., employee details)
+    -   transaction files
+        -   Contains dynamic data that changes frequently (e.g., hours worked)
+-   To process these files together, the transaction file must be sorted and validated to match the order of the master file.
+
+-   Sequential File Access
+    -   Data is stored in order of a key field (forms a 'sequential file')
+    -   Data is accessed sequentially, meaning each record is read one by one until the desired record is found.
+    -   This method is common for updating master files with transaction data.
+-   Steps to Update a Master File Using a Transaction File
+    -   To illustrate, consider a company that updates its payroll weekly.
+    -   ![alt text](/img/notes/2.png)
+        ![alt text](/img/notes/3.png)
+    -   The steps to update the master file using a transaction file are:
+    ```
+    Read the first record from the transaction file and the old master file.
+    Compare the IDs from both files.
+    If IDs do not match, write the old master file record to the new master file.
+    If IDs match, perform the transaction:
+        D (Delete): Do not write the old master file record to the new master file.
+        C (Change): Write the transaction file data to the new master file.
+        A (Add): Add new records from the transaction file to the new master file after processing all records from the old master file.
+    Repeat the process until the end of the old master file.
+    Write remaining records from the transaction file to the new master file.
+    ```
+    -   or, algorithmically speaking,
+    ```
+    1 First record in the transaction file is read
+    2 First record in the old master file is read
+    3 REPEAT
+        4 IDs are compared
+        5 IF IDs do not match, old master file record is written to new master file
+            6 IF IDs match transaction is carried out
+            7 IF transaction is D, old master file record is not written to new master file
+            8 IF transaction is C, data in transaction file is written to new master file
+        9 IF IDs match, next record from transaction file is read
+        10 Next record from master file is read
+    11 UNTIL end of old master file
+    12 Data in transaction file record is written to new master file
+    13 Any remaining records of the transaction file are written to the master file
+    ```
+-   Algorithm for Updating a Master File
+    ```
+    Read the first record from the transaction file.
+    Read the first record from the old master file.
+    Repeat the following steps until the end of the old master file:
+        Compare IDs from the transaction and master files.
+        If IDs do not match, write the old master file record to the new master file.
+        If IDs match:
+            If the transaction is 'D' (Delete), do not write the record.
+            If the transaction is 'C' (Change), write the transaction data to the new master file.
+            Read the next record from the transaction file.
+        Read the next record from the master file.
+    Write the current transaction file record to the new master file.
+    Write any remaining records from the transaction file to the new master file.
+    ```
+-   steps:
+    -   Compare records from both files sequentially.
+    -   Process deletions, changes, and additions as described.
+    -   Create a new master file reflecting all updates.
