@@ -505,6 +505,90 @@ third-party sources that the data gatherer can obtain data from.
     -   keyboard freez during error correction
     -   computer-driven comparison, unlike visual verificaion done by a user
 
+#### Parity Check
+
+-   ensures data is transmitted accurately by adding a parity bit to each byte (8bits (message) + 1bit (parity) = 9bits (total) )
+-   even parity: parity bit ensures even number of 1s in each byte
+-   eg: with ASCII (American Standard Coe for Information Interchange)
+    -   ASCII uses 128-bits
+        -   unprintable control codes and are used to control peripherals such as printers
+            -   eg: 0: null string
+            -   eg: 8: backspace key (on keyboard)
+    -   'A' is 65 (denary)
+    -   so, 'BROWN' is represented with 66,82,79,87,78
+    -   when converted to binary:
+        -   01000010 01010010 01001111 01010111 01001110
+-   Extended ASCII uses 256-bits (representation: 8 bits + 1 bit parity = 9 bit total)
+<hr>
+how to add the parity bit
+<ul>
+    <li>if even number of one's, add 0 to RHS</li>
+    <li>if odd number of one's, add 1 to RHS</li>
+</ul>
+<hr>
+
+-   very effective
+
+    -   do this 8 bytes (rows)
+    -   write parity checks both veritcally and horizontally for column and row of bit sets
+    -   cross check it again
+
+-   limitations
+    -   cannot detect miltiple bit errors
+        -   two 1s transmitted as 0s
+    -   cannot detect transportation errors
+        -   1 and 0 being swapped
+
+#### Checksum
+
+-   used to verify accuracy of entire files during transmission
+-   mechanism:
+    -   calculated using hashing algorithms (one way functions)
+        -   MD5, SHA1, SHA256, SHA512
+        -   MD5 has 32 hexadecimal characters
+    -   file hash is transmitted with the file and recalculated upon receipt for comparison
+        -   if hash matches, file has been altered during transmission
+-   drawbacks
+    -   potential of rindeitical checksums for different files
+    -   newer algorithms are more reliable (eg: SHA2, SHA3)
+
+#### Hash Total
+
+-   a form of checksum performed on speicific data fields
+-   mechanism
+    -   add all numbers in a field or a file. eg: Student IDs
+    -   transmitted with the data
+    -   recalculated at the end for comaprison
+-   example
+    -   some of student ids: 4762 + 153 + 2539 + 4651 = 12105
+    -   12105 is sent
+    -   reciever recalculates this,
+    -   if he gets 12105, then, the check passes
+    -   used only for verification, not for other calculations
+-   Limitations:
+    -   Cannot detect transposition errors (e.g., swapped data entries).
+
+#### Control Total
+
+-   Similar to hash total, but calculated on numeric fields with meaningful use.
+-   Mechanism:
+    -   Adds numeric values (e.g., exam passes).
+    -   Transmitted with the data and recalculated for comparison.
+-   Example:
+    -   Sum of exam passes: 6 + 8 + 7 + 3 = 24.
+    -   Used to calculate averages or other meaningful statistics.
+-   Limitations:
+    -   Cannot detect transposition errors (e.g., swapped data entries).
+
+#### Summary
+
+-   **Visual Checking**: Manual, time-consuming, prone to oversight.
+-   **Double Data Entry**: Computer-driven comparison, prevents entry errors.
+-   **Parity Check**: Simple, effective for single bit errors, not for multiple or transposition errors.
+-   **Checksum**: Ensures file integrity, newer algorithms more reliable.
+-   **Hash Total**: Verifies data transmission, used for non-numeric fields.
+-   **Control Total**: Verifies data transmission, used for numeric fields with meaningful results.
+
 ### Validation vs Verification
 
 #### Comaprison
