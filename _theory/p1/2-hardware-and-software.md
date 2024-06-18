@@ -308,3 +308,197 @@ layout: theory
         </td>
     </tr>
 </table>
+
+## System Software
+
+-   refers to programs that control a computer's hardware and application software.
+
+### Compilers
+
+-   Translate high-level programming languages into machine code (binary form) that the processor can execute.
+-   Process:
+    -   Translate source code (high-level language) into object code (machine code)
+    -   Often requires multiple passes through the program for error checking and resolving references.
+    -   Produces a list of error messages **after translation**.
+-   Output:
+    -   Compiled programs are executable files
+    -   that run directly without needing the compiler present
+    -   (will sometimes need a runtime environment with all the DLLs (Dynamic Link Libraries) to link to)
+-   Languages:
+    -   Early examples include FORTRAN, COBOL, and LISP;
+    -   modern examples are C++, C#, Visual Basic, Pascal.
+
+### Interpreters
+
+-   Translate and execute high-level language programs one statement at a time.
+-   Process:
+    -   Converts source code into an intermediate form and executes it immediately.
+    -   Stops translation at the first error encountered,
+        -   allowing for immediate debugging.
+    -   Each statement is translated every time it is executed,
+        -   requiring the interpreter to be in memory during execution.
+-   Advantages:
+    -   Portable between different operating systems.
+    -   Useful for program development with immediate execution and error feedback.
+    -   Saves memory as only a few lines need to be in memory at a time.
+-   Examples:
+    -   Python often uses a combination of compilation (to bytecode) and interpretation (via a virtual machine).
+    -   Same story with Java, compiled to Java Bytecode and intepreted in Java Virtual Machine (JVM).
+
+### Compilers vs Intepreters
+
+<table>
+    <tr>
+        <th></th>
+        <th>Compilers</th>
+        <th>Interpreters</th>
+    </tr>
+    <tr>
+        <th>Advantages</th>
+        <td class="advantage">
+            <ul>
+                <li>Faster execution after compilation.</li>
+                <li>Does not require source code at runtime, enhancing security.</li>
+                <li>Once compiled, does not need to be translated again.</li>
+            </ul>
+        </td>
+        <td class="advantage">
+            <ul>
+                <li>Easier debugging with immediate error feedback.</li>
+                <li>Cross-platform compatibility with the appropriate interpreter.</li>
+                <li>Requires less memory as only parts of the program are loaded at a time.</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <th>Disadvantages</th>
+        <td class="disadvantage">
+            <ul>
+                <li>More memory-intensive during compilation.</li>
+                <li>Error messages are provided after the whole program is compiled, making debugging harder.</li>
+                <li>Compiled programs are OS-specific and need recompilation for different systems.</li>
+            </ul>
+        </td>
+        <td class="disadvantage">
+            <ul>
+                <li>Slower execution as each statement is translated before execution.</li>
+                <li>Requires source code to be present at runtime, risking copyright infringement.</li>
+                <li>Translation needed every time the program runs, making it less efficient.</li>
+            </ul>
+        </td>
+    </tr>
+</table>
+
+### Linkers
+
+-   Linker is short for 'link editor'
+-   Combine object files or modules created by a compiler into a single executable file.
+-   Process:
+    -   Modules are written separately and then linked together.
+    -   Allows large programs to be compiled in smaller parts, conserving RAM.
+    -   Object code from different modules is saved on storage and combined later.
+-   Advantages:
+    -   Facilitates modular programming, reducing memory requirements.
+    -   Simplifies error correction as only the faulty module needs fixing.
+-   Challenges:
+    -   Variable name conflicts.
+    -   Requires detailed documentation for module integration.
+
+### Device Drivers
+
+-   Enable the OS and application software to communicate with hardware devices.
+-   Role:
+    -   Acts as an interface between software and hardware.
+    -   Translates software commands into hardware-specific instructions.
+-   Importance:
+    -   Essential for the operation of hardware devices.
+    -   Many drivers are included with the OS for basic functionality.
+    -   Specialized features of hardware require specific drivers.
+    -   Drivers are OS-specific; a driver for one OS may not work on another.
+-   Examples:
+    -   Printer drivers,
+    -   sound cards,
+    -   monitors,
+    -   mice,
+    -   SSDs,
+    -   network cards,
+    -   keyboards,
+    -   disk drives.
+
+### Operating Systems (OS)
+
+-   Manage computer hardware and software resources, acting as an interface between the user and the computer.
+
+#### Features
+
+-   Memory Management:
+    -   Allocates RAM for each program and ensures data integrity.
+    -   Prevents data corruption by managing program memory allocation.
+-   Input/Output Management:
+    -   Handles data input and output via device drivers.
+    -   Communicates with input devices and sends data to output devices like printers.
+-   File Management:
+    -   Manages file storage and retrieval.
+    -   Keeps track of file locations and available storage space.
+-   Multitasking:
+    -   Allocates CPU time to multiple tasks/programs.
+    -   Manages task execution to ensure fair resource distribution.
+-   Error Handling:
+    -   Displays error messages and requires user intervention for resolution.
+-   Security:
+    -   Manages user login and password encryption.
+    -   Controls file permissions and access rights.
+-   System Shutdown:
+    -   Closes running software safely.
+    -   Gradually shuts down the OS and signals the hardware to power off.
+
+#### Boot Process
+
+-   BIOS: Basic Input/Output System stored in ROM, executes during boot-up.
+-   OS Loading: Instructions for loading the OS are in ROM; the main OS is loaded from the hard disk.
+
+---
+
+-   Sequence of steps that a computer system goes through when it is powered on or restarted
+-   Involves several stages, including hardware checks, loading the BIOS, initializing hardware components, and finally loading the operating system
+
+-   Steps:
+    -   Power On
+        -   The power supply sends a signal to the motherboard and the processor
+    -   POST (Power On Self Test)
+        -   The BIOS (Basic Input/Output System) or UEFI (Unified Extensible Firmware Interface) firmware is activated.
+        -   The BIOS performs a POST to check if the essential hardware components (memory, keyboard, storage devices, etc.) are functioning correctly.
+        -   If the POST is successful, the BIOS continues the boot process. If not, it generates error messages or beep codes.
+    -   Load BIOS/UEFI Settings
+        -   The BIOS/UEFI initializes and configures the hardware components.
+        -   The BIOS/UEFI settings can be configured by the user to manage hardware configurations and boot priorities.
+    -   Locate and Load Boot Loader
+        -   The BIOS/UEFI looks for a boot loader in the bootable device (usually specified in the BIOS settings).
+        -   The boot loader is a small program that loads the operating system. Common boot loaders include GRUB (for Linux) and Windows Boot Manager.
+    -   Load Operating System
+        -   The boot loader loads the kernel of the operating system into memory.
+        -   The operating system initializes its components, drivers, and services.
+    -   Initialize User Interface
+        -   Once the OS is fully loaded, it initializes the user interface, allowing the user to interact with the system.
+        -   This includes loading the login screen or directly presenting the desktop environment.
+
+<style>
+.diagram {width: 600px;margin: 0 auto;}
+.diagram .box {width: 100%;padding: 10px;border: 1px solid black;margin-bottom: 10px;text-align: center;}
+.arrow {text-align: center;margin-bottom: 10px;}
+</style>
+<div class="diagram">
+    <div class="box">1. Power On</div>
+    <div class="arrow">↓</div>
+    <div class="box">2. Power-On Self-Test (POST)</div>
+    <div class="arrow">↓</div>
+    <div class="box">3. Load BIOS/UEFI Settings</div>
+    <div class="arrow">↓</div>
+    <div class="box">4. Locate and Load Boot Loader</div>
+    <div class="arrow">↓</div>
+    <div class="box">5. Load Operating System</div>
+    <div class="arrow">↓</div>
+    <div class="box">6. Initialize User Interface</div>
+</div>
+
+---
