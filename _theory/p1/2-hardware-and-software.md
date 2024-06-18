@@ -91,6 +91,32 @@ layout: theory
     -   Ensure error-free operations, maintaining data integrity.
     -   Designed for continuous availability and fault tolerance.
 
+#### Advantages
+
+-   High Reliability
+    -   Rarely experience system downtime.
+    -   Can handle hardware and software upgrades without shutting down.
+-   Performance
+    -   Continuously improving in speed and power.
+    -   Outperform PCs, laptops, and other devices.
+-   Data Handling
+    -   Capable of storing and processing vast amounts of data.
+    -   Can run different operating systems and handle data in various formats.
+-   Security
+    -   Equipped with strong encryption systems and complex authorization procedures
+
+#### Diadvantages
+
+-   Cost
+    -   Very expensive to purchase.
+    -   High costs for personnel required to run and maintain them.
+-   Physical Space
+    -   Require large rooms for housing.
+    -   Advanced cooling systems needed, increasing installation and running costs.
+-   Cloud Migration
+    -   Many organizations are moving to Cloud-based services to avoid buying their own systems.
+    -   Mainframe software is more expensive compared to Cloud services.
+
 ### Super Computers
 
 -   More powerful than mainframes.
@@ -156,6 +182,23 @@ layout: theory
 -   Genetic Analysis
     -   Identify genes linked to diseases.
     -   Reduce research time from months to minutes.
+
+#### Advantages
+
+-   Processing Speed
+    -   The fastest data processing computers available
+-   Massively Parallel Processing
+    -   Utilizes massively parallel processing, making them more powerful than mainframes and PCs.
+
+#### Diadvantages
+
+-   Cost
+    -   Extremely expensive to buy and install (e.g., Summit supercomputer costs $200 million).
+-   Operating Systems
+    -   Typically have one operating system, unlike mainframes which can support multiple.
+-   Fault Tolerance
+    -   Less fault-tolerant than mainframes.
+    -   More downtime compared to mainframes, though less than other systems.
 
 ### Comparison
 
