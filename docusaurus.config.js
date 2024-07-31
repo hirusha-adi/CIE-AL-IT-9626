@@ -9,7 +9,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'CIE A/L 9626 - Information Technology',
-  tagline: 'My attempt of completeing this syllabus within the shortest time possible. + other resources.',
+  tagline: 'Your ultimate guide to mastering CIE A/L 9626 - Information Technology. Comprehensive resources, tips, and insights for exam success, all in one place.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
