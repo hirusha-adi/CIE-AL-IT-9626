@@ -8,20 +8,20 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'CIE A/L 9618 P4 Past Paper attemps',
-  tagline: 'My CIE A/L 9618 Paper 4 attemps. NOTE: This site is not officially affiliated with any educational organization. This is completely my personal and private attempts at past papers.',
+  title: 'CIE A/L 9626 - Information Technology',
+  tagline: 'My attempt of completeing this syllabus within the shortest time possible. + other resources.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://hirusha.xyz',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/Cambridge-A-Level-Computer-Science-9618-4/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'hirusha-adi', // Usually your GitHub org/user name.
-  projectName: 'Cambridge-A-Level-Computer-Science-9618-4', // Usually your repo name.
+  projectName: 'CIE-AL-IT-9626', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -66,7 +66,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'CIE A/L 9618 P4 PP',
+        title: 'CIE A/L 9626',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
