@@ -5,8 +5,10 @@ authors: hirusha
 tags: [life]
 ---
 
-With just two months left until the exam, I've only just begun my preparations.
+With two months left until the exam, I've just started my preparations.
 
-A recent encounter with a particularly unhelpful teacher convinced me that self-learning is the best approach, at least for me. The four hours spent with that teacher were the worst of my study experience, highlighting that sometimes, self-guided learning is the way to go.
+A bad experience with a teacher convinced me that self-learning is the best approach for me. The four hours with that teacher were unproductive, showing that self-guided learning can be more effective.
 
-Here's the plan: I aim to complete my exam preparation in two months, sharing all the resources I create and discover online through this website. This collection of resources will be available until my exams are over, after which I might offer everything for an extremely cheap fee of $5.
+My plan is to finish my exam preparation in two months. I'll share all the resources I create and find online through this website. These resources will be available until my exams are over, and I might offer everything for $5 afterward.
+
+Stay tuned for updates and resources as I work through this journey.
