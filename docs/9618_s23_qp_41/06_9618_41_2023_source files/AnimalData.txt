@@ -1,8 +1,0 @@
-horse
-turtle
-lion
-whale
-rabbit
-eagle
-elephant
-hamster
