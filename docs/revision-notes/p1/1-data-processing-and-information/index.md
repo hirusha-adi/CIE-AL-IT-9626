@@ -1,5 +1,5 @@
 ---
-title: Data and Information
+title: 1. Data and Information
 ---
 
 ## Introduction
