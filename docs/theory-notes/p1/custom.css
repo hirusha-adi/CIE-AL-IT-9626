@@ -1,0 +1,18 @@
+.diagram {
+    width: 600px;
+    margin: 0 auto;
+  }
+  
+  .diagram .box {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .arrow {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  

@@ -1,10 +1,5 @@
 ---
 title: 1. Data Processing and Information
-permalink: /theory/p1/1-data-processing-and-information/
-layout: theory
-redirect_from:
-    - /theory/p1/1
-    - /theory/p1/ch1
 ---
 
 ## Data and Information
@@ -192,7 +187,7 @@ third-party sources that the data gatherer can obtain data from.
 
 -   converting data into a code by scrambling it, with the resulting symbols appearing to be all jumbled up.
 
-![alt text](/img/notes/1.png)
+![alt text](./images/1.png)
 
 -   many systems use 128-bit keys, which gives `2^128` different combinations, it would takes one quintillion years for a computer to bruteforce it, breaking it nearly unbreakable.
 -   using a 256 bit key is also much better
@@ -519,13 +514,13 @@ third-party sources that the data gatherer can obtain data from.
     -   when converted to binary:
         -   01000010 01010010 01001111 01010111 01001110
 -   Extended ASCII uses 256-bits (representation: 8 bits + 1 bit parity = 9 bit total)
-<hr>
+<hr/>
 how to add the parity bit
 <ul>
     <li>if even number of one's, add 0 to RHS</li>
     <li>if odd number of one's, add 1 to RHS</li>
 </ul>
-<hr>
+<hr/>
 
 -   very effective
 
@@ -640,8 +635,8 @@ how to add the parity bit
     -   This method is common for updating master files with transaction data.
 -   Steps to Update a Master File Using a Transaction File
     -   To illustrate, consider a company that updates its payroll weekly.
-    -   ![alt text](/img/notes/2.png)
-        ![alt text](/img/notes/3.png)
+    -   ![alt text](./images/2.png)
+        ![alt text](./images/3.png)
     -   The steps to update the master file using a transaction file are:
     ```
     Read the first record from the transaction file and the old master file.
@@ -696,8 +691,8 @@ how to add the parity bit
 
 #### Use of batch processing in payroll
 
-![alt text](/img/notes/4.png)
-![alt text](/img/notes/5.png)
+![alt text](./images/4.png)
+![alt text](./images/5.png)
 
 -   assume the transaction file is already sorted and validated
 -   system goes through each transaction file and record
