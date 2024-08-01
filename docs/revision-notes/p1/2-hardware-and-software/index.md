@@ -204,6 +204,85 @@ title: 2. Hardware and Software
     - unintentional gestures might be registered
 
 
+## Hardware
+
+### Input Devices
+
+- Keyboard
+    - type in values
+    - advantages
+        - experiences users can enter data more quickly
+    - disadvantages
+        - difficulty of entering amounts other than selecing numbers using a mouse
+        - data is slow to enter (compared with DDE)
+
+- Touch Screen
+    - could be used to eneter amounts
+    - quicker to enter data than using a mouse
+    - may cause screen to be stained and make viewing difficult
+
+- RFID reader
+    - reader can be used to enter details from passport / bank card
+    - quicker than manually entering data
+    - readers are expensive to buy initially
+
+- in Bank Cards (credit cards / debit cards)
+    - uses a chip reader to read cards
+    - reliable than reading a magnetic stripe
+    - quicker than typing details from the card
+    - contactless card readers speed up transactions as no PIN is required
+
+### Hard Disks
+
+- Advantages
+    - higher storage capacitie
+    - cost less per gigabyte
+    - lasts longer
+
+- Disadvantages
+    - more suspectible to damage and shock
+        - consists of various moving parts
+    - access speed is limited
+        - depends on how close the data is to the read/write heads
+    - loud, have whirring sounds due to moving parts
+
+### SSDs
+
+- Advantages
+    - have faster transfer rate
+    - have quicker boot ups
+    - can have almost instantaneous data access ()
+    - all parts of SSD can be accessed at once
+    - use less power at peak load
+    - energy efficiency can deliver longer battery life in laptops
+    - no moving parts, so, SSDs run silently
+
+- Disadvantages
+    - low storage capacities
+    - costs more per gigabyte
+    - doesn't last long
+        - NAND flash used in SSDs can only be used for a finite number of writes
+    - choices and availability is limited
+
+
+### Comparisons
+
+- HDDs vs SSDs
+
+| **Feature**               | **HDD**                                 | **SSD**                                        |
+|---------------------------|-----------------------------------------|------------------------------------------------|
+| **Storage Capacity**      | Higher storage capacities               | Lower storage capacities                       |
+| **Cost per Gigabyte**     | Costs less per gigabyte                 | Costs more per gigabyte                        |
+| **Durability**            | Lasts longer                            | Doesn't last as long                           |
+| **Shock Resistance**      | More susceptible to damage and shock    | No moving parts, so more shock-resistant       |
+| **Access Speed**          | Limited access speed                    | Faster transfer rate, quicker boot ups         |
+| **Noise**                 | Loud, with whirring sounds              | Runs silently                                  |
+| **Power Consumption**     | Higher power consumption                | Uses less power at peak load                   |
+| **Energy Efficiency**     | Lower energy efficiency                 | Better energy efficiency, longer battery life  |
+| **Availability**          | Widely available with more choices      | Limited choices and availability               |
+| **Lifespan**              | Consists of various moving parts        | Finite number of writes due to NAND flash      |
+
+
 ## File Types (to Database)
 
 - **NOTE: THIS BELONGS TO THE 'DATABASE' PART OF P1**
@@ -217,6 +296,4 @@ title: 2. Hardware and Software
     - data can be exchanged among different OS / Computers
     - word processing software has many versions
         - one may not support documents made with another verison
-
-- 
 
