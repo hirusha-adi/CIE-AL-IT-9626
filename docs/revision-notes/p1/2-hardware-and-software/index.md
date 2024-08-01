@@ -48,6 +48,7 @@ title: 2. Hardware and Software
 
 - directly operates the computer hardware
 - both compiler and interpreter converts high level programming language to a lower level instructions
+- designed to run a computers hardware and application programs
 
 ### Compilers
 
@@ -72,7 +73,7 @@ title: 2. Hardware and Software
     - only a few lines of source code needs to be in memory at any one time
     - some interpreters execute code within a virtual machine
     - these have been designed to disallow code from directly accessing the data computer
-    - converts high level instructions to an intermediate form
+    - converts high level instructions to an intermediate form (called "object code")
     - translates one statment at a time
     - stops translating after the first error
     - interpreter has to be in memmory for the program to run
@@ -84,13 +85,38 @@ title: 2. Hardware and Software
 
 ### Operating systems
 
+- tasks carried out
+    - allocates memmory to software
+    - sends instructions to printers
+    - responds to input devices
+    - opens and closes files on devices
+    - multi-programming systems allocate equitable processing time to each task
+    - sends error messages if an error
+    - hanldes user logins
+    - handles file permissions
+    - provides the interface between a user and the computer
+
 ### Device drivers
 
+- purpose
+    - it controls a device attatched to the computer
+    - without required device driver, corresponding hardware device fails to work
+    - it is the interface between OS and hardware device
+    - tells the OS how to communicate with hardware device
+    - upon installation, it detects and identifies peripheral devices
+    - handles translation of requests between device and computer
+    - ?? defines where outgoing data must be stored before it can be sent ??
+
+
 ## Utility Software
+
+- programs that help maintain the computer
+- performs a very specific task, usually, managing system resources
 
 ### Anti Virus Software
 
 - note: viruses are also a type of software
+- to remove viruses
 - scans computer for viruses
 - software used to prevent, detect and remove malicious software (called 'malware' for short)
 - can protect from: 
@@ -122,6 +148,7 @@ title: 2. Hardware and Software
 
 ### Data Compression
 
+- to reduce storage file size of a file
 - encoding information using fewer bits than the original representation
 - two types
     - lossless compression
@@ -141,6 +168,7 @@ title: 2. Hardware and Software
 
 ### Disk Defragmentation
 
+- removes non-contiguous spaces on disk
 - organizes contents of the disk into smallest number of contiguous blocks
 - attempts to create larger regions of free space using compaction
 - some defragmentation utilities try to keep smaller files within a single directory together
@@ -157,6 +185,22 @@ title: 2. Hardware and Software
     - partitioning which makes the data storage device visible to an OS
     - followed by high-level formatting which generated a new file system
 
+### Backup Software
+
+- to make copies for future use 
+
+### File Copying
+
+- creation of new files, which has the same contents as an existing file
+
+### Deleting Files
+
+- removing a file from the computer's file system
+
+## Application Software
+
+- group of software designed for the end user
+
 ## Software
 
 ### Off the Shelf
@@ -166,6 +210,20 @@ title: 2. Hardware and Software
     - it is available to all bussiness and companies
     - it is owned by a company that created it
     - has to adapted to fit the bussiness that has purchased it
+
+- advantages
+    - cheaper, as mass produced
+    - available straight away
+    - testing can be righteously carried out by developers, so, less bugs
+    - many sources of support
+    - includes helplines with operators who have already dealth with many problems, so, experienced
+
+- disadvnatages
+    - difficult to adapt to particular use required by the school
+    - has bloated, distracting, unwanted extra features
+    - may not be compatible with current systems and infrastructure
+    - some very specific functions may not be available
+    
 
 ### Custom Written
 
@@ -189,6 +247,23 @@ title: 2. Hardware and Software
     - *company will own the custom written software, so, they can sell it to others*
 
 
+- advantages
+    - designed specifically for client's requirements
+    - there will be no unncessecary features
+    - it does not have to be adapter for use
+    - programmers are available to make any changes required
+    - programmers will ensure the software is compatible with company devices and infrastructure
+
+- disadvantages
+    - costs more to pay programmers to write more
+    - testing is limited to only what programmers think is required
+        - based on how they think the software will be used
+        - not thoroughly tested
+        - so, can have a lot of bugs
+    - support is limited to team of programmers only
+    - can take a long time to develop the software
+
+
 ## User Interfaces
 
 - CLI & GUI
@@ -204,10 +279,17 @@ title: 2. Hardware and Software
 ### CLI
 
 - Command Line Interface
+- used by advanced computer users
+- less likely to change over time
+- uses less memmory
+- requires user to learn many commands
+- processing is faster than others
 
 ### GUI
 
 - Graphical User Interface
+- involves the use of WIMP
+    - Windows, Icons, Menus, Pointers
 
 ### Dialog Interface
 
@@ -230,11 +312,16 @@ title: 2. Hardware and Software
     - unreliable when used in the dark
     - bad when driving, will have to drive with one hand while doing gestures with the other hand
     - unintentional gestures might be registered
+    - very reliable as most users have similar gestures for communicating
 
 
 ## Hardware
 
 - Another name for physical parts of the computer
+
+### CPU
+
+- ALU and CU are parts of the CPU
 
 ### Input Devices
 
@@ -252,6 +339,7 @@ title: 2. Hardware and Software
         - can use the alphbetic keys and number keys to type content
 
 - Touch Screen
+    - both input and an output device
     - could be used to eneter amounts
     - quicker to enter data than using a mouse
     - may cause screen to be stained and make viewing difficult
@@ -274,12 +362,31 @@ IMAGE HIERARCHIAL
 - Printers
     - Dot Matrix Printer
         - not very clear comparatively
+        - uses continous stationery
         - slow to print 
             - if busy, will cause queues of people waiting to print
         - less risk of this running out of paper
         - will have 'noise' in print (bad)
         - cheaper to run 
             - ink ribbon is cheaper than catridges or toners
+        
+        - advantages
+            - can use carbon copy paper (requires less filling of the sheet feeder)
+            - could use continuous stationary
+                - which would require less human interction
+                - doesnt run out of paper very quckly
+            - ink ribbon lasts longer and is cheap
+            - when ink runs out, print gets fainter, but is still legible
+
+        - disadvnatages
+            - striking of heads cause a lot of noise
+                - distracting in office envrionments
+            - quality of output is not very good
+                - 240dpi, but inkjet does 1200dpi
+            - slow output
+            - to buy a dot matrix printer is very expensive
+            - has a more limited character set
+             
 
     - Inkjet Printer
         - high quality tickets
@@ -287,6 +394,7 @@ IMAGE HIERARCHIAL
             - (all copies, including the first copy)
             - if busy, will cause queues of people waiting to print
         - will need to change catridges more frequently
+        - when ink runs out, prinout is less legible
         
     - Laser Printer
         - quiality of print will be good
@@ -296,9 +404,48 @@ IMAGE HIERARCHIAL
 
 ### Storage Devices
 
+- Exam Question:
+
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+
+
+#### Primary
+
+- quicker than secondary
+- ROM content is sometimes copied to RAM and subsequently read from RAM
+- very fast access times
+- no moving parts
+- stores data in use and stores data for later user
+
+- RAM
+    - stored information for short term usage
+    - volatile: data is deleted once power is lost
+    - stores active program data
+    - ?? faster than ROMs ??
+
+- ROM
+    - cannot be changed
+    - non volatile: data is retained even when power is off
+    - contains instructions for the computer to start up when it is turned on again
+        - stores bootup instrctions - that will activate the hard disk
+
+
+#### Secondary
+
 IMAGE HIERARCHIAL
 
+- portable
+- non volatile
+- stores data for later use
+- CPU can both read from and write to data 
+
 - Optical Drive
+    - uses laser to burn dark pits into medium
+    - each dark pit is a binary digit
+        - if there is a pit: 1, else: 0 
     - Advantages
         - faster data access times (comapred to tape)
         - more viable when theres large variations of temperature
@@ -308,6 +455,8 @@ IMAGE HIERARCHIAL
 
 - Magnetic Media
     - aka Tape 
+    - small areas of tape are magnetized to represent 1/0
+    - have surfaces coated with magnetically sensitive material such as iron oxide
     - Advantages
         - costs less per unit storage
             - so, more cost effective (for large companies)
@@ -320,18 +469,23 @@ IMAGE HIERARCHIAL
         - gets curropt if placed near a magnetic field
 
 - Hard Disk Drives (HDDs)
+    - have surfaces coated with magnetically sensitive material such as iron oxide
     - Advantages
         - higher storage capacitie
         - cost less per gigabyte
         - lasts longer
     - Disadvantages
-        - more suspectible to damage and shock
-            - consists of various moving parts
+        - consists of various moving parts
+            - more suspectible to damage and shock / more prone to failiure
+            - more pront to mechanical failiure
         - access speed is limited
             - depends on how close the data is to the read/write heads
         - loud, have whirring sounds due to moving parts
+        - high power consumption
 
 - Solid State Drives (SSDs)
+    - uses electric circuits (NAND flash)
+    - stores data with an electrical charge
     - Advantages
         - have faster transfer rate
         - have quicker boot ups
@@ -363,6 +517,16 @@ IMAGE HIERARCHIAL
 | **Lifespan**              | Consists of various moving parts        | Finite number of writes due to NAND flash      |
 
 
+
+---
+
+## Other
+
+---
+
+- Pg 39 - 2019 March 12 - 1 (to Database)
+
+
 ## Software Stuff (to Database)
 
 - **NOTE: THIS BELONGS TO THE 'DATABASE' PART OF P1**
@@ -384,48 +548,87 @@ IMAGE HIERARCHIAL
     - a software vendor delineates the specific terms of use in an end-user license agreement
     - its source code is almost always kept secret
     - usually covered by copyright which provides a legal basis for its owner to establish exclusive rights
+    - usually created by a company
+        - with secret (proprietary) encoding scheme
+        - so, it can be decoded only using software of company
 
 - open source file formats
-    - can be used and implemented by anyone
-    - an open source file format can be used by both propietrary and FOSS
-    - also called free file formats if they are not covered by any copyrights
-    - so that anyone may use them at no monetary cost for any desired purpose
+    - description
+        - can be used and implemented by anyone
+        - an open source file format can be used by both propietrary and FOSS
+        - also called free file formats if they are not covered by any copyrights
+        - so that anyone may use them at no monetary cost for any desired purpose
+    - needed
+        - not everyone can afford proprietary software
+        - when transferring from one device to another, 
+            - other devices may not have compatible software
+        - archived proprietary files maybe difficult to read by new software
+
 
 ## Web Conference (to Digital Divide)
 
 - **NOTE: THIS BELONGS TO THE 'DIGITAL DIVIDE' PART OF P1**
 
-- how to setup
-    - send emails to every person being invited informing them of the conference
-    - he sends log in details to users
-    - uploads any necessary documents for the meeting
-    - sends a link to the website
-    - enter his username and password (obtained from the provider)
-    - select a start time and end time
-    - in the meeting area, type an agenda
-    - using the software select participants
-    - select appropriate meeting space/room
-    - select those participants who can enter the room
-    - choose those who can be presenters
-        - and who can manage the meeting
-        - limit participation of participants, 
-        - disable messaging, 
-        - disable camers
+- how to setup 
+    - answer 1
+        - send emails to every person being invited informing them of the conference
+        - he sends log in details to users
+        - uploads any necessary documents for the meeting
+        - sends a link to the website
+        - enter his username and password (obtained from the provider)
+        - select a start time and end time
+        - in the meeting area, type an agenda
+        - using the software select participants
+        - select appropriate meeting space/room
+        - select those participants who can enter the room
+        - choose those who can be presenters
+            - and who can manage the meeting
+            - limit participation of participants, 
+            - disable messaging, 
+            - disable camers
+    - answer 2
+        - setup equipment and software 
+        - agree a date and time
+        - send reminder to participants before they start
+        - send invitation link, with meeting password
+        - adjust webcam so that can be seen
+        - create and enter virtual rooms
+        - share documents with appropriate software
+        - upload any necessary documents for the meeting
+        - sends a link to the website
+        - enter his username and password
+        - using the software, select participants to accept in to the meeting
+        - select appropriate meeting space/room
+        - select those who can enter the room
+        - limit the participation of participants, mute, disable messaging / camera, etc...
+        - communicate by speaking into a microphone and looking at the webcam
 
-- how to setup
-    - setup equipment and software 
-    - agree a date and time
-    - send reminder to participants before they start
-    - send invitation link, with meeting password
-    - adjust webcam so that can be seen
-    - create and enter virtual rooms
-    - share documents with appropriate software
-    - upload any necessary documents for the meeting
-    - sends a link to the website
-    - enter his username and password
-    - using the software, select participants to accept in to the meeting
-    - select appropriate meeting space/room
-    - select those who can enter the room
-    - limit the participation of participants, mute, disable messaging / camera, etc...
-    - communicate by speaking into a microphone and looking at the webcam
+- hardware required
+    - server to handle video conferencing software
+    - laptops/devices for each participant
+    - microphone to speak to (sound - input)
+    - speakers to hear (sound - output)
+    - large monitor to see all participants
+    - cameras/webcams to input pictures
+    - router to connect to internet / network
+
+
+## Web Authoring (no idea yet)
+
+- using web authoring software instead of html?
+    - advantages
+        - do not have to spend time learning html
+        - do not need to have web development knowledge/skills to make a functional website
+        - can make websites with basic clicking and typing
+        - writing html takes much longer
+        - most are WYSIWYG editors
+    - disadvantage
+        - limits the users options as a designer
+        - they only rely on templates with limited options
+        - depening on what web authoring software package you use
+            - they might not even different features
+        - software may make user reliant to it
+            - if software breaks, can no longer develop the site
+        - learning html means sites can be built from any environment with basic text editing software
+            - eg: notepad (most basic) to intelliJ webstorm ide (advanced) 
 
