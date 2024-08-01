@@ -46,6 +46,9 @@ title: 2. Hardware and Software
 
 ## System Software
 
+- directly operates the computer hardware
+- both compiler and interpreter converts high level programming language to a lower level instructions
+
 ### Compilers
 
 - features
@@ -55,6 +58,11 @@ title: 2. Hardware and Software
     - does not need to be present in order to run the program (compiled executable)
     - can optimize source code to run as fast or as efficiently as possible
     - often produces a seperate object code program
+    - converts high level instructions to machine language
+    - entire file is compiled before execution
+    - list of errors is created after the compiltation process
+    - compiled program is directly executed using the machine code
+    - has to be recompiled even if the smallest change is made
 
 ### Interpreters
 
@@ -64,6 +72,11 @@ title: 2. Hardware and Software
     - only a few lines of source code needs to be in memory at any one time
     - some interpreters execute code within a virtual machine
     - these have been designed to disallow code from directly accessing the data computer
+    - converts high level instructions to an intermediate form
+    - translates one statment at a time
+    - stops translating after the first error
+    - interpreter has to be in memmory for the program to run
+    - can be modified at runtime (changing functions)
 
 ### Linkers
 
@@ -77,6 +90,7 @@ title: 2. Hardware and Software
 
 ### Anti Virus Software
 
+- note: viruses are also a type of software
 - scans computer for viruses
 - software used to prevent, detect and remove malicious software (called 'malware' for short)
 - can protect from: 
@@ -220,6 +234,8 @@ title: 2. Hardware and Software
 
 ## Hardware
 
+- Another name for physical parts of the computer
+
 ### Input Devices
 
 - Keyboard
@@ -229,6 +245,11 @@ title: 2. Hardware and Software
     - disadvantages
         - difficulty of entering amounts other than selecing numbers using a mouse
         - data is slow to enter (compared with DDE)
+    - using the keyboard
+        - can use CTRL + other keys to save, print, copy, paste, cut, etc... (keyboard shortcut)
+        - can use arrow keys to navitage through text
+        - can use tab key to indent, delete key to delete forwards, backspace to delete backwards
+        - can use the alphbetic keys and number keys to type content
 
 - Touch Screen
     - could be used to eneter amounts
@@ -248,12 +269,18 @@ title: 2. Hardware and Software
 
 ### Output Devices
 
+IMAGE HIERARCHIAL
+
 - Printers
-    - Laser Printer
-        - quiality of print will be good
-            - can see it clearly
-        - takes time to produce the first copy
-        
+    - Dot Matrix Printer
+        - not very clear comparatively
+        - slow to print 
+            - if busy, will cause queues of people waiting to print
+        - less risk of this running out of paper
+        - will have 'noise' in print (bad)
+        - cheaper to run 
+            - ink ribbon is cheaper than catridges or toners
+
     - Inkjet Printer
         - high quality tickets
         - slow to print 
@@ -261,14 +288,36 @@ title: 2. Hardware and Software
             - if busy, will cause queues of people waiting to print
         - will need to change catridges more frequently
         
-    - Dot Matrix Printer
-        - not very clear comparatively
-        - slow to print 
-            - if busy, will cause queues of people waiting to print
-        - less risk of this running out of paper
-        - will have 'noise' in print (bad)
+    - Laser Printer
+        - quiality of print will be good
+            - can see it clearly
+        - takes time to produce the first copy
+        - does not have tio change toner as often as inkject catridges
 
 ### Storage Devices
+
+IMAGE HIERARCHIAL
+
+- Optical Drive
+    - Advantages
+        - faster data access times (comapred to tape)
+        - more viable when theres large variations of temperature
+    - Disadvantages
+        - not very portable (compared to tape)
+        - more suspectible to damage when handling
+
+- Magnetic Media
+    - aka Tape 
+    - Advantages
+        - costs less per unit storage
+            - so, more cost effective (for large companies)
+        - stores more data
+        - appropriate for server backups
+        - less suspectible to damage when handling
+            - because its completely encased
+    - Disadvantages
+        - costs more per tape
+        - gets curropt if placed near a magnetic field
 
 - Hard Disk Drives (HDDs)
     - Advantages
@@ -314,17 +363,69 @@ title: 2. Hardware and Software
 | **Lifespan**              | Consists of various moving parts        | Finite number of writes due to NAND flash      |
 
 
-## File Types (to Database)
+## Software Stuff (to Database)
 
 - **NOTE: THIS BELONGS TO THE 'DATABASE' PART OF P1**
 
-- why use text file (generic file format) instead of using word processed file? 
-    - file size is smaller
-        - takes less storage space
-    - text format doesnt need to buy license / software
-        - eg: of word processing software
-    - can be opened by more applications
-    - data can be exchanged among different OS / Computers
-    - word processing software has many versions
-        - one may not support documents made with another verison
+- file types
+    - why use text file (generic file format) instead of using word processed file? 
+        - file size is smaller
+            - takes less storage space
+        - text format doesnt need to buy license / software
+            - eg: of word processing software
+        - can be opened by more applications
+        - data can be exchanged among different OS / Computers
+        - word processing software has many versions
+            - one may not support documents made with another verison
+
+- propietrary software
+    - software that is owned by an individual or a company (usually the one that developed it)
+    - there are almost always major restrictions on its use
+    - a software vendor delineates the specific terms of use in an end-user license agreement
+    - its source code is almost always kept secret
+    - usually covered by copyright which provides a legal basis for its owner to establish exclusive rights
+
+- open source file formats
+    - can be used and implemented by anyone
+    - an open source file format can be used by both propietrary and FOSS
+    - also called free file formats if they are not covered by any copyrights
+    - so that anyone may use them at no monetary cost for any desired purpose
+
+## Web Conference (to Digital Divide)
+
+- **NOTE: THIS BELONGS TO THE 'DIGITAL DIVIDE' PART OF P1**
+
+- how to setup
+    - send emails to every person being invited informing them of the conference
+    - he sends log in details to users
+    - uploads any necessary documents for the meeting
+    - sends a link to the website
+    - enter his username and password (obtained from the provider)
+    - select a start time and end time
+    - in the meeting area, type an agenda
+    - using the software select participants
+    - select appropriate meeting space/room
+    - select those participants who can enter the room
+    - choose those who can be presenters
+        - and who can manage the meeting
+        - limit participation of participants, 
+        - disable messaging, 
+        - disable camers
+
+- how to setup
+    - setup equipment and software 
+    - agree a date and time
+    - send reminder to participants before they start
+    - send invitation link, with meeting password
+    - adjust webcam so that can be seen
+    - create and enter virtual rooms
+    - share documents with appropriate software
+    - upload any necessary documents for the meeting
+    - sends a link to the website
+    - enter his username and password
+    - using the software, select participants to accept in to the meeting
+    - select appropriate meeting space/room
+    - select those who can enter the room
+    - limit the participation of participants, mute, disable messaging / camera, etc...
+    - communicate by speaking into a microphone and looking at the webcam
 
