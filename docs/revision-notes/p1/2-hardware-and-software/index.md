@@ -248,6 +248,26 @@ title: 2. Hardware and Software
 
 ### Output Devices
 
+- Printers
+    - Laser Printer
+        - quiality of print will be good
+            - can see it clearly
+        - takes time to produce the first copy
+        
+    - Inkjet Printer
+        - high quality tickets
+        - slow to print 
+            - (all copies, including the first copy)
+            - if busy, will cause queues of people waiting to print
+        - will need to change catridges more frequently
+        
+    - Dot Matrix Printer
+        - not very clear comparatively
+        - slow to print 
+            - if busy, will cause queues of people waiting to print
+        - less risk of this running out of paper
+        - will have 'noise' in print (bad)
+
 ### Storage Devices
 
 - Hard Disk Drives (HDDs)
