@@ -54,6 +54,7 @@ title: 2. Hardware and Software
     - is able to report on a number of errors in the code after compilation
     - does not need to be present in order to run the program (compiled executable)
     - can optimize source code to run as fast or as efficiently as possible
+    - often produces a seperate object code program
 
 ### Interpreters
 
@@ -65,6 +66,8 @@ title: 2. Hardware and Software
     - these have been designed to disallow code from directly accessing the data computer
 
 ### Linkers
+
+- a linker takes one more more object files and combines them into a single executable file
 
 ### Operating systems
 
@@ -144,8 +147,19 @@ title: 2. Hardware and Software
 
 ### Off the Shelf
 
+- description
+    - software that is ready-made and already exists
+    - it is available to all bussiness and companies
+    - it is owned by a company that created it
+    - has to adapted to fit the bussiness that has purchased it
 
 ### Custom Written
+
+- description
+    - software that is specially developed for a specific company
+    - it is made to accomodate that customer's particular preferences and needs
+    - written by programmers to solve specific problems
+    - owned by the bussiness that commisions it
 
 - what
     - software created for defined purposes
@@ -232,40 +246,37 @@ title: 2. Hardware and Software
     - quicker than typing details from the card
     - contactless card readers speed up transactions as no PIN is required
 
-### Hard Disks
+### Output Devices
 
-- Advantages
-    - higher storage capacitie
-    - cost less per gigabyte
-    - lasts longer
+### Storage Devices
 
-- Disadvantages
-    - more suspectible to damage and shock
-        - consists of various moving parts
-    - access speed is limited
-        - depends on how close the data is to the read/write heads
-    - loud, have whirring sounds due to moving parts
+- Hard Disk Drives (HDDs)
+    - Advantages
+        - higher storage capacitie
+        - cost less per gigabyte
+        - lasts longer
+    - Disadvantages
+        - more suspectible to damage and shock
+            - consists of various moving parts
+        - access speed is limited
+            - depends on how close the data is to the read/write heads
+        - loud, have whirring sounds due to moving parts
 
-### SSDs
-
-- Advantages
-    - have faster transfer rate
-    - have quicker boot ups
-    - can have almost instantaneous data access ()
-    - all parts of SSD can be accessed at once
-    - use less power at peak load
-    - energy efficiency can deliver longer battery life in laptops
-    - no moving parts, so, SSDs run silently
-
-- Disadvantages
-    - low storage capacities
-    - costs more per gigabyte
-    - doesn't last long
-        - NAND flash used in SSDs can only be used for a finite number of writes
-    - choices and availability is limited
-
-
-### Comparisons
+- Solid State Drives (SSDs)
+    - Advantages
+        - have faster transfer rate
+        - have quicker boot ups
+        - can have almost instantaneous data access ()
+        - all parts of SSD can be accessed at once
+        - use less power at peak load
+        - energy efficiency can deliver longer battery life in laptops
+        - no moving parts, so, SSDs run silently
+    - Disadvantages
+        - low storage capacities
+        - costs more per gigabyte
+        - doesn't last long
+            - NAND flash used in SSDs can only be used for a finite number of writes
+        - choices and availability is limited
 
 - HDDs vs SSDs
 
