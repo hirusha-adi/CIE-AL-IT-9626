@@ -4,7 +4,35 @@ title: 2. Hardware and Software
 
 ## Computers
 
+- fault tolerance
+    - both
+        - whether computer will repair itself if an error occurs
+        - a computer can operate even if components fail
+        - without system downtime
+        - computers operating quality can be reduce
+            - but it does not fail completely
+        - whether when a hardware component fails, is it hot swappable
+    - super computer only
+        - will run two copies of software
+        - if one fails, the second copy will start
+
+- heat maintainance
+    - computers generate a lot of heat
+        - due to quality and quantity of processors
+    - it can be a problem when it overheats
+    - to address this issue
+        - good cooling systems are needed
+            - can air cool with an AC - expensive
+            - can water cool - cheap, efficient
+            - build datacenter in a cold part of the world, eg: greenland.
+
 ### Mainframe Computers
+
+- description
+    - have hundreds of processor cores
+    - all cores share one OS
+    - mainframes use parallel processing
+    - can process a large number of small tasks at same time
 
 - advantages
     - have faster processing
@@ -50,32 +78,97 @@ title: 2. Hardware and Software
     - it must also be possible to individually upgrade hardware and software components without suhtting down the system
     - there should be controlled access, allowing only authorised users to use the system
 
+- performance metrics
+    - used to measure performance speeds of computers/processors
+    - can be unreliable as the complexity of instructions can vary according to which benchmark program is used
+    - MIPS are used for integers
+        - Million Instruction Per Second
+    - measured in millions
+    - used when measuring performance of computers involved in running application software
+    - do not take into account the input/output speeds
+
+- RAS
+    - Reliability, Accessibility and Serviceability
+    - describes the robustness/durability of a mainframe computer
+    - Realiability
+        - chance of the system behaving as intended
+    - Accessibility
+        - mainframe being operational at all times
+    - Serviceability
+        - can be easily fixed within a short period of time
+    - if there is a failiure
+        - reliable 
+        - will use alternative methods to carry out tasks
+    - software is reliable
+        - highly tested
+        - and updates are made quickly to fix problems
+    - MTBF (Mean Time Between Failures) is long for mainframes
+        - mainframes give months/years of systemd owntimes
+    - when unavailable (due to failiure)
+        - mainframe is unavailable for a very short time
+    - spare components (CPUs) are inlcuded in mainframes
+        - if one fails, nother takes over
+    - mainfram can determine why failiure occured
+    - enables hardware and software components to be replaced without affecting mainframe's operations
+    - can be serviced while the system is still running
 
 ### Super Computers
 
-### Characteristics
+- description
+    - can have more than 100,000 processing cores
+    - use massively parallel computing
+    - each core has it's own OS
+    - use more than one GPU
 
-- fault tolerance
-    - both
-        - whether computer will repair itself if an error occurs
-        - a computer can operate even if components fail
-        - without system downtime
-        - computers operating quality can be reduce
-            - but it does not fail completely
-        - whether when a hardware component fails, is it hot swappable
-    - super computer only
-        - will run two copies of software
-        - if one fails, the second copy will start
+- effectiveness / features
+    - have a limited lifespan of just a few years
+    - and will need replacing / repairing
+    - carries out complex calculations
+    - can use complex maths formulae
+    - can handle a large amount of items of data at same time
+    - fasted data processing computers
+    - most expensive to buy
+    - each processor has it's own operating system
+    - use massively parallel processing
+    - more powerful compared to mainframes
+        - can be upto 1000 times faster
+    - can include scientific rules
+    - some tasks do not require super computers
+    - overheats, hard to keep it cool 
+    - as the task is not complex, so, it would be a waste of time
 
-- heat maintainance
-    - computers generate a lot of heat
-        - due to quality and quantity of processors
-    - it can be a problem when it overheats
-    - to address this issue
-        - good cooling systems are needed
-            - can air cool with an AC - expensive
-            - can water cool - cheap, efficient
-            - build datacenter in a cold part of the world, eg: greenland.
+- performance metrics
+    - used to measure performance speeds of computers/processors
+    - can be unreliable as the complexity of instructions can vary according to which benchmark program is used
+    - (M) FLOPS are used for real/floating point numbers
+        - Floating Point Operations Per Second
+    - measured in quadrillions and higher
+    - used where complex (scientific) calculations need to be carried out
+    - to not take into accuont the CPU's clock speed, bus speed and RAM available
+
+- weather forecasting
+    - powerful enough to carry calculations required
+    - can process huge amounts of data
+    - based on use of very complex/scientific computer models
+    - a advanced three-dimentional model of earth has to be created
+    - and large number of complex calculations are carried
+    - but first, data should be collected
+        - records of previous weather conditions
+            - weather measurements from weather stations
+            - observations from satellites
+            - information from ships & aircrafts
+
+- climate research
+    - many variables are collected
+        - using sensors, eg:
+            - rainfall, temperature, humidity, etc...
+    - large quantity of data is processed
+    - complex calculations are carried out
+    - shows historical trends of different variables over a long time period
+    - complex maths formulae are used to describe how different parts of climate works
+        - computer models based on these are used to predict how the climate will change
+        - these models will include several scientific formulae
+    - model will give you the best guess  
 
 ### Cloud Computing
 
@@ -136,16 +229,23 @@ FULL DIRAGRAM IMAGE HERE
 
 - advantages
     - once compiled, translation software is no longer needed
-    - runs faster
+    - runs faster (fast execution)
     - quicker process than interpreting 
     - improve security for programmers
         - making it harder to copy code
+        - fewer risks of copyright infringement
 
 - disadvantages
     - can only be used in one OS
         - target audience may run many OS
         - might need to use an interpreter
     - has to be recompiled even if the smallest change is made
+
+- usually, compiles with native compiler
+- to run in another platform
+    - can cross compile
+    - will run more slowly
+    - produces more errors and mistakes
 
 ### Interpreters
 
@@ -192,6 +292,23 @@ FULL DIRAGRAM IMAGE HERE
 
 - a linker takes one more more object files and combines them into a single executable file
 
+- advantages
+    - programs can be written in modules
+        - requires less RAM
+        - saving cost of memmory
+    - whole program and compiler dont need to be in memory at the same time
+        - requires less RAM
+        - saving cost of memmory
+    - several programmers can work on seperate modules
+        - saves time (compared to one person writing the whole code)
+    - if there is an error, only that module has to be fixed
+
+- disadvantages
+    - variable names can cause problems
+        - the same variable may have been given different variable names in different modules
+    - documentation has to be more detailed
+        - so takes longer to write 
+
 ### All
 
 - why we need all of these?
@@ -234,12 +351,18 @@ FULL DIRAGRAM IMAGE HERE
     - upon installation, it detects and identifies peripheral devices
     - handles translation of requests between device and computer
     - ?? defines where outgoing data must be stored before it can be sent ??
+    - different OS may send different instructions, driver translates them to what printer can understand
 
 
 ## Utility Software
 
 - programs that help maintain the computer
 - performs a very specific task, usually, managing system resources
+- OS can contain a number of these utilities out of the box
+- why it is needed?
+    - to keep computer free from viruses
+    - to make files contiguous
+    - ?? needed to improce performance by allocating memmory ??
 
 ### Anti Virus Software
 
@@ -273,6 +396,8 @@ FULL DIRAGRAM IMAGE HERE
     - it executes the programs in a virtual environment
         - logging the actions performed by the file
 - gives the user options to delete or qurantine the files
+- does backgroudns cans of downloads and attatchements
+- prompt the user to scan newly plugged in 
 
 ### Data Compression
 
@@ -327,6 +452,33 @@ FULL DIRAGRAM IMAGE HERE
 ### Backup Software
 
 - to make copies for future use 
+- creates additional copies of all data in the computer
+- backed up data is available incase of data loss, eg:
+    - lost to a ransomware
+    - accidental deletion
+- can use copies to restore original contents
+- asks use to enter type of backup
+    - full
+    - incremental
+    - differential
+    - etc...
+- can backup automatically, on scheduled time, set by user
+    - backup process will consume disk resources
+    - making the computer slow
+    - so, should make backup at convenient time
+    - eg: night time
+- taking backups regularly
+    - will prevent the chance of data loss
+- asks if you wish to restore the backup
+- asks if you wish to verify the backups
+- asks frequency of backups (how often they should take place)
+- ask which medium the user wishes to store
+- select where to save the backup 
+    - target location
+    - it should be secure
+- can also encrypt the backup
+    - provides more security
+
 
 ### File Copying
 
@@ -374,7 +526,12 @@ FULL DIRAGRAM IMAGE HERE
     - available straight away
     - testing can be righteously carried out by developers, so, less bugs
     - many sources of support
-    - includes helplines with operators who have already dealth with many problems, so, experienced
+        - web forums
+        - comminity support
+        - wiki's
+        - includes helplines with operators who have already dealth with many problems, so, experienced
+    - will have been used many times before companies buy it, so any bugs will have been identified/reported and fixed
+
 
 - disadvnatages
     - difficult to adapt to particular use required by the school
@@ -390,6 +547,7 @@ FULL DIRAGRAM IMAGE HERE
     - it is made to accomodate that customer's particular preferences and needs
     - written by programmers to solve specific problems
     - owned by the bussiness that commisions it
+    - is it made from scratch
 
 - what
     - software created for defined purposes
@@ -425,18 +583,26 @@ FULL DIRAGRAM IMAGE HERE
 ## User Interfaces
 
 - CLI & GUI
-    - more accurate
+    - more accurate & reliable
+    - user must be sitting infront and controlling it
+    - require actions to deliberate
 
 - GBI & Dialog Interface
-    - for handicapped users who cannot use keyboard and mouse
+    - for handicapped users (physical disabilities) who cannot use keyboard and mouse
         - or control their limbs accurately
     - more expensive to develop
     - for reasons of hygene, not even a doctor is allowed to touch the device
         - then, use gestures or dialog to control device
+    - not suitable for safety related stuff
+        - if in emergency
+            - (GBI) gesture might not get registered 
+            - (DI) 'stop' like words might not be identified properly 
 
 ### CLI
 
 - Command Line Interface
+- prompt appears in screen
+- after which the command is typed
 - used by advanced computer users
 - less likely to change over time
 - uses less memmory
@@ -466,10 +632,12 @@ FULL DIRAGRAM IMAGE HERE
     - should follow the house style of the company using it
     - information should flow in a logical order to the user
 
+
 ### Dialog Interface
 
 - Dialog Interface
 - stuff?
+    - requires a microphone
     - can speak into a microphone to control the device
     - requires training session with user
     - unreliable when there is a background noise
@@ -861,6 +1029,9 @@ IMAGE HIERARCHIAL
         - can be opened by most types of software
         - there is a published speicifcation for storing digital data, 
             - usually maintained by a standards organization
+        - can sometimes be amended without violating of copyright laws  
+        - provides a standard file type
+        - can work with different software without the need to have the same software
     - why need this
         - not everyone can afford proprietary software
         - when transferring from one device to another, 
