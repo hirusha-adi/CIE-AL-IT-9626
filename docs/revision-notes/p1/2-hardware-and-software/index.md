@@ -74,6 +74,9 @@ FULL DIRAGRAM IMAGE HERE
 - both compiler and interpreter converts high level programming language to a lower level instructions
 - designed to run a computers hardware and application programs
 - managed computer hardware
+- provides a platform the application software to run
+- general purpose
+- takes care of memmory management of the system
 
 - Question
 
@@ -98,7 +101,27 @@ FULL DIRAGRAM IMAGE HERE
     - has to be recompiled even if the smallest change is made
     - difficult for hackers to modify compiled code
 
+- advantages
+    - once compiled, translation software is no longer needed
+    - runs faster
+    - quicker process than interpreting 
+    - improve security for programmers
+        - making it harder to copy code
+
+- disadvantages
+    - can only be used in one OS
+        - target audience may run many OS
+        - might need to use an interpreter
+    - has to be recompiled even if the smallest change is made
+
 ### Interpreters
+
+- how it works?
+    - translates each line of source code inito an intermediate stage and then executes that line / statment
+    - translation happens line by line (one instruction at a time)
+    - reports on errors as lines of source code are processed
+    - an interpreter has to be resident in memmory in order for the program to run
+    - only a few lines of the program need to be in memory
 
 - features
     - translates each line of source code inito an intermediate stage and then executes that line / statment
@@ -111,6 +134,26 @@ FULL DIRAGRAM IMAGE HERE
     - stops translating after the first error
     - interpreter has to be in memmory for the program to run
     - can be modified at runtime (changing functions)
+
+- advantages
+    - when need to run on many OS
+        - can maintain one version of the source code
+    - less time will be spent on maintainance
+        - when updates are needed
+    - easier to debug the program
+        - as errors are highlighted
+    - it can use up less memory than a compiler
+        - as only a few lines of source code are in memory at given time
+    - less likely to crash the computer
+        - as the code can run in a virtual machine (like JVM for java)
+- disadvantages
+    - translation software may need to be kept upto date
+    - interpreted programs run slower than compiled programs
+        - as they have to be interpreted every time they are run
+    - interpreting a program is much slow process than compiling
+        - as it stpos every time an error is encountered
+    - source code is easier to convert by fraudulent users
+    - makes it much easier to copy the program
 
 ### Linkers
 
@@ -126,16 +169,27 @@ FULL DIRAGRAM IMAGE HERE
 
 ### Operating systems
 
-- tasks carried out
+- tasks carried out / purpose
     - allocates memmory to software
     - sends instructions to printers
-    - responds to input devices
+    - recognizes and responds to input devices
     - opens and closes files on devices
+    - does file management
     - multi-programming systems allocate equitable processing time to each task
     - sends error messages if an error
     - hanldes user logins
     - handles file permissions
     - provides the interface between a user and the computer
+    - manages hardware resources
+    - responsible for handling errors
+
+- purpose
+    - multi-processing OS is when system has more than one processor
+    - multi-tasking OS allows more than one program to run at a same time
+    - multi-tasking OS allocates sufficient processor time to each program
+    - multi-threading OS allows different parts of a single program (process) to run at the same time
+    - real-time OS allo the computer to respond to input instantaneously
+    - distributed OS allows data to be stored on a number of computers in different locations
 
 ### Device drivers
 
@@ -225,6 +279,16 @@ FULL DIRAGRAM IMAGE HERE
 - the first stage is low-level formatting followed by
     - partitioning which makes the data storage device visible to an OS
     - followed by high-level formatting which generated a new file system
+- low-level formatting divides disk surface into tradcks, secors and cylinders
+    - done by magnetising disk areas using write heads
+    - tracks are numbered s tarting from 0
+    - when the head goes from one treack to next, it leaves a gap
+    - each track is organized into numbered sectors, starting at 1 and seperated by gaps
+    - the purpose of low level formatting is to prepare the disk surface to reveive data
+- high level formatting
+    - creates a file system on the disk
+    - this allows the OS to use the disk space to store data and access files
+
 
 ### Backup Software
 
@@ -256,6 +320,10 @@ FULL DIRAGRAM IMAGE HERE
 
 - group of software designed for the end user
 - uses computer to perform specific tasks
+- not required to run the system
+- its user specific
+- interface between user and system software
+- eg: spread sheet software, word processing software, database software, animation software, video editing software, etc...
 
 ## Software
 
@@ -340,12 +408,29 @@ FULL DIRAGRAM IMAGE HERE
 - uses less memmory
 - requires user to learn many commands
 - processing is faster than others
+- doesnt require graphics or high-resolution monitor
+
+- disadvantages
+    - user should learn many commands
+    - can be slowed to input, for new users
+    - long lines of text needs to be entered, instead of a few mouse clicks
+    - commands can be more difficult to edit
+    - more difficult to multi task
+    - very basic, and can be more of a strain to user's vision
+    - more likely to make mistakes when typing commands 
 
 ### GUI
 
 - Graphical User Interface
 - involves the use of WIMP
     - Windows, Icons, Menus, Pointers
+- layout
+    - sensible use of white space
+    - information that needs attending to immediately should always be displayed in prominent position
+    - a consistent use of screens
+    - must not overload the user with information
+    - should follow the house style of the company using it
+    - information should flow in a logical order to the user
 
 ### Dialog Interface
 
@@ -422,8 +507,11 @@ FULL DIRAGRAM IMAGE HERE
     - recieve sound from input from a microphone
     - output sound trhought speakers connected to the bord
     - nearly all sound cards upport MIDI, a standard for represeting audio electronically
-    
+
 ### Input Devices
+
+- Touch Pad
+    - used to simulate the behvaiour of a mouse when using a laptop
 
 - Keyboard
     - or 'number pad' - whats used in supermarkets
@@ -605,9 +693,15 @@ IMAGE HIERARCHIAL
         - appropriate for server backups
         - less suspectible to damage when handling
             - because its completely encased
+        - hardest to hack into
     - Disadvantages
         - costs more per tape
         - gets curropt if placed near a magnetic field
+        - slower access speed
+            - as data is stored sequentially
+            - when getting data, should start at beginning and start finding
+            - not very silent
+                - it also has moving parts
 
 - Hard Disk Drives (HDDs)
     - have surfaces coated with magnetically sensitive material such as iron oxide
@@ -635,6 +729,7 @@ IMAGE HIERARCHIAL
         - use less power at peak load
         - energy efficiency can deliver longer battery life in laptops
         - no moving parts, so, SSDs run silently
+        - data can be accessed at once (specially thanks to the DRAM cache)
     - Disadvantages
         - low storage capacities
         - costs more per gigabyte
@@ -657,7 +752,10 @@ IMAGE HIERARCHIAL
 | **Availability**          | Widely available with more choices      | Limited choices and availability               |
 | **Lifespan**              | Consists of various moving parts        | Finite number of writes due to NAND flash      |
 
-
+- Pen Drives
+    - used to store data that is to be transferred
+        - from one computer to another
+        - because of ease of portability
 
 ---
 
@@ -672,8 +770,14 @@ IMAGE HIERARCHIAL
 
 - **NOTE: THIS BELONGS TO THE 'DATABASE' PART OF P1**
 
-- file types
-    - why use text file (generic file format) instead of using word processed file? 
+- generic file format
+    - description
+        - one which will be recognizable to most software packages
+        - if a software packages does not recognize, file is  update to load
+    - examples
+        - .txt (text): can be loaded by most word processing software
+        - .csv (command seperated values): can be loaded by most spreadsheet software
+    - why use text file instead of using word processed file? 
         - file size is smaller
             - takes less storage space
             - so, has small processing time
@@ -707,7 +811,10 @@ IMAGE HIERARCHIAL
         - an open source file format can be used by both propietrary and FOSS
         - also called free file formats if they are not covered by any copyrights
         - so that anyone may use them at no monetary cost for any desired purpose
-    - needed
+        - can be opened by most types of software
+        - there is a published speicifcation for storing digital data, 
+            - usually maintained by a standards organization
+    - why need this
         - not everyone can afford proprietary software
         - when transferring from one device to another, 
             - other devices may not have compatible software
@@ -793,4 +900,17 @@ IMAGE HIERARCHIAL
     - requires a descryption key to decrypt
     - resusls in data which is not understandable
         - even if read by someone else, it will have no meaning
+
+## Inference Systems (to Expert Systems)
+
+- **NOTE: THIS BELONGS TO THE 'EXPERT SYSTEMS' PART OF P1**
+
+- how inputs are used to prodice diagnoses
+    - finds possible diagnoses by using a form of reasoning 
+    - the inference engine uses the data or facts in knowledge base (to reason through the symptoms)
+    - the reasoning involves forward chaining, backward chaining, or a combination of both
+    - compares symptoms to those in the knowledge base
+    - uses the rules base of IF...THEN... rules
+    - *also, write the description of forward chaining and backward chaining* 
+    
 
