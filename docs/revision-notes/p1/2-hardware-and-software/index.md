@@ -6,6 +6,31 @@ title: 2. Hardware and Software
 
 ### Mainframe Computers
 
+- advantages
+    - have faster processing
+        - can perform hunders of MIPS
+    - have high value of MTBF (Mean Time Between Failures)
+        - so, less downtime
+    - have greater fault tolerance
+        - can transfer processing from one core to another
+        - so, hardware and software updrades can occur while the system is still running
+    - they can run different OS
+        - so, can handle different types of database
+    - they are more secure than most other types of computer    
+        - as they use complex encryption system
+
+- disadvantages
+    - very expensive to buy
+        - some are using cloud instead of this
+        - due to this being too expensive
+        - maintainance
+        - cost to people who manage this
+        - software costs
+        - cooling costs
+    - need large rooms
+    - generates a lot of heat,
+        - need good, expensive and complex cooling systems   
+
 - why used to produce census?
     - mainframes has a,
         - high speed of processing data
@@ -16,6 +41,14 @@ title: 2. Hardware and Software
         - it also keeps on increasing
         - census processes & produces more data
     - more poweful machines are needed as more data is added
+
+- transcation processing systems
+    - performance is meausured by the number of transactions it can process in a given period of time
+    - must be continously available
+    - must able to maintain integrity of data 
+        - and overcome hardware and software problems
+    - it must also be possible to individually upgrade hardware and software components without suhtting down the system
+    - there should be controlled access, allowing only authorised users to use the system
 
 
 ### Super Computers
@@ -265,11 +298,12 @@ FULL DIRAGRAM IMAGE HERE
 
 - removes non-contiguous spaces on disk
 - organizes contents of the disk into smallest number of contiguous blocks
+- it is re-arranging the files stored on the disk
 - attempts to create larger regions of free space using compaction
 - some defragmentation utilities try to keep smaller files within a single directory together
 - the movement of the hard drive's read/write heads over different areas of the disk when accessing fragmented files is slower
     - compared to accessing the entire contents of a non-fragmented file sequentially
-
+- will make the data retrieval easier and quicker
 
 ### Disk Formatting
 
@@ -717,6 +751,19 @@ IMAGE HIERARCHIAL
             - depends on how close the data is to the read/write heads
         - loud, have whirring sounds due to moving parts
         - high power consumption
+
+    - How it works? & Parts:
+
+        ![alt text](image-4.png)
+
+        - HDDs consists of several platters, which are individual disks
+        - each surface of a platter has it's own read/write head
+        - the read/write heads move across the platters
+            - stoppping only read data from or write data to the surface
+            - it never touches the surface
+        - each surface is divided into several tracks, which are in the same position on each disk
+        - the track on the top platter together with the tracks exactly below it, form a cylinder
+        - each track is divided into sectors
 
 - Solid State Drives (SSDs)
     - uses electric circuits (NAND flash)
