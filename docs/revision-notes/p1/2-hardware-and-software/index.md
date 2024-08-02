@@ -44,11 +44,43 @@ title: 2. Hardware and Software
             - can water cool - cheap, efficient
             - build datacenter in a cold part of the world, eg: greenland.
 
+### Cloud Computing
+
+- cloud storage
+    - advantages
+        - paying a low monthly fee
+        - has no physical precense, so, takes no space
+        - can backup data automatically
+        - syncing ensure files are automatically updates across all devices connected
+    - disadvantages
+        - data is in hands of third party
+            - so, less secure
+        - providers can be transient
+            - resulting in possible data loss
+        - only as reliable as the user's internet connection
+        - some may charge a cheap initial fee, but may increase prices later
+        - users are at risk of not having data stored in compliance with government regulations if the physical storage location resides in a different country
+
+## Software
+
+- Software are programs used to direct the operation of a computer and related hardware
+
+FULL DIRAGRAM IMAGE HERE
+
+
 ## System Software
 
 - directly operates the computer hardware
 - both compiler and interpreter converts high level programming language to a lower level instructions
 - designed to run a computers hardware and application programs
+- managed computer hardware
+
+- Question
+
+![alt text](image-2.png)
+
+![alt text](image-3.png)
+
 
 ### Compilers
 
@@ -64,6 +96,7 @@ title: 2. Hardware and Software
     - list of errors is created after the compiltation process
     - compiled program is directly executed using the machine code
     - has to be recompiled even if the smallest change is made
+    - difficult for hackers to modify compiled code
 
 ### Interpreters
 
@@ -82,6 +115,14 @@ title: 2. Hardware and Software
 ### Linkers
 
 - a linker takes one more more object files and combines them into a single executable file
+
+### All
+
+- why we need all of these?
+    - many programming languages allow the wiritng of different peices of modules seperately
+    - programming tasks are simplified as large programs can be broken into smaller manageable pieces
+    - the linker is used to put all the modules together
+    - without the comiler, the linker would have no object files to combine
 
 ### Operating systems
 
@@ -196,10 +237,25 @@ title: 2. Hardware and Software
 ### Deleting Files
 
 - removing a file from the computer's file system
+- most OS keeps track of where files are on hard disk using pointers
+    - each file and folder on a hard disk has a pointer that tells the OS
+    - where the file's data ends and begins with
+- when a file is deleted, 
+    - OS deletes pointers
+    - marks secotrs containing that file as available
+- its considered that files are no longer present in hard disk (considered as free space)
+- uses a file allocation table (FAT) to store the location of files on the disk
+- the delete utility just deletes the reference of the index in the FAT
+- until OS writes new data, deleted files are still recoverable
+- recovery programs can scan for deleted files and restore them
+- if file is partially overwritten, can only recovery half of that file
+- file recovery pointers work by reinstating pointers
+    - reinstating the index in FAT
 
 ## Application Software
 
 - group of software designed for the end user
+- uses computer to perform specific tasks
 
 ## Software
 
@@ -313,19 +369,64 @@ title: 2. Hardware and Software
     - bad when driving, will have to drive with one hand while doing gestures with the other hand
     - unintentional gestures might be registered
     - very reliable as most users have similar gestures for communicating
+    - requires a line of sight (unlike dialog interface)
 
 
 ## Hardware
 
 - Another name for physical parts of the computer
+- collection of physical components
 
 ### CPU
 
-- ALU and CU are parts of the CPU
+- parts
+    - Arithmetic Logical Unit (ALU)
+    - Control Unit (CU)
+    - Memmory
+    - tends to be contains on an intergrated circuit chip called a microprocessor
 
+- function
+    - CU fetched instrctions from main memmory
+    - decodes instructions
+    - executes instructions
+    - all input data are transferred via CPU's memmory
+    - memmory stores instrctions as well as data
+    - data is stored in the CPU memory, whilst a calculation or instruction is being carried out
+    - input data are transferred to the ALU for processing
+        - ALU makes use of 4 basic functions: +, -, *, /
+        - ALU uses certian logic operations such as comparisons, selections and matching
+
+### Mother Board
+
+- description
+    - the main printer circuit board of a computer
+    - connects the main components of a computer
+    - contains
+        - mass storage interfaces
+        - serial and parallel ports
+        - usb ports
+        - network ports
+        - expansion slots (PCI, PCIe)
+        - controllers required to control standard peripheral devices
+        - southbridge
+        - connections for attatching additional boards
+        - bios
+        - CPU socket
+        - RAM slots
+
+### Sound Card
+
+- description
+    - manipultate and output audio
+    - manipulate sounds stored on disk
+    - recieve sound from input from a microphone
+    - output sound trhought speakers connected to the bord
+    - nearly all sound cards upport MIDI, a standard for represeting audio electronically
+    
 ### Input Devices
 
 - Keyboard
+    - or 'number pad' - whats used in supermarkets
     - type in values
     - advantages
         - experiences users can enter data more quickly
@@ -337,6 +438,7 @@ title: 2. Hardware and Software
         - can use arrow keys to navitage through text
         - can use tab key to indent, delete key to delete forwards, backspace to delete backwards
         - can use the alphbetic keys and number keys to type content
+    - in a shop, if product bar code is damaged, it cannot be input
 
 - Touch Screen
     - both input and an output device
@@ -354,12 +456,33 @@ title: 2. Hardware and Software
     - reliable than reading a magnetic stripe
     - quicker than typing details from the card
     - contactless card readers speed up transactions as no PIN is required
+        - in many countries, there is a maximum amount of money allowed to be charged with this.
+    - chip and pin-reader
+        - reads details from bank cards
+        - more secure
+        - more reliable than rading magnetic stripe
+        - quicker than typing details from the card
+
+- Bar Code Scanner
+    - used to read bar codes from products
+
 
 ### Output Devices
 
 IMAGE HIERARCHIAL
 
+- Monitor
+    - results are produces instantly
+    - graphs / diagrams / figures are represented more accurately
+    - scroll through results easily (instead of turning pages)
+    - need to be infront of monitor to view the output
+
 - Printers
+    - easier to annotate printouts taken
+    - printouts can be transported and viewed anywhere
+    - may skim on whats on-screen.
+        - so, more likely for errors to occur
+
     - Dot Matrix Printer
         - not very clear comparatively
         - uses continous stationery
@@ -387,7 +510,6 @@ IMAGE HIERARCHIAL
             - to buy a dot matrix printer is very expensive
             - has a more limited character set
              
-
     - Inkjet Printer
         - high quality tickets
         - slow to print 
@@ -421,16 +543,23 @@ IMAGE HIERARCHIAL
 - stores data in use and stores data for later user
 
 - RAM
+    - Random Access Memmory
     - stored information for short term usage
     - volatile: data is deleted once power is lost
     - stores active program data
     - ?? faster than ROMs ??
+    - used by computers for storing data during computing processes
+    - stores active program data
+    - can both read and write
 
 - ROM
-    - cannot be changed
+    - Read Only Memmory
+    - cannot be changed, only read
     - non volatile: data is retained even when power is off
-    - contains instructions for the computer to start up when it is turned on again
+    - stores permanent computer instructions
+    - (to store bootup instructions) contains instructions for the computer to start up when it is turned on again
         - stores bootup instrctions - that will activate the hard disk
+    - to store software that is unlikely to need frequent updates
 
 
 #### Secondary
@@ -452,6 +581,18 @@ IMAGE HIERARCHIAL
     - Disadvantages
         - not very portable (compared to tape)
         - more suspectible to damage when handling
+    - types:
+        - CD
+        - DVD
+            - stored upto 8.7GB max (DVD - Double Side - Double Layer)
+        - Blu Ray Disk
+            - single blu-ray stores upto 128GB max
+                - can store high quality videos
+            - more expensive
+            - costs less to buy per unit memmory
+        - note:
+            - BR drives can read DVDs
+            - DVD drives cannot read BR dicsts 
 
 - Magnetic Media
     - aka Tape 
@@ -535,12 +676,20 @@ IMAGE HIERARCHIAL
     - why use text file (generic file format) instead of using word processed file? 
         - file size is smaller
             - takes less storage space
+            - so, has small processing time
         - text format doesnt need to buy license / software
             - eg: of word processing software
         - can be opened by more applications
         - data can be exchanged among different OS / Computers
         - word processing software has many versions
             - one may not support documents made with another verison
+        - its human readable and easy to edit manually
+        - disadvantages
+            - no distinction between text and numeric values
+            - documents will have no formatting
+            - cant embed images / graphics / videos
+            - cannot have tables
+            - resulting layout may make it difficult to read
 
 - propietrary software
     - software that is owned by an individual or a company (usually the one that developed it)
@@ -631,4 +780,17 @@ IMAGE HIERARCHIAL
             - if software breaks, can no longer develop the site
         - learning html means sites can be built from any environment with basic text editing software
             - eg: notepad (most basic) to intelliJ webstorm ide (advanced) 
+
+## Encryption (to Security)
+
+- **NOTE: THIS BELONGS TO THE 'SECURITY' PART OF P1**
+
+- how encryption stores data stores on a hard disk?
+    - can use either symmetric or asymmetric encryption
+    - can be through the use of public and private keys
+    - causes data to be scrambled
+    - requires an encryption key to encrypt
+    - requires a descryption key to decrypt
+    - resusls in data which is not understandable
+        - even if read by someone else, it will have no meaning
 
