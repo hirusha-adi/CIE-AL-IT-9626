@@ -2,6 +2,8 @@
 title: 3. Networking
 ---
 
+All Past Paper Questions: https://docs.google.com/document/d/1nh3nqeakyah_DlTDU933sHQ6ctyJldKSbenT5yAmisg/edit?usp=sharing
+
 ## Networks
 
 - Question

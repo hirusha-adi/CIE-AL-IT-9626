@@ -2,6 +2,8 @@
 title: 2. Hardware and Software
 ---
 
+All Past Paper Questions: https://docs.google.com/document/d/1AjL53GAhZXb_fa4mALsTHMoJZlIfAlF35uHH96iPWQ4/edit?usp=sharing 
+
 ## Computers
 
 - fault tolerance
