@@ -2,7 +2,9 @@
 title: 3. Networking
 ---
 
-## Computer Networks
+## Networks
+
+### Computer Networks
 
 - Advantages
     - easier to share files in group projects
@@ -19,11 +21,60 @@ title: 3. Networking
     - if server breaks, it might be unaccessible
     - viruses can transmit easily (worms)
 
+### Mobile Networks
+
+- Advantages
+    - more coverage than WiFi
+    - forces users to depend upon hotspots in each area visited
+    - 4G offers a coverage of 30 miles 
+        - and more and with overlapping networks
+        - high ranges means connectivity all the time
+    - mobile devices can be used out in the field
+    - portability
+    - big problemts with wifi networks in online security
+- Disadvantages
+    - more expensive
+    - quality can be poor if you are not close
+        - could go 2G, 3G, etc..
+    - power consumption issues on devices powered by batteries
+    - mobile VPNs are unsafe to connect to
+    
 ### Topologies
 
 - LAN
     - covers smaller geographical area
     - does not always need a router to connect computers togethers
+
+### Connection Types
+
+#### Client-Server Networks
+
+- more secure than P2P networks
+- servers will handle authentication and authorization to accessing resources
+- if a client crashes/disconnects, it doesnt affect other clients or the server
+
+#### Peer to Peer Networks
+
+- can communicate and share files with every other computer on the network
+- Advantages
+    - cheaper (no need to buy servers)
+        - does not servers
+        - as files accessed from inidividual's workstations
+        - no need to pay IT staff (System Administrator, Network Technicians)
+        - overall cost of setting up is cheaper
+    - very redundant
+        - if one computer fails, it will not disrupt anything
+        - everything else will continue    
+- Disadvantages
+    - files and folders are difficult to recover as they cannot be centrally backed up
+    - more difficult to share
+        - with magnets and torrent descriptor files
+    - less security than permissions
+    - system is not cntralised, hard to administrate
+    - more expensive security, all devices should have its own anti-virus
+    - diificult to have more than a few users
+    - peers should have good storage too
+    - when peer being accessed by other peers, it might slow the computer down
 
 ## Internet
 
@@ -53,6 +104,35 @@ title: 3. Networking
 - operates within VPN framework
 - operated over public telecommunications protocls
 
+## Connection Types
+
+- ADSL
+    - asynchronous digital subscriber line
+    - bandwdith and bit rate is greater toward the subscriber
+    - ISPs usually provide ASDL as a service 
+        - to recieve internet acces
+        - in a relatively passive mode
+    - video conferencing would stutter due to low speeds
+- SDSL
+    - synchronous digital subscriber line
+    - bandwdith and bitrate in the downstream direction
+    - aimed at bussiness customers
+    - more expensive
+    - high bandwdith
+        - can use for video conferencing
+- ISDN
+    - integrated services digital network
+    - allows simultaneous digital transmission of voice, video, data
+        - over PSTN (Public Switched Telephone Network)
+    - Circuit swicthed telephone network system
+        - also provides access to packet switched networks
+        - results in better quality
+            - than an analgue phone can  
+    - extremely expensive
+    - HD videos conferencing achievable
+        - with PRI (Primary Rate Interface)
+        - alsmost similar qualities like when using SDSL
+        
 ### Services
 
 - e-mail
@@ -62,10 +142,25 @@ title: 3. Networking
 
 - WWW
     - world wide web
-    - system of internet servers
-    - that support formatted HTML documents
-    - tends to be upto date
-    - has vast amounts of information
+    - description
+        - system of internet servers
+        - that support formatted HTML documents
+        - tends to be upto date
+        - has vast amounts of information
+    - how it works?
+        - invented by Tim Berners Liee in 1989
+        - can be accessed via the internet
+        - accessed using web browsing software
+        - HTML is a markup (formatting) lanuage for WWW
+            - web pages are text documents formatted and annotated using HTML
+        - uses URL (Uniform Resource Locator) 
+            - an address thats unique to identify the web page
+        - HTTP allows retireval of linked resources across the web
+        - HTTPS provides secure websites
+        - web pages may contain images. video, etc...
+        - hyperlinks allow users to navigate between web pages
+        - comporises websites made up of a number of web pages
+        - is basically a system of web servers (serving HTML documents)
 
 - video conferencing services
     - to conduct conferences between two or more participants
@@ -149,3 +244,20 @@ title: 3. Networking
     - secure sockets layer
 - TLS
     - client-server applications use TLS to prevent eavesdropping
+
+## Safety (for Digital Divide)
+
+- Issue
+    - Prevention
+
+- overloading sockets causing overheating
+    - CO<sub>2</sub> file extinguider in room
+    - seperate sockets for each plug
+- water split into live wires & cause electrocution
+    - do not allow food and drinks into the computer room
+    - ensure all wires are properly insulated
+- trailing cables can cause users to trip up and injure themselves
+    - ensure proper trunking is in place
+- heavy objects can all off tables can cause injury
+    - use strudy stable desks
+    - dont place heavy objects in the corner of desk        
