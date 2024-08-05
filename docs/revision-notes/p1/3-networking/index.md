@@ -4,6 +4,12 @@ title: 3. Networking
 
 ## Networks
 
+- Question
+
+![alt text](image.png)
+
+![alt text](image-1.png)
+
 ### Computer Networks
 
 - Advantages
@@ -22,6 +28,22 @@ title: 3. Networking
     - viruses can transmit easily (worms)
 
 ### Mobile Networks
+
+- how it works? how it enables transmission?
+    - phones connect to cell towers (base stations)
+        - divided into thousands of overlapping goegraphic areas
+    - typical mobile network is like a mesh of hexagonal cells
+    - each cell has its own base station at the centre
+    - base station provides cell with nerwork coverage
+        - which can be used for transmission of voice + data
+    - cells overlap at edges to ensure user is always connected (within range of a base station)
+    - RF signals transmitted by individual phone to a base station
+    - RF signals re-transmitted from base station to another base station
+    - transmitting and recieving are done over different frequencies
+    - base stations connected to one another via central switching centres
+    - the central switching centres track calls and transfer them from one base station to another as caller moves between cells
+    -  mobile phone is a two way radio containing both lower-power transmitter and a reciever
+    - a cell typically uses different set of frequences from neighbouring cells
 
 - Advantages
     - more coverage than WiFi
@@ -60,6 +82,7 @@ title: 3. Networking
     - covers smaller geographical area
     - does not always need a router to connect computers togethers
     - uses L1, L2, L3 devices
+    - high rate of data transfer
 - WAN
     - made by connecting many LANs through a router/modem
     - covers larger geographical area
@@ -97,11 +120,17 @@ title: 3. Networking
 - Advantages
     - centralized database of user information makes it more secure
     - users do not need to worry about making backups
-    - upgrading is easier
+    - upgrading is easier (only have to upgrade the server)
     - easier for user to access, with alternate devices
     - easier for the end-user in many ways...
+    - as new information is uploaded in a database, each computer need not to have its own storage capacity increased
 - Disadvantages
     - if server goes down, whole network is affected
+    - need a IT Staff
+        - need to pay salaries 
+        - eg: network manager 
+    - servers expensive to setup and maintain
+    - many servers trying to access data from server can cause overload
 
 #### Peer to Peer Networks
 
@@ -126,6 +155,33 @@ title: 3. Networking
     - peers should have good storage too
     - when peer being accessed by other peers, it might slow the computer down
 
+#### Comparison
+
+| Aspect                         | Client-Server Network                                      | Peer-to-Peer Network                                      |
+|-------------------------------|------------------------------------------------------------|-----------------------------------------------------------|
+| **Resource Pooling**          | Resources centralized on one server                        | Resources pooled by all peers                             |
+| **Communication**             | Clients communicate with the server                        | Peers communicate directly with each other                |
+| **Availability**              | Server crash affects entire network                        | Peer crash does not affect other peers                    |
+| **Security**                  | Server controls network security                           | Each peer responsible for its own security                |
+| **Backup**                    | Data backed up by server                                   | Each peer must back up its own data                       |
+| **Setup Complexity**          | Requires specialist knowledge                              | Easier to set up, no specialist knowledge needed          |
+| **Management**                | Easier to administer and manage                            | Difficult to manage due to decentralization               |
+| **Performance**               | Server handles tasks without affecting client performance  | Performance can be slower as peers may perform multiple roles |
+| **Virus Protection**          | Centralized virus protection                               | Each peer needs its own virus scanner                     |
+| **Upgrading**                 | Easier to upgrade the server                               | More difficult to upgrade, each peer needs attention      |
+| **Cost**                      | Higher due to server and IT staff                           | Cheaper, no need for servers or dedicated IT staff        |
+| **Redundancy**                | Single point of failure if server goes down                | High redundancy, peer failure does not disrupt network    |
+
+Summary
+
+- **Client-Server Network:**
+  - **Advantages:** Centralized security and backups, easier upgrading and management, better performance.
+  - **Disadvantages:** Single point of failure, higher setup and maintenance costs.
+
+- **Peer-to-Peer Network:**
+  - **Advantages:** Cheaper setup, high redundancy, easy to set up.
+  - **Disadvantages:** Decentralized management, each peer needs its own security and backups, potential performance issues.
+
 ## Internet
 
 - meanining
@@ -136,6 +192,25 @@ title: 3. Networking
 - for communication
     - advantages
     - disadvantages
+
+- for a bussiness / having precense on internet
+    - Benefits
+        - wider audience
+        - low cost advertising
+        - opens opportunity for staff working from home
+            - save office costs (rent)
+        - enables companies to share knowledge quickly & easily
+        - product information can be accessed anytime & anywhere
+        - quicker bank transfers with online banking
+            - customer payments recieved quickly
+            - payments can be gauranteed
+            - can send orders to other companies
+    - Drawbacks
+        - works can get distracted by other stuff
+        - employees can steal company data + infect machines
+        - customers can post reviews easily
+            - if bad review posted about company, it cannot be removed
+        - loose face-to-face human interaction
 
         
 ### Services
@@ -354,7 +429,7 @@ The world wide web is /users browsing
         - with PRI (Primary Rate Interface)
         - alsmost similar qualities like when using SDSL
 
-## VPNS
+## VPNs
 
 - Virtual Private Networks
 
@@ -435,6 +510,44 @@ The world wide web is /users browsing
     - transport layer security
     - successor to SSL
 
+- how TLS/SSL is used in client-server networks?
+    - TLS is used for applications that require data to be securely exchanged
+        - eg: browser sessions, file transfers, etc..
+    - server sends digital certiciate to client
+        - to open a TLS connection
+        - client needs to obtain the public key
+        - public key is found in digital certiciate
+        - digital certificate authenticates the server to the client
+            - client checks if certiciate was issued from a trusted CA
+            - check whether the server is legitamate owner of public & private keys
+    - client does TLS handshake
+        - client tells server what version of SSL/TLS it uses
+        - and lsit of encryption protocols its able to use
+        - client tells the server it wants to setup a communication channel
+        - handhsaking occurs before the transfer of data can take place
+        - server tells the client the type of encryption it has chosen from the client's list
+
+## Packet Switching
+
+Using TCP (Transmission Control Protocol) with IP (Internet Protocol). UDP (User Datagram Protocol) is also used instead of TCP sometimes.
+
+- how data is sent?
+    - data divided to packets
+    - packets are whats being sent in network
+    - each pakcet has header that identifies the contents
+    - protocol used (TCP or UDP) determined on use case
+        - TCP is a protocol which we can transmit data
+            - used for error free transmission of data
+            - when delivery of data needs to be assured
+            - will retransmit missing packets when data is lost
+            - can cause delays and reduced throughput
+        - UDP
+            - is less reliable
+            - data lost in transmission is not retransmitted
+        - eg: 
+            - UDP suites best for video conferencing
+                - as data arriving late would spoil the conference
+
 ## Safety (for Digital Divide)
 
 - health issues
@@ -485,3 +598,13 @@ The world wide web is /users browsing
     - heavy objects can all off tables can cause injury
         - use strudy stable desks
         - dont place heavy objects in the corner of desk        
+
+## Online Shopping (for Digital Divide)
+
+- disadvantages for developing countries
+    - Some people in developing countries have no actual postal address making the delivery of goods which are purchased online difficult (1) 
+    - Many people in developing countries have no access to broadband so speed of purchase is slower (1)
+    - Many people in developing countries have no PCs/Iaptops/smartphones/tablet computers so need to borrow a PC/go to a library (1)
+    - In developing countries power outages can mean that connection is lost during the process and so have to start again/lose the sale (1)
+    - Many people in developing countries do not have bank accounts and credit cards so have to organise for someone else to buy the product on their behalf (1)
+    - In many developing countries, goods bought using the internet are not covered by consumer-protection laws so people have no protection from unscrupulous sellers (1)
