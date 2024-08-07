@@ -66,6 +66,23 @@ All Past Paper Questions: https://docs.google.com/document/d/1ivd2MdIj0b15Y9Nipa
 
 ## e-Safety
 
+- protecting data
+    - physical protection
+        - security gaurd to prevent unauthorized people
+        - swipe cards
+    - electronic protection 
+        - biometric data
+            - unique biometric features, like fingerprint or retina, thats unique to each individual
+        - passwords
+            - hard for hacker to guess or bruteforce (or crack)
+        - firewall
+            - whitelist: only access connections from trusted IPs
+        - access levels
+            - give each user a different access level to the stuff in the network
+        - use a VPN
+            - more secure if the vpn is encrypted,
+            - specially when using a public network  
+
 - other methods of keeping data secure
     - use minimum amount of confidential information
     - use anonimized information whenever possible
@@ -105,6 +122,9 @@ All Past Paper Questions: https://docs.google.com/document/d/1ivd2MdIj0b15Y9Nipa
     - subjected to credit card scams
     - insurace could be denied depending on whats shared
     - can sell data like medical info to others
+    - OTHER
+        - company secrets can be sold to rival companies
+        - national secrets can be used by rival powers
 
 - when students use the inernet
     - social media
@@ -155,6 +175,10 @@ All Past Paper Questions: https://docs.google.com/document/d/1ivd2MdIj0b15Y9Nipa
     - there are proxy caching problems
     - everything is encrypted, including packet headers and contents
     - any caching that might have happened between two points at which data is encrypted and decrypted is blocked   
+    - if the private key is lost, its extremely hard to recover
+    - extra storage space for client/server
+    - takes longer to transmit encrypted data
+    - takes longer to decrypt the encrypted data
 
 ### SSL/TLS
 
@@ -190,6 +214,10 @@ All Past Paper Questions: https://docs.google.com/document/d/1ivd2MdIj0b15Y9Nipa
         - server tells the client the type of encryption it has chosen from the client's list
 
 ## Encryption
+
+- define
+    - data is scrambled
+    - converting information so that data is irreversible
 
 - when encrypted
     - its useless even if the message is intercepted
@@ -261,6 +289,7 @@ All Past Paper Questions: https://docs.google.com/document/d/1ivd2MdIj0b15Y9Nipa
         - eg: priviliage escalation
     - targetted social engineering attacks (eg: phishihg, etc...)
         - and installs spyware 
+    - has to be run/executed by target person
 
 - how to stay safe?
     - follow anti-malware policies
@@ -278,7 +307,28 @@ All Past Paper Questions: https://docs.google.com/document/d/1ivd2MdIj0b15Y9Nipa
     - report unknown behaviour to IT helpdesk engineers
     - disconnect from network soon
 
-### Rotkits
+- consequences if hacked (company)
+    - computer networks can be wrecked
+    - will disturb bussiness
+        - so, income loss
+    - steal organization's data
+        - may ask for ransom if not will share (ransomware)
+        - or will just share
+        - giving advantage to other companies
+        - will result in lawsuits
+    - infected devices has to be disconnected from the network ASAP
+        - to prevent spreading to other networks if its a worm
+    - will have to pay more
+        - for IT staff
+        - to clean / di-infect the computers
+    - will slow the computers down
+    - stealers may steal user activity (including browser session cookies)
+        - can log in without passwords, using session cookie
+        - to cause harm to the computer
+    - rootkits allow computer to be taken over (and commit illegal acts)  
+
+
+### Rootkits
 
 - gives admin access to computer
 - hiding to the user
@@ -290,6 +340,9 @@ All Past Paper Questions: https://docs.google.com/document/d/1ivd2MdIj0b15Y9Nipa
 - controller can change system configurations
 - can access log files and spy on computer's usage
 - hard to detect, runs at system level
+- difficult to get rid of
+- can hide illegal files on computer
+- designed to have anti-malware techniques
 
 ### Malicious Bots
 
@@ -316,6 +369,7 @@ All Past Paper Questions: https://docs.google.com/document/d/1ivd2MdIj0b15Y9Nipa
     - disguises authentic software
     - do not affect to infect other files
     - do not self replicate themselves
+    - provides backdoor from computer to attacker's C2 server
 
 ### Worm
 
@@ -366,6 +420,8 @@ All Past Paper Questions: https://docs.google.com/document/d/1ivd2MdIj0b15Y9Nipa
         - asks customer to enter bank details
     - easily grabs attention
         - eg: We confirm that you have signed up to our service and will be charged 50$ per month.
+    - email may ask customer to reply
+        - and enter their personal information
 - how to be safe?
     - dont trust emails sent from unrecognized senders
     - only contact the bank physically
@@ -402,6 +458,8 @@ All Past Paper Questions: https://docs.google.com/document/d/1ivd2MdIj0b15Y9Nipa
         - robocall, will ask customer to call the fake bank
     - scammer answers fake bank
     - scammer tricks the victim to send money to scammer's bank account
+    - dont give them any codes recieved by SMS or OTP codes
+        - a legitamate bank will never ask for it via call
 - how to be safe?
     - dont give sensitive information from phone
     - dont answer calls from unknown callers
@@ -473,13 +531,36 @@ All Past Paper Questions: https://docs.google.com/document/d/1ivd2MdIj0b15Y9Nipa
     - ...easier to use than text editor as functions are provided. 
 
 - antivirus
-    - Scans the computer to make sure it is not infected with a virus/to find
-    - viruses
-    - Compares with existing viruses/detects changes in behaviour of files
-    - It may quarantine the infected programs
-    - It will ask the user whether or not they want to delete the infected programs
-    - (Does background scans of downloads and attachments for viruses) and
-    - informs the user if anything found.
+    - description
+        - Scans the computer to make sure it is not infected with a virus/to find
+        - viruses
+        - Compares with existing viruses/detects changes in behaviour of files
+        - It may quarantine the infected programs
+        - It will ask the user whether or not they want to delete the infected programs
+        - (Does background scans of downloads and attachments for viruses) and
+        - informs the user if anything found.
+    - advantages
+        - protects from malware
+        - prevents data being stolen + deleted by malware
+        - can prevent passwords being changed
+        - can filter spam from mailbox
+        - users can select how regularly to scan automatically in background
+        - can select which drives/folders to scan
+        - quarantines any infected files
+            - and awaits user confirmation to delete it
+    - disadvantages
+        - cost of purchase / license
+        - should be purchased anually
+        - need to update a lot
+            - since new virus signatures are being added almost daily
+        - can detect virus stored in DB (signature based)
+        - can detect viruses based on behaviour (behaviour based)
+        - can slow down the computer
+        - does not give 100% coverage
+        - can give false positives
+            - specially if you are a programmer
+            - eg: web server opening a port locallt in your system to server the web files / API
+        - takes up storage and memmory
 
 - backup software
     - Creates (additional exact) copies of files, databases hard disks or network
