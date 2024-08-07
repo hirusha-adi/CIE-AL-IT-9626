@@ -270,6 +270,9 @@ Summary
         - used to encode/decode digital data stream
         - used to compress data to reduce transmission bandwidth
         - the decoder reverses the encoding for playback
+        - there are many different types of codecs
+        - without codecs, downloads will take very long
+        - its common to need 10-12 codes to play users's media
     - impact on
         - general people
             - more people able to use this
@@ -495,39 +498,6 @@ The world wide web is /users browsing
 ## Search Engines
 
 - lack of experience of developer might lead to bad search engine optimization
-
-## Security
-
-- encryption protocols can be used
-- all major web browsers currently in use support TLS
-- client-server applications use SSL/TLS to prevent eavesdropping
-    - by using encryption protocols
-    - so, technically, can secure carry out bank transactions
-- are used in web browsing, email, internet faxing, messaging, VoIP, etc...
-
-- SSL
-    - secure sockets layer
-    - is old technology
-- TLS
-    - transport layer security
-    - successor to SSL
-
-- how TLS/SSL is used in client-server networks?
-    - TLS is used for applications that require data to be securely exchanged
-        - eg: browser sessions, file transfers, etc..
-    - server sends digital certiciate to client
-        - to open a TLS connection
-        - client needs to obtain the public key
-        - public key is found in digital certiciate
-        - digital certificate authenticates the server to the client
-            - client checks if certiciate was issued from a trusted CA
-            - check whether the server is legitamate owner of public & private keys
-    - client does TLS handshake
-        - client tells server what version of SSL/TLS it uses
-        - and lsit of encryption protocols its able to use
-        - client tells the server it wants to setup a communication channel
-        - handhsaking occurs before the transfer of data can take place
-        - server tells the client the type of encryption it has chosen from the client's list
 
 ## Packet Switching
 
