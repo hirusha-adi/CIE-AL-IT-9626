@@ -13,9 +13,22 @@ title: Digital Divide
             - no infrastructure in rural areas
         - between educated and uneducated
         - between economic classes (rich and poor)
+            - poor cannot buy new equipment
+            - will have to rent old equipment
+                - old equipment is not advanced
+            - low incentives to provide infrastructure to poor areas
+                - due to low demand   
         - between old and young people
             - as young people has grown up with technology
             - old people might be unwilling to learn
+            - government could encourage and carry training camps
+            - fund organizations that teach digital literacy
+            - schools could allow them to access infrastructure and learn
+                - and also teach them
+                - in evenings or holidays 
+            - technology is seen as something for the young
+            - many older people have already established means of communication
+                - so, they do not need new technologies
         - inequalities between individuals, households, bussinesses, geographical areas
         - divide between countries or regions
         - between countries of world 
@@ -33,13 +46,65 @@ title: Digital Divide
         - set up cyber cafes in rural areas
         - providing overseas aid to poor countries 
 
+- effects of digital divide (effects to rural areas)
+    - lower quality 
+        - health
+        - education
+        - access to resources
+        - lifestyle
+        - trade
+        - opportunities
+        - employment opportunities
+    - reduced access to social media
+    - lower access to information
+    - unable to find accurate information easily
+        - due to limited access to search engine
+        - takes longer to complete tasks, so, wasting time
+    - reduced health care
+        - cannot get into waiting list to see doctor
+        - not aware of intiment health risks that do not have access to national news service
+    - reduced ability to work remotely
+        - unable to have face-to-face communications
+        - unable to have stable connection to VPN
+        - cannot work remotely
+    - impact on education
+        - cannot access learning resources
+            - lower quality education
+        - unable to do wider researches
+    - impact on purchasing
+        - unable to compare prices of products as cannot access search engines
+        - cannot check product availability in stores
+    - impact of limited access to 
+        - online facilities
+        - banking
+        - communication
+        - mental health
+        - entertainment
+
+- reducing digital divide
+    - improve access to broadband
+    - provide infrastructure for rural areas
+    - grovernments provides incentives to industry to build infrastructure
+    - government investigates alternate methods of distribution
+    - create cyber internet cafes
+    - deliver access using satellite technology
+
 - global digital divide
     - contributes to the inequality
     - of access to goods and services
     - available through technology
 
+    
+
 - no modern technology
-    - pass
+    - fast broadband
+        - without it, unable to use latest technologies
+    - buying tech can be more expensive (to people from rural areas)
+    - people with low education can find it hard to use/learn
+    - same with old people
+    - young people grow up with technology
+    - price of internet connection might be might in underdeveloped countries
+    - underdeveloped countries may have underperforming computers
 
 - in less industrially developed nations
     - cannot invest a lot of money on infrastructure
@@ -50,6 +115,11 @@ title: Digital Divide
     - some may have difficulty in obtaining technical assistance
 
 - no broadband connection
+    - satellite broadband 
+        - more expensive than cabled broadband connections
+        - tends be be slower
+    - broadband connections
+        - signal quality depends on number of towers
     - lack of understanding of benefits of it
     - back of skills + knowledge
     - affordability of 
