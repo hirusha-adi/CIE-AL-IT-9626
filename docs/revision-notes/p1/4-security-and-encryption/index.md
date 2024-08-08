@@ -48,13 +48,26 @@ All Past Paper Questions: https://docs.google.com/document/d/1ivd2MdIj0b15Y9Nipa
 - health issues
     - arise from **long term use** of computers
     - issues
-        - RSI
-        - carpal tunnel syndrome
+        - RSI (Repitive Strain Injury)
+            - from continual usage of mouse/keyboard
+            - take regular breaks
+            - use ergonomic mouse/keyboards
+        - CTS (carpal tunnel syndrome)
+            - from prolonged use of mobile phones
+            - keeping the elbow bent
+            - use ergonomic mouse/keyboards
+            - use headphones
         - lower back pain
+            - sitting in same position for long periods of time
+            - use ergonomic furniture
         - eye strain
+            - staring at monitor for long times
+            - take regular breaks
+            - use anti glare screens
         - headaches
         - upper back pain
         - neck pain
+            - position monitor at eye level and proper distance
         - shoulder pain
         - etc...
     - can be caused by
