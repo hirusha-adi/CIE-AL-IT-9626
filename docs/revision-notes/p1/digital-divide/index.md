@@ -24,6 +24,7 @@ title: Digital Divide
         - inequalities of price of internet connection 
         - in less developed countries
             - the population has access to limited digital services
+    - disabilities of potential internet users constitute another type of digital divide
     - can be overcome by
         - community teachhing programs
             - for old people
@@ -31,6 +32,34 @@ title: Digital Divide
         - giving cheap computers for poor children
         - set up cyber cafes in rural areas
         - providing overseas aid to poor countries 
+
+- global digital divide
+    - contributes to the inequality
+    - of access to goods and services
+    - available through technology
+
+- no modern technology
+    - pass
+
+- in less industrially developed nations
+    - cannot invest a lot of money on infrastructure
+    - but doesnt always mean the nation doesnt have essential technologies
+    - not all countries are able to keep up with constant changes
+    - large inequality of internet speeds in all countries
+    - some countries have low performance computers
+    - some may have difficulty in obtaining technical assistance
+
+- no broadband connection
+    - lack of understanding of benefits of it
+    - back of skills + knowledge
+    - affordability of 
+        - connection fees
+        - devices that support broadband
+    - broadband in rural areas is not as good as in cities
+    - government programs to implement education
+    - initiatives to develop e-government
+    - extend faster broadband to rural areas
+
 
 ## Unknown
 
@@ -69,4 +98,23 @@ title: Digital Divide
     - disadvntages
         - old people might not be skilled at typig fast
         - privacy lost if other people enters chat room 
+
+## Other
+
+### Mental Model (Modelling)
+
+- based on bliefs, not facts
+- what user will describe as what they need
+- deisgner must produce UI to match user's thoughts
+- model of what users know/think about a system
+- users create mental models very quickly (even before using any software)
+- comes from prior experience of user
+- designers should stick with this, or it will be hard for users
+- user will take less time to learn (if product is similar to his mental model)
+- will provide the user with transferrable skills
+- training can be changed to fit user's mental model
+    - to fit the design of the interface
+
+
+
 

@@ -288,6 +288,25 @@ Summary
             - can use in rural areas
             - doctors can teach students
                 - observe surgical procedure
+            - advantages
+                - saves time and money
+                - will save time by not staying overnight
+                - doctors are less fatigued
+                - saves time of printing large documents
+                - less likely to misplace documents
+                - safer
+                    - no travel
+                    - less accidents
+                - environmentally friendly, no car is needed
+                - hospital doctors can demonstrate procedures to other doctors
+            - disadvantages
+                - poor video quality (bandwidth)
+                - video & audio lag
+                - power outages - breakdown of transmission
+                - hackers can hack meeting
+                - hackers can gain access to patient documents
+                - doctors maybe put off by camera (as people are self concious when being recorded)
+                - when not at home, extra equipment needed to join meeting
         - education (teachers, students)
             - opportunity to learn content from other regions
             - lectures made available world wide
@@ -295,6 +314,30 @@ Summary
             - diverse community can learn about each other
             - can virtually visit meuseums, educational facilities, etc...
             - several campusus can collaborate and share lectures. 
+        - legislators / lawyers
+            - lawyers no need to attend from faw away
+                - saving travel expenses
+            - representatives can take part in meetings happening at many locations
+            - problems with video transmissions can lead to misunderstandings
+            - saves task/money for booking a room for the meeting 
+        - bussiness people
+            - no travel expenses 
+                - to meet physically
+                - taxi
+                - hotel accomodations
+            - saves time
+                - flight delays
+                - traffic jams
+            - easier for employees
+                - can stay home... eg: if they have a sick child
+            - workers can share word/spreadsheet files online
+            - much less personal interaction  
+        - news presenters
+            - can hold meeting with more than just one person
+            - can speak with people from many countries simultaneously
+            - do not have to wait for eye witnesses
+            - presenters do not have to travel to dangerous areas
+                - wars, terrorists
 
 - VoIP
     - Voice over Internet Protocol
