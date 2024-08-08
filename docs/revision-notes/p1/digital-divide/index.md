@@ -2,6 +2,8 @@
 title: Digital Divide
 ---
 
+All Past Paper Questions: https://docs.google.com/document/d/1dEvIXD3LYLy4fwGxFIdsYjPvSiY4H8aj-JAwzqqYQto/edit?usp=sharing
+
 ## Digital Divide
 
 - meaning
