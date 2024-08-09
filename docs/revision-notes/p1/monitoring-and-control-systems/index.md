@@ -4,7 +4,33 @@ title: Monitoring and Control Systems
 
 All Past Paper Questions: https://docs.google.com/document/d/1Ms7cSAQ7I4NGc3m3egiCirOHodjetUsTdt2eyuenYjI/edit?usp=sharing
 
+## Analongue-Digital
+
+- Microporcessors/computers cannot directly process analogue data
+
+### ADC
+
+
+### Processor
+
+
+### DAC
+
 ## Monitoring
+
+- Computers
+    - never forget to take reading at regular interval
+    - more accurate
+    - several variables can be measures simultaneously
+    - results processed automatically
+    - can take readings from dangerous areas (using sensors)
+
+- Humans
+    - needed to place sensors
+    - needed to interpret results
+    - maintain broken senors
+    - have to program the computers
+    - have to plan where to place the sensors
 
 ### Uses
 
@@ -50,25 +76,82 @@ All Past Paper Questions: https://docs.google.com/document/d/1Ms7cSAQ7I4NGc3m3eg
             - they secretly monitor (so, bad)
 
 - Monitoring Pollution
-    - pg13
+    - place sensors at upstream and downstream in factory
+    - temperature/light sensor connected to computer
+    - ADC converts analogue data to digital data
+    - so the computer can understand readings
+    - readings are compared with pre-set limits
+    - different results are printed out
+    - graphs automatically produces
+    - computer stores in a table, ready for further processing
+
+- How to monitor data?
+    - sensors are used to gather the particular physical variables
+    - sensors feedback data computer
+    - analgue data is converted to digital data by ADC
+    - computer stores readings
+    - computer compares to pre-set values
+    - computer performes calculations and processing
+    - calculates this at set intervals
+    - computer produces graphs automatically
 
 ## Control Systems
 
+- output affects the input
+
+- Monitoring vs Control Systems
+    - similarities
+        - both involve the use of sensors
+        - both do not require human output
+        - both require ADC
+    - differences
+        - in control systems, output affects the inputs
+        - acts in real-time
+        - uses output devices like acturators
+
 ### Uses
 
-- car park barrie
-    - (with micro-controllers)
-    - pressure sensor / induction loop in driveway
-    - sends signal to processor
-    - ADC converts analogue signal to digital signal for microprocessor to process
-    - microprocessor compares input with pre-set value
-    - if its greater,
-        - send signal to actuator
-        - which raises the barrier
-    - light sensor detects break in laser
-    - when beam of light resumeds,
-        - actuators activated again
-        - lowring the barrier
+- car park barrier
+    - answer 1
+        - (with micro-controllers)
+        - pressure sensor / induction loop in driveway
+        - sends signal to processor
+        - ADC converts analogue signal to digital signal for microprocessor to process
+        - microprocessor compares input with pre-set value
+        - if its greater,
+            - send signal to actuator
+            - which raises the barrier
+        - light sensor detects break in laser
+        - when beam of light resumeds,
+            - actuators activated again
+            - lowring the barrier
+    - answer 2 (detailed)
+        - when car arrives
+            - precence detected by induction loop
+                - because electromagnetic loop is disturbed by metallic object
+            - message sent to computer
+            - computer sends signal to motor
+            - motor raises the barrier
+            - a light beam from one post passes across
+            - to a light sensor in the other post
+            - if microprocessor recieves signal
+                - signal sent to motor to lower the barrier
+            - else, barrier remains vertical 
+        - when car leaves
+            - gues recieved ticket from reception
+            - exit barrier asks for the ticket
+            - computer compares ticket with acceptable tickets to check validity
+            - if it matches
+                - computer sends signal to motor
+                - motor causes barrier to raise
+                - a light beam from one post passes across
+                - to a light sensor in the other post
+                - if light sensor sends a signal
+                    - signal sent to motor
+                    - to lower the barrier
+                - else
+                    - barrier remains vertical
+
 
 - in bussinesses
     - computer controlled production lines
@@ -133,12 +216,20 @@ All Past Paper Questions: https://docs.google.com/document/d/1Ms7cSAQ7I4NGc3m3eg
         - faster than entering large amount of text
         - cheapter than paying someone to enter text
         - allows documents to be made editable
+        - will have a sofcopy, incase of a conflict
+        - can read all data
+        - in banks:
+            - cheques can be processed after being deposited at ATMs
+            - cheques can be processed after being sent by phone
     - disadvnatages
         - all documents should be checked manually and carefully
         - as its not 100% accurate
             - has errors:
                 - 'm' instead of 'rn'
                 - '0' instead of 'O'
+        - less secure,
+            - eg: in banks, checks are easier to forge
+        - need expensive OCR equipment and software
 
 - OMR
     - optical mark recognition
@@ -154,4 +245,18 @@ All Past Paper Questions: https://docs.google.com/document/d/1Ms7cSAQ7I4NGc3m3eg
         - answers are not easily human readable
         - questions cannot be open ended
         - equipment is more expensive to purchase
+
+
+## Other
+
+### Expert Systems
+
+- Knowledge Base
+    - consists of a database of facts
+    - inference engine 
+        - uses rules base to reason through symptoms
+        - uses facts in knowledge base for reasoning
+        - compares to symptoms to those in knowledge base
+        - uses rules base of IF...THEN...
+    - knowledge base editor enables knowledge engineer to edit rules 
 
