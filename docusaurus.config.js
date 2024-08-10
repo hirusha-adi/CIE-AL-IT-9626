@@ -76,7 +76,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Past Papers',
+            label: 'Resources',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
