@@ -52,13 +52,21 @@ All Past Paper Questions: https://docs.google.com/document/d/1Ms7cSAQ7I4NGc3m3eg
         - if a crime occurs, CCTV fotage can be used as evidence
         - if conflict among employees, boss can decide what actions to take by watching footage
         - disputes with customer and employee, can share blame with this footage
+        - increases productivity, as they know that they are being watched
+        - can monitor who violates rules and policies
+            - and take disciplinary action
+        - software can also be used to track employee activity
     - disadvantages
         - not able to display every bit of an area
         - invasion of privacy
         - employees may feel uncomfortable
+            - and mistrust employer
+            - causing some workers to leave
+            - and creating increased turnover of employees
         - hackers can get into the system
             - and see everything
             - and delete footage of crimes commited
+        - hardware is expensive to purchase
 
 - Monitor Workplace
     - advantages (emloyer) 
@@ -76,6 +84,8 @@ All Past Paper Questions: https://docs.google.com/document/d/1Ms7cSAQ7I4NGc3m3eg
             - they secretly monitor (so, bad)
 
 - Monitoring Pollution
+    - measure (using sensors):
+        - temperature, tubidity, pH, O2, CO2, nitrite, nitrate
     - place sensors at upstream and downstream in factory
     - temperature/light sensor connected to computer
     - ADC converts analogue data to digital data
@@ -93,6 +103,7 @@ All Past Paper Questions: https://docs.google.com/document/d/1Ms7cSAQ7I4NGc3m3eg
     - computer compares to pre-set values
     - computer performes calculations and processing
     - calculates this at set intervals
+    - plots graphs of values against normal values
     - computer produces graphs automatically
 
 ## Control Systems
@@ -108,6 +119,20 @@ All Past Paper Questions: https://docs.google.com/document/d/1Ms7cSAQ7I4NGc3m3eg
         - in control systems, output affects the inputs
         - acts in real-time
         - uses output devices like acturators
+
+- Real-Time processing
+    - an information system must process inputs (instaneously)
+        - quickly enough
+        - to be able to control an output properly
+    - have to be programmed carrefully
+        - so, no input events are missed
+    - controlling car park barrier with providing input using light sensors
+    - should be effective with very large volumes of data
+        - but control systems has only small amounts of data to deal with
+    - must react to approach immediately
+    - system must react to input immediately
+    - requires complex & expensive operating system
+    - real-time systems are not easy to develop 
 
 ### Uses
 
@@ -152,6 +177,29 @@ All Past Paper Questions: https://docs.google.com/document/d/1Ms7cSAQ7I4NGc3m3eg
                 - else
                     - barrier remains vertical
 
+- cooking a meal
+    - start time is set with buttons
+    - required temperature is set
+    - length of cooking time is set with buttons
+    - temperature is stores as pre-set values
+    - microprocessor continuously checks start time against its internal clock
+    - if start-time = internal clock time
+        - microprocessor sends message to actuator
+        - actuator switches on the heater (and fan)
+    - else, take no action
+    - temperature sensor reads temperature inside the oven
+        - ADC converts anaolgue data from sensor to digital data
+        - and sends temperature of microwave oven to computer
+    - microprocessor continuously compares temperature of oven against preset value
+    - if temperature is greater than pre-set temperature
+        - microprocessor sends message to actuator
+        - actuator switches off the heater
+    - else,
+        - microprocessor sends message to actuator
+        - actuator switches on the heater
+    - if the end time = internal clock
+        - microprocessor sends message to actuator
+        - actuator switches off the heater (and fan)
 
 - in bussinesses
     - computer controlled production lines
@@ -162,10 +210,28 @@ All Past Paper Questions: https://docs.google.com/document/d/1Ms7cSAQ7I4NGc3m3eg
     - number of new jobs are less than jobs lost
 
 -  in homes
-    - microcontrolled devices can be used to do small tasks, saving time
-    - burglar alarms can be used
-    - can lead to people becoming lazy
-    - loss of household skills (due to use of microcontrolled devices)
+    - advantages
+        - microcontrolled devices can be used to do small tasks, saving time
+        - more secure
+            - burglar alarms can be used
+            - smart home appliances
+        - smart fridges
+            - analyze food constituents
+            - can encourage a healthy life-style 
+        - can turn on remotely
+        - can schedule
+        - rather than controlling/setting-up the control devices
+        - saving time
+            - for greater social interaction
+    - disadvantages
+        - can lead to people becoming lazy
+        - loss of household skills (due to use of microcontrolled devices)
+        - expensive equipment
+        - difficult to repair
+        - subjectable to hackers
+            - can spy
+            - change systems for their advantages
+                - disable alrarms to enable burglary 
 
 - traffic lights
     - fewer traffic jam than manually controlled
@@ -196,6 +262,8 @@ All Past Paper Questions: https://docs.google.com/document/d/1Ms7cSAQ7I4NGc3m3eg
 
 ## Input
 
+### Characters
+
 - MICR
     - magnetic ink character recognition
     - advantages
@@ -203,6 +271,7 @@ All Past Paper Questions: https://docs.google.com/document/d/1Ms7cSAQ7I4NGc3m3eg
         - high security
             - since they are difficult to forge
         - error rate reading them is small
+        - data entry is quicker than typing details
     - disadvnatages
         - more demanging printing process
         - has difficult-to-achieve standards
@@ -218,6 +287,8 @@ All Past Paper Questions: https://docs.google.com/document/d/1Ms7cSAQ7I4NGc3m3eg
         - allows documents to be made editable
         - will have a sofcopy, incase of a conflict
         - can read all data
+        - will read continuosly (and consistently)
+            - unlike humans, who will get tired
         - in banks:
             - cheques can be processed after being deposited at ATMs
             - cheques can be processed after being sent by phone
@@ -230,6 +301,8 @@ All Past Paper Questions: https://docs.google.com/document/d/1Ms7cSAQ7I4NGc3m3eg
         - less secure,
             - eg: in banks, checks are easier to forge
         - need expensive OCR equipment and software
+        - difficult to detect human handwriting
+            - whereas, humans can do it easily
 
 - OMR
     - optical mark recognition
@@ -246,6 +319,27 @@ All Past Paper Questions: https://docs.google.com/document/d/1Ms7cSAQ7I4NGc3m3eg
         - questions cannot be open ended
         - equipment is more expensive to purchase
 
+### Sensors
+
+- Induction Loop
+    - gets disturbed my metal objects (like vehicles)
+    - can know how many vechicles are here
+- Humidity Sensors
+    - measure absolute and relative humidity
+    - is like a combination of moisture and temperature sensor
+    - used in weather stations
+- Pressure Sensors
+    - measure atmospheric pressure
+- Temperature Sensors
+    - measures ambient temperature
+- Light Sensors
+    - measures light levels
+- Sound sensors
+    - converts sound waves to digital signals
+    - used in environmental monitoring systems
+- Reed switch and tipping bucket 
+    - measures rainfall
+
 
 ## Other
 
@@ -260,3 +354,11 @@ All Past Paper Questions: https://docs.google.com/document/d/1Ms7cSAQ7I4NGc3m3eg
         - uses rules base of IF...THEN...
     - knowledge base editor enables knowledge engineer to edit rules 
 
+- Forward Chaining
+    - inference engine uses this to search inference rules
+    - until it finds one IF statement which is true
+    - in here, the inference engine will use the 'THEN' part
+        - to cause addition of new information
+    - inference engines repeats this until a goal is reached
+    - data entered determines which rules are selected and data used
+        - this is called 'data-driven'
