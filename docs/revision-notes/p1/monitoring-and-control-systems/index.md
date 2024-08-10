@@ -260,7 +260,7 @@ All Past Paper Questions: https://docs.google.com/document/d/1Ms7cSAQ7I4NGc3m3eg
     - increases costs of store
     - so, prices to the customer
 
-## Input
+## Input Devices
 
 ### Characters
 
@@ -341,6 +341,30 @@ All Past Paper Questions: https://docs.google.com/document/d/1Ms7cSAQ7I4NGc3m3eg
     - measures rainfall
     
 
+## Input Calibration
+
+- importance
+    - accuracy of sensors reduces over a period of time
+        - due to constant use
+    - regular calibration helps maintain accuracy of sensors
+    - other devices may detriorate over time resulting in a need for recalibration 
+
+### One Point
+
+- only one measurement point (reading) is taken
+- sensors measure a value that is constant
+- the offset only is calculated
+    - offset then added to subsequent reading
+
+### Two Point 
+
+- at-least 2 measurement points (readings) are taken
+- measure constantly changing variable
+- sensitivity needs to be included not just as an offset
+- used when there is a linear relationship between two readings
+- gradient of line between two point is calculated 
+    - and compared with standard values range
+- compensates for both offset errors and sensitivity errors 
 
 ## Other
 
