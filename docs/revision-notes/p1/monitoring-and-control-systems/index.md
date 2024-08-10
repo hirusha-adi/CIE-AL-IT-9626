@@ -339,6 +339,7 @@ All Past Paper Questions: https://docs.google.com/document/d/1Ms7cSAQ7I4NGc3m3eg
     - used in environmental monitoring systems
 - Reed switch and tipping bucket 
     - measures rainfall
+    
 
 
 ## Other
