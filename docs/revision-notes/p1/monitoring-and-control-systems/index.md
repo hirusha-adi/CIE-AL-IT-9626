@@ -286,6 +286,19 @@ All Past Paper Questions: https://docs.google.com/document/d/1Ms7cSAQ7I4NGc3m3eg
             - when predestrian presses a button
             - signal goes to computer
             - to register a pedestrian is waiting to cross
+    - systems waits for a pre-set time
+    - computer sends signal to actuator
+        - to change traffic lights from green to red
+        - to chnage pedestrian control light to safe
+    - computer initiates count down for a pre-set time
+    - and sends signal to actuator
+        - to change traffic lights from red to green
+        - to change predestrian control light to unsafe
+    - outputs
+        - display above pedestrian button
+        - beeping sound
+        - red/amber/green lights that drivers see
+        - count down
     
 - street light
     - more economical
@@ -376,16 +389,39 @@ All Past Paper Questions: https://docs.google.com/document/d/1Ms7cSAQ7I4NGc3m3eg
     - used in environmental monitoring systems
 - Infra-red sensors
     - detects heat
+    - living bodies (eg: humans) emit thermal energy
     - turns infra-red electromagnetic waves into an electrical signal
     - used in burglar systems
+        - detects movement
+        - beams can be setup among rooms
+        - IR sensors detects when the beam is broken
 - Ultrasonic senros
     - measures distance
     - detects sound
     - turns soud waves into electrical signals
     - used in automated car parking / reversing system
+        - device in car sends out sound waves
+        - they are reflected back
+        - device calculates distance from an object
+        - by measuring time between emission and reception
+            - speed = distance / time
+- Electro-magnetic field sensor
+    - used when parking a car
+        - measures change in magnetic field
+        - caused by body of vehicle
+        - are used at entrances to control barriers
+        - used to detect number of parking spaces available
 - Reed switch and tipping bucket 
     - measures rainfall
-    
+
+### Other
+
+- Touch screens (sensors)
+    - used for measuring fluid levels
+    - like, cooling water
+    - capacitive sensor measures capacitance between two conductors seperated by an insulated plate
+    - one of the conductors is fluid
+    - detects when the fluid is touching the conductor
 
 ## Input Calibration
 
@@ -416,6 +452,8 @@ All Past Paper Questions: https://docs.google.com/document/d/1Ms7cSAQ7I4NGc3m3eg
 - compensates for both offset errors and sensitivity errors 
 - a range of values are being monitored
     - so, more complex
+- value of offset is calculated 
+    - by comparing to reference readings
 
 ### Multi Point
 
@@ -423,6 +461,34 @@ All Past Paper Questions: https://docs.google.com/document/d/1Ms7cSAQ7I4NGc3m3eg
     - greater knowledge of maths is needed 
     - so, most complex
 - multiple points (measurements) of data are used
+- detailed
+    - uses many readings from sensor
+    - readings taken at high value, middle value and low value
+    - best used where readings form a curve
+    - readings taken by check (previously) know readings
+    - calibration cannot be carried out
+        - by adding an offset value
+        - by allowing for the slope
+    - to calibrate the sensor 
+        - the algorithm needs to include 'curve fitting'
+    - uses a formula to calculate the correction
+    - uses a quadratic function, like: ax^2+bx+c
+    - where
+        - y reading
+            - is the reading from standardized sensor
+        - x value
+            - is from the sensor needing calibration
+
+## Output
+
+### Actuator
+
+- Purpose
+    - provides output from a control system
+    - mechanical part of control system
+    - actuator controls/operates device
+    - like, opening a valve
+    - turns an electric signal (from a microprocessor) into physical action
 
 ## Other
 
