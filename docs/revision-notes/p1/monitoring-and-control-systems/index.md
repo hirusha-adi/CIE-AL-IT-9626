@@ -24,6 +24,7 @@ All Past Paper Questions: https://docs.google.com/document/d/1Ms7cSAQ7I4NGc3m3eg
     - several variables can be measures simultaneously
     - results processed automatically
     - can take readings from dangerous areas (using sensors)
+    - sensors will wear off over time
 
 - Humans
     - needed to place sensors
@@ -92,6 +93,7 @@ All Past Paper Questions: https://docs.google.com/document/d/1Ms7cSAQ7I4NGc3m3eg
     - so the computer can understand readings
     - readings are compared with pre-set limits
     - different results are printed out
+        - eg: Max, Min and Avg temperature, etc...
     - graphs automatically produces
     - computer stores in a table, ready for further processing
 
@@ -121,18 +123,29 @@ All Past Paper Questions: https://docs.google.com/document/d/1Ms7cSAQ7I4NGc3m3eg
         - uses output devices like acturators
 
 - Real-Time processing
-    - an information system must process inputs (instaneously)
-        - quickly enough
-        - to be able to control an output properly
-    - have to be programmed carrefully
-        - so, no input events are missed
-    - controlling car park barrier with providing input using light sensors
-    - should be effective with very large volumes of data
-        - but control systems has only small amounts of data to deal with
-    - must react to approach immediately
-    - system must react to input immediately
-    - requires complex & expensive operating system
-    - real-time systems are not easy to develop 
+    - general
+        - responds to processed inputs instantaneously
+        - has to deal with inputs continuously
+            - eg: air conditioning system
+        - found in systems that use sensors
+        - user interface uses specialist input devices
+        - to provide data input
+            - eg: touch screen, remote control
+        - usually deals with small amounts of data
+        - **output affects the input**
+    - explanation (air conditioning)
+        - an information system must process inputs (instaneously)
+            - quickly enough
+            - to be able to control an output properly
+        - have to be programmed carrefully
+            - so, no input events are missed
+        - controlling car park barrier with providing input using light sensors
+        - should be effective with very large volumes of data
+            - but control systems has only small amounts of data to deal with
+        - must react to approach immediately
+        - system must react to input immediately
+        - requires complex & expensive operating system
+        - real-time systems are not easy to develop 
 
 ### Uses
 
@@ -177,6 +190,19 @@ All Past Paper Questions: https://docs.google.com/document/d/1Ms7cSAQ7I4NGc3m3eg
                 - else
                     - barrier remains vertical
 
+- in burglar system
+    - keypad to select areas
+    - sensors for input
+        - infra-ref sensors (to detect head)
+        - sound sensors (to detect increased levels of sound)
+        - pressure sensors (to detect increase in weight)
+    - microprocessor compares input's reading with pre-set values
+        - which is programmed in
+        - to check if reading is above pre-set value
+    - if not, sends instruction to actuator
+    - actuator triggers alarm
+    - a signal might also be sent to the police
+
 - cooking a meal
     - start time is set with buttons
     - required temperature is set
@@ -210,6 +236,15 @@ All Past Paper Questions: https://docs.google.com/document/d/1Ms7cSAQ7I4NGc3m3eg
     - number of new jobs are less than jobs lost
 
 -  in homes
+    - smart home
+        - ascpects of home are controlled from a computer system
+        - devices in the home are connected
+        - types of devices that can be controlled
+            - lighting, heating, air-conditioning, television, kettle, plugs, etc..
+        - controlled by issuing commands
+            - or from routines / schedules
+        - uses home network
+        - uses internet access when outside the home 
     - advantages
         - microcontrolled devices can be used to do small tasks, saving time
         - more secure
@@ -332,11 +367,22 @@ All Past Paper Questions: https://docs.google.com/document/d/1Ms7cSAQ7I4NGc3m3eg
     - measure atmospheric pressure
 - Temperature Sensors
     - measures ambient temperature
+    - used in weather stations
 - Light Sensors
     - measures light levels
+    - used in weather stations to measure amount of sunshine
 - Sound sensors
     - converts sound waves to digital signals
     - used in environmental monitoring systems
+- Infra-red sensors
+    - detects heat
+    - turns infra-red electromagnetic waves into an electrical signal
+    - used in burglar systems
+- Ultrasonic senros
+    - measures distance
+    - detects sound
+    - turns soud waves into electrical signals
+    - used in automated car parking / reversing system
 - Reed switch and tipping bucket 
     - measures rainfall
     
@@ -351,20 +397,32 @@ All Past Paper Questions: https://docs.google.com/document/d/1Ms7cSAQ7I4NGc3m3eg
 
 ### One Point
 
+- easiest to carry out
 - only one measurement point (reading) is taken
 - sensors measure a value that is constant
 - the offset only is calculated
     - offset then added to subsequent reading
+- can only be used when measuring constant physical variables
+    - so, has a limited use
 
 ### Two Point 
 
-- at-least 2 measurement points (readings) are taken
+- 2 measurement (data) points (readings) are taken
 - measure constantly changing variable
 - sensitivity needs to be included not just as an offset
 - used when there is a linear relationship between two readings
 - gradient of line between two point is calculated 
     - and compared with standard values range
 - compensates for both offset errors and sensitivity errors 
+- a range of values are being monitored
+    - so, more complex
+
+### Multi Point
+
+- has non-linear, multi-point relationships
+    - greater knowledge of maths is needed 
+    - so, most complex
+- multiple points (measurements) of data are used
 
 ## Other
 
