@@ -1,5 +1,5 @@
 ---
-title: 10. Digital Divide
+title: 11. Digital Divide
 ---
 
 All Past Paper Questions: https://docs.google.com/document/d/1dEvIXD3LYLy4fwGxFIdsYjPvSiY4H8aj-JAwzqqYQto/edit?usp=sharing
