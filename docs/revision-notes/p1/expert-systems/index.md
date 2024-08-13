@@ -58,6 +58,21 @@ All Past Paper Questions: https://docs.google.com/document/d/14POvsigutX83XWY9ES
         - produces reasons for suggestions
         - and outputs to user-interface
 
+- scheduling system to route vehicles
+    - store locations of each distribution point
+    - store type of vehicles being used 
+    - store working hours
+    - scheduler would type in destinations
+    - system would match those against available types of vehicle
+        - match against locations
+    - suggest how many drivers would be needed
+    - suggest vehicle needed for each driver
+    - suggests allocation of orders to each vehicle
+    - ?? suggest list of goods in reverse order ??
+        - ?? so that, each vehicle had the first order loaded on to the vehicle last ?? 
+    - system would take into account the fuel and time
+    - outputs the most efficient rule 
+
 ## User Interface
 
 - used for both input and output
@@ -121,6 +136,12 @@ All Past Paper Questions: https://docs.google.com/document/d/14POvsigutX83XWY9ES
 
 ### Forward Chaining
 
+![alt text](image-2.png)
+
+![alt text](image-3.png)
+
+![alt text](image-4.png)
+
 - starts with available data
     - uses inferenece rules to extract more data
     - until a goal is reached
@@ -128,6 +149,7 @@ All Past Paper Questions: https://docs.google.com/document/d/14POvsigutX83XWY9ES
     - until it finds a rule
     - then, uses the 'THEN' part
     - to cause addition of new information
+- rejects any rule that is not true
 - this is iterated repeatedly
     - until a goal is reached
 - this is 'data-driven'
@@ -141,7 +163,6 @@ All Past Paper Questions: https://docs.google.com/document/d/14POvsigutX83XWY9ES
     - which has a 'THEN' part that matches a desired goal
 - if the IF part of the rule is not false,
     - then it is added to the list of goals
-- because the list of goals determines which rules are selected and used
 - this is 'goal-driven'
     - because list of goals determines which rules are selected and used
 
