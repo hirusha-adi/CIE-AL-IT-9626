@@ -513,9 +513,7 @@ FULL DIRAGRAM IMAGE HERE
 - interface between user and system software
 - eg: spread sheet software, word processing software, database software, animation software, video editing software, etc...
 
-## Software
-
-### Off the Shelf
+## Off the Shelf Software
 
 - description
     - software that is ready-made and already exists
@@ -542,7 +540,7 @@ FULL DIRAGRAM IMAGE HERE
     - some very specific functions may not be available
     
 
-### Custom Written
+## Custom Written Software
 
 - description
     - software that is specially developed for a specific company
@@ -581,6 +579,44 @@ FULL DIRAGRAM IMAGE HERE
     - support is limited to team of programmers only
     - can take a long time to develop the software
 
+
+### Mental Model
+
+- explanation?
+    - based on bliefs, not facts
+    - what user will describe as what they need
+    - deisgner must produce UI to match user's thoughts
+    - model of what users know/think about a system
+    - users create mental models very quickly (even before using any software)
+    - comes from prior experience of user
+    - designers should stick with this, or it will be hard for users
+    - user will take less time to learn (if product is similar to his mental model)
+    - will provide the user with transferrable skills
+    - training can be changed to fit user's mental model
+        - to fit the design of the interface
+
+### Conceptual Model
+
+- actual model that is given to the user
+    - through the user interface
+    - of the product
+
+### User Interface
+
+- What to consider when creating a custom user interface?
+    - how color is to be used 
+        - (color palettes)
+        - choosing color combinations
+    - layout
+        - positioning elements
+        - to ensure readability
+        - increase font size to emphasize importance of certain elements
+    - only display information the user needs
+    - decide which controls will be required
+    - which navigational aids are required
+        - navigation bar (top)
+        - side bar
+        - breadcrumb 
 
 ## User Interfaces
 
