@@ -595,6 +595,22 @@ FULL DIRAGRAM IMAGE HERE
     - training can be changed to fit user's mental model
         - to fit the design of the interface
 
+- advantages
+    - easier for user to use UI
+    - takes less time to learn how to use the UI
+    - interface is predictable as it will match their requirements
+    - user will gain transferrable skills
+        - so, easier to use other apps 
+- disadvantages
+    - range of definitions of what constitutes a mental model
+        - can cause confusion
+        - resulting in inaccurate results
+    - lack of clear methodology to use
+        - leading to a bias
+        - based on designers own intepretation
+    - little research
+    - maybe difficult to match user interface to user's perception of real world   
+
 ### Conceptual Model
 
 - actual model that is given to the user
