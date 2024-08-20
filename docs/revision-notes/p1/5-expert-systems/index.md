@@ -172,18 +172,3 @@ All Past Paper Questions: https://docs.google.com/document/d/14POvsigutX83XWY9ES
 - used to arrive at a particular conclusion
 
 
-## Managment Information Systems
-
-- description
-    - helps with decision making
-    - help with project managment
-    - gather and information about various aspects, like
-        - personnel
-        - sales
-        - inventory
-        - production
-    - to create reports
-    - to evaluvate company's performance
-    - to compare reports (daily, weekly, monthly, anually)
-    - to spot trends in revenue / growth / profit
-    - to assist them in making predictions about company
