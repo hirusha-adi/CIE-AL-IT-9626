@@ -521,6 +521,28 @@ FULL DIRAGRAM IMAGE HERE
 
 ### More Stuff
 
+- word processing software vs spreadsheet software
+    - similarities
+        - allows users to enter numeric and text data into a report
+        - can perform calculations using formulae and functions
+        - let users format text with fonts, colors, etc...
+        - allow importing of graphics like images and charts
+        - includes ability to save files in many formats
+        - have spelling and grammar checking
+        - has search and replace functions
+        - have page formatting options, headers, footers, etc...
+    - differences
+        - text alignment and page margins are handled in different ways
+        - spreadsheet   
+            - users can create models
+                - create "what is" scenarios
+            - uses cells, rows and columns to hold data
+        - word processing
+            - can produce reports & mail merge
+            - only has basic functions to aid calculations
+            - doesnt restrict where data can be entered (no cells)
+            - includes word count feature
+
 -  cross application support (why cannot import word file to spreadsheet file)?
     - word processing files are word processing file type
     - spreadsheets are a different type of files
@@ -1062,6 +1084,20 @@ IMAGE HIERARCHIAL
     - examples
         - .txt (text): can be loaded by most word processing software
         - .csv (command seperated values): can be loaded by most spreadsheet software
+            - description
+                - a text file
+                - with data (including empty data)
+                - seperated by a delimiter
+                    - a comma/',' is the default delimiter
+            - why used by spreadsheet software?
+                - smaller in size
+                - so, less processing time
+                - can be opened by many applications
+                - data can be exchanged easily
+                    - among different spreadsheet software
+                    - among different computers & operating systems
+                - its human readbale
+                - easier to edit manually
     - why use text file instead of using word processed file? 
         - file size is smaller
             - takes less storage space
