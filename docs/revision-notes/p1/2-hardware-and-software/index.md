@@ -513,6 +513,22 @@ FULL DIRAGRAM IMAGE HERE
 - interface between user and system software
 - eg: spread sheet software, word processing software, database software, animation software, video editing software, etc...
 
+### Word Processing Software
+
+### Spreadsheet Software
+
+- [Click here](../8-spreadsheets/index.md#spreadsheet-software) to learn more
+
+### More Stuff
+
+-  cross application support (why cannot import word file to spreadsheet file)?
+    - word processing files are word processing file type
+    - spreadsheets are a different type of files
+    - to overcome issues, 
+        - convert word processing file to **generic file format**
+    - save word processed file as .txt or .csv
+    - then, he will be able to open it
+
 ## Off the Shelf Software
 
 - description
