@@ -635,82 +635,231 @@ class Person {
 }
 ```
 
-## Comments
+## Elements
+
+### Selecting
 
 ```js
+// page information (DOM and all other stuff)
+console.log(window); // Window { ..., document: document, ... }
+
+
+// Selecting Elements (Single)
+// ---
+// by id
+var x = document.getElementById("my-id");
+
+// by query selector (like in jQuery)
+var x = document.querySelector("#my-id");       // by id
+var x = document.querySelector(".rounded-btn"); // by class
+// ---
+
+
+// Selecting Elements (Multiple)
+// a list of elements from DOM is returned
+// ---
+// by query selector
+var x = document.querySelectorAll(".rounded-btn"); // by class
+
+// by class name
+var x = document.getElementsByClassName("rounded-btn");
+
+// by tag name
+// eg: all `li`, all `ul`
+var x = document.getElementsByTagName("li");
+
+x.forEach( (item) => console.log(item) );
+// ---
 ```
 
-## Comments
+### Manipulating
 
-```js
+#### Lists
+
+In this part, we will be dealing with
+
+```html
+<ul class="items">
+    <li class="item">Item 1</li>
+    <li class="item">Item 2</li>
+    <li class="item">Item 3</li>
+</ul>
 ```
 
-## Comments
+and this Javascript
 
 ```js
+// select the `ul`
+var ul = document.querySelector(".items");
+
+// remove element from DOM
+ul.remove();
+
+// remove the first element of the ul
+ul.firstElementChild.remove()
+
+// remove the last element of the ul
+ul.lastElementChild.remove()
+
+// Change the text content of the first element
+ul.firstElementChild.textContent = 'hi'
+
+// Change the text content of the second element
+// (the element 2 has index 1 in the array of selected elements)
+ul.children[1].textContent = 'hirusha'
+
+// Change the HTML content inside an element
+ul.children[2].innerHTML = '<i>Italic</i>'
 ```
 
-## Comments
+#### Events (Easy)
 
-```js
+All events that support this approach: [Click Here](https://www.w3schools.com/js/js_events.asp)
+
+
+
+#### Events (Advanced)
+
+All events that `addEventListener` can handle: [Click Here](https://www.w3schools.com/jsref/dom_obj_event.asp)
+
+In this part, we will be dealing with
+
+```html
+<style>
+    .bg-dark {
+        background-color: grey;
+    }
+</style>
+
+<input type="submit" value="Submit" class="btn">
 ```
 
-## Comments
+and this Javascript below.
 
 ```js
+// select the button
+var btn = document.querySelector(".btn");
+
+// change styles
+// doesnt show up in VS-Code
+// but shows up in Console in chrome dev mode
+btn.style.background = 'red';
+
+
+// Event Listeners
+// (using an arrow function)
+btn.addEventListener('click', (e) => {
+    e.preventDefault();  // prevent the default action
+                         // useful when we need to write our
+                         // own implementation of the action
+    
+    console.log("click") // this will be displayed to console
+
+    console.log(e.target) // this is the current element
+                          // in this case:
+                          // <input type="submit" value="Submit" class="btn">
+
+    e.target.style.background = 'red' // change bg color of 
+                                      // current element to red
+
+    // add a class to an element  
+    document.querySelector("body").classList.add('bg-dark');
+
+    // you can basically do anything
+})
+
+
+// Event Listeners
+// (without arrow functions)
+
+btn.addEventListener('click', handlePress);
+
+// have a seperate function
+function handlePress (e) {
+    console.log("clicked!");
+}
+
+// Once you dont want that event to happen anymore
+// you can remove it
+btn.removeEventListener('click', handlePress);
+
 ```
 
-## Comments
+#### Example (Form Handling)
 
-```js
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .error {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Example Title</h1>
+    </header>
+    <section class="container">
+        <form id="my-form">
+            <h1>Add User</h1>
+            <div class="msg"></div>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email">
+            </div>
+            <input type="submit" value="Submit" class="btn">
+        </form>
+        <ul id="users"></ul>
+    </section>
+    <script src="example.js"></script>
+</body>
+</html>
 ```
 
-## Comments
-
 ```js
-```
+const myForm = document.querySelector('#my-form')
+const nameInput = document.querySelector('#name')
+const emailInput = document.querySelector('#email')
+const msg = document.querySelector('.msg')
+const userList = document.querySelector('#users')
 
-## Comments
+myForm.addEventListener('submit', onSubmit)
 
-```js
-```
+function onSubmit(e) {
+    // prevent default action
+    e.preventDefault()
+    
+    // detect incorrect login details
+    if (nameInput.value === '' || emailInput.value === '') {
+        // error
+        msg.classList.add('error')
+        msg.innerHTML = 'Please enter all fields'
 
-## Comments
+        // remove element after 3 seconds
+        setTimeout(() => msg.remove(), 3000)
+    }
 
-```js
-```
+    // if correct
+    else {
+        // create custom element (an `li`)
+        const li = document.createElement('li');
+        li.appendChild(document.createTextNode(`${nameInput.value} : ${emailInput.value}`));
 
-## Comments
+        // Append it to the `ul`
+        userList.appendChild(li);
 
-```js
-```
-
-## Comments
-
-```js
-```
-
-## Comments
-
-```js
-```
-
-## Comments
-
-```js
-```
-
-## Comments
-
-```js
-```
-
-## Comments
-
-```js
-```
-
-## Comments
-
-```js
+        // clear fields
+        nameInput.value = '';
+        emailInput.value = '';
+    }
+}
 ```
