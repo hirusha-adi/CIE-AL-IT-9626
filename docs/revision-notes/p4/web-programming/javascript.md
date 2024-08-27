@@ -441,6 +441,8 @@ console.log(todoCompleted); // ['Take out trash']
 
 ## Conditionals
 
+### Normal Way
+
 ```js
 // using '=='
 var x = 10;
@@ -462,6 +464,8 @@ if (x === 10) {
 }
 
 // else if & else (optional)
+// can use as many `else if` as required
+// always ends with `else`
 var x = 10;
 if (x > 10) {
     console.log('x is greater than 10');
@@ -490,14 +494,145 @@ if (x > 6 && y > 10 ) {
 } 
 ```
 
-## Comments
+### Other
 
 ```js
+const x = 11;
+
+// ternary Operator
+// for quick one-liner if-else
+const result = x > 10 ? 'True' : 'False'
+console.log( result );  // 'True'
+                        // 11 is greater than 10
+
+
+// Swicth-Case
+// can be used in Menus
+switch (result) {
+    case 'True':
+        console.log('result was True');     // this will run
+        break;
+    case 'False':
+        console.log('result was False');
+        break;
+    default:
+        console.log('result was not True nor False')
+        break;
+}
 ```
 
-## Comments
+## Functions
+
+### Normal Functions
 
 ```js
+var x;
+
+// Just get stuff done
+function addNum(n1, n2) {
+    console.log(n1 + n2);
+    // returns `undefined` by default
+}
+x = addNum(2, 3); // outputs: 5
+console.log(x); // undefined
+                // because nothing is being returned
+
+
+// while getting stuff done,
+// we can also return the answer
+function addNum(n1, n2) {
+    var ans = n1 + n2
+    return ans;
+}
+x = addNum(2, 3);   // just runs the function
+console.log(x);     // 5 
+
+
+// default values to function arguments
+//      they are the values that we pass in
+function addNum(n1 = 2, n2 = 3) {
+    console.log(n1 + n2);
+}
+addNum(); // 5
+```
+
+### Arrow Functions
+
+```js
+
+// `=>` is called the 'fat arrow'
+const addNum = (n1 = 2, n2 = 3) => {
+    let ans = n1 + n2;
+    console.log(ans);
+}
+addNum();
+
+// if we only have one expression for the function
+// like lambda functions in python
+const addNum = (n1 = 2, n2 = 3) => console.log(n1 + n2);
+
+// or if we want to return it
+// note that no 'return' keyword is being used
+const addNum = (n1 = 2, n2 = 3) => n1 + n2;
+
+// if we have one argument
+const addFive = n1 => n1 + 5;
+addFive(3); // returns: 8
+```
+
+### as Objects
+
+```js
+// constructor function
+function Person(fName, lName, dob) {
+    // properties
+    this.fName = fName;
+    this.lname = lName
+    this.dob = new Date(dob)
+
+    // methods
+    this.getBirthYear = function () {
+        return this.dob.getFullYear(); // for Date object
+    }
+};
+
+// methods can be also defined outside of the main function
+Person.prototype.getFullName = function () {
+    return `${this.fName} ${this.lName}`;
+}
+
+// instantiate objects
+const p1 = new Person('John', 'Doe', '4-3-1980');
+const p2 = new Person('Jane', 'Doe', '3-6-1970');
+
+console.log( p1.getBirthYear() ); // 1980
+console.log( p1.getFullName() ); // 'John Doe'
+```
+
+## Classes
+
+Object Oriented Programming stuff. This is the new way. Using that function is the old way.
+
+Classes were introduced in ES6 (2015)
+
+```js
+// class
+class Person {
+    constructor (fName, lName, dob) {
+        // properties
+        this.fName = fName;
+        this.lname = lName
+        this.dob = new Date(dob)
+    }
+
+    // methods
+    getBirthYear = function () {
+        return this.dob.getFullYear(); // for Date object
+    }
+    getFullName = function () {
+        return `${this.fName} ${this.lName}`;
+    }
+}
 ```
 
 ## Comments
