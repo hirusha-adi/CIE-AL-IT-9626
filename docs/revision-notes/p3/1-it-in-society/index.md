@@ -7,6 +7,30 @@ All Past Paper Questions: https://docs.google.com/document/d/1DZ5rPZt_6-QjTdRkcW
 
 ## Social Media
 
+- impact on individuals
+    - advantages
+        - can connect with people over long distances
+        - entertainment reduces stress
+        - improves quality of life
+        - encourages to,
+            - give up smoking
+            - exercise
+            - and live in a healthy lifestyle
+        - change in attitude 
+        - reduces sense of isolation
+    - disadvantages
+        - increase psychological disorders
+            - people compare their life to materialistic stuff posted by others
+        - increased jealousy
+        - may lead to cyber-bullying
+        - is addictive
+            - with withdrawal symptoms
+        -  less self satisfaction
+        - using for long time can lead to health issues
+            - eye strain
+            - neck pain
+            - etc...
+
 - in healthcare
     - uses
         - treatments can be dicussed and shared
@@ -33,6 +57,9 @@ All Past Paper Questions: https://docs.google.com/document/d/1DZ5rPZt_6-QjTdRkcW
     - government data mining of social media trends 
         - users can be involved in design of government policies
 
+- news organizations
+    - pg.21
+
 ## Learning
 
 - motivate students
@@ -49,6 +76,27 @@ All Past Paper Questions: https://docs.google.com/document/d/1DZ5rPZt_6-QjTdRkcW
     - allows to learn at own pace
     - student has more control
     - self-assessment with instant feedback
+
+## Digital Currencies
+
+- risks to economy
+    - risk to monetary stability
+    - inflation might happen
+        - if digital currency's value increases
+        - reduces value of traditional currency
+    - lack of control
+        - risks of fraud
+        - can be used in money laundering
+        - and other illegal activities
+        - government cannot regulate the economy
+    - price is very volatile
+        - huge fluctuations in price
+        - so, risky for buyers and sellers
+    - exposes to risk of suddent financial loss
+    - risk of system-wide fraud
+    - risk of fragmentation of economy
+        - digital currencies only used by small number of users
+    - anonymous transactions
 
 ## Transcations
 
@@ -82,3 +130,25 @@ All Past Paper Questions: https://docs.google.com/document/d/1DZ5rPZt_6-QjTdRkcW
             - to prevent money laundering
         - cards are usually not transferrable
         - no cap on charges cuz user is not identified 
+
+## Other
+
+- UHD TV
+    - Ultra High Definiton Tele-Visions
+    - is 4000x8000 pixels approx.
+    - has native aspect ratio of 16:9 most of the time
+    - more engaging, more enjoyable
+    - using more streaming services
+        - due to more availability of UHD media content
+        - increasing internet usage
+        - need to upgrade telecommunication lines 
+    - enhanced gaming experience
+        - more realistic
+    - high power usage comparatively
+    - physically large
+    - might get addicted
+        - and binge-watch
+        - health issues, 
+            - eg: obese
+            - poor sleep patterns
+    - not having it means sad feeling, depressed.
