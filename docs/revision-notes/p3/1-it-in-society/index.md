@@ -35,10 +35,13 @@ All Past Paper Questions: https://docs.google.com/document/d/1DZ5rPZt_6-QjTdRkcW
         - can be tagetted at speicifc gorups of people
         - results gathered more quickly 
             - (less further processing required)
+        - easier to analyze
         - automatic analysis of results
         - usually no time contraints to fill in 
         - can hav customized questions depending on previous answers
             - but old not-online questionnaires do not 
+        - large amounts of information can be gathered
+            - in a short period of time
     - disadvantages
         - small number of respondent to provide meaningful results
         - no interviewer to ask follow-up questions
@@ -64,6 +67,8 @@ All Past Paper Questions: https://docs.google.com/document/d/1DZ5rPZt_6-QjTdRkcW
         - questions can be explained if any doubts
         - language diffuclties can be resolved
         - can ask open ended questions
+        - questions can be changed
+            - depending on previous responses 
         - interviewer can direct the focus of questioning to collect details
         - interviewees own details are collected
         - interviewees not influenced by others in the group
@@ -81,9 +86,23 @@ All Past Paper Questions: https://docs.google.com/document/d/1DZ5rPZt_6-QjTdRkcW
             - due to low availability of interviewers
         - respondents may not give honest answers
         - might be biased (due to interviewer inteference)
+        - might give answers which inteviewers might want to hear
+        - should analyze everything manually
+        - cannot move away from script
 
-- questionnaires vs interviews vs observations
 
+- observations
+    - effectiveness
+        - primary research, so its valid
+        - can check accuracy of data themselves
+        - can be used where no speaking is possible
+        - no need agreement/consent with participants
+        - not affective for uncertain events
+        - some events cannot be observed
+            - eg: feelings / emotions
+        - observers need to have more technical knowledge
+        - slow
+        - results difficult to validate
 
 ## Social Media
 
@@ -138,6 +157,19 @@ All Past Paper Questions: https://docs.google.com/document/d/1DZ5rPZt_6-QjTdRkcW
         - marginal values can be shared to audience
         - views has moved balance of power from few to many people.
         - allows people to share views easily
+    - changed social patterns
+        - can contact politicians, organizations, etc...
+        - increasing influence
+        - fake news can spread easily
+        - can connect with family much often
+        - upto-date news
+        - hard to keep personal stuff secret
+        - can be cyber bullied
+        - can be more isolated from family (real world interactions)
+        - less trusting friends can share personal information
+        - personal details published leading to vulnerability and identity theft
+        - background checks by employers will be embarassing
+            - specially if controversial stuff is shared
 
 
 - in healthcare
@@ -194,7 +226,20 @@ All Past Paper Questions: https://docs.google.com/document/d/1DZ5rPZt_6-QjTdRkcW
 
 ## Learning
 
-- online-learning
+- online
+    - types
+        - recorded
+            - use video/audio only in a linear sequence
+            - no user input required
+        - interactive
+            - set of structured web pages
+            - navigated by different routes chosen by the learner
+            - can use combination of text/images/video/animations (in any order)
+            - user input is required
+    - characteristics
+        - a self-study activity
+        - has a specific learning outcome
+        - delivered via internet
     - how
         - recorded videos / screenshots / notes presented
         - can inclde narration to explain topics 
@@ -215,18 +260,27 @@ All Past Paper Questions: https://docs.google.com/document/d/1DZ5rPZt_6-QjTdRkcW
         - tutorials can be studies in any order
             - according to what the student wants and likes
         - can get instant feedback to pre-set tests/tasks
+        - students can have customized + personalized courses
+        - can have 'live' interaction with tutors
+        - no travel costs
+        - saves time spent travelling
     - disadvantages
         - need reliable internet connection
         - tutorial may not be at appropriate level for an individual student
         - less motivation due to no teacher
         - might miss important study material due to lack of guidance
         - teacher feedback may not be fast enough to resolve problems
+        - younger students cannot use this effectively
+            - they cannot self-study well
+        - disabled people might have difficulty using a computer
+        - lack of digital literacy will make it hard to use
+        - needs good internet connection (expensive)
+        - 
 
 - motivate students
     - advantages
         - more accessible to students at convenient times
         - let them take small tests regularly
-        - 
         - make the learning process interactive, eg: quizzes
         - directs learning to specific goals
         - can lead to increased effort
@@ -272,6 +326,24 @@ All Past Paper Questions: https://docs.google.com/document/d/1DZ5rPZt_6-QjTdRkcW
     - students will have no practical experience
     - some students will put less time to course and fail it
         - because nobody is there to restrict and stuff...
+- MOOC vs. Online Tutorials/Learning
+    - similarities
+        - use WWW
+        - interactive and uses multimedia
+        - bought off-the-shelf or custom built
+        - students learn in isolation, alone
+    - differences
+        - MOOC
+            - provides interactive user forms
+            - leads to loss of control by instructors
+            - covers more content
+            - easily scalable to encompass more content
+            - focus more on context
+            - content evolves dynamically through learner participitation
+        - Online Learning/Tutorials
+            - fixed in aims and objectives 
+            - focus more on content
+            - close ended with static content
 
 ### CBT
 
@@ -529,12 +601,40 @@ All Past Paper Questions: https://docs.google.com/document/d/1DZ5rPZt_6-QjTdRkcW
             - hard to do instant messaging
     - smartphones
         - advantages
+            - can search information from anywhere
+                - (with internet access)
+            - can search books / articles without visiting library
+            - can be used to set reminders + alarms
+            - can type quick notes in phone
+            - can coordinate social activities
+            - can be used to monitor health
         - disadvantages
-
+            - using phone while exercising slows us down
+            - reduced physical social interaction
+            - easy to get distracted
+            - can be used to harras individuals
+            - can cheat exams
+            - reduce ability to have face-to-face interactions
+            - might grow anti-social behaviour
 
 ## Brain Rot
 
 - e-shopping website
+    - impact on society
+        - more convenient to shoppers
+        - time/money saved for travelling
+        - less traffic congestion
+        - less time to search and order
+            - (compared to walking physically, aisle by aisle)
+        - more choices available
+        - cheap startup costs for bussiness
+        - creates jobs for IT workers
+        - loss of basic minimum-wage type cleaning + cashier kind of jobs 
+        - can operate 24x7
+        - marketplace can be accessed globally
+        - increased fraud due to online transactions
+        - we give personal information to a company
+            - data from their DBs might get stolen by hackers
     - purpose of a cart
         - accumulates goods ready for purchase
         - calculates total cost of purcahses
