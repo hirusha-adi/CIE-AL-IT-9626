@@ -29,15 +29,61 @@ All Past Paper Questions: https://docs.google.com/document/d/1DZ5rPZt_6-QjTdRkcW
         - send report for analysis
         - include a share button for participants to share with others
         - prevent multiple entries from same same participants
-        - include opt-out option to stop being re-invited for next one as well   
+        - include opt-out option to stop being re-invited for next one as well  
+    - advantages
+        - less expensive
+        - can be tagetted at speicifc gorups of people
+        - results gathered more quickly 
+            - (less further processing required)
+        - automatic analysis of results
+        - usually no time contraints to fill in 
+        - can hav customized questions depending on previous answers
+            - but old not-online questionnaires do not 
     - disadvantages
         - small number of respondent to provide meaningful results
-        - not all customers will respond
         - no interviewer to ask follow-up questions
         - might not give honest answers 
             - (if invited by email for incentives. eg: free samples / discounts)
+        - may not answer all questions (resulting in incomplete data)
+        - may understand questions differently
+        - no emotions/feelings are conveyed
+        - difficult to have precise customizations
+        - may be difficult to access by disabled people
+        - can be boring to answer
+            - so, might not get valid daat
         - cannot check if genuinely a customer
         - only customers with internet are questioned
+        - not all customers will respond
+
+- interviews
+    - advnatages
+        - allows more detailed answers
+        - allows follow up questions to be asked
+        - can see feelings/emotions of user
+        - can get a high response rate
+        - questions can be explained if any doubts
+        - language diffuclties can be resolved
+        - can ask open ended questions
+        - interviewer can direct the focus of questioning to collect details
+        - interviewees own details are collected
+        - interviewees not influenced by others in the group
+        - interviewees are more confident in on-to-one situtation
+    - disadvnatages
+        - time consuming
+        - analysis takes time
+        - more expensive, eg: 
+            - salaries, etc...
+            - requires maunal data entry
+        - quality of data depends
+        - open eneded questions maybe transcribed in different ways
+            - by different interviewers
+        - sample size is limited 
+            - due to low availability of interviewers
+        - respondents may not give honest answers
+        - might be biased (due to interviewer inteference)
+
+- questionnaires vs interviews vs observations
+
 
 ## Social Media
 
@@ -80,6 +126,19 @@ All Past Paper Questions: https://docs.google.com/document/d/1DZ5rPZt_6-QjTdRkcW
         - individuals may conform of sterotypes
             - demanded by social media
             - to 'fit in' with peers 
+    - role in an individual's life
+        - provides instant reward to human brain
+        - influences behaviour
+        - addictive, wastes time
+        - provides instant connection between people
+        - can plan meetups / parties / etc...
+        - can alter social patterns
+        - can connect with overseas people
+        - bad views & content are restricted
+        - marginal values can be shared to audience
+        - views has moved balance of power from few to many people.
+        - allows people to share views easily
+
 
 - in healthcare
     - uses
@@ -218,18 +277,48 @@ All Past Paper Questions: https://docs.google.com/document/d/1DZ5rPZt_6-QjTdRkcW
 
 - Computer Based Training
 
+## Teleworking
+
+- advantages
+    - workers have control over their time management
+    - can work from home
+    - are happer to work
+    - saves travelling costs
+    - more productive
+        - no office distractions
+    - disabled wokers are able to work (in their own familiar sorrounding)
+- disadvantages
+    - may not be able to perform well
+        - not supervised
+    - wokers feel disconnected from employee
+    - may have expenses, like internet, etc...
+    - may not be able to stop working
+    - may have to work longer
+    - may get distracted by whats in home environment 
+
+
 ## Digital Currencies
+
+- meaning
+    - currency that is non-physical
+    - allows for instantaneous transactions
+    - allows easy transactions accross countries/regions, etc...
 
 - impact to individuals
     - advantages
         - transactions are untracable
         - privacy is assured
+        - low transaction fees
         - not regulated
-        - no interest rate charges
-        - no exchange rates (can be used globally)
-        - cannot be seized
-            - as no ownership records are held
+            - no interest rate charges
+            - easier internation transactions
+                - no exchange rates (can be used globally)
+            - cannot be seized
+                - as no ownership records are held
+        - allows fasters transactions
     - disadvantages
+        - difficult to understand how to use
+        - not widely accepted by retailers
         - irreversible transactions
         - if money sent to wrong wallet address
             - its permanently lost
@@ -237,10 +326,11 @@ All Past Paper Questions: https://docs.google.com/document/d/1DZ5rPZt_6-QjTdRkcW
         - subjected to fraud claims
         - encrypted records holds values
             - but not ownership
+        - wallets can be lost
         - if wallet it stolen, cannot recover
         - if private key to access wallet is lost
             - money is lost
-        - currency might go worthless if markets fluctuate
+        - values fluctuate fluctuate
         - some countries do not allow cryptocurrency use
             - so, cannot guy goods using them 
 
@@ -332,7 +422,69 @@ All Past Paper Questions: https://docs.google.com/document/d/1DZ5rPZt_6-QjTdRkcW
         - app links to bank account
         - user authenticates payment details 
 
+- electronic funds transfer
+    - advantages
+        - more quick
+        - history recorded in detail
+        - low risk of loss
+        - no need to carry physical money
+            - safe from robbers
+        - lower transaction fees compared to non-cash methods
+        - user friendly
+        - widely accepted by both people and companies
+        - transactions can happen at anywhere with an internet connection
+        - no need to carry money around
+        - automatic payments can be made
+            - on shcedule
+            - without reminders
+            - or any intervention from the user 
+    - disadvantages
+        - amount of transaction may be limited by policy
+        - risk from cyber-criminals
+            - danger of losing stored financial data
+        - not anonymous
+        - subjected to survailance from authorities
+        - incompatibilites between e-payment systems could occur
+            - eg: VISA vs Mastercard
+        - system failiure means cannot transfer money 
+        - required an internet connection
+
+
 ## Other
+
+- Web Conferencing
+    - hardware required
+        - computer system capable of running the applications
+        - router/modem to connect to internet
+        - telephone / VoIP for audio exchange
+        - speakers to output sounds of others
+        - microphone for audio input to talk
+        - web camera for video
+        - any other specialized collaboration devices
+    - features of software
+        - should have ability to
+            - share presentations
+            - enable co-browsing of internet
+            - enable screen sharing (to view docments)
+            - implement instant messaging feature 
+                - (for attendees to chat with each other)
+                - (without interrupting the meeting)
+            - implement VoIP for voice conversations
+            - cross-platform compatibility for client software
+            - allow file sharing
+            - ability to go 'private'
+                - to allow moderators to have confidential conversations
+            - a support system to get assitance
+        - ?? how to discuss visual materials ??
+            - browsers must support HTML/Javascript/animation/web sockets, etc...
+            - users log into system
+            - manager controls sessions (and see which documents are viewed)
+            - mute/unmute controls per participants
+            - can use text chat to discuss documents
+            - whiteboard facilities to share documents
+            - screen-sharing to share documents
+            - polls to gather opinions of participants
+            - screen annotations to markup documents
 
 - UHD TV
     - Ultra High Definiton Tele-Visions
@@ -353,3 +505,62 @@ All Past Paper Questions: https://docs.google.com/document/d/1DZ5rPZt_6-QjTdRkcW
             - eg: obese
             - poor sleep patterns
     - not having it means sad feeling, depressed.
+
+- laptops vs smartphones
+    - Laptops
+        - advantages
+            - has a physical keyboard
+                - larger area to type
+                - can type with both hands (touch typing)
+            - has 
+                - larger storage
+                - larger screen 
+                    - (reduces eye strain)
+            - may have DVD drive built in, no need external ones
+            - many types of connection ports for external devices
+            - can be physically tethered, so, not easily stolen 
+        - disadvantages
+            - not very portable
+            - more easily damaged if dropped
+            - hard to carry everywhere
+            - needs more charging
+            - less battery lasting time
+            - cannot make telephone calls
+            - hard to do instant messaging
+    - smartphones
+        - advantages
+        - disadvantages
+
+
+## Brain Rot
+
+- e-shopping website
+    - purpose of a cart
+        - accumulates goods ready for purchase
+        - calculates total cost of purcahses
+    - how to set one up
+        - web server software to host the store
+        - database to store information being sold
+        - interface for staff to update database & item availability
+        - software enables customers to create accounts
+        - seucirty softwrae 
+            - checks log in details
+            - authenticates bank details
+                - most of a the time, an Integrated Payment Gateway (IPG)
+        - backup software
+        - store front view to show product details
+        - administration section gives ability to manage online shop by
+            - editing/adding products
+            - editing prices
+            - managing discounts
+            - managing shipping costs
+            - managing item availability
+        - allows theme of site to be changed
+        - allow guest account, no need to create a personal account
+        - allow customer to ship multiple addresses
+        - system for return of goods
+        - system for customer layalty rewards
+        - system for online chat / help
+        - display FAQs 
+
+
