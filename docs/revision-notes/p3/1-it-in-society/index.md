@@ -275,7 +275,6 @@ All Past Paper Questions: https://docs.google.com/document/d/1DZ5rPZt_6-QjTdRkcW
         - disabled people might have difficulty using a computer
         - lack of digital literacy will make it hard to use
         - needs good internet connection (expensive)
-        - 
 
 - motivate students
     - advantages
@@ -305,6 +304,27 @@ All Past Paper Questions: https://docs.google.com/document/d/1DZ5rPZt_6-QjTdRkcW
         - bad internet connections
             - hard to easily access course materials  
 
+- impact autonomy
+    - can learn at own pace
+    - CBT 
+        - allows control over time
+    - can use networked courses to learn at their own pace
+    - MOOCS
+        - allow control over time
+        - and which route to take
+        - allows learners to skip through content
+    - video conferencing
+        - bad control over time
+        - cuz its determined by the teacher
+    - technology allows
+        - to have more control over time
+        - learning & accessing resources at time
+    - techinical difficulties
+        - leads in missing lessons
+        - no control over inernet
+    - isolation from other learners
+        - lack of motivation
+
 ### MOOC
 
 - Massive Open Online Course
@@ -317,7 +337,19 @@ All Past Paper Questions: https://docs.google.com/document/d/1DZ5rPZt_6-QjTdRkcW
         - quizzes, interactive tasks with immediate feedback, etc...
         - online assessments
         - user forums for group discussions   
-- drawbacks
+- advantages
+    - can be organized anywhere (with intetnet)
+    - can use global resources
+    - can be any language to reflect 1st language of students
+    - can use any online tools available for students
+    - no exam pressure
+    - time zones & physical boundaries ignored
+    - reduce travel costs
+    - reduce college costs
+    - learning can happen beyond formal time scale of course
+    - encourages learning beyong syllabus
+- disadvantages
+    - need reliable internet connection
     - digitally illeterate students will find it hard to use
     - user-generated course materials may undermine the value of course
     - students with low motivation won't participate
@@ -351,6 +383,9 @@ All Past Paper Questions: https://docs.google.com/document/d/1DZ5rPZt_6-QjTdRkcW
 
 ## Teleworking
 
+- meaning
+    - use of IT systems
+    - to work remotely, from central office
 - advantages
     - workers have control over their time management
     - can work from home
@@ -367,6 +402,10 @@ All Past Paper Questions: https://docs.google.com/document/d/1DZ5rPZt_6-QjTdRkcW
     - may not be able to stop working
     - may have to work longer
     - may get distracted by whats in home environment 
+    - teleworkers liable for unknown risks
+    - difficult to monitor performance of workers
+    - increased security risk of data
+    - stealing of intellectual property owned by the company
 
 
 ## Digital Currencies
@@ -388,9 +427,18 @@ All Past Paper Questions: https://docs.google.com/document/d/1DZ5rPZt_6-QjTdRkcW
             - cannot be seized
                 - as no ownership records are held
         - allows fasters transactions
+            -so, more bussiness activity 
+        - ...
+        - requires private key
+        - unaffected by government defaults on loans
+        - uses a push model
+            - prompting cryptocurrency user
+            - to send exactly the amount
+            - without any other form of information
     - disadvantages
         - difficult to understand how to use
         - not widely accepted by retailers
+        - no intervention by governments or financial institutions
         - irreversible transactions
         - if money sent to wrong wallet address
             - its permanently lost
@@ -402,9 +450,10 @@ All Past Paper Questions: https://docs.google.com/document/d/1DZ5rPZt_6-QjTdRkcW
         - if wallet it stolen, cannot recover
         - if private key to access wallet is lost
             - money is lost
-        - values fluctuate fluctuate
+        - values fluctuates (uncrontrollably)
         - some countries do not allow cryptocurrency use
             - so, cannot guy goods using them 
+        - contributes to climate change due to power consumption
 
 - risks to economy
     - risk to monetary stability
@@ -521,10 +570,62 @@ All Past Paper Questions: https://docs.google.com/document/d/1DZ5rPZt_6-QjTdRkcW
         - system failiure means cannot transfer money 
         - required an internet connection
 
+- online banking
+    - available at any time
+    - can do financial transactions at any time
+    - no time constraints to do transactions
+    - accounts can be monitored
+    - transactions can be tracked
+    - demand for access technology
+    - decrease in personal service
+    - has led to removal of paper audit trails
+    - icnreased security threats
+
+- paying by credit card
+    - computer processing / behind the scenes
+        - reader communicates via secure wireless connection 
+            - with base station
+            - which communicates with banks
+        - mobile reader reads data from the card
+        - requests input of PIN from user
+        - PIN checked/validated against stored PIN
+        - request sent to bank to determine issuing bank
+        - request sent to card issuer
+        - authorization code sent to shop if credit available
+        - credit card is validated
+            - if valid, 
+                - process transaction
+                - amount deducted from customer's account
+                - and transfeered to shop's account
+                - print reciept from mobile reader
+            - else, refuse transaction
+
+- EDI
+    - electronic data interchange
+    - definiton
+        - computer to computer
+        - exchange of bussiness data
+        - using a standard electronic format
+        - between bussiness partners
+    - how to do transactions using EDI
+        - prepare documents to be sent
+        - organize data via human interface
+        - extract from databases
+        - translate docuemnts into EDI format
+        - convert internal data to EDI format
+        - transmit EDI documents to trading partner
+        - use VPN
+        - via EDI network provider
+            - that connects trading partners togethe
 
 ## Other
 
 - Web Conferencing
+    - meaning
+        - simulateous 2-way audio and video communications
+        - with two or more participants
+        - using telecommunication networks
+        - via the internet
     - hardware required
         - computer system capable of running the applications
         - router/modem to connect to internet
@@ -559,24 +660,38 @@ All Past Paper Questions: https://docs.google.com/document/d/1DZ5rPZt_6-QjTdRkcW
             - screen annotations to markup documents
 
 - UHD TV
-    - Ultra High Definiton Tele-Visions
-    - is 4000x8000 pixels approx.
-    - has native aspect ratio of 16:9 most of the time
-    - more engaging, more enjoyable
-    - using more streaming services
-        - due to more availability of UHD media content
-        - increasing internet usage
-        - need to upgrade telecommunication lines 
-    - enhanced gaming experience
-        - more realistic
-    - high power usage comparatively
-    - physically large
-    - might get addicted
-        - and binge-watch
-        - health issues, 
-            - eg: obese
-            - poor sleep patterns
-    - not having it means sad feeling, depressed.
+    - stuff
+        - Ultra High Definiton Tele-Visions
+        - is 4000x8000 pixels approx.
+        - has native aspect ratio of 16:9 most of the time
+        - more engaging, more enjoyable
+        - using more streaming services
+            - due to more availability of UHD media content
+            - increasing internet usage
+            - need to upgrade telecommunication lines 
+        - enhanced gaming experience
+            - more realistic
+        - high power usage comparatively
+        - physically large
+        - might get addicted
+            - and binge-watch
+            - health issues, 
+                - eg: obese
+                - poor sleep patterns
+        - not having it means sad feeling, depressed.
+    - impact
+        - large screens
+        - no loss of quality
+        - high quality connectors
+        - expensive
+        - investment in infrastructure is needed
+        - high internet usage
+        - new systems to procees h265 media
+        - requires faster processing
+        - broadcasts cannot deliver
+        - streaming requires greater bandwidth
+        - better home network setup
+        - QoS needs to be configured to ensure smooth video
 
 - laptops vs smartphones
     - Laptops
@@ -588,6 +703,7 @@ All Past Paper Questions: https://docs.google.com/document/d/1DZ5rPZt_6-QjTdRkcW
                 - larger storage
                 - larger screen 
                     - (reduces eye strain)
+                - larger storage capacity
             - may have DVD drive built in, no need external ones
             - many types of connection ports for external devices
             - can be physically tethered, so, not easily stolen 
@@ -601,6 +717,7 @@ All Past Paper Questions: https://docs.google.com/document/d/1DZ5rPZt_6-QjTdRkcW
             - hard to do instant messaging
     - smartphones
         - advantages
+            - more & easily portable
             - can search information from anywhere
                 - (with internet access)
             - can search books / articles without visiting library
@@ -608,6 +725,9 @@ All Past Paper Questions: https://docs.google.com/document/d/1DZ5rPZt_6-QjTdRkcW
             - can type quick notes in phone
             - can coordinate social activities
             - can be used to monitor health
+            - can send SMS / RCS messages
+            - can make voice calls
+            - easy internet access with 4G/5G
         - disadvantages
             - using phone while exercising slows us down
             - reduced physical social interaction
@@ -616,6 +736,25 @@ All Past Paper Questions: https://docs.google.com/document/d/1DZ5rPZt_6-QjTdRkcW
             - can cheat exams
             - reduce ability to have face-to-face interactions
             - might grow anti-social behaviour
+
+- sports
+    - impact for people
+        - design of products to improve performance
+            - eg: running shoes
+        - used in HD scoreboards
+            - updated in real time
+            - can show action on field
+                - for better viewing of game
+        - can analyze performance
+            - even using 3D models
+            - or using other tracking techniques    
+                - eg: trackers attatched to athletes
+            - more detailed results & analysis
+        - VR sports (online gaming)
+            - more people can take part
+        - more accurate scoring
+            - due to cameras
+            - to help judges
 
 ## Brain Rot
 
