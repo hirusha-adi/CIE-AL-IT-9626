@@ -31,21 +31,52 @@ title: 2. New Technologies
     - requires to understand social cues from humans
     - social cues maybe misinterpreted
 - car manufacturing
-    - robotic arm to move heavy objects
-    - robotoic end effectors carry repetitive tasks
-        - eg: fitting wheels, tightening bolts, etc...
-    - to install breakable items
-        - eg: windshields installed using suction pads
-    - to weld body panels accurately
-    - to trim fitting consistently
-    - to remove unwanted parts accurately
-    - to move hot & dangerous moldings
-    - use of force sensing technology when polishing surfaces
-    - collaboration between devices
-        - for complex tasks
-        - placing an object -> welding it
-    - use robototic vision to inspect tasks
-        - combining with AI to inspect accurately
+    - stuff
+        - robotic arm to move heavy objects
+        - robotoic end effectors carry repetitive tasks
+            - eg: fitting wheels, tightening bolts, etc...
+        - to install breakable items
+            - eg: windshields installed using suction pads
+        - to weld body panels accurately
+        - to trim fitting consistently
+        - to remove unwanted parts accurately
+        - to move hot & dangerous moldings
+        - use of force sensing technology when polishing surfaces
+        - collaboration between devices
+            - for complex tasks
+            - placing an object -> welding it
+        - use robototic vision to inspect tasks
+            - combining with AI to inspect accurately
+    - how to verify fitting / how to teach a robot is windscreen is correctly fitted to car?
+     
+- delivery systems
+    - to deliver goods
+    - requires GPS and cameras to enable robotic delivery
+    - need PIN to access colelcted goods
+    - airbone drones
+        - no need roads
+        - can travel in direct routes to recipient's places
+        - no need drivers
+        - can handle small orders over limited distances
+            - aka: 'last mile' delivery options
+        - limited carrying capacity
+        - limited range
+        - liable to interception
+        - might disrupt aircrafts
+    - ground delivery
+        - might disrupt pedestrians
+        - pavements 
+            - might be overcrowded
+            - might be subjected to local ordinances
+                - eg: use of vehicles
+        - may need special roads
+        - travels at low speeds
+        - have difficulties avoiding people, crossing roads, etc...
+    - provide assistance for elderly when collecting items
+    - robotic systems for room service
+        - but guests may not like them
+        - because these robots will have cameras & mics
+
 
 ## GPS
 
@@ -108,6 +139,23 @@ title: 2. New Technologies
         - eg: geocaching
     - geologists use for earthquake monitoring
 
+## Wearable Computers
+
+- advantages
+    - headsets can enhance monitoring
+    - better monitoring of employees
+    - can track employees
+    - can transmit data live while doing activity
+    - faults directly entered to fault database
+    - improved employee safety
+        - by remote controlling machinery
+    - sensors provide info about working environment 
+- disadvantages
+    - position of device on body might cause inaccuracies
+    - wearable devices need power, so, have to carry heavy batteries
+    - need charging, so, have downtime
+    - staff may not wish to be monitored
+
 ## AR
 
 - augmented reality
@@ -139,6 +187,18 @@ title: 2. New Technologies
     - can train at any time
     - can access training at any time
     - can train anywhere
+- in healthcare
+    - to train healthcare professionals (using simulations)
+        - safe and repeatable set of activities
+    - to perform surgeries remotely (for rural areas)
+    - VR therapy - psychological therapy
+        - Patients can interact with harmless representations of trauma-causing stimuli to reduce fear
+        - to treat depression (without drugs)
+        - can role play in a fantasy world (to manage stress)
+        - to improve the skills of autistic (+ depression) patients
+            - by providing controllable environment
+    
+
 
 ## Holographic Imaging
 
@@ -180,6 +240,19 @@ title: 2. New Technologies
         - anatomy training
         - have patient details displayed in line of sight
         - more clean, than using papers
+    - medicine
+        - advantages
+            - look inside patient without surgery
+            - look at patient from more angles
+                - instead of using exploratory surgery
+            - see whats hapenning in body 
+                - while doing procedures
+            - makes training more realastic
+        - disadvantages
+            - initial cost of machinery
+            - training costs to use software
+            - high disk storage usage 
+                - than just storing X-ray images
     - artists
         - to enhance their work
         - include 3D into their 2D images
@@ -293,12 +366,20 @@ title: 2. New Technologies
     - need to update regularly
     - need less employment of specialized designers
 - how to design a room?
-    - dimentions accurately chosen by using scaled on palette
-    - structure of room can be accurately plotted
-    - pre-loaded library of items to display in room
-    - furniture has accurate size
-    - furniture colors can be changed
-    - furniture can be positioned anywhere easily
+    - editing tools
+        - dimentions accurately chosen by using scaled on palette
+        - structure of room can be accurately plotted
+        - pre-loaded library of items to display in room
+        - furniture has accurate size
+        - furniture can be copied / added
+        - furniture colors can be changed (using fill tool)
+        - furniture can be positioned anywhere easily
+        - furniture can be flipped / rotated
+        - flip image objects
+        - fill tool to color objects
+    - tools to create 3D images
+        - push tool used to pull 2D object into 3D
+        - drag tool to move image around to show interior
     - 3D views generated
         - from any angle
         - to help customer understand more
@@ -346,6 +427,74 @@ title: 2. New Technologies
         - creating customized anatomical models for planning surgery
         - customized surgical tools to match patient
         - customized frames for use in surgical theatres 
+    - in space exploration
+        - can create 'hard-to-build' objects
+            - with complex geometry for satellites 
+            - (e.g. rocket nozzles, antennae)
+        - will save money
+        - saves weight
+        - more rigid when printed as one part
+        - can make designs simpler
+        - objects can be made with less bulk 
+            - reducing launch costs
+        - can create replacement parts to order
+        - can create specialist tools
+            - eg: medical instruments when needed
+        - no need to carry spare parts (saving space)  
+        - can cheaply make one off objects
+        - models can be quickly made
+        - can create lattice structures instead of solid. 
+            - to reduced weight
+        - can even print in space
+    - artificial blood vessels
+        - advantages
+            - no need to wait for real blood vessels to grow
+            - allows oxygen to be supplied immediately to implant
+            - vessels can be customized for invidual organs
+            - lower rejectionr ates
+    - manufacture prescription drugs at home with 3D printer
+        - advantages
+            - Chemical components of the drug can be customised at molecular level to
+            individual patient
+            - can customize to specific issue/patient
+            - personalised for specific illness
+            - chemical blueprint created 
+                - so drug can be printed at any pharmacy
+                - using specific compounds
+        - disadvantages
+            - human errors might make wrong drug
+            - incorrect dosage being used
+            - hard to verify drug creation 
+                - e.g. incorrect base materials may be used
+            - hard to regulate use of the drug
+            - cant to regulate the supply of the drugs once blueprint is
+            published
+            - cleanliness of production difficult to control
+            - could be used to produce illegal drugs.
+
+- tissue engineering (not sure where)
+    - advantages
+        - uses biochemical techniques (using biological materials) to replace biological tissues with a greater success rate in patients
+        - use of other materials like tissues is cheap
+        - dont need biological donors
+            - eg: use of artificial blood, skin
+        - reduces recovery time (for patients)
+        - reduce risk of tissue rejection
+        - can produce customized tissue
+        - artificial organs increase survival rate
+            - artificial liver, pancreas, etc...
+        - no relegious objections using donated organs
+        - can make artificial meat products
+    - disadvantages
+        - expensive
+        - original material is limited, so, must be newly developed
+        - may not be enough for development
+        - possible inclusion of hidden disease in base tissue
+        - difficult to find latent diseases
+        - might increase treatment time
+            - as tissue can take longer to synthesize 
+
+
 
 ## CAT
 
@@ -471,3 +620,24 @@ title: 2. New Technologies
         - recycle safely to not release dangerous chemicals
 
 
+
+
+- automated online assistant
+    - components
+        - Human types a request
+        - Dialog system provides interface 
+            - between human input 
+            - and assistant's database
+        - translates human input to digital format
+        - (assitant) generates human intelligible replies
+        - uses natural language processing (NLP)
+        - Avatar appears meaning help available
+        - Avatar represents a 'real' (human) assistant
+        - trust that humans reply
+        - but actually Help is generated by system
+        - System provides help that the human requested.
+    - advnatages
+        - help available 24x7
+        - less humans needed
+        - provides customized expertise
+        - increased trust by customer
