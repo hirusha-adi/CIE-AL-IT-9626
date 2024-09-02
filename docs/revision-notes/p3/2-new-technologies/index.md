@@ -39,8 +39,8 @@ title: 2. New Technologies
     - reciever analyzes 
         - the radio signals to determine distance
         - between 3 satellites
-        - calculates position
-        - using **2D or 3D trilateration**
+        - calculates position & altitude
+        - using **3D trilateration**
     - error correction data fixes atmospheric issues
     - reciever overlays position on screen
     - reciever shows visual representation of position
@@ -85,6 +85,7 @@ title: 2. New Technologies
 ## AR
 
 - augmented reality
+- overlays digital elements onto a live view of real world 
 - firefighters (how they use)
     - can be integrated to mask
     - for easily visible information
@@ -95,6 +96,131 @@ title: 2. New Technologies
     - provides realtime info of situation
     - realtime info sent back to headquarters
     - can see realtime info of others
+
+## VR
+
+- virtual reality
+- creates a 3D environment that does not include the real world
+- training firefighters
+    - cheap (except for equipment)
+    - safe environment
+    - more realastic experience
+    - more senses to experience scenario
+    - can experience many scenarios
+    - can interact with others doing the same training
+    - makes more confident
+    - can train at any time
+    - can train at any time
+    - can access training at any time
+    - can train anywhere
+
+## Holographic Imaging
+
+- uses
+    - astronount in spacecraft
+        - create heads-up display in screen
+        - use of a holographic filter
+            - to target data into forward view
+    - car manufacturing process
+        - laser light to create images
+            - of items during production 
+        - to compare dimentions
+        - for real-time quality control
+    - a doctor in hospital
+        - create 3D images of organs
+        - to practice movement before actual surgery
+        - anatomy training
+        - have patient details displayed in line of sight
+        - more clean, than using papers
+
+-  4th gen optical data storages (old syllabus, unknown)
+    - use holographic techniques
+    - use lasers to record data as holograms
+    - green laser 
+        - reads data 
+        - from interfrence fringes of hologram
+        - (near top disk surface)
+    - red laser 
+        - is the reference beam 
+        - reading mechanical addressing data 
+        - from aluminium layer at bottom
+    - Mirror dichroic layer prevents interference
+        - (refraction between the layers)
+    - Uses collinear holography 
+        - (can be read by a single optical system)
+    - store terabytes on small disks
+    - Use (photo)polymer/monomer as recording substrate (medium)
+        - medium thickness: recording capacity
+    - in UHD Blu-ray for HD videos.
+
+
+## QR Codes
+
+- functional elements
+    - positional elements
+        - 3 squares at corners to help align camera
+        - 1 small square to help camera calibrate size & angle
+    - error correction keys stored as dots
+    - version info 
+        - stored as dots
+        - near 'positional elements'
+        - to choose decoding algorithm used
+    - timing information
+        - stored as dots
+        - between 'positional elements'
+        - to help calibration
+    - dots throughout QR to store info in binary form
+    - white area around code to seperate code from background
+
+- advantages
+    - can scan with smartphone
+    - can encode any data type
+        - eg: binary
+    - scans quickly
+    - good fault tolerance 
+        - works even if damaged
+        - using error correction data
+    - store large data (unlike 1D bar codes)
+    - takes up less space on packaging
+- disadvantages
+    - expensive scanning equipment
+        - so, not everyone has acccess
+        - eg: people from africa
+    - unfamiliar people will ignore
+    - required training/teaching of idea
+    - ugly (looks like random patterns of boxes)
+    - cannot update, so, need to re-print
+    - should re-create if package becomes outdated
+    - need internet 
+
+- uses
+    - to create time-based one time passcodes
+    - mention wifi password (to connect automatically)
+    - auto login for webpages
+    - to store payment addresses
+    - used in AR to determine position of objects
+    - can send email by scanning send address
+    - to record location for tracking
+    - store contact details
+    - store calendar data
+    - store plain text (with extra details) (for tracking)
+
+- fault tolerance
+    - (why it works if damaged in QR (and not in 1D bar codes))
+    - error correction for missing info
+    - info. duplicated, so, if one lost, other will work
+    - code blocks interleaved with each other
+        - less likely to lose data
+        - on a localized damage
+    - multiple error correction blocks
+        - ensure data read from larger QR codes
+    - block size limited by design
+        - errors corrected quickly
+        - by less complex algorithms
+    - masking patterns to break up blocks of data
+        - (so the processor is not confused)   
+
+
 
 ## CAD
 
@@ -152,33 +278,62 @@ title: 2. New Technologies
 ## CAT
 
 - computer assisted translation
-- impacts (on scientici research)
-    - advantages
-        - CAT can increase speed (of translation)
-        - available faster for reference
-        - more consistent
-            - phrases have already been translated before
-            - more reliable
-        - document format becomes irrelavant
-        - readily available
-        - technical terms (jargon)
-            - retried from the database
-            - and translated accurately
-            - so, correct context
-        - can easily translate to many languages
-        - increases collaboration
-    - disadvantages
-        - contextual erros when new (unseen) content
-        - not fully understood by scientist
-        - not everything translated correctly
-        - so, misunderstanding
+
+- advantages
+    - CAT can increase speed (of translation)
+    - available faster for reference
+    - more consistent
+        - phrases have already been translated before
+        - more reliable
+    - document format becomes irrelavant
+    - readily available
+    - technical terms (jargon)
+        - retried from the database
+        - and translated accurately
+        - so, correct context
+    - can easily translate to many languages
+    - increases collaboration
+    - reduce translation time
+        - by re-cycling recurring translations
+    - reduce need for human input
+    - improves performance of human translators
+    
+- disadvantages
+    - contextual erros when new (unseen) content
+    - not fully understood by scientist
+    - not everything translated correctly
+    - so, misunderstanding
+    - localization might not be perfect
         - dialects/localizations not fully translated
-        - so, phrases misunderstood
-        - repeated translations = loss of accuracy
-        - confidentiality lost
-            - when comparing with a database
+    - so, phrases misunderstood
+    - repeated translations = loss of accuracy
+    - confidentiality lost
+        - when comparing with a database
+    - confidentiality issues
+        - (saved code (to recycle) might be available to others)
 
 
+- how its used (in software company)
+    - localization to language of country
+    - amend src code directly
+    - configurations set for target country
+    - translation tools use
+        - parsers and filters
+        - to detect translatable strings
+    - translation memmory systems re-use previous translations
+    - QA tools built into check grammar
+    - translate instructions into local language
+    - recognize phrases that cannot be directly translated
+    - adjust binary files so text is translated
+        - by passing in command line arguments
+        - or by editing a config file
+    - adjust background to local norms (cultural)
+    - adjust colors to local norm
+    - adjust to local currency
+
+
+
+## Other
 
 - prosthetics
     - CAD to design perfect fitting stuff
@@ -243,33 +398,4 @@ title: 2. New Technologies
         - need to increase recycling
         - recycle safely to not release dangerous chemicals
 
-- QR codes
-    - functional elements
-        - positional elements
-            - 3 squares at corners to help align camera
-            - 1 small square to help camera calibrate size & angle
-        - error correction keys stored as dots
-        - version info 
-            - stored as dots
-            - near 'positional elements'
-            - to choose decoding algorithm used
-        - timing information
-            - stored as dots
-            - between 'positional elements'
-            - to help calibration
-        - dots throughout QR to store info in binary form
-        - white area around code to seperate code from background
-    - why it works if damaged in QR (and not in 1D bar codes)
-        - error correction for missing info
-        - info. duplicated, so, if one lost, other will work
-        - code blocks interleaved with each other
-            - less likely to lose data
-            - on a localized damage
-        - multiple error correction blocks
-            - ensure data read from larger QR codes
-        - block size limited by design
-            - errors corrected quickly
-            - by less complex algorithms
-        - masking patterns to break up blocks of data
-            - (so the processor is not confused)   
 
