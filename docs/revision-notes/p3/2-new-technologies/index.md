@@ -148,12 +148,26 @@ title: 2. New Technologies
     - reliant on US satellite systems
         - (can be interrupted at any time)
     - can use to track vehicles without consent
-- why not provide accurate location
+- factors degrading signal (new) // why not reciever provide accurate location
     - obstacles reduces signal strength
     - weather degrades signals
     - cannot see 3 satellites with good strength
-    - low device batter
+    - low device battery
         - (hard to carry calculations and send/recieve transmissions)
+- factors degrading signal (old)
+    - atmospheric pressure
+    - signal multipath error 
+    - clock errors in reciever
+    - orbital errors (of satellites reported location)
+    - satellites may not be visible
+        - causing position errors
+    - so, will not work indoors, or underground
+    - satellite shading 
+        - because relative position of satellite at any time given is not ideal for signal reception by the reciever
+        - satellite should be located at wide angle
+        - poor geometry occurs when satellites are in line
+    - intentional degrading of satellite signal by owner
+    - to prevent military adversaries from using highly accurate gps systems 
 - uses
     - personal navigation uses
     - delivery systems
@@ -169,6 +183,8 @@ title: 2. New Technologies
     - recreational use
         - eg: geocaching
     - geologists use for earthquake monitoring
+
+
 
 ## Wearable Computers
 
@@ -204,7 +220,23 @@ title: 2. New Technologies
     - fitness brands to track activity
     - educates parents in their health
     - patients can monitor own health and be aware of changes
-
+- by police
+    - advantages
+        - body cams to record
+        - optical head-mounted technology to display information
+        - operated hands-free via voice activation
+        - wrist-worn computers to access communications sytems
+        - wifi enabled clothing to track officer
+            - monitor vital signs of officer
+            - maintaining constant communications with others
+    - disadvantages
+        - reliance on machines
+            - can remove human judgment
+        - expensive implemetation
+        - privacy invasion
+        - location and other details can be used to track the user
+        - possibility of computers being hacked
+        - loss of internet could lead to loss of sync (communication services)
 
 ## AR
 
@@ -377,7 +409,7 @@ title: 2. New Technologies
 
 ## QR Codes
 
-- functional elements
+- functional elements (new)
     - positional elements
         - 3 squares at corners to help align camera
         - 1 small square to help camera calibrate size & angle
@@ -392,6 +424,17 @@ title: 2. New Technologies
         - to help calibration
     - dots throughout QR to store info in binary form
     - white area around code to seperate code from background
+- how information is stored (old)
+    - info stored digitally
+    - as blocks of black&white squares
+    - small dots converted to binary when scanned
+    - error correction algorithm used to validation
+    - many encoding methods available
+    - three large squares store alignment data
+    - smaller sqaures store size/angle data
+    - scanned with narrow beam of light
+    - reflection from white areas read by sensor/camera
+    - take up less space on packaging
 
 - advantages
     - can scan with smartphone
@@ -441,6 +484,31 @@ title: 2. New Technologies
     - masking patterns to break up blocks of data
         - (so the processor is not confused)   
 
+- benefits to avertisers
+    - info instantly available
+    - advertiser decides what happens when its scanned
+    - QR codes are in an ISO standard
+        - to ensure its accessible to all
+    - QR points to website
+    - available info updated easily
+    - re-printing of advertising materials is reduced
+
+- user, malicious code execution risk
+    - code may contain url 
+    - web link followed
+    - url contains trojan
+    - it will infect device
+    - trojan is javascript
+        - eg: BeeF: XSS framework
+    - which contacts servers that transmits malware to device
+    - use cross-site scripting
+        - on a legitamte website
+        - to insert QR code
+        - into another legit site
+    - when a user goes to legit site
+        - and scans qr code
+        - data sent to hackers
+    - malicious qr code can allow unauthorized people to control device
 
 
 ## CAD
@@ -532,11 +600,17 @@ title: 2. New Technologies
         - so, adds to production costs
 - disadvantages
     - limited product size
+        - depends on the size of the 3d printer
     - limited range of raw materials can be used
+    - limited materials available
+        - 
     - designs can be stolen by competitors
     - hard to see whats fake and real in blueprint
         - as raw materials are the same
-    - loss of production skill
+    - ?? loss of production skill ??
+    - copyright issues, since anyone can print it
+    - can make dangerous items easily, eg: guns
+    - slow
 - uses
     - produce motherboard
         - quicker to produce items
@@ -724,6 +798,13 @@ title: 2. New Technologies
                 - vision enhancing algorithms produce HD video
                 - use of VR to immerse people in real world
                 - dialouge user interface to control devices
+                - retinal implants connected to camera
+                    - signals allow brain to interpret environment
+                    - wearer has some sense around
+                - night vision goggles to enhance low light vision
+                - used by surgeons when carrying our surgery
+                    - surgery can be carried out more precisely
+                    - improves patient recovery rates
             - walking around
                 - shape outlines for objects (to make it more apparent)
                 - enlarge signs to make words more readable
