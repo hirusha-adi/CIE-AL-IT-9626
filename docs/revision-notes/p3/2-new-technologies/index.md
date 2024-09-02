@@ -30,6 +30,7 @@ title: 2. New Technologies
     - collaboration is possible
     - requires to understand social cues from humans
     - social cues maybe misinterpreted
+
 - car manufacturing
     - stuff
         - robotic arm to move heavy objects
@@ -48,7 +49,37 @@ title: 2. New Technologies
         - use robototic vision to inspect tasks
             - combining with AI to inspect accurately
     - how to verify fitting / how to teach a robot is windscreen is correctly fitted to car?
-     
+        - positional commands entered to GUI
+        - specify X-Y-Z positions
+        - lead-by-the-nose method
+            - one person holding the end-effector
+            - and moving to positions
+            - with recording of motions
+        - off-line programming to input position as codes
+        - mapping positions in a graphic format
+        - use hand held controllers 
+            - to move end-effectors
+            - and program positions at the same time
+        - robot simulation tools to replicate positions
+        - record data for programming real robot  
+
+- impact to environment
+    - use of chemicals in crops
+    - remote monitoring of global warming
+    - autonomous data gathering
+        - eg: to monitor pollution (in hazardous areas)
+    - food packaging without human contamination
+    - to reduce environmental waste
+        - solar panel cleaning robots use less water than humans
+        - less energy in dark factories 
+            - heating & lighting is not important
+        - (vehicle) traffic reduction, less pollution
+    - negative impacts
+        - more power use (over manual labor)
+        - more use of scarce resources
+            - eg: rare metals to manufacture robots
+        - environmental damage caused by extracting rare metals
+
 - delivery systems
     - to deliver goods
     - requires GPS and cameras to enable robotic delivery
@@ -155,11 +186,40 @@ title: 2. New Technologies
     - wearable devices need power, so, have to carry heavy batteries
     - need charging, so, have downtime
     - staff may not wish to be monitored
+- healthcare enhancements
+    - help doctors monitor disease
+    - less time can be put to tracking data
+    - wearable systems, eg: e-skin
+        - patients including sensors
+        - send data direct to doctors
+    - enhance patient doctor interaction
+    - patients have more access to data
+    - doctors can monitor remotely
+    - assist in surgery
+    - can overlay images onto procedure
+    - remote guidance during procedures
+    - allow patients to and manage and control pain
+    - implantable systems to control diabetes / blood pressure / etc...
+    - improve employment of personal fitness regimes
+    - fitness brands to track activity
+    - educates parents in their health
+    - patients can monitor own health and be aware of changes
+
 
 ## AR
 
 - augmented reality
-- overlays digital elements onto a live view of real world 
+- description (short)
+    - overlays digital elements onto a live view of real world 
+- description (medicine)
+    - computer generated supplement to real world
+    - in real time
+    - reality is overlayed with artificial information
+    - use to
+        eg: project remote surgeons hand into real operation
+    - used to show nurses/doctors (by means of handheld scanner)
+    - where arteries and veins are in body
+    - allows students to manipulate a skeletal model
 - firefighters (how they use)
     - can be integrated to mask
     - for easily visible information
@@ -174,7 +234,13 @@ title: 2. New Technologies
 ## VR
 
 - virtual reality
-- creates a 3D environment that does not include the real world
+- description (short)
+    - creates a 3D environment that does not include the real world
+- description (medicine)
+    - computer generated replacement of real world
+    - simulates physical presence in real world
+    - used in exposure therapy
+        - eg: overcome fears such as dying
 - training firefighters
     - cheap (except for equipment)
     - safe environment
@@ -253,28 +319,60 @@ title: 2. New Technologies
             - training costs to use software
             - high disk storage usage 
                 - than just storing X-ray images
+        - uses
+            - X-ray holography can be used for imaging internal organs of the body
+            - No need for invasive surgery
+            - Used for living biological specimens
+            - With very high resolution without the need for sample preparation
+            - Endoscopic holography is used for producing high resolution 3D imaging
+            - With no contact/non-destructive measurements inside the natural cavities of intemal organs
+            - Ophthalmology use to correct problems with lenses implanted after cataract surgery
+            - In dentistry to store dental records of tooth prints as training aids forstudents
+            - In otology (ear studies) to study the vibrations forces/how the inner ear bones move
+            - In orthopaedics to measure strains/forces on fixation pins/rods
+            - 3D images of biological specimens can be created from a series of 2D radiological images
+            - Using holographic stereogram techniques/conical stereogram/ multiplex hologram
+            - Holographic contour generation is useful for measurements of biomedical specimens.
     - artists
         - to enhance their work
         - include 3D into their 2D images
-    -  4th gen optical data storages
+    -  4th gen optical disk storages
         - use holographic techniques
-        - use lasers to record data as holograms
-        - green laser 
-            - reads data 
-            - from interfrence fringes of hologram
-            - (near top disk surface)
-        - red laser 
-            - is the reference beam 
-            - reading mechanical addressing data 
-            - from aluminium layer at bottom
-        - Mirror dichroic layer prevents interference
-            - (refraction between the layers)
-        - Uses collinear holography 
-            - (can be read by a single optical system)
-        - store terabytes on small disks
-        - Use (photo)polymer/monomer as recording substrate (medium)
-            - medium thickness: recording capacity
-        - in UHD Blu-ray for HD videos.
+        - how they work (1)
+            - use lasers to record data as holograms
+            - green laser 
+                - reads data 
+                - from interfrence fringes of hologram
+                - (near top disk surface)
+            - red laser 
+                - is the reference beam 
+                - reading mechanical addressing data 
+                - from aluminium layer at bottom
+            - Mirror dichroic layer prevents interference
+                - (refraction between the layers)
+            - Uses collinear holography 
+                - (can be read by a single optical system)
+            - store terabytes on small disks
+            - Use (photo)polymer/monomer as recording substrate (medium)
+                - medium thickness: recording capacity
+            - in UHD Blu-ray for HD videos
+        - how they work (2)
+            - green and red lasers used
+            - both lights sent in a parallel stream
+            - There is minimal divergence
+            - Output about 1 watt
+            - Green laser 
+                - reads the data from top layer of disc
+            - Red laser 
+                - reads reference data stored on aluminium layer
+                - at bottom of disc layers
+            - Data stored as holographic laser interference patterns
+            - servo information accurately aligns the read head position over the disc
+            - (dichroic) mirror allows the red laser light to pass while reflecting the green layer
+            - Stores 60,000 bits per pulse in densely packed tracks
+            - Compared to a single pulse for current optical storage
+            - Can store 100 GB to 1 TB
+            - Phase storage systems can store more data.
 
 
 ## QR Codes
@@ -388,6 +486,22 @@ title: 2. New Technologies
 
 ## CAM
 
+- advantages
+    - more consistent results during production 
+        - (even at large scale)
+    - faster production
+    - can produce complex products, faster
+    - CAD produces instructions
+        - and sends to CAM
+        - electronically obviating need for manual programming
+- disadvantages
+    - slow for one off products
+    - need seperate CAM machine for each product
+    - expensive software
+        - difficult to maintain
+    - expensive to give training (to users)
+    - errors can affect whole production
+
 ## 3D Printing
 
 - how objects are created? / how 3D printing works?
@@ -407,10 +521,15 @@ title: 2. New Technologies
     - easy customization of complex designs
     - quick prototyping
     - cheaper production
+    - great consistency
+    - fast production
     - cost effective for low volume production
     - reduces need to store components as they can be printed on demand
     - less conventional manufacturing machinery
     - more jobs for technicians to maintain printers
+    - can produce sophisticated shapes
+    - more expensive manual machinery
+        - so, adds to production costs
 - disadvantages
     - limited product size
     - limited range of raw materials can be used
@@ -419,14 +538,17 @@ title: 2. New Technologies
         - as raw materials are the same
     - loss of production skill
 - uses
-    - medicine / surgeons
-        - re-create damaged bone structures
-        - make custom surgical implants (to match patient's anatomy)
-        - surgical prostheses to aid recovery
-        - bioprinting tissues for surgical procedures
-        - creating customized anatomical models for planning surgery
-        - customized surgical tools to match patient
-        - customized frames for use in surgical theatres 
+    - produce motherboard
+        - quicker to produce items
+        - great consistency
+        - can have a high production rate
+            - can run continously without supervision
+        - can produce sophisticated shapes
+        - more expensive manual machinery
+            - so, adds to production costs
+        - high speed of production
+        - CNC can take a long time to produce
+        - need to be accurate to ensure production of item is properly carried out
     - in space exploration
         - can create 'hard-to-build' objects
             - with complex geometry for satellites 
@@ -446,6 +568,14 @@ title: 2. New Technologies
         - can create lattice structures instead of solid. 
             - to reduced weight
         - can even print in space
+    - medicine / surgeons
+        - re-create damaged bone structures
+        - make custom surgical implants (to match patient's anatomy)
+        - surgical prostheses to aid recovery
+        - bioprinting tissues for surgical procedures
+        - creating customized anatomical models for planning surgery
+        - customized surgical tools to match patient
+        - customized frames for use in surgical theatres 
     - artificial blood vessels
         - advantages
             - no need to wait for real blood vessels to grow
@@ -577,23 +707,35 @@ title: 2. New Technologies
     - sensors use synthetic nerve system to detect touch 
 
 
-- visually impaired (blind) people
-    - how their experience is enhanced
-        - built in magnifier tools
-        - implantable miniature automatic telescopes to improve vision
-            - to enlarge image over the retina
-        - automatic contact lenses to improve vision
-            - in macular degeneration sufferrers
-        - of LED to focus on retina
-        - system to divert focus to other parts on retina
-        - retinal prostheses when light sensitive cells degenerate
-        - artificial retina with computer chips on silicon implanted into retinal position  
-        - smart glasses using screens (infront of eyes)
-        - vision enhancing algorithms produce HD video
-        - use of VR to immerse people in real world
-        - dialouge user interface to control devices
-
-
+- vision enhancement technology
+    - uses
+        - for visually impaired (blind) people
+            - general support
+                - built in magnifier tools
+                - implantable miniature automatic telescopes to improve vision
+                    - to enlarge image over the retina
+                - automatic contact lenses to improve vision
+                    - in macular degeneration sufferrers
+                - of LED to focus on retina
+                - system to divert focus to other parts on retina
+                - retinal prostheses when light sensitive cells degenerate
+                - artificial retina with computer chips on silicon implanted into retinal position  
+                - smart glasses using screens (infront of eyes)
+                - vision enhancing algorithms produce HD video
+                - use of VR to immerse people in real world
+                - dialouge user interface to control devices
+            - walking around
+                - shape outlines for objects (to make it more apparent)
+                - enlarge signs to make words more readable
+                - change objects colors to be visible
+                - detect objects and produce sounds representing them
+                - user will learn these sounds and manage easily
+                - infra-red light amplified for enhanced vision in dark
+        - military operations
+        - night driving (eg: truck drivers)
+        - age related vision problems
+        - detect chemicals for forensics
+        - detecting heat (eg: from people, like using thermal camera)
 
 - e-waste
     - impact
