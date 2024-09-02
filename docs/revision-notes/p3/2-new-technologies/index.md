@@ -4,6 +4,32 @@ title: 2. New Technologies
 
 ## Robotoics
 
+- meaning
+    - design and construction of robots
+    - operation of robots
+    - computer systems giving control-feedback into robots
+- advantages (AI with robotics)
+    - close human-robot interaction
+    - can use for home work
+        - (reducing human work)
+    - to perform critical sugeries
+    - can speed up surgeries by assisting
+    - to help sick elderly
+- disadvantages (AI with robotics)
+    - sharing workspaces of humans
+    - high power costs (energy consumption)
+        - AI robots use more power
+        - than simple robots
+    - not as adaptable as humans
+    - replaces human jobs
+    - more challenging to interac with
+        - specially if they try to act as human
+    - social interaction may require safety procedures
+    - might cause danger/embarassment to humans
+    - development f rules for AI-driven robots
+    - collaboration is possible
+    - requires to understand social cues from humans
+    - social cues maybe misinterpreted
 - car manufacturing
     - robotic arm to move heavy objects
     - robotoic end effectors carry repetitive tasks
@@ -116,7 +142,29 @@ title: 2. New Technologies
 
 ## Holographic Imaging
 
+- how its made?
+    - laser lights
+        - from different directions
+        - to form interference patterns
+    - medium & beams do not move (are stationary)
+    - object beam
+        - passed through scene onto recording medium (polymer plate)
+    - and reference beam
+        - hits only recording medium
+        - used to re-create hologram from patten on plate
+            - by diffraction
+    - both these beams create interference patterns, creating images
+    - hol. images copied by embossing
+    - hol. images viewed in white light
 - uses
+    - hol. images on bank notes
+        - difficult to forge
+        - information secretly stored
+            - to identify source of image
+    - on credit cards / passports
+        - for security
+        - to identify person / brand
+        - hard to copy
     - astronount in spacecraft
         - create heads-up display in screen
         - use of a holographic filter
@@ -132,26 +180,28 @@ title: 2. New Technologies
         - anatomy training
         - have patient details displayed in line of sight
         - more clean, than using papers
-
--  4th gen optical data storages (old syllabus, unknown)
-    - use holographic techniques
-    - use lasers to record data as holograms
-    - green laser 
-        - reads data 
-        - from interfrence fringes of hologram
-        - (near top disk surface)
-    - red laser 
-        - is the reference beam 
-        - reading mechanical addressing data 
-        - from aluminium layer at bottom
-    - Mirror dichroic layer prevents interference
-        - (refraction between the layers)
-    - Uses collinear holography 
-        - (can be read by a single optical system)
-    - store terabytes on small disks
-    - Use (photo)polymer/monomer as recording substrate (medium)
-        - medium thickness: recording capacity
-    - in UHD Blu-ray for HD videos.
+    - artists
+        - to enhance their work
+        - include 3D into their 2D images
+    -  4th gen optical data storages
+        - use holographic techniques
+        - use lasers to record data as holograms
+        - green laser 
+            - reads data 
+            - from interfrence fringes of hologram
+            - (near top disk surface)
+        - red laser 
+            - is the reference beam 
+            - reading mechanical addressing data 
+            - from aluminium layer at bottom
+        - Mirror dichroic layer prevents interference
+            - (refraction between the layers)
+        - Uses collinear holography 
+            - (can be read by a single optical system)
+        - store terabytes on small disks
+        - Use (photo)polymer/monomer as recording substrate (medium)
+            - medium thickness: recording capacity
+        - in UHD Blu-ray for HD videos.
 
 
 ## QR Codes
@@ -259,6 +309,19 @@ title: 2. New Technologies
 
 ## 3D Printing
 
+- how objects are created? / how 3D printing works?
+    - computer file 
+        - has STL instructions to create object
+            - SLT: standard triangle lanugage
+        - made from CAD software
+    - breaks objects into layers
+    - creates solid objects from computer instructions
+    - object created from liquid/powder material
+    - materials added layer by layer
+    - material in layers of binder material and powder
+    - printing finished by removing supporting parts
+    - oversize printing is removed
+    - finishing given by fine grinding/polishing
 - advantages
     - easy customization of complex designs
     - quick prototyping
@@ -274,6 +337,15 @@ title: 2. New Technologies
     - hard to see whats fake and real in blueprint
         - as raw materials are the same
     - loss of production skill
+- uses
+    - medicine / surgeons
+        - re-create damaged bone structures
+        - make custom surgical implants (to match patient's anatomy)
+        - surgical prostheses to aid recovery
+        - bioprinting tissues for surgical procedures
+        - creating customized anatomical models for planning surgery
+        - customized surgical tools to match patient
+        - customized frames for use in surgical theatres 
 
 ## CAT
 
