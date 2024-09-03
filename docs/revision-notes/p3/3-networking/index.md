@@ -26,11 +26,53 @@ Questions left out:
         - level of SNR ratio (signal to noise ratio)
         - number of signal levels used to represent data
 
+## Network Classification
+
+### LAN
+
+### WAN
+
+### Comparisons
+
+
 ## Network Models
 
 ### TCP/IP Model
 
 ### OSI Model
+
+### Frame Relay
+
+- why
+    - supports high speed data transmission
+    - connectionless service
+        - each packet through network
+        - contains address information
+    - can use virtual circuits
+        - they appear permanent to users
+    - multiplexing of virtual circuits to share network bandwidth
+    - can only detect errors at Data Link layer
+        - so, no flow control
+    - faulty frames dropped
+        - no request for re-transmission
+    - supports variable frame sizes
+    - operated at Physical layer and Data Link Layer
+        - so, can be used for internet
+    - no error control
+        - so it requires less reliable method 
+        - for transmission    
+- advantages
+- disadvantages
+    - frames delivered unreliably
+        - have to be retransmitted if sender is aware (to resend)
+        - frames may go missing
+            - no acknowledgement from recieving packets
+        - packets may not be delivered in same order as sent
+        - no flow control
+            - cannot stop data transmission 
+            - if network is congested
+            - so, data is lost
+        - data is lost if frame doesnt get re-transmitted
 
 ### Comparisons
 
@@ -261,7 +303,7 @@ Questions left out:
 
 ### Bluetooth
 
-- stuff
+- stuff 1 (vs WiFi)
     - to be used upto 8 devices
     - doesnt use a central access point (usually)
     - symmetrical
@@ -273,6 +315,15 @@ Questions left out:
     - less harm from electromagnetic interference than WiFi
     - less secure than WiFi
     - uses less power
+- stuff 2 (vs NFC)
+    - working distance: 100m
+        - (devices must be kept very close)
+    - sets up in 6 seconds
+    - bitrate: 2.1Mbits
+    - requires PIN
+    - one-to-one connection (peer-to-peer)
+    - new technology (doesnt support older devices)
+
 - how Bluetooth connection is established
     - turn on both devices
     - ensure within range (both should find eachother)
@@ -285,6 +336,27 @@ Questions left out:
     - devices are paired
     - frequencies+channels to be used are decided
 
+
+### NFC
+
+- near field communication
+- uses
+    - to make contactless payments
+    - identify user in ticketing systems
+    - in social networking for sharing images
+        - (between close devices)
+    - exchange personal details 
+        - eg: bussiness card
+    - unlock doors with smart locks 
+
+- stuff (vs Bluetooth)
+    - working distance: <20cm
+    - sets up in <0.1 seconds
+        - (quicker than bluetooth)
+    - bitrate: 400kbps (lower)
+    - uses less power
+    - can be used to activate passive tags
+    - automatic connection
 
 ## Cellular Networks
 
@@ -356,7 +428,30 @@ Questions left out:
         - so, increased rate of data flow
 
 
-## Peer to Peer
+## Networking Models
+
+### Client-Server
+
+- explanation
+    - all files in a centralized server
+    - only one copy has to be maintained
+    - files can be mirrored to other servers
+        - for increased performance
+        - without the need to copy to each device in use
+    - disaster recovery is easy + quick
+        - can quickly recovery backups
+    - servers can be updated (easily scalable)
+        - without upgrading user devices
+    -  data shared across different devices
+    - data can be accessed from different locations
+        - (as long as the device is in the same network)
+        - (or by using a VPN tunnel)
+    - data can be queried from DBMS (SQL or No-SQL database)
+        - regardless of interface
+    - better data security
+    - server can perform authentication before returning data  
+
+### Peer to Peer
 
 - advantages
     - No centralised system
@@ -449,6 +544,25 @@ Questions left out:
             - income may fall
             - we get negative feedback
 
+### Proxy Server
+
+- evaluvate
+    - intermediate gateway between client and websites
+        - so, websies cannot log activity of user
+        - cannot log IP
+            - so, cannot determine geolocation
+            - keeps clients identity secure + private
+        - can do access control
+        - can filter out unwanted stuff
+        - can cache frequenly used websites
+            - reduced internet usage
+            - but user may recieve outdated info
+            - user will not know and will use old data
+        - can encrypt web requests from client (enforce HTTPS)
+        - can provide VPN services (for remote access)
+            - eg: students remotely accessing school network
+        - high latency (as all traffic goes through the body)
+
 ### Printer Server
 
 - explanation
@@ -472,8 +586,33 @@ Questions left out:
 
 ### FTP Server
 
-- role in a nework
-
+- how it works
+    - uses file transfer protocol
+    - between server and client
+    - FTP addresses being with `ftp://`
+        - (to indicate the protocol required to transfer)
+    - server listens for USER and PASS commands
+        - (username and password)
+    - FTP uses port 21 (by default)
+    - active mode 
+        - uses port 21 
+        - for connection with client
+    - passive mode is used 
+        - if client is behind a firewall
+        - (if unable to recieve incoming TCP connections)
+        - sets up different port (for c-s data connections) 
+    - USER and PASS are not encrypted (by default)
+        - encrypted in 
+            - SFTP (Secure FTP - over SSH)
+            - uses port 22 (ssh)
+    - server sends acknowledgement 
+        - to client 
+        - if valid credentials
+        - and session is opened
+    - anonymous access can download, but not upload
+    - server allows checkpoints
+        - so, downloads can be resumed (if interrupted) 
+            
 ### E-Mail
 
 - explanation
@@ -496,7 +635,7 @@ Questions left out:
             - eg: for later reference, for legal requirements
         - can be filtered/scanned for malware
             - before delivered to employee
-        - can set a max size for sender   
+        - can set a max size for sender
     - disadvantages
         - complex to configure
         - need experts to setup
@@ -506,6 +645,16 @@ Questions left out:
             - extra costs
         - hard to avoid blacklists
             - eg: for bad DNS listing
+
+- how emails are sent and recieved (basic)
+    - Mail server provides email services to email client
+    - Email client sends request to server
+    - Server sends a response to email client
+    - Email client logs-in to mail server
+    - Rules for requests are determined by protocols
+        - eg: SMTP, IMAP, POP3
+    - Messages are transferred between client and server
+        - (from emails stored on server).
 
 ### Instant Messaging
 
