@@ -10,6 +10,22 @@ Questions left out:
 - p3-ch2-pg85
 - p3-ch2-pg89
 
+## Data Terms
+
+- bit rate
+    - description
+        - number of bits transmitted per unit of time
+        - units: Kbps (kilobits per second)
+        - measure of how fast data can be sent from one device to another
+    - how its measured physically?
+        - Start video streaming a file of known size
+        - Use software to capture video traffic
+        - Select video stream from captured traffic and calculate bits per second.
+    - factors affecting it
+        - bandwidth available (on communication channel)
+        - level of SNR ratio (signal to noise ratio)
+        - number of signal levels used to represent data
+
 ## Network Models
 
 ### TCP/IP Model
@@ -24,6 +40,38 @@ Questions left out:
     - differences
         - 
 
+## Data Transmission
+
+### UDP
+
+- packet header
+    - four fields of 2 bytes
+    - source port field used to reply if needed
+    - dst port used to specify reciever port number
+    - dst port is always required
+    - header + data field 
+        - (in bytes)
+        - used for error checking
+    - length of header (8 bytes minimum)
+    - checksum field 
+        - results of calculations
+        - to be used to check errors
+        - optional in IPv4
+            - set to `0` if not calculated
+        - required in IPv6  
+- advantages
+- disadvantages
+    - no acknowledgement after recieving packet
+    - not sure if packet lost or recieved
+    - provides for ordering of packets so there is no tracking of messages
+    - no congestion control 
+        - so these have to be separately
+        - carried at application level
+    - Reciever must handle lack of handshake 
+        - of data
+        - increasing complexy/overheads.
+
+### TCP
 
 ## Hardware
 
@@ -140,6 +188,40 @@ Questions left out:
     - easier & cheaper to install
     - signal interference from other devices
     - more portability to client devices 
+
+### Microwave Transmissions
+
+- advantages
+    - directional antennae
+        - increased performance
+        - low power usage
+        - point directly at each other
+            - can use same frequencies 
+            - (as neighbouring transmissions) 
+            - without interference
+    - Narrow microwave beams do not interfere (with other equipment)
+    - Small antennae means more portable 
+        - e.g. portable radio systems
+    - large bandwidth
+        - carry more data
+
+- disadvantages
+    - tall antennae 
+        - difficult to install
+    - Line of sight required
+        - antenna cannot be 'over horizon' (earth curvature)
+        - (limited to 50-80 km)
+        - else,
+            - obstacles will interfere
+            - Unable to penetrate obstacles
+            - causes interference
+        - so position antennas intrusively
+    - atmospheric conditions can degrade signal
+        - (weather)
+        - 'Rain fade' absorbs microwaves by weather
+        - dust / smoke / high-pollen-counts because signal scatters (by particles)
+        - Solar events
+    - ?? can be intercepted behind official antenna (eg: by space satellite) ??
 
 ### WiFi
 
@@ -321,6 +403,28 @@ Questions left out:
     - 1920 x 1080 pixels will have to be downscaled for viewing on the smartphone screen
     - Which may lead to artefacts and loss of quality.
 
+## Tunnelling
+
+- why
+    - set up VPN  
+        - (allows data to be private)
+    - data can be be kept secure when working remotely
+        - (eg: working from home)
+    - can circumvent firewall rules 
+        - to allow access to internal network 
+        - by data carried in packets
+    - can use foreign' protocols on networks
+        - (when its not supported)
+        - e.g. use of IPv6 on IPv4 networks.
+- how? (to tunnel over the internet)
+    - data broken into small packets
+        - (for transmission over IP network)
+    - IP packets encapsulated by tunnelling protocol (L2TP)
+    - IP packet sent over internet (public communication channels)
+    - data is encrypted using SSH / IPSec
+    - packets are decapsulated and unencrypted at destination 
+
+
 ## Applications
 
 ### Blogs
@@ -365,6 +469,10 @@ Questions left out:
     - process incoming network requests
     - use HTTP(S) to receive/deliver communications
     - provides server-side script services (for dynamic web pages)
+
+### FTP Server
+
+- role in a nework
 
 ### E-Mail
 
