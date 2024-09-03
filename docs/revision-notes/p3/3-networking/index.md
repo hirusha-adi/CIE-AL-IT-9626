@@ -34,6 +34,27 @@ Questions left out:
 
 ### Comparisons
 
+- LAN vs WAN
+    - LAN
+        - small geographical area
+        - high data transfer speeds
+        - uses Ethernet / Token Ring technologies
+        - connect together into bigger LANs using fiber optic cabling
+        - owned by one organization (usually)
+        - fewer errors raised (when transmitting data)
+        - fewer congestion problems
+        - use Layer 1 or Layer 2 devices
+            - eg: switches, 
+            - bridges,
+            - hubs,
+            - repeaters, etc...
+    - WAN
+        - uses ATM / Frame Relay
+        - connect together using public telecommunication systems
+        - has collective ownership
+        - use Layer 3 devices
+            - eg: routers
+            - multi layer switches
 
 ## Network Models
 
@@ -188,6 +209,41 @@ Questions left out:
         - work with MAC addresses (frames)
         - faster at connecting segments/routes
 
+### NIC
+
+- network interface card
+- how it works
+    - circuitry between computing device and transmission medium
+    - Each NIC has a MAC address
+        - unique
+        - 48 bits
+        - in Headecimal 
+    - for high speed data transmission (cabled)
+    - Uses the OSI model 
+        - to send signals at the physical layer, 
+        - transmit data packets at the network layer 
+        - and operate as an interface at the TCP/IP layer.
+    - Data
+        - from CPU and sends to destination
+    - Translates data 
+        - to form so can send in cable
+        - from cable into form useable by 
+        - Converted to/from parallel structure from/to linear structure
+    - Uses interrupts 
+        - tell CPU
+        - ready to receive data for sending
+    - Polled by CPU 
+        - to determine if NIC has data 
+        - for it to deal with
+    - CPU moves data to/from NIC to memory
+    - Uses DMA 
+        - to transfer data to/from main memory 
+            - (via system bus)
+        - independent of CPU
+    - Prepares data for transmission 
+        - in form of frames
+    - Process bits from the physical layer and pass to next layer.
+
 
 ### Comparisons
 
@@ -233,6 +289,22 @@ Questions left out:
 
 ### Microwave Transmissions
 
+- how
+    - Uses beam of electromagnetic waves
+    - Uses line-of sight between antennae
+    - Uses frequencies: 300 MHz to 300 GHz 
+        - (wavelength 10cm to 1mm)
+    - Uses parabolic dishes 
+        - with (horn) antennae 
+        - to provide 'spot' beams
+    - Uses multiple antennae 
+        - to send/receive signals 
+        - (if sending/receiving simultaneously)
+    - Data is modulated 
+        - onto carrier wave 
+        - using OFDM (orthogonal frequency-division multiplexing) / OFDMA (orthogonal frequency-division multiple access)
+    - Pulsed transmission of waves 
+
 - advantages
     - directional antennae
         - increased performance
@@ -264,6 +336,21 @@ Questions left out:
         - dust / smoke / high-pollen-counts because signal scatters (by particles)
         - Solar events
     - ?? can be intercepted behind official antenna (eg: by space satellite) ??
+
+- uses
+    - phone systems (3G, 4G, 5G)
+    - WiFi systems (in LAN)
+    - communication between base station and satellites
+        - \+ uplink and downlink satellites
+    - used for TV / radio
+        - to transmit programs from outside the studio
+        - (broadcasts)
+        - instead of using expensive satellite links
+    - used to carry cellular data between stations
+        - to provide backbone to carrier system
+    - for short-range indoor communications
+    - to link remote telephone exchanges to main exchanges without using cobber/fibre-optic cabling 
+
 
 ### WiFi
 
@@ -335,7 +422,32 @@ Questions left out:
     - password confirmed by both devices
     - devices are paired
     - frequencies+channels to be used are decided
+- advantages
+    - free to use
+    - many devices support it
+    - uses less power (than e.g. WiFi) 
+        - saved phone battery life
+    - Easy to pair devices
+        - no need passwords
+    - Connections are 'remembered' 
+        - so simple to repeat
+    - It is wireless (so, convenient)
+    - Can connect through obstacles (usually)
+    - Has greater range than infra-red connections
+    - It is short range
+        - signals hard to intercept
+        - so, more secure
 
+- disadvantages
+    - can hack Connection of idle devices
+    - short range only
+    - slow when sending large files
+    - low bandwidth
+        - compared to e.g. WiFi/cable connections
+    - only 8 devices at max
+        - (can connect to 7 devices at once ONLY)
+    - Can lose connection due to interference / obstacles
+    - Can receive viruses
 
 ### NFC
 
@@ -395,11 +507,27 @@ Questions left out:
         - large connection capacity
             - upto a million devices per km<sup>2</sup>
         - very high bandwidth (data transfer)
+            - even allows use UHD video on demand
         - very low latencies (fast responses)
         - seamless handover between base stations
         - use 'beam-forming' techniques
             - by base stations
             - to improve connections to specific devices
+    - advantages
+        - (most stuff in `features` section above)
+        - may gradually replace land-line connections (for internet connections)
+    - disadvantages
+        - reduced coverage
+            - need more cell towers
+            - more expensive
+        - shortage of radio frequencies
+        - can interfere with existing radio spectrum
+        - new devices required to acecss 5G
+        - new technology required to implement 5G
+        - potential for cyber attacks
+        - low latency
+            - can control devices remotely, in real time
+        - high infrastructure costs
 - 4G
     - stuff
         - use only packet switching
@@ -427,6 +555,74 @@ Questions left out:
         - allows packets to be multiplexed
         - so, increased rate of data flow
 
+
+## Satellite Communication
+
+- how it works?
+    - Satellite remains in orbit 
+        - follows rotation over Earth 
+        - appears stationary over target area
+    - Multiple satellites 
+        - can be arranged in constellation 
+        - each covering of small area of surface
+        - can cover areas farthest from equator
+        - target specific areas of Earth
+    - Satellite can use spot beams 
+        - to target specific areas
+        - provides high bandwidth 
+    - Ground stations 
+        - maintain permanent (microwave) links 
+        - with satellites
+        - Both uplink and downlink connections
+        - via dish antenna
+    - User 
+        - has dish with transceiver 
+        - via LNB pointed at satellite
+        - dish needs to be line of sight
+        - eg: dish in Southern hemisphere northerly direction.
+    - MORE STUFF -> (for full marks)
+    - Ground (gateway) stations 
+        - have internet connection 
+        - relay user internet data to from satellite
+        - convert data carried by satellite signals to/from IP packets
+    - Satellite 
+        - serves to receive, amplify and re-transmit signal 
+        - (without processing of data)
+    - User 
+        - has satellite modem 
+        - to modulate/demodulate data 
+        - between local IP packets 
+            - and satellite link signals.
+
+- advantages
+    - Satellites are in geostationary orbit 
+        - so ground stations for uplink 
+        - can point directly at them 
+        - so less power needed
+    - Receiving dishes 
+        - can point directly at satellite 
+        - for less fluctuation (in signal)    
+    - Low/medium orbit satellites
+        - provide low latency connections 
+        - with high speeds
+    - Physical connections not required 
+        - so access can be from anywhere
+    - No need ground-based infrastructure
+    - aircraft/ships can use to access internet
+    - Coverage can be optimised for high bandwidth
+- disadvantages
+    - Satellites in geostationary orbit are 
+        - c. 18 000 km high 
+        - so signal has to travel c. 36 000 km 
+        - resulting in delay
+            - high latency (worse than dial-up)
+            - SSL may not succeed
+            - TCP protocols may break
+    - Interference by weather conditions 
+        - can reduce signal quality
+    - Must be line of sight to satellite
+    - Reflections reduce signal quality 
+        - by phase cancellation effects.
 
 ## Networking Models
 
@@ -483,20 +679,51 @@ Questions left out:
     - one device down = affect others
         - that portion of files is lost
 
+### BitTorrent
 
-- video streaming, viewing resolution affected, p3-ch2-pg71
-    - The more available bandwidth on the connection the higher quality of video that can be streamed
-    - Use of a 3G connection to the intemet limits video/streaming to low bit rate of 400 Kb/s
-    - Buffers not filled completely so video pauses/stops/jerky if frames not received fast enough
-    - Provides video of 320 x 240 pixels without apparent stuttering/buffering/stop-start issues
-    - This will be a poor video/low definition video as seen on the 1024 x 576 screen
-    - Use of a 4G connection with higher bandwidth of c. 15Mbit/s allows video with higher bitrates to be viewed properly
-    - This is 1024 x 576 is possible and this is HD quality
-    - Highest bit rates of 19/ 30 Mbit/s allowing resolutions of up to 1920 x 1080 pixels
-    - Available/can be streamed over Wi-Fi (IEEE 802.1 g) wireless connections....
-    - Which have a maximum of 54 Mbit/s
-    - 1920 x 1080 pixels will have to be downscaled for viewing on the smartphone screen
-    - Which may lead to artefacts and loss of quality.
+- how it works
+    - Peers share processing power without a central server
+    - Nodes work as both client and server for other nodes
+    - Nodes can connect undstructured or in structured topology
+    - Unstructured mode 
+        - robust when nodes join/drop frequently 
+        - but finding a file is more difficult
+    - Structured mode is organised 
+        - (using hash tables) 
+        - and files can be found easily
+    - Peer-to-peer software run on /node
+        - Software queries other nodes to find file 
+            - Search request 
+                - has 'time to live' (TTL) 
+                - after which it ceases to search
+                - propagates from queried nodes to others
+            - When found, 
+                - software downloads from node to node
+            - Other nodes can copy downloaded file from each node
+    - fragments of file can be copied from different nodes at once,
+        - increasing speed.
+
+- why its insecure
+    - Nodes more susceptible to remote attack
+    - IP address is clearly visible to others so
+        - (so, easy for hackers to target)
+    - can use IP to steal user data
+    - resulting in fraud / blackmail
+    - Malicious code can edit routing tables of nodes
+    - responses to requests can contain malicious code
+    - so, we download malware instead of original resource 
+    - Authors are unknown
+        - so, may contain trojans/malware/stealers
+    - Sections of files can be replaced with malware
+    - Downloaded Bit Torrent files 
+        - stored by default in folder along with other user data 
+        - risking exposing the data to others
+    - session can be left open unintentionally
+    - Bit Torrent traffic is not encrypted by default
+        - UDP and TCP ports used
+            - might be subjected to monitoring by ISP
+        - so, use VPN 
+    - piracy (of copyrighted materials) give rise to legal issues
 
 ## Tunnelling
 
@@ -519,6 +746,59 @@ Questions left out:
     - data is encrypted using SSH / IPSec
     - packets are decapsulated and unencrypted at destination 
 
+### VPN
+
+- evaluvate
+    - Encrypts all data (secure)
+        - protects privacy of user
+    - changing the user IP address 
+        - allows users to browse internet anonymously
+        - prevents tracking of activity by ISP, trakcets, etc...
+    - can configure to block advertisements
+    - can bypass geo-restrictions
+        -  access material from other countries
+        - eg: journalists looking for news
+        - movies, music, etc...
+    - to bypass censorship (imposed by ISPs or countries)
+    - can bypass ISP bandwidth
+    - may be illegal in some countries (might lead to prosecution)
+    - reduce performance and increase letency/ping
+    - may collect data and sell to third party (data brokers)
+    - can be difficult to set up
+    - ?? need latest OS to use VPN ??
+    - Some sites may block VPN
+    - can be configured to allow an extranet to be set allowing remote access to a private network
+
+
+## Cloud Computing
+
+- storing data in cloud
+    - meaning
+        - store in network of servers
+        - accessed over internet
+        - Access available from any (remote) device
+        - data may be managed by third parties
+        - managed by a cloud storage provider.
+    - security issues
+        - Data not under our direct control
+        - depends on third party for security
+            - cannot trust third party companies with our data
+        - Data is susceptible to cyber-attack 
+            - as only accessible over intemet
+            - as multiple copies of data (buckups)
+            - attack to servers 
+                - e.g. DOS attacks
+                - uses all server resources
+        - Data accessible to government check / subpoenas
+        - data loss, may result in legal issues
+            - could storage provider is responsible
+        - Data is difficult permanently
+            - already in cloud
+            - already had multiple copies (backup)
+        - not standardised across all companies
+            - if a company using cloud storage
+            - they might not be able to change supplier 
+        - cannot access data without internet (while offline)
 
 ## Applications
 
@@ -543,6 +823,31 @@ Questions left out:
         - if blog not updated
             - income may fall
             - we get negative feedback
+
+- how to social engineer
+    - pg73
+
+### Micro Blogs
+
+- advantages
+    - specific Topics
+    - reflects real time activities
+    - Use short sentences
+        - for users who don't have the patience to go through longer blog posts
+    - Can be impromptu
+    - no need to construct passages
+    - Takes less time for blogger
+    - Use video links (no embeds)
+        - can only open if like
+        - or if device is powerful
+- disadvantages
+    - may not be long lived
+    - small Word count 
+    - overloads reader with information 
+        - information unfolds quickly
+    - leads to crucial information being overlooked
+    - difficult to customised pages.
+
 
 ### Proxy Server
 
@@ -678,3 +983,18 @@ Questions left out:
         - specially using: end-to-end encryption
 - disadvantages
 
+## Other
+
+- video streaming, viewing resolution affected, p3-ch2-pg71
+    - The more available bandwidth on the connection the higher quality of video that can be streamed
+    - Use of a 3G connection to the intemet limits video/streaming to low bit rate of 400 Kb/s
+    - Buffers not filled completely so video pauses/stops/jerky if frames not received fast enough
+    - Provides video of 320 x 240 pixels without apparent stuttering/buffering/stop-start issues
+    - This will be a poor video/low definition video as seen on the 1024 x 576 screen
+    - Use of a 4G connection with higher bandwidth of c. 15Mbit/s allows video with higher bitrates to be viewed properly
+    - This is 1024 x 576 is possible and this is HD quality
+    - Highest bit rates of 19/ 30 Mbit/s allowing resolutions of up to 1920 x 1080 pixels
+    - Available/can be streamed over Wi-Fi (IEEE 802.1 g) wireless connections....
+    - Which have a maximum of 54 Mbit/s
+    - 1920 x 1080 pixels will have to be downscaled for viewing on the smartphone screen
+    - Which may lead to artefacts and loss of quality.
