@@ -79,6 +79,26 @@ p3-ch3-pg88
         - eg: 1024 bits, 2048 bits
     - keys are re-usable 
 
+
+### Quantam Cryptography
+
+- use in internet
+    - for cryptographic tasks
+    - detects interception of data 
+    - extreme fast calculations
+    - can use higher bi-length for keys
+        - increasing security (after encrypted)
+    - ?? mathematic algorithms are still needed ??
+    - use photons to carry data
+        - difficult to control
+        - more consistent
+    - requires pure fibres to transmit photons
+        - undisturbed over anything but short distances
+        - max: 60KM
+    - need new generation of computers
+    - in theory, can break any (pre-quantam cryptographic) encryption very quickly
+
+
 ## AAA
 
 ### Authentication
@@ -96,6 +116,7 @@ p3-ch3-pg88
     - use of security questions
     - use of biometric parameters
     - verify from already logged-in device to log in 
+
 - biometric
     - how it works? (good)
         - biometric parameter scanned into system
@@ -142,6 +163,41 @@ p3-ch3-pg88
         - staff maybe identified in places they dont need to
             - eg: in public crowds
             - violating user privacy
+    - choosing biometric parameters
+        - stuff
+            - must not be intrusive when collecting (+ embarrassing)
+        - biometric parameters
+            - Face
+                - easy to read quickly
+                - collected by a machine
+                - difficult to copy
+            - Voice
+                - easy to read quickly
+                - collected by a machine
+                - difficult to copy
+                - most acceptable, least intrusive, most privacy respecting
+                - but not very unique
+            - hand geometry
+                - easy to read quickly
+                - collected by a machine
+            - iris
+                - easy to read quickly
+                - collected by a machine
+                - do not change over time
+            - Fingerprint
+                - unique
+                - found in everyone
+                - do not change over time
+            - facial thermogram
+                - unique
+                - found in everyone
+                - not permanent
+            - retina
+                - unique
+                - found in everyone
+                - do not change over time
+            - DNA
+                - difficult to copy
 
 
 
@@ -169,7 +225,7 @@ p3-ch3-pg88
         - and notify admins
     - check network logs to discover threats
 
-## Malware
+### Malware
 
 - botnet
     - describe
@@ -192,6 +248,29 @@ p3-ch3-pg88
             - can send disguised images
             - can distribute spyware to gather data
             - can use user's computer resources
+
+### Spyware
+
+- how to combat it
+    - anti-spyware tools
+        - prevent installation of spyware
+        - may not detect already installed spyware
+        - may not detect disguised spyware
+        - update list of spyware
+    - anti-virus software
+        - will detect and remove spyware (but not all)
+    - real-time scanning of incoming data
+        - block before it enters & infects system
+    - spyware may
+        - reinstall itself, under another process
+    - use a hardened web-browser
+    - browsers are not designed to detect spyware
+    - use reputable sources to download software
+    - but, reputable sources can be infected
+        - (if the reputable source is hacked) 
+    - use a firewall
+        - with outbound rules
+        - to prevent spyware from sending data to attacker
 
 
 ## Data Security
@@ -360,21 +439,25 @@ p3-ch3-pg88
     - dont use sensitive sites, eg: banking sites
     - dont login into open wifi networks
 
-- when using credit card online
-    - loss of card data
-    - merchant can use them fraudulently
-        - keylog with javascript to log card info
-        - use illegally
-    - victim unaware of loss
-    - cardholder not present when transaction is made
-    - might be redirected to fake site (eg: pharming)
-    - might get emails/calls asking for OTPs and verification info
-        - impersonating a bank
-    - BIN attacks (bank identification number)
-        - could reduce money from real active accounts
-    - dont use http sites or public wifi
-    - physical theft of card
-    - card details stored by merchant are stolen
+- credit card
+    - when using it online
+        - loss of card data
+        - merchant can use them fraudulently
+            - keylog with javascript to log card info
+            - use illegally
+        - victim unaware of loss
+        - cardholder not present when transaction is made
+        - might be redirected to fake site (eg: pharming)
+        - might get emails/calls asking for OTPs and verification info
+            - impersonating a bank
+        - BIN attacks (bank identification number)
+            - could reduce money from real active accounts
+        - dont use http sites or public wifi
+        - physical theft of card
+        - card details stored by merchant are stolen
+    - may subject account holders to fraud
+    - how merchants can combat against it
+
 
 ### Physical Security
 
@@ -405,16 +488,64 @@ p3-ch3-pg88
 
 ### AntiVirus / AntiMalware / AntiSpyware
 
-- remove malicous software
+- AntiMalware
+    - advantages
+        - remove malicous software
+        - protect against spam
+        - stop unauthorized use of computer
+    - disadvantages
+        - must be kept upto date
+        - should be running all the time
+        - will not detect all malware (eg: new custom written ones)
+        - infected website can carry malicous code
+            - not (usually) detected by AntiMalware
 
 - AntiSpyware
-    - protects against spyware
-    - prevents theft of confidential files
-    - thus protects unauthorized access to bank accounts
+    - advantages
+        - protects against spyware
+        - prevents theft of confidential files
+        - thus protects unauthorized access to bank accounts
+        - protect against identity theft
+    - disadvantages
+        - (same as AntiMalware)
+
+### Distaster Recovery
+
+- perpetrator analysis
+    - perpetrator are attackers, includes
+        - script kiddies
+        - crackers
+        - hackers
+        - terrorists
+        - bussiness competitors
+        - foreign government intrusions
+    - each perpetrator has different skills
+        - higher the skill, higher the risk
+    - analysis of their actions done by security companies
+    - allocation of resources to disaster recovery
+        - depends on how much hackers succeed
+    - IDS (intrusion detection systems)
+        - can be deployed to combat perpetrator
+        - identified by analysis of their behaviour
+        - so, resources can be targetted at a possible perpetrator
 
 ## Laws
 
 ### Acts
+
+
+- why data protection laws?
+    - personal data stored on computer
+    - Databases are easily accessed
+        - and edited
+    - systems can be networked 
+        - (for easy data sharing)
+    - hard to maintain control over data
+    - data can be stolen (without a trace)
+    - protect user privacy
+        - Data about individuals can be stored without their knowledge so infringing their privacy
+    - ?? Keeping records of who/what/when data is accessed are difficult to maintain unless enforced by law ??
+
 
 - data protection act
     - principles
