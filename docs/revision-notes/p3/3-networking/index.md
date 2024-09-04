@@ -62,6 +62,29 @@ Questions left out:
 
 ### OSI Model
 
+### Packet Switching
+
+- how a video is streamed
+    - computer requests stream
+    - NIC on server determines dst address for file
+    - Video file is converted into packets (by NIC on server)
+    - NIC on server uses packet switching
+    - packets contain details of dst address
+    - Packets are sent from network (server's LAN) to router
+    - Router compares packet dst IP with routing table
+    - Router chooses next hop to send packets 
+        - (based on routing table)
+    - Applies QOS (quality of service) rules to prioritise the packets 
+        - (of the streamed video)
+    - Sends packets to next router
+    - Next router does the same thing
+        - and passes on the packet
+    - user's Router receives packets from the internet routers
+    - and transfers to laptop viewing video
+    - Dynamic routing tables of routers may be updated to ensure QOS for streaming
+
+### Circuit Switching
+
 ### Frame Relay
 
 - why
@@ -102,39 +125,6 @@ Questions left out:
         - 
     - differences
         - 
-
-## Data Transmission
-
-### UDP
-
-- packet header
-    - four fields of 2 bytes
-    - source port field used to reply if needed
-    - dst port used to specify reciever port number
-    - dst port is always required
-    - header + data field 
-        - (in bytes)
-        - used for error checking
-    - length of header (8 bytes minimum)
-    - checksum field 
-        - results of calculations
-        - to be used to check errors
-        - optional in IPv4
-            - set to `0` if not calculated
-        - required in IPv6  
-- advantages
-- disadvantages
-    - no acknowledgement after recieving packet
-    - not sure if packet lost or recieved
-    - provides for ordering of packets so there is no tracking of messages
-    - no congestion control 
-        - so these have to be separately
-        - carried at application level
-    - Reciever must handle lack of handshake 
-        - of data
-        - increasing complexy/overheads.
-
-### TCP
 
 ## Hardware
 
@@ -182,6 +172,20 @@ Questions left out:
                     - (of router hardware)
             - provides default route for packet
                 - if no route can be determined
+- QOS
+    - quality of service
+    - for video streaming
+        - set router's QOS configuration to prioritise video stream
+        - use traffic shaping configuration to prioritise video stream
+        - configure specific ports for video service
+        - intelligent QOS with prioritise in a pre-determined order
+            - (only in new routers)
+            - order:
+                - voice
+                - video
+                - application traffic
+                - print services
+                - file downloads
 
 
 ### Hubs
@@ -453,6 +457,26 @@ Questions left out:
     - User data 
         - encapsulated within data frames 
         - using Wi-Fi protocols
+- using public wifi
+    - advantages
+        - low cost / free
+        - attracts more customers
+        - allows mobile connections, so, more productive
+        - convenient when travelling
+        - avoids use of data allowance in mobile phone networks
+    - disadvantages
+        - unreliable connections
+        - some services might be restricted
+            - eg: torrenting
+        - might insert advertisements
+        - may require authentication/verification with personal details
+        - can be intercepted by others
+            - subjected to MITM attacks
+            - might inject malware code 
+            - personal data can be stolen
+                - and used for fraudulent activities
+        - might limit bandwidth unless extra fees paid
+
 
 ### Bluetooth
 
@@ -476,7 +500,13 @@ Questions left out:
     - requires PIN
     - one-to-one connection (peer-to-peer)
     - new technology (doesnt support older devices)
-
+- stuff 3 (compared to infra red)
+    - uses radio frequency: 2.4GHz
+    - can use multiple channels
+        - (spread spectrum technology)
+    - can travel through walls (but signal will deteriorate)
+    - free standard
+    - high bandwidth (compared to IR)
 - how Bluetooth connection is established
     - turn on both devices
     - ensure within range (both should find eachother)
@@ -515,6 +545,21 @@ Questions left out:
     - Can lose connection due to interference / obstacles
     - Can receive viruses
 
+### Infra-red
+
+- for data transmission
+- stuff (compared to bluetooth)
+    - uses wavelength: 20 to 400THz
+    - less susceptible to interference
+    - requires line of sight
+    - limited to 10m
+        -  depends on power of IR source
+    - can only use with 1 other device
+    - usually need proprietary equipment
+    - IR bandwidth is limited
+        - depends on on/off pulses of data
+    - can setup personal area network (PAN) 
+
 ### NFC
 
 - near field communication
@@ -528,8 +573,8 @@ Questions left out:
     - unlock doors with smart locks 
 
 - stuff (vs Bluetooth)
-    - working distance: <20cm
-    - sets up in <0.1 seconds
+    - working distance: \<20cm
+    - sets up in \<0.1 seconds
         - (quicker than bluetooth)
     - bitrate: 400kbps (lower)
     - uses less power
@@ -600,6 +645,8 @@ Questions left out:
 
 - 3G
 
+### Comparisons
+
 - 4G vs 3G
     - higher bandwidth
         - due to higher range of frequencies
@@ -621,6 +668,10 @@ Questions left out:
         - allows packets to be multiplexed
         - so, increased rate of data flow
 
+- bluetooth vs infra-red
+    - bluetooth
+
+    - infra-red
 
 ## Satellite Communication
 
@@ -865,6 +916,106 @@ Questions left out:
             - if a company using cloud storage
             - they might not be able to change supplier 
         - cannot access data without internet (while offline)
+
+## Bit Streaming
+
+- describe
+    - contiguous sequence of bits
+    - sent/recieved serially
+    - over a communications network
+
+### Real Time
+
+- stuff
+    - from a live source
+    - cannot be accessed later
+
+### On Demand
+
+- stuff
+    - from a pre-recorded video
+    - can be streamed at any time
+
+## Protocols
+
+- Also at: 
+    - [File Servers (FTP)](#ftp-server)
+    - [BitTorrent Protocol](#bittorrent)
+    - [TCP/IP Network Model / Protocol Stack](#tcpip-model)
+
+### DHCP
+
+- describe
+    - a network manaqement protocol
+    - Automatically assigns 
+        - a network configuration to a device
+        - an IP address
+        - a gateway address
+        - a subnet mask
+    - Creates a database 
+        - to avoid addressing conflicts
+
+### UDP
+
+- describe
+    - Sends data (in datagrams) using lP
+    - Provides 
+        - checksums
+        - port numbers for source/destination 
+        - (of datagram)
+    - Connectionless communication
+    - No reporting of lost packets (to sender)
+    - Used when delivery of datagrams is not important
+    - Avoids processing overheads 
+        - (of error checking)
+    - No handshaking
+    - No guarantee of delivery/
+    - No order of datagrams
+    - No error checking.
+- packet header
+    - four fields of 2 bytes
+    - source port field used to reply if needed
+    - dst port used to specify reciever port number
+    - dst port is always required
+    - header + data field 
+        - (in bytes)
+        - used for error checking
+    - length of header (8 bytes minimum)
+    - checksum field 
+        - results of calculations
+        - to be used to check errors
+        - optional in IPv4
+            - set to `0` if not calculated
+        - required in IPv6  
+- advantages
+- disadvantages
+    - no acknowledgement after recieving packet
+    - not sure if packet lost or recieved
+    - provides for ordering of packets so there is no tracking of messages
+    - no congestion control 
+        - so these have to be separately
+        - carried at application level
+    - Reciever must handle lack of handshake 
+        - of data
+        - increasing complexy/overheads.
+
+### TCP
+
+- describe
+    - Sends data (in datagrams) using lP
+
+- Provides 
+    - checksums
+    - port numbers for src/dst 
+    - (of datagram)
+- Connection-oriented communication
+    - (point to point)
+- Reporting to sender of lost packets
+- Establishes how data is transferred over network
+- Manages flow control
+- Handshaking is carried out to establish connection.
+- Used when delivery of datagrams is important
+Error checking.
 
 ## Applications
 
