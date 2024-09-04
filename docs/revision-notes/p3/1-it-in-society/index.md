@@ -692,6 +692,16 @@ All Past Paper Questions: https://docs.google.com/document/d/1DZ5rPZt_6-QjTdRkcW
         - streaming requires greater bandwidth
         - better home network setup
         - QoS needs to be configured to ensure smooth video
+    - features improving viewing experience
+        - had 4 times the resolution of HD (1920x1080)
+            - 4K: 2096x2160
+            - 8K: 7680x4320
+        - increased
+            - dynamic range
+            - color depth
+        - more LEDs in given area
+            - increases the resolution
+            - so, ther in more detail
 
 - laptops vs smartphones
     - Laptops

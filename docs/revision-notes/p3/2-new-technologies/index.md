@@ -111,6 +111,17 @@ All Past Paper Questions: https://docs.google.com/document/d/1ShBPhWWjM05zoDRgqX
         - but guests may not like them
         - because these robots will have cameras & mics
 
+- in space explorations
+    - to aid humans
+    - for tasks in hazardous conditions, eg: 
+        - high radiation
+        - extreme temperatures
+    - autonomous spacecraft 
+        - for space exploration
+        - for delivery of resources
+            - eg: for ISS (international space station)
+    - autonomous machines for repairing satellites
+    - Robotic arms fitted to move objects
 
 ## GPS
 
