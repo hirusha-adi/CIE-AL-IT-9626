@@ -2,6 +2,8 @@
 title: 4. Security
 ---
 
+All Past Paper Questions: https://docs.google.com/document/d/1oALN6dinPfuOl_jDXBOgfgjI-Nl3Pf8cUTlYl3GjM7g/edit?usp=sharing
+
 Questions left out:
 
 p3-ch3-pg15
@@ -29,13 +31,14 @@ p3-ch3-pg88
             - to protect personal data
             - eg: use in identity theft  
 
-
 ### Symmetric
 
 - advantages
     - same key for encryption + decryption
         - it must be shared
-        - 
+    - fast
+    - simple
+    - used to encrypt disks, etc...
 - disadvantages
     - key must be shared securely
     - confidentiality of keys shared is not gauranteed
@@ -54,6 +57,8 @@ p3-ch3-pg88
             - can only be read by person with decryption key
             - eg: not by system admins
         - independent data security (from device) 
+        - if key is compromized
+            - data can be viewed by anyone
     - disadvantages
         - hard to administer encryption keys
         - if key is lost, data is lost
@@ -71,6 +76,7 @@ p3-ch3-pg88
     - public keys can be accessed by anyone
         - so, no need to send key to specific user
     - uses private key (know only to user)
+    - only recipient can decrypt
     - very secure
     - data encrypted from one key can be decrypyted with the other
     - so, can transmit data securely
@@ -78,11 +84,18 @@ p3-ch3-pg88
     - key is large
         - eg: 1024 bits, 2048 bits
     - keys are re-usable 
+    - ?? if private key is compromised
+        - only sender's data is at risk
+        - as any other data sent to others
+        - is encrypted with a different public key
+- disadvantages
+    - relatively slow
+    - not suitable for disk encryption
 
 
 ### Quantam Cryptography
 
-- use in internet
+- used in internet (crappy answer)
     - for cryptographic tasks
     - detects interception of data 
     - extreme fast calculations
@@ -97,6 +110,21 @@ p3-ch3-pg88
         - max: 60KM
     - need new generation of computers
     - in theory, can break any (pre-quantam cryptographic) encryption very quickly
+- used in data transfers (no idea)
+    - use polarized light for encoding data
+    - in quantam states, for transmission over 2 particles
+    - Initial polarisation 
+        - of first two photons 
+        - determines O and 1 bit of the data
+    - Polarisation of subsequent bits 
+        - is determined at random
+    - Recipient measures data using random polarisation
+    - Used to establish a shared key
+    - No third party sees the key
+    - Key then used to create other keys for use in encryption
+    - Called **QKD (quantum key distribution)**
+    - Data state is changed when viewing by others
+    - Impossible to eavesdrop without alerting it
 
 
 ## AAA
@@ -248,6 +276,8 @@ p3-ch3-pg88
             - can send disguised images
             - can distribute spyware to gather data
             - can use user's computer resources
+                - and reduce performance
+            - can compromise legit data
 
 ### Spyware
 
@@ -312,6 +342,19 @@ p3-ch3-pg88
     - security cameras must be watched all the times
     - watchers maybe distracted
 
+- precausions
+    - off-site backup at regular intervals
+    - backup first made on-site
+        - later copied to off-site
+    - or backup to cloud
+    - local RAID mirrors (for data redundancy)
+    - surge protectors to minimize power surges (buggy power)
+    - UPS (uninterruptible power supply) or backup generator incase of power outage
+    - fire prevention systems + smoke detectors
+    - anti-virus software protects file against deletion & curroption & encryption by ransomware
+    - firewalls prevent unauthorized access
+
+
 - how data is lost
     - accidental deletion
     - malware deleting files
@@ -359,21 +402,37 @@ p3-ch3-pg88
     - use of regular software updates
     - address security issues
 
-- access rights
-    - different permissions given to different users
-    - eg: RBAC
-    - setup ACLs (access control lists)
-    - works on files and directories
-    - permissions on folder maybe cascaded
-    - files within folder have different permissions (than the parent folder)
-    - permissions
-        - read
-            - can view file
-        - write
-            - can modify files
-        - execute 
-            - allows files to be executed
-    - permissions must be set
+- access rights / access control
+    - (new)
+        - authenticates user
+        - ensure users have appropriate access to data
+        - provides selective access
+        - distribution of data is controlled
+        - managers / sysadmins can control permissions for each user
+        - can be adapted in response to 
+            - changing
+                - so, new employees can have access
+                - retired employees have no access
+            - data breaches
+                - users isolated from data
+        - based on attribute of user
+            - so have access to appropriate data only
+            - can access data depending on time / location
+    - (old)
+        - different permissions given to different users
+        - eg: RBAC
+        - setup ACLs (access control lists)
+        - works on files and directories
+        - permissions on folder maybe cascaded
+        - files within folder have different permissions (than the parent folder)
+        - permissions
+            - read
+                - can view file
+            - write
+                - can modify files
+            - execute 
+                - allows files to be executed
+        - permissions must be set
 
 ### Backups
 
@@ -408,6 +467,33 @@ p3-ch3-pg88
         - backup when system is not heavily used
     - data restoration takes time
     - extra storage costs (to store backup)
+- backup medium
+    - tape based
+        - huge storage capacity
+        - serial access
+        - cheap per GByte
+        - slow to create backup
+        - slow to recover files
+        - fragile
+        - some tapes may not work in different tape drives
+            - eg: proprietary standards or vendor locking mechisms
+    - hard disk based
+        - quick to produce backup
+        - quick to recover files
+        - direct access
+        - cost per GByte varies/can be
+        - expensive
+        - large capacities
+        - hard disk can fail losing large
+        - amounts of data.
+    - cloud based
+        - off-site technology used so not so vulnerable to on-site disasters
+        - maintenance costs borne by supplier
+        - security arranged by supplier
+        - security of data issues
+        - unlimited capacity available
+        - need reliable internet connection 
+            - with high bandwidth
 
 ## Protect
 
@@ -456,7 +542,30 @@ p3-ch3-pg88
         - physical theft of card
         - card details stored by merchant are stolen
     - may subject account holders to fraud
+        - skimming
+        - use number generators to guess working cards
+            - using BIN
+            - last 4 numbers are usually in sequential range 
+            - (with expiry date)
+        - card details obtained by phishing / vishing
+        - hacker does small transaction to see if valid
+            - if success, can do large ones later
+            - subscribing to a web service
+                - is a quick way to check validity
+                - repeated billing charges for card holder
+        - use spyware to capture card details 
     - how merchants can combat against it
+        - demand extra security information 
+        - check if location in card matches actual address
+        - if online transcation
+            - lookup IP to get approx. geolocation
+            - and see if card's address match
+        - use trusted 3rd party services to pass it to merchant
+            - eg: stripe
+        - dont display full card number on reciept
+            - PAN (primary account number)
+        - dont store card details in servers
+        - encrypt stored card details 
 
 
 ### Physical Security
@@ -529,6 +638,19 @@ p3-ch3-pg88
         - identified by analysis of their behaviour
         - so, resources can be targetted at a possible perpetrator
 
+- risk analysis
+    - Qualitative risk analysis to prioritise risks for analysis
+    - Quantitative risk analysis
+        - of likelihood of occurrence/probabilities
+        - of consequences of occurrence
+    - To identify effect/cost of risks caused by e.g.
+        - loss of access to premises
+        - loss of data
+        - loss of it function
+        - loss of skills
+    - Produce a computer simulation of the disaster
+    - Produce a report of the risks.
+
 ## Laws
 
 ### Acts
@@ -565,6 +687,26 @@ p3-ch3-pg88
         6. Data should be processed in accordance with the rights of the data subject.
             - Data subjects can inspect the data held about them.
             - Data subjects can insist that incorrect data is amended.
+    - rights created
+        - A right of access to a copy of the information held in their personal data
+            - told whether personal data is being processed
+            - given a description of personal data
+            - given reason(s) for processing
+            - given details of source of data
+        - A right to object to processing that is causing distress
+        - A right to prevent processing for direct marketing
+        - A right to object to decisions being taken by automated means
+        - A right to have inaccurate personal data rectified, blocked, erased or destroyed
+        - A right to claim compensation for damages caused by a breach of the Act.
+    - criminal offences (when they fail to abide - data controllers)
+        - Failure to register when required
+            - and to keep personal data if not registered
+            - failure to provide accurate information information when registering
+        - Failure to comply with provisions for storing data supplied when registering
+        - Processing data if not registered
+        - To fail to provide Data Commissioner with updated address failure to comply with enforcement order
+            - prohibition notice e.g. not to supply data to third party
+            - information notice e.g. not supplying all information when requested.
 
 
 ## Uncategorized
@@ -602,4 +744,18 @@ p3-ch3-pg88
         - misuse of resources by unauthorized people
         - failiure may expose data to lose
         - can acces other devices in network remotely
+
+- weak password
+    - reject them
+    - setup security/password policies for it
+    - eg: abc
+        - too short (not meeting minimum length)
+        - no different types of characters
+        - must not be easily guessed 
+            - and this is a simple pattern
+        - no combination of upper+lower case / number / special characters
+    - eg: 1234AAA
+        - has a sequence of characters/numbers
+            - of repeating characters
+        - no combination of upper+lower case / number / special characters
 
