@@ -430,6 +430,8 @@ Questions left out:
     - Data transmission losses occur 
         - when wrapped around curves 
         - with small radius.
+    - expensive than wireless
+    - cannot provide high bandwidth like fibre optics
 
 ### Fiber Optic Cables
 
