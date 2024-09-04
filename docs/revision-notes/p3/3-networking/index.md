@@ -186,10 +186,16 @@ Questions left out:
 
 ### Hubs
 
+- stuff 1 (compared to Routers)
+    - broadcast all received data 
+    - to all devices on the network
+    - do not store information about devices
+    - can reduce network performance
+        - will use all available bandwidth
 
 ### Switches
 
-- stuff
+- stuff 1 (compared to Routers)
     - used in LANs
     - all ports in switch has same broadcast domain
     - store data in a CAM (content addressable memmory) table with MAC addresses
@@ -198,6 +204,14 @@ Questions left out:
         - circuit switching
         - message switching
         - packet switching
+- stuff 2 (compared to Hubs)
+    - examine data packets 
+    - to determine where to send them
+    - store information about MAC addresses of devices
+    - more efficient (bandwidth usage)
+        - as they do not self data to all devices
+    - lower latency
+        - eg: can ehance gaming
 - types
     - L2 switch
         - in L3 (data link layer) of OSI model
@@ -208,6 +222,26 @@ Questions left out:
         - deals with frames & also packets
         - work with MAC addresses (frames)
         - faster at connecting segments/routes
+- role and 
+    - Connects devices together
+        - more than devices to a single cable connection
+    - process packets from 
+        - end-user devices (eg: laptop)
+        - and intermediary devices (eg: switches)
+    - Forward packets to destination device.
+- operation
+    - Operates at data link layer (Layer 2)
+    - Creates table in memory
+        - Content Addressable Memory
+        - has MAC addresses and ports
+            - (of recieved network frames)
+    - uses MAC address 
+        - (not IP address) 
+        - in Ethemet frame
+    - Compares with stored table of MAC addresses
+    - Sends frame to known port
+    - Unknown frames are sent to all ports
+
 
 ### NIC
 
@@ -244,6 +278,31 @@ Questions left out:
         - in form of frames
     - Process bits from the physical layer and pass to next layer.
 
+### WAP
+
+- wireless access point
+- description (short)
+    - connects portable devices to a cabled network (over WiFi) 
+- limitations
+    - limited connection distance
+    - signal affected by
+        - Obstacles 
+            - can reduce connectivity (inbetween WAP and device )
+        - type of antenna in use
+        - presence of other wireless devices
+            - (transmitting on the same frequencies)
+        - Weather conditions
+        - Power output
+    - less bandwidth (vs wired)
+        - 350 Mbits/s vs 1000 Mbits/s (Gigabit)
+    - multiple devices -> increases congestion
+    - Security is based on encryption 
+        - adds overhead to packets processing
+    - devices that can connect to a WAP is limited
+    - Unsecured WAP allows access to anyone within range
+    - less secure
+        - can easily intercept traffic
+
 
 ### Comparisons
 
@@ -257,6 +316,13 @@ Questions left out:
         - provide high transmission rates
         - can work in full duplex mode
         - can work in  broadcat, multicast and unicast 
+
+- hub vs switch
+    - similarities
+        - allows multiple devices to connect to a network
+        - devices can form a LAN
+        - send the packets to other devices
+        - can transfer data to all devices (on a network)
 
 
 ## Wired
