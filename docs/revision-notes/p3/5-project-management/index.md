@@ -2,8 +2,16 @@
 title: 4. Security
 ---
 
-All Past Paper Questions: https://docs.google.com/document/d/1oALN6dinPfuOl_jDXBOgfgjI-Nl3Pf8cUTlYl3GjM7g/edit?usp=sharing
+All Past Paper Questions: https://docs.google.com/document/d/1TIqAy1FT-xarYG0I5E4uOZ5TQ0qqKhIuBnwT46yZU9Y/edit?usp=sharing
 
+Questions left out:
+
+- p3-ch5-pg27
+- p3-ch5-pg32
+- p3-ch5-pg36
+- p3-ch5-pg47
+- p3-ch5-pg49
+- p3-ch5-pg51
 
 ## Terms
 
@@ -36,6 +44,38 @@ All Past Paper Questions: https://docs.google.com/document/d/1oALN6dinPfuOl_jDXB
 ## PMS
 
 - project managment software
+- types
+    - new
+        - Desktop:
+            - for smaller projects
+            - Only one person can use the PMS at any one time
+            - Can be used on mobile devices
+            - lacks all the features of full software
+        - Collaborative:
+            - multiple uses to edit sections of the project
+            - Changes reflected to other users
+            - areas unavailable while others are working on them
+        - Visual:
+            - Allows information to be filtered and presented in easier to understand
+            - manner to avoid information overload
+            - Used for fluctuating data
+            - Details not instantly available.
+    - old
+        - desktop PMS
+            - program runs on desktop
+            - for a single user
+        - web-based PMS
+            - runs on web-browser
+            - can use phone to access PMS
+            - use a thin client via a web browser
+        - personal PMS
+            - used at home
+                - to manage lifestyle and home projects
+            - single user programmed
+                - only one user will use it
+        - collabarative PMS
+            - programmed to support multiple users
+            - web-based tools available
 - software
     - advantages
         - tools can ease workflow
@@ -60,6 +100,7 @@ All Past Paper Questions: https://docs.google.com/document/d/1oALN6dinPfuOl_jDXB
                 - so, no need PMS software
                 - might unnessacarily complicate things
             - automated alerts (may interrup workflow)
+
 - web based
     - advantages
         - data stored on server (about project)
@@ -112,14 +153,14 @@ All Past Paper Questions: https://docs.google.com/document/d/1oALN6dinPfuOl_jDXB
         - (different colours for activities)
 
 
-- cost estimation
+- cost
     - costs from
         - human labor
         - pruchasing resources
         - required software 
         - contingency costs to cover unexpected activities
         - insurance (required to cover up failiures)
-    - estimation (using PMS)
+    - cost estimation (using PMS)
         - compare estimation with a similar project
         - estimate using statistical + historical data
             - parametric estimation
@@ -135,9 +176,92 @@ All Past Paper Questions: https://docs.google.com/document/d/1oALN6dinPfuOl_jDXB
             - PERT 'three-point' estimating  to eliminate bias
                 - provides estimate time taken for each task
                 - allowing costs to be calculated
+    - cost management (using PMS)
+        - records all transactions
+        - shows direct costs
+            - eg: cost of IT staff / team members
+        - shows indirect costs
+            - eg: rent / cooling costs / maintainance of equipment
+        - import data from financial packages/spreadsheets
+        - automatically calculates expenses
+        - used by managers to calculate budget
+        - can export data to graphs (during meetings)
+        - link costs to be easily available
+            - for decision makers to decide
+
 
 - resource allocation
+    - Use of critical path analysis
+        - to show tasks that require resources.
+        - identify the time required
+        - to identify priority of tasks
+    - Use of resource levelling (resolving resource conflicts) 
+        - to allocate resources/deliverable task identification
+        - to allocate identify demand for resources
+    - Create PRAM (Project Resource Allocation Matrix) 
+        - to show the allocation resources 
+        - against tasks.
+    - Use of Gantt charts 
+        - to identify resource requirements.
+    - Use of collaborative calendars 
+        - to deploy staff.
+    - SWOT analysis
+        - (Strength, Weakness, Opportunities, Threats)
+        - to identify where to deploy resources.
 
+- schedule
+    - tools
+        - allows planning and executing a project
+            - from inception 
+            - to completion
+        - provide tracking of workers
+        - shows if anyone is missing deadlines
+        - interchange tasks
+        - Allows flexibility to cope with 
+            - e.g. unforeseen problems
+        - Can deliver resources at appropriate times
+        - can make simple projects more complex 
+            - than they need to be
+        - tools expensive (for small projects).
+    - tasks
+        - Define scope of project
+        - Create groups of activities 
+            - e.g. conception/planning
+        - Create list of milestones
+        - Create list of sequence of activities
+        - Create start and finish dates
+        - Create lists of dependencies + milestones
+        - Carry out critical path analysis 
+            - to discover shortest/longest time of project
+        - Allows regular updates of activities
+        - Create charts (Gannt/PERT) charts to show project schedule visually
+        - Use online calendars 
+            - to organise meetings.
+    - how it can be used
+        - shows milestones
+        - has tools to put to milestones
+        - estimation of duration of activities
+        - tracking of team members
+        - automatic backups
+        - visual representation
+
+- decision making
+    - use options to choose (among alternative options)
+    - allows collaborative working
+    - use of graphics to represent choices
+    - use of IF-THEN logic to deal with 'partial choices'
+    - use mind mapping software to show decision trees
+    - exports data to other documents
+
+
+- for small projects
+    - not appropriate
+    - expensive
+        - may even cost more than the project
+    - can be complex to use
+    - may take too long to setup
+    - need too much training
+    - not worth the effort 
 
 ## Stuff 1
 
@@ -243,3 +367,25 @@ All Past Paper Questions: https://docs.google.com/document/d/1oALN6dinPfuOl_jDXB
         - use percentage bar with task bar
         - use a red line on the chart
         - use different colors of bars
+
+- data flow diagrams (DFD)
+    - symbols
+        - ![alt text](image.png)
+    - purpose
+        - diagram to show how data flows
+        - from input through processes to storage
+        - give designers a visual representation
+        - makes it easier to understand
+        - documentation can be created
+        - physical components can be created (to make the system work)
+    - levels
+        - level 0
+            - only shows overview of system
+            - has only 1 process
+            - has no data storage
+            - simple to draw
+        - level 1
+            - shows more details of processors
+            - has more than one process
+            - shows data storage
+            - no technical knowledge required to draw
