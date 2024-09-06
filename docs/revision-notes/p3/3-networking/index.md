@@ -1068,7 +1068,7 @@ Questions left out:
 ## Cloud Computing
 
 - meaning
-    - 
+    - ...
 
 - Storing data on remote servers
 - Servers maintained by third-party (companies)
