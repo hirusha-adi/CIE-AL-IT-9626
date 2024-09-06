@@ -50,13 +50,42 @@ p3-ch3-pg80
             - provides documentation when additional explanation is required
 
 
+## Design
+
+## Development
+
+- agile software development
+    - for
+        - customer satisfaction is highest priority
+            - (from early to late stages of development)
+        - pg16
+    - against
+
+## Testing
+
 ## Implementation
 
 - pilot running
     - advantages
-        - pg12
+        - if system fails
+            - only one part fails
+        - easy to manage implentation at once
+            - than a full direct change over
+        - staff can be trained in small groups
+        - staff can learn from mistakes (made by grouping)
+        - trained staff can support training staff
+        - only part of company is changed
+            - implentation costs can be phased over a longer time period
+            - saving company money (large costs at once)
     - disadvantages
-
+        - full implementation takes time
+            - eg: direct change over
+        - can cause more disruption (to company)
+        - IT staff has to support two teams at the same time
+            - (unlike direct changeover) 
+        - old and new systems have to interact data
+            - so, data is at risk of loss
+        - data lost if system fails
 
 ## Documentation
 
@@ -197,4 +226,34 @@ p3-ch3-pg80
             - (to increase its life span)
         - the ease of maintenance of software
 
+
+## Unknown / Uncategorized
+
+- prototyping
+    - advnatages
+        - customers need changes
+            - so, high costs
+        - quality can be improved by testing prototypes
+        - prevents disasters at end
+            - discovered in early prototypes
+            - saves money
+        - need more client involvement
+            - show working model first
+            - means clients are more aware
+        - customers provides immediate feedback
+        - meeting expected results
+        - reduces miscommunications
+            - end product more closely meets requirements
+        - avoids later changes (saving time)
+    - disadvnatages
+        - insufficient analysis (deviated focus)
+            - may overlook problems
+            - overlooking better solutions, so, poor specification
+            - so, bad engineering
+                - hard to maintain
+        - users might confuse prototype with actual product
+            - (might assume the final product is incomplete)
+        - user might need all features in prototype
+            - slowed development
+        - prototypes take time to develop (so, more expensive)
 
