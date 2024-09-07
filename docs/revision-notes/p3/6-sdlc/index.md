@@ -254,6 +254,28 @@ p3-ch3-pg80
     - make a report for reference
     - re-test system at the end
 
+- parallel running (during migration)
+    - advantages
+        - can compare results (to ensure there's no error)
+        - can use existing hardware
+            - while deploying new system
+            - so, production is not stopped
+        - can use existing hardware to rectify errors
+        - staff can be trained on new hardware
+            - so, staff is confident
+    - disadvantages
+        - expensive
+            - need to pay for two sets of hardware
+        - production slows down
+            - staff needs to update both at once
+            - need to input data twice
+            - increases data entry
+            - to ensure accurate input to both systems
+        - high maintainance time
+            - slow production
+            - more expensive
+        -  
+
 ### Corrective
 
 - description
