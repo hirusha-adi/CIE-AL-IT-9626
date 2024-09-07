@@ -52,14 +52,60 @@ p3-ch3-pg80
 
 ## Design
 
+- design specification (document)
+    - why
+        - specify criteria for development
+        - give guidance for developers
+        - specify how system will meet user requirement
+        - form part of patent application (for the desing)
+        - form basis of accurate costing
+        - be a part of legal contract between client and developers
+    - contents (for a DBMS)
+        - document stating
+            - purpose for design
+        - description (for intended audience)
+            - for purpose of calculations
+            - of formulas and calculations
+            - error handling requirements
+            - backup/recovery procedures
+            - system startup/shutdown procedures
+            - validation performed
+                - and error messages shown
+            - layout of report
+            - securitu design
+                - access control mechanisms
+                - audit log provision
+                - user authentication
+                - encryption process 
+        - identify intended products
+            - using names and references
+        - summary (of contents)
+        - overview of design
+        - relationship between data elements
+        - file requirement description
+            - eg: file access methods 
+
 ## Development
 
 - agile software development
     - for
         - customer satisfaction is highest priority
             - (from early to late stages of development)
-        - pg16
+        - can easily manage changes in requirement
+        - produces working software for client in short period of time
+        - devs must work together
+        - face-to-face conversation (more efficient)
+        - promotes constant pace of development
+        - iterative testing, so
+            - errors corrected quickly (constant testing)
+        - teams are allowed to self-organize
+            - leading in better wokring practices
     - against
+        - face-to-face daily meetings means must be in same workplace
+            - travel costs
+        - cost estimates change over time
+        - milstones difficult to set
+            - uncertain about what they will address in the near future 
 
 ## Testing
 
@@ -189,6 +235,25 @@ p3-ch3-pg80
 
 ## Maintainance
 
+- meaning
+    - correcting a problem in the system
+    - after system is broken
+    - restoring functionality
+- steps
+    - diagnose the problem
+        - (by testing system modules and components)
+    - gather information (logs and users)
+    - identify the problem
+    - isolate faulty code/component
+    - replace it with a new component
+    - test it
+    - check and remove viruses
+    - re-format storage devices
+    - perform a system restore
+    - refer to technical documentation
+    - make a report for reference
+    - re-test system at the end
+
 ### Corrective
 
 - description
@@ -256,4 +321,34 @@ p3-ch3-pg80
         - user might need all features in prototype
             - slowed development
         - prototypes take time to develop (so, more expensive)
-
+    - use
+        - issues detected during development
+        - users involved at all stages of development
+        - users can interact with app
+            - and give feedback
+            - incooperated during development
+        - users get a better understand of the product
+        - to investigate potential market for the app 
+    - types
+        - throw away
+            - stuff
+                - discarded at any stage
+                - produced quickly and cheaply
+                - maybe non functional
+                - more user involvement
+                - easy to measure progress
+                - easy to set time-scale
+        - evolutionary
+            - stuff
+                - becomes a part of the final product
+                - developed over time
+                - functional from the inception (from start)
+        - comparisons
+            - throw away vs evolutionary
+                - similarities
+                    - develop early prototypes
+                    - no full requirement
+                    - devs and users interact frequently
+                    - end users can add/request features
+                    - use interactive reviews
+                - differences

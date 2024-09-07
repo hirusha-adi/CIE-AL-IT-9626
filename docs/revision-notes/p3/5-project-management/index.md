@@ -12,6 +12,7 @@ Questions left out:
 - p3-ch5-pg47
 - p3-ch5-pg49
 - p3-ch5-pg51
+- p3-ch6-pg19
 
 ## Terms
 
