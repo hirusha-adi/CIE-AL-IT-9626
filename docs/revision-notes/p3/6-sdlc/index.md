@@ -5,6 +5,10 @@ title: 6. Software Development
 More in
 
 p3-ch3-pg80
+p3-ch6-pg69
+p3-ch6-pg71
+p3-ch6-pg75
+
 
 ## SDLC
 
@@ -90,6 +94,63 @@ p3-ch3-pg80
             - reduce unnessesary information 
                 - to not confuse the clerk
             - provides documentation when additional explanation is required
+    - forms (/ details collected)
+        - form checks
+            - check
+                - data entered to field
+                - data within pre-set ranges
+                    - eg: dates of bookings
+                - data in required format
+                    - eg: email address
+                - data against pre-set values (lookup tables)
+                    - eg: title of employee
+                - data entered is of required type
+        - form controls
+            - data is lost in form and submitted to back end on form submit
+            - buttons
+                - clicked to activate a task
+                - submit button
+                    - send form data to backend
+                - reset button
+                    - clear form
+                    - custom can re-enter data again
+                - hidden buttons
+                    - not rendered by web browsers
+            - check boxes
+                - (sharing the same name)
+                - allow multiple choices
+                    - eg: choices of food
+                - when check, attribute set the switch is 'on'
+                - only 'on' states submitted with form
+            - radio buttons
+                - mutually exclusive switches
+                - (sharing the same name)
+                - only one choice can be made
+                    - eg: male or female
+            - text input
+                - single line input
+                    - `<input>`
+                    - eg: for name
+                - multi line input
+                    - `<textarea>`
+                    - eg: additional requirements
+            - (dropdown) menu
+                - `<select>`, `<optgroup>`, `<option>`
+                - provide pre-list of options
+                    - eg: destination, departure
+            - file select   
+                - to select files to submit on form
+        - characteristics of a well designed form
+            - show only required info
+            - simple sentence structure
+                - no technical jargon
+            - consistent format to find information
+            - labels should 
+                - be right-justified to left of input field
+                - use a colon, capitalize maybe
+            - compatibility with other input screens
+            - information should be in logical order
+            - should not be repeated 
 
 - examining documents
     - preparing
@@ -200,6 +261,7 @@ p3-ch3-pg80
             - does reliability testing 
             - does security testing
             - crtical issues fixed immediately
+            - gets a more technical analysis report
         - features
             - type of acceptance testing
             - to identify erros before releasing to end users
@@ -239,6 +301,15 @@ p3-ch3-pg80
             - gives expected output 
         - check error handling
             - eg: abnormal inputs 
+- test plan
+    - importance
+        - ensure requirements are met
+        - acts as instructors for screen
+        - allows management of any changes
+            - needed during development
+        - defines test to carry out
+        - records results of test for later analysis
+
 ## Implementation
 
 - pilot running
@@ -263,6 +334,9 @@ p3-ch3-pg80
             - so, data is at risk of loss
         - data lost if system fails
 - phased implentation
+    - question
+        - ![alt text](image.png)
+        - ![alt text](image-1.png)
     - effectiveness
         - done part by part
         - implementation done in stages
@@ -309,6 +383,46 @@ p3-ch3-pg80
         - high maintainance time
             - slow production
             - more expensive
+
+- change over implementation
+    - prepare
+        - ensure management
+            - to determine what needs to be done
+            - after change over
+        - train staff supports training staff
+        - train technicians to maintain new system
+        - prepare user manuals
+        - ensure data is secure
+        - confirm compatibility
+        - ensure hardware availability before installation
+        - transfer/migrate data from old to new system
+        - test new system
+    - advantages
+        - can change system in convenient time
+            - eg: after a shop is closed
+        - benefits of new system are available immediately
+        - can be carried out quickly
+            - with minimal disruptions
+    - disadvantages
+        - if new system fails, old system is not available now
+        - may loose data as old cannot be installed
+        - staff has less time to learn system
+            - so, maybe more errors
+
+- examples
+    - bank replacing their systems. ensure it carries all the functions. without interruptions.
+        - start both systems at the same time
+        - copy everything to the new system
+        - new customers register to new system
+        - switch all services (after system is installed and running)
+        - compare speeds/results
+        - long time period to test
+        - still keep the old system running
+        - ensure everything is duplicated in full
+        - no difference to staff or customers
+        - after new system tested successfull
+        - complete the switch
+        - run the old system as a backup (for a short period of time, incase of a sudden failiure)
 
 
 ## Documentation
@@ -364,35 +478,6 @@ p3-ch3-pg80
 
 
 
-### OTHER
-
-- new UI for doctors to access patient records
-    - meaning
-        - implementating the change in one center
-        - before implementing the change in remaining centres
-    - for
-        - issues in one facility can be fixed 
-            - (before addressing the other)
-            - reducing the overall problems
-        - users have access to new system + docs
-            - they can assist others in its use
-        - workload can be spread out over time
-        - technicians required to fully implement new system
-        - disruption caused in less
-            - so, less danger to patients
-        - user feedbacks to assist training
-        - improving user experience at centers 
-            - less impact to patient care
-    - against
-        - more time taken
-            - to be available at all centers
-        - more expensive
-            - ?? IT staff will have to be relocated multiple times ??  
-        - other staff moving between centers
-            - should be familiar with both new and old UI
-        - motivation of staff may decrease over time
-            - slow work 
-
 ## Evaluvation
 
 - how
@@ -447,7 +532,26 @@ p3-ch3-pg80
     - make a report for reference
     - re-test system at the end
 - why
-    - pg53
+    - ensure the system works
+    - for its expected life time (until bussiness requires it)
+- types
+    - corrective maintainance
+        - why
+            - correct errors in program code
+            - so, system works properly
+    - perfective maintaince
+        - why
+            - improve functionality in system
+            - remove unwanted functions 
+            - to make it more suites to needs
+    - adaptive maintainance
+        - why
+            - system remains compatible
+            - with changes to maintainance
+    - preventive maintainance
+        - why
+            - prevent problems caused by
+                - eg: security vulnerabilities
 
 ### Corrective
 
@@ -489,6 +593,47 @@ p3-ch3-pg80
 
 ## Unknown / Uncategorized
 
+- new UI for doctors to access patient records
+    - meaning
+        - implementating the change in one center
+        - before implementing the change in remaining centres
+    - for
+        - issues in one facility can be fixed 
+            - (before addressing the other)
+            - reducing the overall problems
+        - users have access to new system + docs
+            - they can assist others in its use
+        - workload can be spread out over time
+        - technicians required to fully implement new system
+        - disruption caused in less
+            - so, less danger to patients
+        - user feedbacks to assist training
+        - improving user experience at centers 
+            - less impact to patient care
+    - against
+        - more time taken
+            - to be available at all centers
+        - more expensive
+            - ?? IT staff will have to be relocated multiple times ??  
+        - other staff moving between centers
+            - should be familiar with both new and old UI
+        - motivation of staff may decrease over time
+            - slow work 
+
+- feedback
+    - focus groups
+        - interview with smaller people
+        - members often have similiar ideas
+        - stake holders can suggest ideas
+        - moderator discusses a conclusion 
+        - gives accurate information in a short time
+        - cheap
+            - but expensive if carried from wide range of people
+        - results affected by (presence of) interested parties
+        - validity of outcomes maybe questionable (in front of stake holders)
+        - outcomes not confidential
+            - participants often from external sources
+
 - prototyping
     - advnatages
         - customers need changes
@@ -526,8 +671,14 @@ p3-ch3-pg80
         - to investigate potential market for the app 
     - types
         - incremental
+            - characteristics
+                - project broken to sub projects
+                - product partially built on previous iterations
+                - requirements produced first and completed
+                - testing at each iteration
+                - requirement -> development -> testing -> stop
             - advantages
-                - whole system clearly defined and understoof
+                - whole system clearly defined and understood
                 - early user feedback
                 - minor details allowed with time
                 - allows additional features to be added
@@ -539,6 +690,10 @@ p3-ch3-pg80
                 - product must sell early
                 - new technology being used
                 - required skills not available yet
+            - disadvantages
+                - affects functionality of earlier versions
+                - may be not all requirements produced
+                - high overall costs
         - throw away
             - stuff
                 - discarded at any stage
@@ -547,6 +702,14 @@ p3-ch3-pg80
                 - more user involvement
                 - easy to measure progress
                 - easy to set time-scale
+            - reason to use
+                - to ensure system requirements are valid
+                        - and understoof by all
+                - quickest method to obtain feedback
+            - disadvantages
+                - developers might be pressured to developing unfinished products
+                - prototype may not work well
+                - lot of time wasted
         - evolutionary
             - stuff
                 - becomes a part of the final product
