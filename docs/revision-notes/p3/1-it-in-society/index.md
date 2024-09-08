@@ -4,6 +4,10 @@ title: 1. IT in Society
 
 All Past Paper Questions: https://docs.google.com/document/d/1DZ5rPZt_6-QjTdRkcWjUSZq6ozR57hB6fobvBz5lGrY/edit?usp=sharing
 
+Questions left out:
+
+p3-ch6-pg42
+
 ## (Similar to) Paper 1
 
 - online questionnaires

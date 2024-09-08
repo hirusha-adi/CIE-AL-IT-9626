@@ -4,6 +4,9 @@ title: 2. New Technologies
 
 All Past Paper Questions: https://docs.google.com/document/d/1ShBPhWWjM05zoDRgqXKh_GElfYaAQ8lj_p-vPISIL5s/edit?usp=sharing
 
+Questions left out:
+
+p3-ch6-pg45
 
 ## Robotoics
 

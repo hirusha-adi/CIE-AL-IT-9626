@@ -31,6 +31,48 @@ p3-ch3-pg80
             - outcomes compared with initial requirements
         -  maintainance stage can result in revisiting the design stage to restart cycle
 
+### RAD
+
+- stages
+    - determine user reqiurements
+    - create early prototypes (function, quickly)
+    - gather feedback
+    - use it to create high quality feedback
+    - reapeat his until software is finished
+    - test prototypes throughout development
+    - crease user documentation
+    - produce final product for rollout to users
+- why (instead of waterfall)
+    - project divided to small subtasks
+        - (teams can work concurrently)
+    - subtasks can make use of specialised teams
+    - prototypes created quickly
+    - development time is not wasted, 
+        - prototype does not work as intended
+    - (waterfall method) if project fails, start again 
+    - can adapt changes in user requirement
+    - can work well when developers telework
+    - changes made before final product is created
+    - client not surprised by unexpected end product
+
+
+### Waterfall Model
+
+- phases
+    - create requirements
+    - analyse to create models / schemes
+    - design to create technical designs
+    - implementing the code
+        - integrating units of code
+    - create techinical/user documentation
+    - testing (using a test plan)
+    - deploy software by 
+        - installation
+        - migration
+        - support
+        - maintainance
+
+
 ## Analysis
 
 - data collection
@@ -48,6 +90,30 @@ p3-ch3-pg80
             - reduce unnessesary information 
                 - to not confuse the clerk
             - provides documentation when additional explanation is required
+
+- examining documents
+    - preparing
+        - identify documents to explore
+        - consider how they will be accessed
+            - language & cultural barriers
+        - acknowledge and address biases in humans
+        - consider relevance of document
+        - be clear about what to searching
+        - consider ethical documents
+            - eg: confidential documents
+        - consider alternative sources (if requested)
+    - examining
+        - gather relevant documents
+        - develop organization and management
+        - produce data flow diagram
+        - determine src/dst of documents
+        - make copies of originals for annotations
+        - assess authenticity
+        - examine
+            - purposes
+            - background information
+            - the content
+        - keep records of observations
 
 
 ## Design
@@ -85,6 +151,20 @@ p3-ch3-pg80
         - file requirement description
             - eg: file access methods 
 
+
+- good designs
+    - on screen input (form)
+        - should be straight forward
+            - to reduce misunderstanding
+        - consistent
+        - simple to use & obvious
+        - clear design with enough space
+        - keep necessary keystrokes to a minimum to reduce time
+        - form should include validation routines
+        - use input controls
+        - provide immediate feedback
+        - appropriate use of white space
+
 ## Development
 
 - agile software development
@@ -109,6 +189,56 @@ p3-ch3-pg80
 
 ## Testing
 
+- types
+    - alpha testing
+        - leads to beta testing
+        - stuff
+            - usues white box & black box testing
+            - by employees
+            - uses lab/testing environment
+            - takes place under control of developers
+            - does reliability testing 
+            - does security testing
+            - crtical issues fixed immediately
+        - features
+            - type of acceptance testing
+            - to identify erros before releasing to end users
+            - uses both black & white box testing
+            - usually work for the software developer
+    - beta testing
+        - stuff
+            - involves black box testing (usually)
+            - by third-parties
+            - takes place under control of users
+        - features
+            - done by real end users
+            - in real environment
+            - final testing phase before release of product
+    - other
+        - comparisons
+            - alpha vs beta
+                - similarities
+                    - last tests before release
+                    - done by other (other than programmers)
+                    - impacts final quality of product
+- tester reporting error (report)
+    - should have
+        - purpose of test
+        - how it was carried out
+    - special test environment that was created for the test
+    - expected reults
+    - actual results
+    - whether or not the software passes
+    - recommendations for testing the software
+- test data
+    - why
+        - to find errors in logic / formulae
+        - to show errors in logic formulae
+        - confirm validation routines work as expected
+        - confirm given input
+            - gives expected output 
+        - check error handling
+            - eg: abnormal inputs 
 ## Implementation
 
 - pilot running
@@ -132,6 +262,54 @@ p3-ch3-pg80
         - old and new systems have to interact data
             - so, data is at risk of loss
         - data lost if system fails
+- phased implentation
+    - effectiveness
+        - done part by part
+        - implementation done in stages
+        - time is available for adjustments
+        - users have time to adjust
+        - technical staff concentrates on one part
+        - problems (that arise) at start are less critical
+        - training confusin for users
+            - used to old system
+            - less productive
+        - system delivery unclear
+            - long duration of change over
+            - users workflow disrupted
+            - more disruption to bussiness
+        - check integrity of data before adding new module
+        - 'fall back' to each stage becomes more difficult
+        - implementation unclear
+            - increases complexity
+            - lack of motivation
+        - need several adjustments
+        - at later stages
+            - fall back to old system
+            - becomes impossible
+            - so, should use half-completed new system
+
+
+- parallel running (during migration)
+    - advantages
+        - can compare results (to ensure there's no error)
+        - can use existing system
+            - while deploying new system
+            - so, production is not stopped
+        - can use existing system to rectify errors
+        - staff can be trained on new system
+            - so, staff is confident
+    - disadvantages
+        - expensive
+            - need to pay for two sets of hardware
+        - production slows down
+            - staff needs to update both systems at once
+            - need to input data twice
+            - increases data entry
+            - to ensure accurate input to both systems
+        - high maintainance time
+            - slow production
+            - more expensive
+
 
 ## Documentation
 
@@ -145,6 +323,12 @@ p3-ch3-pg80
                     - when re-developing the app
             - allows completion of program 
                 - (when the original programmer is no longer available)
+        - why
+            - so installer knows what hardware is required
+            - data structures can be amended by analyst
+            - programmer understands how data flows
+            - to provide basis for technical writers
+            - provide reference for programmers
         - information to include
             - comments explaining how code works
             - comments on use of variables
@@ -211,6 +395,15 @@ p3-ch3-pg80
 
 ## Evaluvation
 
+- how
+    - determine if now system is better (time saving)
+    - if easy to use
+        - (+ requires less training)
+    - go through requirements one by one
+        - compare with requirements specification to check that all requirements have been met
+    - get user suggestions
+    - identify issues/problems
+    - SDLC to started again to correct the issues
 - ease of use
     - could be examined
         - (to check if its easy to do stuff) 
@@ -253,28 +446,8 @@ p3-ch3-pg80
     - refer to technical documentation
     - make a report for reference
     - re-test system at the end
-
-- parallel running (during migration)
-    - advantages
-        - can compare results (to ensure there's no error)
-        - can use existing hardware
-            - while deploying new system
-            - so, production is not stopped
-        - can use existing hardware to rectify errors
-        - staff can be trained on new hardware
-            - so, staff is confident
-    - disadvantages
-        - expensive
-            - need to pay for two sets of hardware
-        - production slows down
-            - staff needs to update both at once
-            - need to input data twice
-            - increases data entry
-            - to ensure accurate input to both systems
-        - high maintainance time
-            - slow production
-            - more expensive
-        -  
+- why
+    - pg53
 
 ### Corrective
 
@@ -352,6 +525,20 @@ p3-ch3-pg80
         - users get a better understand of the product
         - to investigate potential market for the app 
     - types
+        - incremental
+            - advantages
+                - whole system clearly defined and understoof
+                - early user feedback
+                - minor details allowed with time
+                - allows additional features to be added
+                - builds on a basic foundation
+                - divides final product into parts
+                - parts developed seperately
+                - easy to identify errors
+                    - testing and debugging can be done
+                - product must sell early
+                - new technology being used
+                - required skills not available yet
         - throw away
             - stuff
                 - discarded at any stage
