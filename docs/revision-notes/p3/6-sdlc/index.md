@@ -31,13 +31,13 @@ p3-ch6-pg75
         - process can be iterative with repeated movement
             - between adjescent stages
         - documentation from each stage  
-            - used to produce system documentation
+            - used to produce System documentation
             - outcomes compared with initial requirements
         -  maintainance stage can result in revisiting the design stage to restart cycle
 
 ### RAD
 
-- stages
+- stages (summarized)
     - determine user reqiurements
     - create early prototypes (function, quickly)
     - gather feedback
@@ -46,6 +46,38 @@ p3-ch6-pg75
     - test prototypes throughout development
     - crease user documentation
     - produce final product for rollout to users
+- stages
+    - requirements phase
+        - define project in terms of what needs to be developed
+        - gather user requirements
+        - define data flow
+        - plan processes for managing project
+            - eg: risk assestment
+        - planning tasks/activities
+    - data modelling / requirements phase
+        - analyze requirements
+        - create sets of data objects
+        - define relationships between data objects
+        - define test plans
+        - define training strategies where required
+        - determine implementation method
+    - process modelling / user design phase
+        - define process for any changes
+        - define process for adding a data object
+        - users interact with System analysts to develop early prototypes
+    - application creation / construction phase
+        - making prototypes by experts
+        - coding can be automated
+        - can code many components simultaneously
+        - user evaluvation of prototype
+            - repeated testing by users
+            - and suggests improvements
+    - implementation / cut over phase
+        - carrying out test plan by testing data flow
+        - testing interfaces between components
+        - testing the complete System
+        - user training
+        - rollout of 'app' to users 
 - why (instead of waterfall)
     - project divided to small subtasks
         - (teams can work concurrently)
@@ -183,7 +215,7 @@ p3-ch6-pg75
     - why
         - specify criteria for development
         - give guidance for developers
-        - specify how system will meet user requirement
+        - specify how System will meet user requirement
         - form part of patent application (for the desing)
         - form basis of accurate costing
         - be a part of legal contract between client and developers
@@ -195,7 +227,7 @@ p3-ch6-pg75
             - of formulas and calculations
             - error handling requirements
             - backup/recovery procedures
-            - system startup/shutdown procedures
+            - System startup/shutdown procedures
             - validation performed
                 - and error messages shown
             - layout of report
@@ -250,7 +282,7 @@ p3-ch6-pg75
 
 ## Testing
 
-- types
+- strategies
     - alpha testing
         - leads to beta testing
         - stuff
@@ -283,6 +315,45 @@ p3-ch6-pg75
                     - last tests before release
                     - done by other (other than programmers)
                     - impacts final quality of product
+        - for open source Operating System
+            - ensure writer of test plan knows what he's doing
+            - he should be able to
+                - define aspects of OS to be tested
+                - define test methods
+                - use smartphone facilities
+                    - assing tasks to ensure smartphone functionality
+            - functionality of apps
+                - specific / custom written apps
+                - third party apps
+            - ability to multi-task
+            - test if sufficient memmory 
+- test case
+    - white box testing
+    - black box testing
+        - advantages
+            - easy to use tested
+                - dont need to know how it works
+                - dont need programming knowledge
+            - can walk through app, as a normal user
+            - quicker development of test case
+                - tester only needs to look at GUI
+                - dont need to discover internal routes
+                - tests dont from POV of user
+                - can expose discrepencies in specification
+            - tests can be done by independent personell
+                - avoids developer bias
+            - test cases can be designed as soon as specification is complete 
+        - disadvantages
+            - hard to design test cases
+                - as no clear test specification
+            - difficult script maintainance
+            - user interface changing due to testing
+            - scripts maybe fragile when working
+                - not the same GUI (for different tests)
+                - rendering may change
+            - doesnt test all internal pathways
+            - doesnt fully test software
+            - many program paths left untested  
 - tester reporting error (report)
     - should have
         - purpose of test
@@ -302,19 +373,31 @@ p3-ch6-pg75
         - check error handling
             - eg: abnormal inputs 
 - test plan
-    - importance
+    - importance (new)
         - ensure requirements are met
         - acts as instructors for screen
         - allows management of any changes
             - needed during development
         - defines test to carry out
         - records results of test for later analysis
+    - importance (old)
+        - overview of all testing
+            - Systematic outline of all features
+            - continuously checked
+        - prepare that all aspects of running a test are considered
+        - train those who need to assist with the test
+        - mechanism for outlining test needs
+            - lists limitations
+            - lists reasons for testing
+        - Ensures legal issues are met
+            - to show regulatory bodies 
+            - that testing has been carried out
 
 ## Implementation
 
 - pilot running
     - advantages
-        - if system fails
+        - if System fails
             - only one part fails
         - easy to manage implentation at once
             - than a full direct change over
@@ -330,9 +413,9 @@ p3-ch6-pg75
         - can cause more disruption (to company)
         - IT staff has to support two teams at the same time
             - (unlike direct changeover) 
-        - old and new systems have to interact data
+        - old and new Systems have to interact data
             - so, data is at risk of loss
-        - data lost if system fails
+        - data lost if System fails
 - phased implentation
     - question
         - ![alt text](image.png)
@@ -345,9 +428,9 @@ p3-ch6-pg75
         - technical staff concentrates on one part
         - problems (that arise) at start are less critical
         - training confusin for users
-            - used to old system
+            - used to old System
             - less productive
-        - system delivery unclear
+        - System delivery unclear
             - long duration of change over
             - users workflow disrupted
             - more disruption to bussiness
@@ -358,28 +441,28 @@ p3-ch6-pg75
             - lack of motivation
         - need several adjustments
         - at later stages
-            - fall back to old system
+            - fall back to old System
             - becomes impossible
-            - so, should use half-completed new system
+            - so, should use half-completed new System
 
 
 - parallel running (during migration)
     - advantages
         - can compare results (to ensure there's no error)
-        - can use existing system
-            - while deploying new system
+        - can use existing System
+            - while deploying new System
             - so, production is not stopped
-        - can use existing system to rectify errors
-        - staff can be trained on new system
+        - can use existing System to rectify errors
+        - staff can be trained on new System
             - so, staff is confident
     - disadvantages
         - expensive
             - need to pay for two sets of hardware
         - production slows down
-            - staff needs to update both systems at once
+            - staff needs to update both Systems at once
             - need to input data twice
             - increases data entry
-            - to ensure accurate input to both systems
+            - to ensure accurate input to both Systems
         - high maintainance time
             - slow production
             - more expensive
@@ -390,39 +473,42 @@ p3-ch6-pg75
             - to determine what needs to be done
             - after change over
         - train staff supports training staff
-        - train technicians to maintain new system
+        - train technicians to maintain new System
         - prepare user manuals
         - ensure data is secure
         - confirm compatibility
         - ensure hardware availability before installation
-        - transfer/migrate data from old to new system
-        - test new system
+        - transfer/migrate data from old to new System
+        - test new System
     - advantages
-        - can change system in convenient time
+        - can change System in convenient time
             - eg: after a shop is closed
-        - benefits of new system are available immediately
+        - benefits of new System are available immediately
         - can be carried out quickly
             - with minimal disruptions
     - disadvantages
-        - if new system fails, old system is not available now
+        - if new System fails, old System is not available now
         - may loose data as old cannot be installed
-        - staff has less time to learn system
+        - staff has less time to learn System
             - so, maybe more errors
 
 - examples
-    - bank replacing their systems. ensure it carries all the functions. without interruptions.
-        - start both systems at the same time
-        - copy everything to the new system
-        - new customers register to new system
-        - switch all services (after system is installed and running)
+    - bank replacing their Systems. ensure it carries all the functions. without interruptions.
+        - start both Systems at the same time
+        - copy everything to the new System
+        - new customers register to new System
+        - switch all services (after System is installed and running)
         - compare speeds/results
         - long time period to test
-        - still keep the old system running
+        - still keep the old System running
         - ensure everything is duplicated in full
         - no difference to staff or customers
-        - after new system tested successfull
+        - after new System tested successfull
         - complete the switch
-        - run the old system as a backup (for a short period of time, incase of a sudden failiure)
+        - run the old System as a backup (for a short period of time, incase of a sudden failiure)
+    - example 2
+        - ![alt text](image-2.png)
+        - ![alt text](image-3.png)
 
 
 ## Documentation
@@ -465,7 +551,7 @@ p3-ch6-pg75
     - requirements specification
         - describe
             - details user requirements
-    - system specification
+    - System specification
         - describe
             - details software and hardware needed
     - design specification
@@ -481,7 +567,7 @@ p3-ch6-pg75
 ## Evaluvation
 
 - how
-    - determine if now system is better (time saving)
+    - determine if now System is better (time saving)
     - if easy to use
         - (+ requires less training)
     - go through requirements one by one
@@ -496,14 +582,14 @@ p3-ch6-pg75
         - start-up procedures
         - end-users can access and use as required
         - user navigation
-        - system producing required results
+        - System producing required results
             - with less errors
         - are features easy to find
-        - assesment of user acceptance (of new system)
+        - assesment of user acceptance (of new System)
         - well structured user documentation
         - trouble-shooting advice to help users 
     - purpose
-        - to check whether or not the new system
+        - to check whether or not the new System
             - meets specifications set by analyst/designer
             - meets the designs
             - has expected behaviour
@@ -514,12 +600,12 @@ p3-ch6-pg75
 ## Maintainance
 
 - meaning
-    - correcting a problem in the system
-    - after system is broken
+    - correcting a problem in the System
+    - after System is broken
     - restoring functionality
 - steps
     - diagnose the problem
-        - (by testing system modules and components)
+        - (by testing System modules and components)
     - gather information (logs and users)
     - identify the problem
     - isolate faulty code/component
@@ -527,26 +613,26 @@ p3-ch6-pg75
     - test it
     - check and remove viruses
     - re-format storage devices
-    - perform a system restore
+    - perform a System restore
     - refer to technical documentation
     - make a report for reference
-    - re-test system at the end
+    - re-test System at the end
 - why
-    - ensure the system works
+    - ensure the System works
     - for its expected life time (until bussiness requires it)
 - types
     - corrective maintainance
         - why
             - correct errors in program code
-            - so, system works properly
+            - so, System works properly
     - perfective maintaince
         - why
-            - improve functionality in system
+            - improve functionality in System
             - remove unwanted functions 
             - to make it more suites to needs
     - adaptive maintainance
         - why
-            - system remains compatible
+            - System remains compatible
             - with changes to maintainance
     - preventive maintainance
         - why
@@ -601,10 +687,10 @@ p3-ch6-pg75
         - issues in one facility can be fixed 
             - (before addressing the other)
             - reducing the overall problems
-        - users have access to new system + docs
+        - users have access to new System + docs
             - they can assist others in its use
         - workload can be spread out over time
-        - technicians required to fully implement new system
+        - technicians required to fully implement new System
         - disruption caused in less
             - so, less danger to patients
         - user feedbacks to assist training
@@ -678,7 +764,7 @@ p3-ch6-pg75
                 - testing at each iteration
                 - requirement -> development -> testing -> stop
             - advantages
-                - whole system clearly defined and understood
+                - whole System clearly defined and understood
                 - early user feedback
                 - minor details allowed with time
                 - allows additional features to be added
@@ -703,7 +789,7 @@ p3-ch6-pg75
                 - easy to measure progress
                 - easy to set time-scale
             - reason to use
-                - to ensure system requirements are valid
+                - to ensure System requirements are valid
                         - and understoof by all
                 - quickest method to obtain feedback
             - disadvantages
@@ -715,6 +801,15 @@ p3-ch6-pg75
                 - becomes a part of the final product
                 - developed over time
                 - functional from the inception (from start)
+            - stuff (compared to throw-off)
+                - client may decide that the early version is all that is needed
+                - Developers can focus on developing parts of System
+                - Instead of developing a whole System which might be beyond their comprehension
+                - Improvements to the System can be created later
+                - First prototype is not discarded so time is not wasted
+                - Throw-away prototypes may not work at all
+                - Can be used in interim until final System is complete.
+
         - comparisons
             - throw away vs evolutionary
                 - similarities
@@ -723,4 +818,3 @@ p3-ch6-pg75
                     - devs and users interact frequently
                     - end users can add/request features
                     - use interactive reviews
-                - differences
