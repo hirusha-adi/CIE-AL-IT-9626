@@ -9,6 +9,7 @@ Questions left out:
 - p3-ch2-pg71
 - p3-ch2-pg85
 - p3-ch2-pg89
+- p3-ch7-pg15
 
 ## Data Terms
 

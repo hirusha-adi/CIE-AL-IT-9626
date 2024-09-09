@@ -4,36 +4,113 @@ title: 7. Data Science
 
 All Past Paper Questions: https://docs.google.com/document/d/1xs8OARJz5f_FvsmwGeYaKqG2dCGurXeLRbaVD_ZEGU4/edit?usp=sharing
 
-Questions left out:
-
-
 ## Terms
 
-- bussiness understanding
-    - tasks  (described)
-        - identify bussiness goals and impact
-        - assessing the situation
-            - problem to be solved by data mining
-        - producing a project plan
-
-## Data Modelling
-
-- tasks (described)
-    - gather data required for the process
-    - Documenting/describing the data, eg:
-        - location of source
-        - how it was acquired
-    - Listing the source of data
-    - Populate the analysis tool
-    - Reviewing data to check 
-        - completeness
-        - anomalies
-        - outliers
-    - Visually checking the data for patterns
-    - Verifying the quality gathered
+- document analysis
+    - use
+        - advantages
+            - a systematic process of reviewing printed and computer-based documents
+                - provides a large amount of information
+            - Data in documents is analysed to gain knowledge
+                - requires the analyst to have knowledge (in that field)
+            - Analyst should combine document research with other forms of analysis
+                - Analysts should be highly skilled
+            - uses data that has already been collected
+                - only data selection is needed 
+                - requires less time than other methods
+                - costs only include the method of analysing
+                - no costs for collecting data
+                - cheap
+                - Many documents are freely available
+            - Document analysis uses non-invasive research methods
+                - does not affect the subject being researched
+            - Historical documents are not altered by being researched
+                - so can be re-examined by analysts
+            - Documents contain references that can be cross-refenced to other sources
+                - making the research more reliable
+        - disadvantages
+            - documents are produced only as a record of an event
+            - lacks insufficient detail to be useful in the research
+            - Data may be inaccurately recorded
+                - may not reflect actual events
+            - physical documents, hard to search through
+                - research can be prolonged
+                - might miss important data
+            - Researcher may be biased when selecting documents
+                - data may be incomplete.
 
 
 ## Data Mining
+
+- meaning
+    - process of analysing trends in larg quantity of data
+    - to show trends
+    - to show patterns
+- stages / phases (new) - (model for bank)
+    - bussiness understanding
+        - stuff (1)
+            - what is required?
+            - is it worth the cost/risk?
+            - success criteria
+        - tasks  (described)
+            - identify bussiness goals and impact
+            - assessing the situation
+                - problem to be solved by data mining
+            - producing a project plan
+    - data understanding
+        - identifies data sets to be used
+        - ensure enough data is available
+        - ensure we have enough time and resources
+        - create a report about data sets to be used
+    - data preparation
+        - selects data to use
+            - according to relevance (of requirements)
+        - "cleaning"
+            - remove redundant + irrelevant data
+        - create combinations, by merging data with common characteristics
+    - data modelling
+        - stuff (this section)
+            - out the mining to discover relationships
+            - create new relationships to analyze patterns
+            - document the mining
+                - allows repetiton
+                - and evaluvation of results
+        - tasks (described)
+            - gather data required for the process
+            - Documenting/describing the data, eg:
+                - location of source
+                - how it was acquired
+            - Listing the source of data
+            - Populate the analysis tool
+            - Reviewing data to check 
+                - completeness
+                - anomalies
+                - outliers
+            - Visually checking the data for patterns
+            - Verifying the quality gathered
+    - evaluvating
+        - process against success criteria
+        - if it is met
+            - results shown to assess
+        - else
+            - model is amended, 
+            - and re-run
+
+
+
+
+- stages / phases (INCOMPLETE, old)
+    - data understanding
+        - same thing as ["Data Modelling"](#data-modelling)
+    - deployment
+        - tasks (described)
+            - Plan how data mining results will be used
+            - Creating a plan to maintain the model 
+                - ensure it remains valid
+            - process to new data to generate predictions/trends (required)
+            - Reporting the final results of the data mining process
+                - to check for errors
+                - and how to correct them
 
 - by bussinesses
     - advantages
@@ -65,7 +142,7 @@ Questions left out:
     - disadvantages
         - privacy issues of extracting data from internet
         - so people reluctant to allow their data to be used
-            - so, businesses cannot rely on the results of data mining 
+            - businesses cannot rely on the results of data mining 
             - to make informed decisions
         - may lose control of their customer data
         - will be responsible for data breaches
@@ -75,6 +152,21 @@ Questions left out:
         - legal liability if data leaked/lost
         - Data can be misused
         - to take advantage of vulnerable people
+
+- by retail bussiness
+    - how
+        - Divide customers into groups according to purchasing habits
+            - e.g. recency/frequency/monetary (RFM) groups
+            - different groups are targeted by different marketing campaigns
+                - recent buyers sent money-off coupons with time limit
+                - frequent customers sent coupons off regular purchases
+                - big spenders dealt with differently from those who spend little at a time
+        - help decide when to put items on sale
+        - Can target customers
+            - from purchasing habits
+            - from loyalty card schemes
+        - decide advertising campaigns worked
+        - decide which items sold well (to different demographics)
 
 - by health care organizations
     - why
@@ -89,7 +181,41 @@ Questions left out:
         - Determine abnormal patient outcomes from treatments
         - Determine abnormal  patterns of medical claims by patients (to identify fraudulent claims)
 
+- for analyzing social trends
+    - advantages
+        - Useful for 
+            - predicting future trends
+            - keeping track of customer habits
+            - decision making
+        - Speeds up the data analysis
+        - people can collect information about marketed products
+        - can find out fake products (with marketing analysis)
+        - can create unexpected trends 
+            - e.g. 'me-too' campaigns
+        - can cause good influences
+            - eg: anti-plastic movements
+        - ?? Can influence the rebellion against plastic wrapped goods being identified by
+        data mining of social trends ??
+    - disadvantages
+        - Violates user privacy
+        - collects irrelevant information
+        - need skilled person analyze & understand 
+        - security issues as data can be misused (to harm others)
+        - Results can be sold to others 
+            - without being anonymised
+            - revealing personal details
+        - Data patterns can be misused against
+            - different social groups
+        - Accuracy of data can be in doubt
 
-## Other Stuff
+- to analyze economic trends
+    - tasks
+        - Identify anomalies in economic data
+        - Searching for relationships between variables
+        - Clustering 'similar' groups and structures
+        - generalizing known structures (to apply to new data)
+        - Finding functions that model the data with the least error
+        - Summarising the data
+        - Producing reports
+        - charts/graphs to show trends in the data.
 
-- document analysis
