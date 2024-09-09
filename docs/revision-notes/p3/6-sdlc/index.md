@@ -107,11 +107,50 @@ p3-ch6-pg75
         - migration
         - support
         - maintainance
-
+- stages
+    - ...
+- disadvantages
+    - ...
 
 ## Analysis
 
 - data collection
+    - stuff in [P1-CH1](../../p1/1-data-processing-and-information/index.md) and [P3-CH1](../1-it-in-society/index.md)
+    - document analysis
+        - advantages
+            - less time consuming than other methods/more efficient as it
+            - requires data selection rather than data collection
+            - many documents are readily available/in public domain
+            - documents unaffected by research process
+            - documents are stable/do not change due to observer's presence
+            - documents can be more exact/precise
+            - documents provide wide/broad coverage of topics
+        - disadvantages
+            - documents may lack detail as not produced for research
+            - documents may be difficult to retrievenocate
+            - documents may be incomplete
+    - questionnaries
+        - advantages
+            - relatively inexpensive to administer when large numbers are involved
+            - reduced researcher bias
+            - questionnaires are familiar to participants
+            - data can be collected in a format that is easy to analyse
+        - disadvantages
+            - participants may not complete questionnaires/return the
+            - questionnaires fully/properly leading to incomplete data
+            - questions may not mean the same to all participants
+            - may be unclear who has completed the questionnaires
+            - unable to develop the questioning further
+            - questionnaires can be difficult to formulate
+    - observation
+        - can collect data where/when activity occurs
+        - can be unobtrusive
+        - can provide 'behind the scenes' information/can directly see the activities
+        - can be susceptible to observer bias
+        - observed often perform better when watched
+        - cannot help understand why people behave as they do/do what they do
+
+- data input
     - online forms
         - explain
             - done by clerk
