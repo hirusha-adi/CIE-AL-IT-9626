@@ -2,12 +2,14 @@
 title: 6. Software Development
 ---
 
-More in
+All Past Paper Questions: https://docs.google.com/document/d/1yzrwajG6hW2RexRY177O6ISq-HIMi12RvZjx3vnOa5c/edit?usp=sharing
 
-p3-ch3-pg80
-p3-ch6-pg69
-p3-ch6-pg71
-p3-ch6-pg75
+Questions left out:
+
+- p3-ch3-pg80
+- p3-ch6-pg69
+- p3-ch6-pg71
+- p3-ch6-pg75
 
 
 ## SDLC
@@ -90,11 +92,100 @@ p3-ch6-pg75
     - can work well when developers telework
     - changes made before final product is created
     - client not surprised by unexpected end product
+- advantages
+    - Increased quality
+        - focusses on problems to end users
+        - rather than technical problems (of interest to developers)
+    - complete project on time
+    - within budget
+    - uses incremental development 
+        - low chance of failiures
+    - More risk control
+    - the key risk factors show in the early part of the process
+        - so, adaptable process
+- disadvantages
+    - Users involved from beginning & at all stages
+        - takes more interaction between users and devs
+        - time consuming for developers
+        - higher costs
+    - RAD can be new for some developers
+        - new tools more likely to fail
+    - adaptable
+        - Less control over the process 
+    - bad design of prototypes
+        - constant (minor) changes to components 
+        - ignore system architecture issues 
+    - Not suitable for very large systems
+
+### Agile
+
+- agile software development
+    - for
+        - customer satisfaction is highest priority
+            - (from early to late stages of development)
+        - can easily manage changes in requirement
+        - produces working software for client in short period of time
+        - devs must work together
+        - face-to-face conversation (more efficient)
+        - promotes constant pace of development
+        - iterative testing, so
+            - errors corrected quickly (constant testing)
+        - teams are allowed to self-organize
+            - leading in better wokring practices
+    - against
+        - face-to-face daily meetings means must be in same workplace
+            - travel costs
+        - cost estimates change over time
+        - milstones difficult to set
+            - uncertain about what they will address in the near future 
+    - describe / stages
+        - initiation
+            - Create idea for project
+            - Discuss ROI (return on investment)
+            - Identify team members
+            - Determine required time/resources
+            - Carry out feasibility study 
+                - (determine if the project can be done)
+        - planning
+            - Developers working with end-users
+            - Specifications are written 
+                - User/system/requirement specifications
+            - Risks are considered
+            - Product features are determined
+        - development
+            - Development based on specifications
+            - Occurs in iterations (incremental phases)
+            - Working software 
+                - available at end of this phase
+                - with minimal functionality 
+            - Each iteration is tested
+        - documentation
+            - Production of user documentation
+            - Deployment to end-users
+            - Handover with training to end-users
+            - Software monitored for errors
+        - support/maintainance
+            - Software (end-of-life) decommissioned
+            - Support for software stops
+            - End-users notified of impending withdrawal of software
+            - Software replaced by new (version) release.
 
 
 ### Waterfall Model
 
-- phases
+- stages list
+    - analysis/requirements
+    - design
+    - development/implementation
+    - testing
+    - documentation
+    - evaluation
+    - maintainance
+- introduction
+    - linear approach
+    - client requirements gathered at start
+    - uses Gannt charts to manage development changes
+- phases / stages (new, short)
     - create requirements
     - analyse to create models / schemes
     - design to create technical designs
@@ -107,10 +198,45 @@ p3-ch6-pg75
         - migration
         - support
         - maintainance
-- stages
-    - ...
+- phases / stages (old, long)
+    - linear apprach
+    - traditional
+    - produce requirements document
+    - analyze it
+    - produce model
+    - design the softwre
+        - produce DFD / system flowchart
+        - unit test the source codd
+        - integrate these units into whole system
+    - do whole system testing
+        - revisit code improvements
+    - carry UAT (user acceptance testing)
+        - remedy any issue discovered
+    -  develop support mechanism for users
+    - deliver the finished product
+- advantages
+    - issues found in early stages (and fixed)
+    - emphases on full documentation
+        - eg:
+            - requirements documents
+            - design documents
+        - so, can replace anyone in the team easily
+    - development is structured  
+        - (through seperate stages)
+        - stage easy to understand
+        - allows milestones to be set
+    - ensures all requirement are met
+
 - disadvantages
-    - ...
+    - requirement not fully known
+        - clients may change their requirement
+        - may not cover all details
+        - clients may not know exactly what they want
+        - expensve, since has to change a lot
+    - deisgners unaware of future difficulties
+    - clients cannot see functional prototype during development
+    - difficult to change at middle (during development)
+        - since requirements are already set
 
 ## Analysis
 
@@ -129,27 +255,45 @@ p3-ch6-pg75
             - documents may lack detail as not produced for research
             - documents may be difficult to retrievenocate
             - documents may be incomplete
-    - questionnaries
-        - advantages
-            - relatively inexpensive to administer when large numbers are involved
-            - reduced researcher bias
-            - questionnaires are familiar to participants
-            - data can be collected in a format that is easy to analyse
-        - disadvantages
-            - participants may not complete questionnaires/return the
-            - questionnaires fully/properly leading to incomplete data
-            - questions may not mean the same to all participants
-            - may be unclear who has completed the questionnaires
-            - unable to develop the questioning further
-            - questionnaires can be difficult to formulate
-    - observation
-        - can collect data where/when activity occurs
-        - can be unobtrusive
-        - can provide 'behind the scenes' information/can directly see the activities
-        - can be susceptible to observer bias
-        - observed often perform better when watched
-        - cannot help understand why people behave as they do/do what they do
-
+        - questionnaries
+            - advantages
+                - relatively inexpensive to administer when large numbers are involved
+                - reduced researcher bias
+                - questionnaires are familiar to participants
+                - data can be collected in a format that is easy to analyse
+            - disadvantages
+                - participants may not complete questionnaires/return the
+                - questionnaires fully/properly leading to incomplete data
+                - questions may not mean the same to all participants
+                - may be unclear who has completed the questionnaires
+                - unable to develop the questioning further
+                - questionnaires can be difficult to formulate
+        - observation
+            - can collect data where/when activity occurs
+            - can be unobtrusive
+            - can provide 'behind the scenes' information/can directly see the activities
+            - can be susceptible to observer bias
+            - observed often perform better when watched
+            - cannot help understand why people behave as they do/do what they do
+    - data collection from staff
+        - managers
+            - interview face-to-face, before asking opinion
+                - managers can be available for additional questions
+                - not many managers, so, less time 
+        - assembly-line workers
+            - observation
+                - to not distract them from work
+                - observers can see process for themselves
+                - dont need to know technical language
+        - clerical staff (data entry, customer service, etc...)
+            - questionnaires
+                - can take them home and do it in a free time
+                - can be anonymously returned
+            - observation (bad)
+                - behaviour changes quickly
+            - interview (bad)
+                - too much staff
+            - clerical staff can remain anonymous
 - data input
     - online forms
         - explain
@@ -299,25 +443,7 @@ p3-ch6-pg75
 
 ## Development
 
-- agile software development
-    - for
-        - customer satisfaction is highest priority
-            - (from early to late stages of development)
-        - can easily manage changes in requirement
-        - produces working software for client in short period of time
-        - devs must work together
-        - face-to-face conversation (more efficient)
-        - promotes constant pace of development
-        - iterative testing, so
-            - errors corrected quickly (constant testing)
-        - teams are allowed to self-organize
-            - leading in better wokring practices
-    - against
-        - face-to-face daily meetings means must be in same workplace
-            - travel costs
-        - cost estimates change over time
-        - milstones difficult to set
-            - uncertain about what they will address in the near future 
+- developing source code and stuff, more info at [RAD](#rad), [Agile](#agile) and [Waterfall model](#waterfall-model)
 
 ## Testing
 
@@ -338,6 +464,19 @@ p3-ch6-pg75
             - to identify erros before releasing to end users
             - uses both black & white box testing
             - usually work for the software developer
+        - describe (basically the same thing)
+            - done by the developers on the development site
+            - Carry out review of the 
+                - requirements specification
+                - and design specification
+            - Create full test plans
+            - Create test data
+            - Carry out the test plans
+            - Record errors discovered during testing
+            - Determine the cause of errors
+            - Correct errors
+            - iterative testing until errors are fixed
+            - Uses both white and black box testing
     - beta testing
         - stuff
             - involves black box testing (usually)
@@ -368,6 +507,42 @@ p3-ch6-pg75
             - test if sufficient memmory 
 - test case
     - white box testing
+        - how
+            - developers / testers ...
+            - create a test plan
+            - create test data
+            - test every line of code
+            - test every branch in the code
+            - test every condition in the code4
+            - test calculations
+            - test the logic of code
+            - test inputs
+            - can use (automated) testing tools to check code
+            - errors are noted and corrected
+            - repeat the testing
+            - (must) have good knowledge of coding
+            - (must) understand how the code works
+        - advantages
+            - introspection - tester looks inside system
+                - identify system objects in code
+                - reduce the failure rate
+                - more stable
+                - allow re-use test code
+            - More complete testing of code
+                - all aspects of code
+                - every interaction in code
+                - all routes through code
+        - disadvantages
+            - closely integrated with the system
+                - installed in the system
+                - not sure if testing is not causing the errors
+                - not all platforms support this
+            - changes to objects cause it to fail
+            - highly integrated with system code
+                - more maintenance
+            - Tester must have in-depth knowledge of system
+                - skilled programmer
+
     - black box testing
         - advantages
             - easy to use tested
@@ -548,7 +723,22 @@ p3-ch6-pg75
     - example 2
         - ![alt text](image-2.png)
         - ![alt text](image-3.png)
-
+    - large company. replace current systems. large workforce with many departments. time is not important (no hurry). should be as efficient as possible. 
+        - Pilot running 
+            - not appropriate 
+            - each department would not need similar aspects of the system
+        - Phased implementation 
+            - would be possible because one department could have their part system implemented
+            - when working another part of system could be tried in another department
+        - Parallel running
+            - enough workers available to use both systems at the same time
+        - Parallel running 
+            - company can afford to employ two sets of workers if more are needed
+            - old system continues while problems are fixed with the new system
+        - Direct changeover 
+            - bad, as it may not work property first time
+            - quick method but speed of changeover is not an issue
+            - cheaper method but the cost is not important to the company.
 
 ## Documentation
 
@@ -568,6 +758,15 @@ p3-ch6-pg75
             - programmer understands how data flows
             - to provide basis for technical writers
             - provide reference for programmers
+        - why (new programmer working on project)
+            - Program listing (can see full details of code)
+            - List of variables (to follow the parameters)
+            - Program flowchart (overview of program)
+            - Notes (know where to start)
+            - Test plans + results (can check code)
+            - Known bugs (to correct)
+            - Purpose of software + reasons for choosing library (instead of custom code)
+            - Input and output data formats (write code to match)
         - information to include
             - comments explaining how code works
             - comments on use of variables
@@ -677,6 +876,15 @@ p3-ch6-pg75
         - why
             - prevent problems caused by
                 - eg: security vulnerabilities
+- maintaining an error free system
+    - error-free, corrective maintenance is not needed
+    - no new situations to arise, adaptive maintenance is not needed
+    - Perfective maintenance is needed 
+        - to modify the code
+        - enhance capabilities 
+            - to increase usefulness
+    - Delete unused functions to reduce the complexity & resource usage
+    - Optimise code
 
 ### Corrective
 
@@ -831,8 +1039,14 @@ p3-ch6-pg75
                 - to ensure System requirements are valid
                         - and understoof by all
                 - quickest method to obtain feedback
+            - advantages
+                - speed with which the prototype is put together
+                - ensure the requirements are clear (ly understood)
+                - focuses the user on only one aspect of the system
+                    - keeps the feedback precise
             - disadvantages
                 - developers might be pressured to developing unfinished products
+                    - user might confuse it with final product
                 - prototype may not work well
                 - lot of time wasted
         - evolutionary
@@ -848,7 +1062,13 @@ p3-ch6-pg75
                 - First prototype is not discarded so time is not wasted
                 - Throw-away prototypes may not work at all
                 - Can be used in interim until final System is complete.
-
+            - advantages
+                - delivery of the system is speeded up
+                - user engages with the system
+                - system more likely to meet user requirements
+            - disadvantages
+                - extended development time
+                - comments come from a biased/small group
         - comparisons
             - throw away vs evolutionary
                 - similarities
