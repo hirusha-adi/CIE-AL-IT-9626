@@ -86,6 +86,35 @@ All Past Paper Questions: https://docs.google.com/document/d/1Wx551YT0F35Ca0DI4u
                 - Flatten/merge layers (if required)
                 - Correct new image for overlap/misplaced parts/pixels of imported image
                 - Crop area of new image/photograph 2 as required.
+        - question 2
+            - ![alt text](image-1.png)
+            - answer
+                - Removal of Private barrier structure:
+                    - Freehand selection tool to select structure
+                    - Cut tool to remove object from the image
+                    - Colour picker tool to select background behind barrier
+                    - Paint tool to fill in area where barrier removed
+                        - "content aware fill" or use the spot healing brush tool
+                    - blend backgrounds where
+                    - select and copy and paste to disguise where shadow of barrier was on path
+                - Addition of new lamp post:
+                    - Freehand select tool to select lamp post
+                    - Copy tools to copy lamp post to clipboard (leaving existing in place)
+                    - paste new lamp post into new layer
+                    - Position new lamp post as required
+                - Clean up pasted image:
+                    - Colour picker tool to select colour to be painted into edges of added image
+                    - paint tool used to fill pixels around image to make it 'blend' in
+                    - Use of appropriate brush size
+                - Adding text for title:
+                    - Create new layers for text and path
+                    - Type text and create path for the text
+                    - Use text to path to create shaped text
+                    - Position text
+                    - Remove temporary layers 
+                        - (used to construct title)
+                - Finalising image:
+                    - Merge layers to 'flatten' image.
 
 
 - uses
@@ -127,37 +156,40 @@ All Past Paper Questions: https://docs.google.com/document/d/1Wx551YT0F35Ca0DI4u
         - file format may allow compression
         - compression maybe lossless
             - or lossy
-    - jpeg
-        - both lossy and lossless
-        - used for web
-            - supported by web browsers
-        - suffers image degradation
-            - (when repeatedly edited and saved)
-        - need more processing power (to compress)
-        - no transparency support (easily)
-        - doesnt encode large uniform areas of colors well
-    - png
-        - FOSS
-        - works in web
-        - performs well with large uniform colors
-        - works well when progressively downloaded
-    - bmp
-        - large file size
-        - used by microsoft tools
-    - gif
-        - works in web
-        - supports animation
-        - no color management (in different devices)
-            - so, colors may alter
-        - only supports 256 colors
-    - tiff
-        - stores 24-bit colors by using 48-bits per color
-        - uses lossless compression
-            - LZW Algorithm - no data loss
-        - not supported by web
-        - large file size
-        - doesnt support interlacing
-        - doesnt support animations
+    - why?
+        - pg36
+    - types
+        - jpeg
+            - both lossy and lossless
+            - used for web
+                - supported by web browsers
+            - suffers image degradation
+                - (when repeatedly edited and saved)
+            - need more processing power (to compress)
+            - no transparency support (easily)
+            - doesnt encode large uniform areas of colors well
+        - png
+            - FOSS
+            - works in web
+            - performs well with large uniform colors
+            - works well when progressively downloaded
+        - bmp
+            - large file size
+            - used by microsoft tools
+        - gif
+            - works in web
+            - supports animation
+            - no color management (in different devices)
+                - so, colors may alter
+            - only supports 256 colors
+        - tiff
+            - stores 24-bit colors by using 48-bits per color
+            - uses lossless compression
+                - LZW Algorithm - no data loss
+            - not supported by web
+            - large file size
+            - doesnt support interlacing
+            - doesnt support animations
 
 ## Vector Images
 
@@ -194,20 +226,21 @@ All Past Paper Questions: https://docs.google.com/document/d/1Wx551YT0F35Ca0DI4u
             - Determines direction/vector of path
             - Defines/shows the start and end points of paths.
         - node editing
-nodes can be joined together
-moved to change the path direction
-Add a new nodes (to change shape)
-Delete a node
-symmetrical nodes 
-    - to create smooth flowing curves
-asymmetrical nodes 
-    - to obtain a different amount of curve on each side
-    - of the node (keeping a smooth flow through the node)
-- cusp nodes to create extreme changes in direction
-    - change the length and direction 
-    - of each control arm independently
-- smooth nodes 
-    - for smooth transitions between straight line segments
+            - (related to ['Vectors Images - Editing'](#) section)
+            - nodes can be joined together
+            - moved to change the path direction
+            - Add a new nodes (to change shape)
+            - Delete a node
+            - symmetrical nodes 
+                - to create smooth flowing curves
+            - asymmetrical nodes 
+                - to obtain a different amount of curve on each side
+                - of the node (keeping a smooth flow through the node)
+            - cusp nodes to create extreme changes in direction
+                - change the length and direction 
+                - of each control arm independently
+            - smooth nodes 
+                - for smooth transitions between straight line segments
 
 - tools (/ techniques)
     - to change appearance of objects
