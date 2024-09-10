@@ -6,6 +6,16 @@ All Past Paper Questions: https://docs.google.com/document/d/1Wx551YT0F35Ca0DI4u
 
 ## Bitmap Images
 
+- how its stored
+    - Made up of pixels
+    - Each pixel represented by bits
+    - 1 to 64 bits per pixel
+    - Number of pixels depending on colour depth
+    - Bits representing pixels packed in rows for bmp
+    - Rows rounded to 32 bit words
+    - Padding needed for loading into memory locations
+    - (Usually) stored from bottom left up to top right of image.
+
 - compression
     - why
         - reduce file size
@@ -54,6 +64,30 @@ All Past Paper Questions: https://docs.google.com/document/d/1Wx551YT0F35Ca0DI4u
             - because only need to store data for one pixel and number of pixels
             - No loss of quality
             - algorithms can reconstuct original pixels lost by compression
+
+- editing techniques
+    - Cropping of images to remove unwanted areas
+        - use of rule of thirds to keep image visual balance
+        - can lose important detail if poorly used
+    - Colour balance adjustment to change 'feel' of image
+        - whiter to create warm mood
+        - bluer to create cooler feel
+        - restore natural colour to flesh tones
+    - Brightness changes to change of image
+        - increase in contrast for photos taken on dull days can show more detail
+        - decrease in contrast for photos taken in bright sun can increase detail in shadows
+    - replacing an object in the image
+        - combining elements of different photos to create a new photo.
+        - covering part of the image with another object
+    - Creating a digital illustration (of original photo)
+    - Changing to a different background
+    - Create an illusion of depth
+    - Create special effects
+    - Adjusting the image itself
+        - change the transparency of an image
+        - resizing of photos
+        - reducing noise in the image
+        - correcting lens distortion/perspective.
 
 - edtiting tools
     - morphing (sad face -> happy face)
@@ -115,7 +149,68 @@ All Past Paper Questions: https://docs.google.com/document/d/1Wx551YT0F35Ca0DI4u
                         - (used to construct title)
                 - Finalising image:
                     - Merge layers to 'flatten' image.
+        - question 3
+            - ![alt text](image-2.png)
+            - answer
+                - Perspective tool has been used (to correct perspective) 
+                    - by 'stretching' the image across the top 
+                    - to align the sides of the stores 
+                - Rotate right tool used to an building infrotn
+                - Curtains (in left windows) 
+                    - inserted by copy & paste
+                    - using right-hand set (as source)
+                - cropped to remove some building
+                - resized to improve aspect ratio.
+        - question 4
+            - part 1
+                - ![alt text](image-3.png)
+                - answer
+                    - Crop tool to show the face only
+                    - Border line added to the whole image
+                    - Resize tool to make image larger
+                    - Saved as compressed (JPEG) format
+            - part 2
+                - ![alt text](image-4.png)
+                - answer
+                    - both 1 & 2 - are saved as a bitmap
+                    - Bitmaps are made of pixels
+                    - 2 - is a compressed image with too much compression
+                        - Loss of pixels
+                        - details in face are lost
+                        - compression artefacts visible to the human eye
+                    - 2 - large to be seen by human eye
+                    - When enlarged, it becomes more visible
+                    - The face now looks unrealistic(/blocky) 
 
+- impacts of editing
+    - politics
+        - fake news 
+            - altering photos
+            - adding peopl to unrelated places
+                - to make people beleive he participated
+            - removing people
+                - to make them beleive he did not participate
+        - retouching images
+            - to make them more attractive
+        - viewers unaware if image if manipulated
+    - fashion magazines
+        - enhance appearance of items/models
+        - attract attention of viewer
+            - to compensate for 
+            - reduction in attention span (in recent years)
+        - make poor photos appear neat 
+            - (to increase sales)
+        - cheap than taking perfect photos
+        - making models look nice
+            - Removing blemishes, wrinkles, flabby parts
+            - altering body shape 
+            - A unrealistic body image (is created)
+        - models can lower viewers self-esteem
+            - cause eating disorders
+            - cause unnecessary pressure 
+                - to confirm to unrealistic ideals
+        - takes time
+            - so, slows down production
 
 - uses
     - photography (website)
@@ -144,6 +239,23 @@ All Past Paper Questions: https://docs.google.com/document/d/1Wx551YT0F35Ca0DI4u
                     - (decompression should happen)
             - enlarging causes pixellation
             - support transparency so can be used on any background.
+    - for the web
+        - can be stored in many formats
+        - easy to produce
+            - can be output from many apps
+        - created from 2 dimentional arrays of pixels
+        - can display many colors
+            - depending on bits per pixel
+        - can display gradients / grayscales
+        - photo realistic
+        - can edit to be more attractive
+        - can easily translate to dot format
+            - printers / CRTs
+        - can be used in simple animations
+            - eg: animated GIFs
+        - can compress to reduce loading times
+
+
 
 - file formats
     - files
@@ -157,7 +269,25 @@ All Past Paper Questions: https://docs.google.com/document/d/1Wx551YT0F35Ca0DI4u
         - compression maybe lossless
             - or lossy
     - why?
-        - pg36
+        - some software may not support all file types
+            - so, have different export options
+        - - some are compressed
+            - eg: JPEG (lossy)
+        - most universally supported are: 
+            - JPEG
+                - no transparency support
+                - no animation support
+                - supports more colors (high color depth) than GIF
+            - GIF
+                - supports transparency
+                - supports animations
+        - some other types
+            - TIFF 
+                - highest quality
+                - gives largest file size
+            - BMP
+                - only supports windows OS
+        
     - types
         - jpeg
             - both lossy and lossless
@@ -217,6 +347,15 @@ All Past Paper Questions: https://docs.google.com/document/d/1Wx551YT0F35Ca0DI4u
         - when editing
     - may vary on software being used to view
     - converted to raster/bitmap images before displayed on screen/monitor
+        - why?
+            - Vector images are stored as co-ordinates
+                - geometric descriptions of shapes and colours
+            - Digital monitors cannot display co-ordinate-based graphics
+            - Because all digital monitors are pixel-based
+            - Graphics card converts the co-ordinates into pixels before sending to digital monitor...
+            - Uses an ADC-type action
+            - Resizes the image to suit the monitor.
+
 
 - structure
     - node
@@ -362,17 +501,29 @@ All Past Paper Questions: https://docs.google.com/document/d/1Wx551YT0F35Ca0DI4u
 
 ### Editing
 
+- components
+    - layer
+        - level at which an object is placed in an image
+        - represents part of graphic (as pixels in bitmaps)
+
 - tools
     - layer tool
-        - To separate elements of image
-            - to worked on independently
-        - To overlay elements onto others 
-            - each element can be moved independently of the others
-        - allows editing of elements while leaving other elements untouched
-        - do stuff to one element/layer (without affecting others)
-        - allows transparency effects (of objects)
-        - To insert text 
-            - writing can be placed anywhere on the image
+        - what it does
+            - To separate elements of image
+                - to worked on independently
+            - To overlay elements onto others 
+                - each element can be moved independently of the others
+            - allows editing of elements while leaving other elements untouched
+            - do stuff to one element/layer (without affecting others)
+            - allows transparency effects (of objects)
+            - To insert text 
+                - writing can be placed anywhere on the image
+        - how to use it
+            - adjust transparency to allow other layers to be seen
+            - can overlap to create composite image
+            - can replicate to show copies (of same thing)
+            - can replicate to mask parts of image
+            - to ajdust brightness / saturation
     - flatten tool
         - To merge all layers into one layer
         - To discard hidden layers 
@@ -380,6 +531,42 @@ All Past Paper Questions: https://docs.google.com/document/d/1Wx551YT0F35Ca0DI4u
         - To fill any transparent areas with white 'background colour'
         - to create pdf to print easily
         - To reduce the file size
+
+    - color gradients
+        - types
+            - linear 
+                - fills evenly across image
+            - radial 
+                - (center -> outwards (along radii))
+                - fills with single line path
+                - fill starts at centre
+                - to outwards along all radii
+                - fills evenly along all radii
+            - elliptical
+                - fills with two line paths
+                - fill starts at center
+                - fills outwards
+                - along two directions away from the center
+                - can be skewed along one line or another
+            - conical 
+                illusion that image is cone shaped
+            - square fills
+                - produce a start like view in color
+            - three color fills
+                - merge from one color into two (across the image)
+            - four color fills
+                - merge from one color into three (across the image)
+            - X color fills
+                - merge from one color into `X-1` colors (across the image)
+        - what to change of a filled shape?
+            - opacity
+                - from opaque to transparent
+            - fade color from one color into another
+
+
+
+
+
 
 ### Conversions
 
