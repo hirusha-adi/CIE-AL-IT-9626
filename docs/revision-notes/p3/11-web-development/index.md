@@ -72,6 +72,45 @@ All Past Paper Questions: https://docs.google.com/document/d/1huzD3ywePF8riWc9sY
         - executes block even if condition is false
         - always executed, atleast once (first time, before checking condition)
 
+- operators
+    - logical operators
+        - ![alt text](image.png)
+        - description
+            - Used in if-else/switch statements 
+            - to test if conditions are true
+            - Compare the logic between variables
+            - Can be used 
+                - with any data type
+                - in a more complex manner 
+                - \- complex conditions \-
+        - detailed explanations
+            - `==`
+                - converts characters to same type if necessary
+                - compares value to determine if strictly equal
+                - return `true` if same
+                - return `false` if not same
+            - `===`
+                - compares both type and value
+                - return `true` if
+                    - same type AND same value 
+                - return `false` if 
+                    - same value
+                    - different types
+                - return `false` if
+                    - same type
+                    - different value
+            - `!==`
+                - compares both type and value
+                - return `true` if 
+                    - same value
+                    - different types
+                - return `true` if
+                    - same type
+                    - different value
+                - return `false` if
+                    - same type AND same value 
+
+
 
 - conditionals
     - types
@@ -98,16 +137,89 @@ All Past Paper Questions: https://docs.google.com/document/d/1huzD3ywePF8riWc9sY
             - Variable with the condition listed for testing (against case)
             - Use of break to end out of `switch(...)` when variable matches case
             - Use of default at end of code block to specify code to be executed if no match found
-    - logical operators
-        - Used in if-else/switch statements 
-        - to test if conditions are true
-        - Compare the logic between variables
-        - Can be used 
-            - with any data type
-            - in a more complex manner 
-            - \- complex conditions \-
-        - ![alt text](image.png)
+
+
+- inbuilt functions
+    - `setTimeout()`
+        - stuff
+            - delays execution of code
+                - which runs only once
+            - minimum time is 0 miliseconds
+    - `setInterval()`
+        - stuff
+            - allows repeated code execution
+            - at pre-set intervals
+            - minimum time is 10 miliseconds
+            - can stop the timeout timer
+                - so, `setTimeout()` won't be executed
+    - `confirm()`
+        - a dialog box with two elements appear
+            - OK button
+                - indicates acceptance
+            - Cancel button
+                - indicated rejection (of user choice)
+            - Message
+                - ask question
+                - or explains the choices available 
+            - a Close button (in some browsers)
+                - to give no answer and close the question
+        - why it may cause problems
+            - User's attention drawn away from main web page 
+                - lose concentration (on page content)
+            - Input focus is taken away from the web site/pages until box is closed 
+                - no other interaction is possible
+            - Other codes may stop functioning until the dialogue box is closed
+            - Position of dialog box cannot be controlled 
+                - (may block information on page)
+            - some browsers may badly support it
+        - result returned back
+            - Return value 
+                - is Boolean
+                - stored in a declared variable
+            - If user clicks OK then `true` is returned to variable
+            - if cancel, `false` is returned
+            - value in variable used to display stuff (with if-else)
+    - `prompt()`
+        - how to collect input
+            - variables declared to store values
+            - box pops up on screen
+            - can display default/sample entry in input box
+            - user must input value
+            - user presses OK
+            - if no value is entered, `NULL` is returned
+            - if cancel is pressed, `NULL` is returned
+        - limitations
+            - position cannot be specified
+                - determines by browser
+                - may not be ideal for user
+            - appearance chosen by browser
+            - script is paused until box is closed
+            - additional code required to validate data
+            - some browsers support a default value feature
+
+    - comparisons
+        - `setTimeout()` vs `setInterval()`
+            - similarities
+                - both are part of DOM (Document Object Model)
+                    - (HTML Window Object)
+                - both takes two parameters
+                    - first parameter: function to be executed
+                    - second parameter: a time in miliseconds
+                - both can be interrupted using `clearInterval()` function
+
 
 - debugging / finding errors
+    - questions
+        - question 1
+            - ![alt text](image-1.png)
+            - answer
+                - it does not work
+                - syntax error
+                    - how the string `x` is designed
+                - strings must be enclosed in matching quotes
+                - quotes inside cannot be same as quotes outside
+                    - either `'` or `"`
+                - or use a backslash `\` to escape it
 
-
+- exception handling
+    - pg20
