@@ -7,23 +7,157 @@ All Past Paper Questions: https://docs.google.com/document/d/1Wx551YT0F35Ca0DI4u
 ## Bitmap Images
 
 - compression
-    - lossy
-        - Images are reduced in quality
-        - Information is lost forever
-            - cannot be restored
-        - algorithm removes areas with low detail more than areas of high detail
-        - so image is changed from original
-        - compression artefacts may appear
-        - Image quality reduced with repeated compression
-        - because at each compression, more image information is lost
-    - lossless
-        - no information is lost
-        - Image is recreated with no difference from the original
-        - Works well with images with blocks of similar pixels
-        - because only need to store data for one pixel and number of pixels
-        - No loss of quality
-        - algorithms can reconstuct original pixels lost by compression
+    - why
+        - reduce file size
+            - use less storage
+            - faster file transmission
+                - emails
+                - loading web pages
+            - low image resolution for small screens
+            - glitch art can make use lossy compression artefacts to alter images
+                - JPEG (lossy) might have artefacts 
+    - methods
+        - lossy
+            - how (1)
+                - Images are reduced in quality
+                - Information is lost forever
+                    - cannot be restored
+                - algorithm removes areas with low detail more than areas of high detail
+                - so image is changed from original
+                - compression artefacts may appear
+                - Image quality reduced with repeated compression
+                - because at each compression, more image information is lost
+            - analysis / how (2)
+                - Loss of image data
+                    - has visible effect
+                    - image quality is reduced
+                - Compression artefacts 
+                    - produced during compression
+                    - can be visible
+                        - so, reduce image quality
+                - Sudden changes in colour in an image can cause rings near the edges
+                - Conversion of a gradation in tone by loss of data into fewer tones causes posterisation
+                - False edges created
+                    - contouring 
+                    - because reduction of grey levels
+                - Loss of data in curves
+                - low quality due to 
+                    - low colour depth
+                    - Reduction in resolution
+                - might can mistake text in images and change the meaning 
+                    - e.g. 6 mistaken for 8.
 
+        - lossless
+            - no information is lost
+            - Image is recreated with no difference from the original
+            - Works well with images with blocks of similar pixels
+            - because only need to store data for one pixel and number of pixels
+            - No loss of quality
+            - algorithms can reconstuct original pixels lost by compression
+
+- edtiting tools
+    - morphing (sad face -> happy face)
+        - Uses forward mapping of pixels from one image into next
+        - sad face mapped to new position in smiling face
+        - Setting of control points in start image to map exactly to points in final image
+        - Pixels in start image mapped to points in final image that are determined by 'weighting'
+            - Gaussian function in software
+        - Pixels next to control point move more than those further away/
+            - less than control points
+        - Pixels further away from control point are less affected by software algorithm so move less.
+    - examples
+        - question 1
+            - ![alt text](image.png)
+            - answer
+                - Photographs opened in image editor
+                - Person image cut out from photograph 1
+                - Mask around person is created to cover background
+                - Selection to be cut is highlighted/drawn
+                - Selection is modified around edges to ensure accuracy
+                - Using of adjustable nib for drawing tool
+                - Cut unwanted parts of image of woman
+                - Background of cut image changed to transparent
+                - Copy cut out (to clipboard)
+                - Create new layer for image of woman
+                - Import/paste cut out into image of office/photograph of office/Fig. 10.2
+                - Place new image in correct
+                - Resize image of woman (as required to fit in image of office)
+                - Bring to front/back as necessary
+                - Flatten/merge layers (if required)
+                - Correct new image for overlap/misplaced parts/pixels of imported image
+                - Crop area of new image/photograph 2 as required.
+
+
+- uses
+    - photography (website)
+        - use thumbnails of large image to show photograph
+        - terms
+            - bitmaps
+                - made of pixels
+                - created from existing pixel data
+                - stored in an array in memmory
+            - thumbnail
+                - are smaller verions
+                    - to load/display quickly
+                - contain links to larger versions of same file
+        - evaluvation
+            - Pixel values may be modified individually
+            - Photographic quality achieved by increasing the data about each pixel
+                - or number of pixels
+                - (in vectors, whole image must change)
+            - use compression to reduce file size
+            - Bitmap files translate well (eg: when printing)
+            - large file size, when large no. of colors
+            - techniques to view image quickly
+            - Data compression 
+                - introduce artefacts that 'spoil' images
+                - slow down the reading
+                    - (decompression should happen)
+            - enlarging causes pixellation
+            - support transparency so can be used on any background.
+
+- file formats
+    - files
+        - contains pixels and metadata
+        - pixel has color depth (number of colors)
+        - metadata is data about the file
+            - image source
+            - copyright information
+            - device information (which phot was taken from)
+        - file format may allow compression
+        - compression maybe lossless
+            - or lossy
+    - jpeg
+        - both lossy and lossless
+        - used for web
+            - supported by web browsers
+        - suffers image degradation
+            - (when repeatedly edited and saved)
+        - need more processing power (to compress)
+        - no transparency support (easily)
+        - doesnt encode large uniform areas of colors well
+    - png
+        - FOSS
+        - works in web
+        - performs well with large uniform colors
+        - works well when progressively downloaded
+    - bmp
+        - large file size
+        - used by microsoft tools
+    - gif
+        - works in web
+        - supports animation
+        - no color management (in different devices)
+            - so, colors may alter
+        - only supports 256 colors
+    - tiff
+        - stores 24-bit colors by using 48-bits per color
+        - uses lossless compression
+            - LZW Algorithm - no data loss
+        - not supported by web
+        - large file size
+        - doesnt support interlacing
+        - doesnt support animations
 
 ## Vector Images
 
@@ -35,17 +169,45 @@ All Past Paper Questions: https://docs.google.com/document/d/1Wx551YT0F35Ca0DI4u
         - saves storage
     - download faster than bitmap image
     - so can be displayed on low-power devices
-    - Edges are smooth(er)
+    - Edges are smoother
+        - well defined (in SVG)
     - producing a higher quality image
+    - supports transparency
 - disadvantages
     - Photographs are not realistic
     - surfaces are unrealistic
     - Small editing errors are more visible
     - reduces the image quality
     - hard to add special effects is more difficult
+    - hard to add color graients
     - need powerful devices
         - to carry out calculations
         - when editing
+    - may vary on software being used to view
+    - converted to raster/bitmap images before displayed on screen/monitor
+
+- structure
+    - node
+        - what
+            - Control point for paths in image
+            - Has defined positions on the x- and y- axes
+            - Determines direction/vector of path
+            - Defines/shows the start and end points of paths.
+        - node editing
+nodes can be joined together
+moved to change the path direction
+Add a new nodes (to change shape)
+Delete a node
+symmetrical nodes 
+    - to create smooth flowing curves
+asymmetrical nodes 
+    - to obtain a different amount of curve on each side
+    - of the node (keeping a smooth flow through the node)
+- cusp nodes to create extreme changes in direction
+    - change the length and direction 
+    - of each control arm independently
+- smooth nodes 
+    - for smooth transitions between straight line segments
 
 - tools (/ techniques)
     - to change appearance of objects
@@ -82,10 +244,88 @@ All Past Paper Questions: https://docs.google.com/document/d/1Wx551YT0F35Ca0DI4u
                 - dimensions
                 - position on screen
                 - colors to draw line
-    
 
+- how it resizes without quality loss?
+    - vector images are mathematical expressions of shapes/paths (to create images)    
+    - Shapes include lines/polygons
+    - Points defined with x-y axes and direction of path
+    - Shapes and positions are recalculated every time the image is resized 
+    - so quality is retained
+    - Lines in vector images do NOT change proportionately when resized
+    - bitmaps
+        - consist of a set number of pixels
+        - when resized
+            - number of pixels change
+            - lines change proportionately
+            - so, quality is altered 
+
+- uses
+    - outline fonts to describe printable characters
+    - as svg on web pages (HTML5)
+    - used by pen plotters to draw shapes on paper
 
 ## Common
+
+### Stuff
+
+- resolutions
+    - basics
+        - Resolution is measured in PPI (pixels per inch)
+        - Low resolution images 
+            - few pixels
+        - High resolution mages 
+            - many pixels
+            - have higher quality
+            - looks crisper
+    - why different resoltions needed
+        - for (professional) printing
+            - need high resolution
+            - 600ppi or more
+        - images for magazines
+            - 300ppi
+        - Poster images on bill boards 
+            - 150ppi
+            - low, cuz viewed from far distance
+        - viewing on screen
+            - matches PPI of screen/monitor
+        - for web
+            - mid: 72ppi or 100ppi (modern retina screens)
+            - for fast loading
+            - but enough quality to view
+            - use pixel dimensions
+                - (not resolution)
+                - can have differing resolutions
+                - but display at same size
+                - (and looks the same)
+        - for presentations 
+            - standard: 1024x768 + 72ppi
+            - (projectors, large TVs)
+
+### Colors
+
+- color systems
+    - RGB
+        - stuff
+            - use additive colors (to create color ranges)
+            - adding all colors together -> white
+            - used in computer screens
+    - CMYK
+        - stuff
+            - use subtractive colors (to create color ranges)
+            - adding all colors together -> black
+            - used for printing
+                - black has to be added
+                    - CMY is muddy brown color
+                    - so, most printers use black catridge when printing CMYK
+                    - (inkjet printers, both catridges being used)
+    - comparisons
+        - RGB vs CMYK
+            - similarities
+                - color codes for defining colors
+                - can produce many colors
+                    - from white -> black
+                - highly supported by many apps
+                - affected by differences in display media 
 
 ### Editing
 
