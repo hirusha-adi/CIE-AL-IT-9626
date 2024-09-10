@@ -16,6 +16,8 @@ All Past Paper Questions: https://docs.google.com/document/d/1Wx551YT0F35Ca0DI4u
     - Padding needed for loading into memory locations
     - (Usually) stored from bottom left up to top right of image.
 
+### Compression
+
 - compression
     - why
         - reduce file size
@@ -75,6 +77,10 @@ All Past Paper Questions: https://docs.google.com/document/d/1Wx551YT0F35Ca0DI4u
             - No loss of quality
             - algorithms can reconstuct original pixels lost by compression
 
+### Editing
+
+#### Editing Techniques
+
 - editing techniques
     - Cropping of images to remove unwanted areas
         - use of rule of thirds to keep image visual balance
@@ -98,6 +104,8 @@ All Past Paper Questions: https://docs.google.com/document/d/1Wx551YT0F35Ca0DI4u
         - resizing of photos
         - reducing noise in the image
         - correcting lens distortion/perspective.
+
+#### Editing Tools
 
 - edtiting tools
     - morphing (sad face -> happy face)
@@ -227,6 +235,8 @@ All Past Paper Questions: https://docs.google.com/document/d/1Wx551YT0F35Ca0DI4u
                     - text is positioned as shown
                 - Conwnents are grouped and resized together to form final image.
 
+#### Impacts of Editing
+
 - impacts of editing
     - politics
         - fake news 
@@ -256,6 +266,8 @@ All Past Paper Questions: https://docs.google.com/document/d/1Wx551YT0F35Ca0DI4u
                 - to confirm to unrealistic ideals
         - takes time
             - so, slows down production
+
+### Uses
 
 - uses
     - photography (website)
@@ -300,7 +312,7 @@ All Past Paper Questions: https://docs.google.com/document/d/1Wx551YT0F35Ca0DI4u
             - eg: animated GIFs
         - can compress to reduce loading times
 
-
+### File Formats
 
 - file formats
     - files
@@ -332,7 +344,6 @@ All Past Paper Questions: https://docs.google.com/document/d/1Wx551YT0F35Ca0DI4u
                 - gives largest file size
             - BMP
                 - only supports windows OS
-        
     - types
         - jpeg
             - both lossy and lossless compression
@@ -395,15 +406,9 @@ All Past Paper Questions: https://docs.google.com/document/d/1Wx551YT0F35Ca0DI4u
         - when editing
     - may vary on software being used to view
     - converted to raster/bitmap images before displayed on screen/monitor
-        - why?
-            - Vector images are stored as co-ordinates
-                - geometric descriptions of shapes and colours
-            - Digital monitors cannot display co-ordinate-based graphics
-            - Because all digital monitors are pixel-based
-            - Graphics card converts the co-ordinates into pixels before sending to digital monitor...
-            - Uses an ADC-type action
-            - Resizes the image to suit the monitor.
+        - [Click here](#conversions) to learn more
 
+### Structure
 
 - structure
     - node
@@ -429,6 +434,8 @@ All Past Paper Questions: https://docs.google.com/document/d/1Wx551YT0F35Ca0DI4u
             - smooth nodes 
                 - for smooth transitions between straight line segments
 
+### Tools
+
 - tools (/ techniques)
     - to change appearance of objects
         - Use of Bezier handles to change angle of line / control-point
@@ -440,6 +447,8 @@ All Past Paper Questions: https://docs.google.com/document/d/1Wx551YT0F35Ca0DI4u
         - Group shapes to allow for movement of parts of images
         - Changing the colour/transparency/size/rotation of shape
         - Manually editing the code in the SVG XML file.
+
+### File Formats
 
 - files
     - svg (scalable vector graphics)
@@ -479,10 +488,13 @@ All Past Paper Questions: https://docs.google.com/document/d/1Wx551YT0F35Ca0DI4u
             - lines change proportionately
             - so, quality is altered 
 
+### Uses
+
 - uses
     - outline fonts to describe printable characters
     - as svg on web pages (HTML5)
     - used by pen plotters to draw shapes on paper
+
 
 ## Common
 
@@ -549,10 +561,14 @@ All Past Paper Questions: https://docs.google.com/document/d/1Wx551YT0F35Ca0DI4u
 
 ### Editing
 
+#### Components
+
 - components
     - layer
         - level at which an object is placed in an image
         - represents part of graphic (as pixels in bitmaps)
+
+#### Editing Tools
 
 - tools
     - layer tool
@@ -612,10 +628,6 @@ All Past Paper Questions: https://docs.google.com/document/d/1Wx551YT0F35Ca0DI4u
             - fade color from one color into another
 
 
-
-
-
-
 ### Conversions
 
 - bitmap to vector
@@ -624,6 +636,17 @@ All Past Paper Questions: https://docs.google.com/document/d/1Wx551YT0F35Ca0DI4u
         - Nodes are added to the objects
         - Object manually corrected by user to merge shapes
         - Colour resolution (number of bits) reduced by user
+
+
+- converted to raster/bitmap images before displayed on screen/monitor
+    - why?
+        - Vector images are stored as co-ordinates
+            - geometric descriptions of shapes and colours
+        - Digital monitors cannot display co-ordinate-based graphics
+        - Because all digital monitors are pixel-based
+        - Graphics card converts the co-ordinates into pixels before sending to digital monitor
+        - Uses an ADC-type action
+        - Resizes the image to suit the monitor.
 
 ### Comparisons
 
@@ -646,4 +669,3 @@ All Past Paper Questions: https://docs.google.com/document/d/1Wx551YT0F35Ca0DI4u
     - conversions between file types
         - The most common file type for bitmap web images are jpeg or gif, and conversion to these is simple without loss of quality; 
         - conversion of vector images often results in more loss of quality.
-        
