@@ -56,7 +56,17 @@ All Past Paper Questions: https://docs.google.com/document/d/1Wx551YT0F35Ca0DI4u
                     - Reduction in resolution
                 - might can mistake text in images and change the meaning 
                     - e.g. 6 mistaken for 8.
-
+            - justify the use (of lossy compression)
+                - (basically the same thing as above)
+                - reduces data needed to represent images (& reconstruct)
+                - reduces file size
+                - can store more images in same disk space
+                - can transfer files quickly
+                - reduced load time
+                    - better user experience
+                - can attacth to emails, without exceeding file sizes
+                - can post on social media (optimized)
+                - comprehension artifacts can be used by artists to enhance visual impacts on images
         - lossless
             - no information is lost
             - Image is recreated with no difference from the original
@@ -99,6 +109,23 @@ All Past Paper Questions: https://docs.google.com/document/d/1Wx551YT0F35Ca0DI4u
         - Pixels next to control point move more than those further away/
             - less than control points
         - Pixels further away from control point are less affected by software algorithm so move less.
+    - morphing (bird flying)
+        - question
+            - ![alt text](image-6.png)
+        - answer
+            - Warping (deforming) from the original images so final image has same shape
+                - use of forward mapping
+                - each pixel in original image is mapped to an appropriate
+                - pixel in final image
+                - use of reverse mapping
+                - each pixel in the final image is sampled for an usable pixel in the original
+                - all final image pixels are mapped to an original image pixel
+            - Cross-dissolving the images
+                - a sequence of images shows a gradual fade from one to the other
+                - via a (series of) transition images
+                - original image is gradually distorted and faded out
+                - final image starts out totally warped to the first and is faded in.
+
     - examples
         - question 1
             - ![alt text](image.png)
@@ -181,6 +208,24 @@ All Past Paper Questions: https://docs.google.com/document/d/1Wx551YT0F35Ca0DI4u
                     - 2 - large to be seen by human eye
                     - When enlarged, it becomes more visible
                     - The face now looks unrealistic(/blocky) 
+        - question 5
+            - ![alt text](image-5.png)
+            - answer
+                - reate new canvas/image on whic to compose the na imageo e sna
+                - Copy and paste/scan all components into the new canvas so that they are ready for editing
+                - Ensure that all backgrounds of all shapes are set to transparent to allow overlap of
+                - Shape 1 has part of the image cut out/erased to produce the eye shape
+                - Shape 1 is copied and pasted to produce two images for the eyes of the snail
+                - Shape 2 is inverted/fiipped horizontally (across the vertical plane) and resized larger/enlarged for the shell
+                - Shape 3 is rotated by 90 degrees and inverted horizontally to form one of the antennae
+                    - resulting shape is copied and pasted and stretched horizontally to form the second antenna
+                - Shape 4 is resized, filled with black to form the body of the snail
+                - All the shapes are positioned/aligned together/grouped to form the composite cartoon snail
+                - Brush tool with size is used to ensure that the join between shape 2/shell and shape 31body is complete/no gaps are left
+                    - used to add dotted line at base of shell/shape 2
+                - Text is added and rotated left by 90/right by 270 degrees
+                    - text is positioned as shown
+                - Conwnents are grouped and resized together to form final image.
 
 - impacts of editing
     - politics
@@ -290,7 +335,7 @@ All Past Paper Questions: https://docs.google.com/document/d/1Wx551YT0F35Ca0DI4u
         
     - types
         - jpeg
-            - both lossy and lossless
+            - both lossy and lossless compression
             - used for web
                 - supported by web browsers
             - suffers image degradation
@@ -299,6 +344,7 @@ All Past Paper Questions: https://docs.google.com/document/d/1Wx551YT0F35Ca0DI4u
             - no transparency support (easily)
             - doesnt encode large uniform areas of colors well
         - png
+            - lossless compression
             - FOSS
             - works in web
             - performs well with large uniform colors
@@ -309,9 +355,11 @@ All Past Paper Questions: https://docs.google.com/document/d/1Wx551YT0F35Ca0DI4u
         - gif
             - works in web
             - supports animation
+                - allows several images in one file
             - no color management (in different devices)
                 - so, colors may alter
-            - only supports 256 colors
+            - only limited number of colors
+                - 256 colors
         - tiff
             - stores 24-bit colors by using 48-bits per color
             - uses lossless compression
@@ -579,5 +627,23 @@ All Past Paper Questions: https://docs.google.com/document/d/1Wx551YT0F35Ca0DI4u
 
 ### Comparisons
 
-- bitmap vs vector
-
+- bitmap vs vector (for web)
+    - photo realism
+        - Bitmaps are comprised of small pixels so the bitmap is the most suitable format for photo- realistic images or images with high amounts of fine detail. 
+        - The vector image, on the other hand, does not possess the same kinds of photo-realistic capabilities because it is comprised of larger objects and cannot achieve the kind of fine detail that is necessary for photo-realism.
+    - scalability
+        - Vector images are made of mathematically defined objects so sizes can be easily manipulated with little to no loss in the quality of the image. 
+        - The objects within a vector image are re- rendered at a greater or smaller scale to provide consistently smooth edges.
+        - Bitmaps are more difficult to scale because changing the size of a bitmap requires a complete rearrangement of the pixels. 
+        - An enlarged bitmap is likely to appear blurry, or "pixelated," meaning that the different pixels of the image have become visible.
+    - shape
+        - A bitmap image always has four straight edges while vector images can be any shape
+    - file size
+        - Complex vector images can have a very large file size due to the complex instructions needed to create them; 
+        - the size of the file is not dependant on the size of the image: 
+            - small complex images can have a large file size; 
+        - bitmap images can be large but can be compressed.
+    - conversions between file types
+        - The most common file type for bitmap web images are jpeg or gif, and conversion to these is simple without loss of quality; 
+        - conversion of vector images often results in more loss of quality.
+        
