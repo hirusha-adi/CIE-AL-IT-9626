@@ -240,6 +240,20 @@ All Past Paper Questions: https://docs.google.com/document/d/1huzD3ywePF8riWc9sY
             - is required
             - can have more than one object
                 - objects can be variables
+    - `sort()`
+        - questions
+            - question 1
+                - ![alt text](image-14.png) 
+                - answer
+                    - treats values as strings not numbers
+                    - Strings are sorted alphabetically
+                    - Strings are not sorted numerically
+                    - a is before  than b so list 1 is sorted alphabetically by the first letter
+                    - and then by the second etc.
+                    - because 2 is 'bigger' than 1
+    - `reverse()`
+        - reverses a string, a list, etc...
+    
     - comparisons
         - `setTimeout()` vs `setInterval()`
             - similarities
@@ -348,6 +362,94 @@ All Past Paper Questions: https://docs.google.com/document/d/1huzD3ywePF8riWc9sY
                 - '`break`' is included to exit/jump out of any case
                 - '`default`' is included in case no preceding is TRUE
                 - Including '`default`' is good coding practice even if not required.
+        - question 3
+            - ![alt text](image-6.png)
+            - answer
+                - If statement specifies block of code that is executed if a condition is TRUE
+                - Line 4 if statement compares 'age' with condition <10
+                - if TRUE 'You are not old enough...'is stored in variable 'statement'
+                - if FALSE execution is passed to line 6
+                - Else-if statement specifies a new condition to be checked if the first condition is FALSE
+                - Line 6 else if statement compares 'age' with condition <18
+                - if TRUE 'You can go to this is stored in variable 'statement'
+                - if FALSE execution is passed to line 8 and "You are too old to go to this school" is stored in variable 'statement'
+                - Else statement specifies the code to be executed if condition is FALSE.
+        - question 4
+            - ![alt text](image-7.png)
+            - answer
+                - The order of Case/conditions checks in code must be logically correct/perfect
+                    - for correct lexpected comparisons to be made
+                    - (Switch) syntax does not follow the usual rules/colons not semi-colons so
+                    - code is difficult/confusing to write/read
+                    - Code can be lengthy as each condition has to be individually stated
+                        - this is repetitive and prone to error
+                    - 'break' has to be manually inserted after every 'case'
+                    - debugging problems/difficulties with 'nested' conditions
+                    - 'default' condition should be included to catch/trap unexpected conditions.
+        - question 5
+            - ![alt text](image-8.png)
+            - ![alt text](image-9.png)
+            - answer
+                - Line 4 declares the variable/var length to hold one side of rectangle
+                - Line 5 declares the variable/var width to hold other side of rectangle
+                - parseFloat (prompt("")); used to display message
+                - parseFloat (prompt("")); used to collect values for both sides of rectangle
+                - parseFloat (prompt("")); used to create a (text) box for the user to enter the values
+                - Variable/var calc area is declared to calculate the area
+                - Holds result of calculation
+                - document.write() is used to display the messages on screen about the
+                - values/area of the rectangle
+                - Displays the results of the calculation/contents of var calc_area.
+        - question 6
+            - ![alt text](image-10.png)
+            - answer
+                - Line 7 contains a syntax error
+                - "Peter" is enclosed in quotes that are the same as the quotes for the string
+                - (Strings in JavaScript can contain quotes but) the quotes in a string must not be the same as the enclosing quotes
+                - Any syntax error causes the script to fail/not run
+                - No error message is produced.
+        - question 7
+            - ![alt text](image-11.png)
+            - answer
+                - Code is embedded in HTML code of the website by `<script>` and `</script>` delimiters/markers
+                - The browser executes the JavaScript code within the delimiters
+                - Variable crops is set to contain the list of crops
+                - Variables i and show are initialised
+                - While loop will continue looping as long as crops contains data/string
+                - (var) i is incremented by 1 each time loop is executed
+                - (var) show is set to the current value of show concatenated with next crop value
+                - Loop terminates when array has no more items/final value in array is reached
+                - Final values of (var) show are displayed on screen/web page
+                - Values shown in vertical list as <br> code forces carriage return/line feed.
+        - question 8
+            - ![alt text](image-12.png)
+            - answer
+                - ![alt text](image-13.png)
+        - question 9
+            - ![alt text](image-15.png)
+            - ![alt text](image-16.png)
+            - answer
+                - `<form action="mailto: aftersales@mycompany.com"`
+                    - Tells the page that this is a form 
+                    - submitting form to a specified URL
+                    - To send an email via mailto to the specified address
+                - `method="post"`
+                    - Specifies the HTTP method when submitting form
+                    - In this case post means not to display the submitted data
+                    - is not saved in browser history
+                    - not passed in as GET request with URL parameters
+                    - Post can send unlimited amounts of data
+                        - no size restrictions
+                - `enctype="text/plain"`
+                    - Specifies the encoding of the data
+                    - As plain text.
+            - ![alt text](image-17.png)
+            - answer
+                - ![alt text](image-19.png)
+            - ![alt text](image-18.png)
+            - answer
+                - ![alt text](image-20.png) 
+
 
 - other
     - why javascript uses browser to display results?
