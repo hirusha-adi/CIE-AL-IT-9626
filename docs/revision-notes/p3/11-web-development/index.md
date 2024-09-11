@@ -362,9 +362,23 @@ All Past Paper Questions: https://docs.google.com/document/d/1huzD3ywePF8riWc9sY
                 - both can be interrupted using `clearInterval()` function
 
 - event handlers
-    - `onerror()`
-        - eg: `window.onerror = function_name(msg, url, line);`
+    - `onload`
+        - to run JS immediately
+        - after web page is fully loaded
+    - `onchange`
+        - execute code when state of value changes
+    - `onclick`
+        - when user clicks an HTML element
+    - `onmouseover`
+        - when mouse moves over an element
+        - (hover)
+    - `onmouseout`
+        - when mouse moves away from element
+    - `onkeydown`
+        - when a user presses a key / types
+    - `onerror`
         - triggered when an exception occurs
+        - eg: `window.onerror = function_name(msg, url, line);`
         - `onerror()`
             - only captures error
             - stores details for later
