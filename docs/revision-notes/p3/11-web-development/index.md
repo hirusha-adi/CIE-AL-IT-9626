@@ -159,6 +159,11 @@ All Past Paper Questions: https://docs.google.com/document/d/1huzD3ywePF8riWc9sY
 
 
 - iterations
+    - what is an iteration method?
+        - repeatedly executes a block of code
+        - work through elements of array
+        - performs operation on every element of array
+        - works on element of array, one at a time
     - types
         - `for` loop
             - how
@@ -176,14 +181,26 @@ All Past Paper Questions: https://docs.google.com/document/d/1huzD3ywePF8riWc9sY
                 - if evaluvate statement omitted
                     - `break` must be included
                     - to exit the loop 
+            - used when 
+                - number of iterations known (beforehand)
+            - number of iterations
+                - pre-determined by iteration statement
+                - uses a counter
         - `while`
             - test condition at beginning
             - executes block if condition is true
             - may never be executed
+            - tested before code block is run
+            - used when 
+                - number of iterations is not known
+            - runs until 
+                - condition is true
+                - until condition is met
         - `do ... while`
             - test condition at end
             - executes block even if condition is false
             - always executed, atleast once (first time, before checking condition)
+            - tested after code block is run
     - `break` statements
         - to break about a loop / switch-case
         - the loop stops
@@ -754,6 +771,11 @@ All Past Paper Questions: https://docs.google.com/document/d/1huzD3ywePF8riWc9sY
 - other
     - why javascript uses browser to display results?
         - lacks capability for displaying output
+    - how JS interacts with user?
+        - code required to collect user data/input
+        - confirm(), prompt() to enable user interaction
+        - code places within HTML web page
+        - code stored in external scripts invoke when called
 
 - css
     - colors
