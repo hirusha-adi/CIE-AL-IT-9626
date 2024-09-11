@@ -33,6 +33,29 @@ All Past Paper Questions: https://docs.google.com/document/d/1huzD3ywePF8riWc9sY
             - to compare values
     - statement
         - instructions to be executed by interpreter
+    - array
+        - stores multiple values in a single variable
+    - variable
+        - containers for storing data values
+    - function
+        - block of code to do a task
+        - executed when 'call'ed
+    - comment
+        - single line comment
+            - text starting from `//`
+        - multi line comment
+            - like: `/* text */`
+        - used to explain code
+        - ignored by interpreter
+        - ?? used to halt execution of code ??
+    - object
+        - collection of variables and functions
+        - represents attributes & behaviour of an 'item'
+    - expression
+        - any valid unit of code resolves to a value
+        - types:
+            - can have a value
+            - can assign a value to a variable
 
 - terms (javascript)
     - how object given a new property
@@ -296,19 +319,33 @@ All Past Paper Questions: https://docs.google.com/document/d/1huzD3ywePF8riWc9sY
                 - or use a backslash `\` to escape it
 
 - exception handling
-    - use '`throw`' to trap error
-    - Use '`try`' to handle the error
-    - Use '`catch`' to run code after if error
-        - to show custom error message
-        - eg: `message.innerHTML = "Error"`
-    - Use '`finally`' to execute code regardless of error or not
-    - Use '`error`' to provide information about the error, eg:
-        - EvalError
-        - RangeError
-        - ReferenceError
-        - SyntaxError
-        - TypeError
-        - URlError
+    - how
+        - use '`throw`' to trap error
+        - Use '`try`' to handle the error
+        - Use '`catch`' to run code after if error
+            - to show custom error message
+            - eg: `message.innerHTML = "Error"`
+        - Use '`finally`' to execute code regardless of error or not
+        - Use '`error`' to provide information about the error, eg:
+            - EvalError
+            - RangeError
+            - ReferenceError
+            - SyntaxError
+            - TypeError
+            - URlError
+    - how (2-old)
+        - add code to deal with errors
+            - without affecting web browser
+        - specify code block to be executed
+        - `try`
+            - block of code to be executed
+        - `catch`
+            - to define error handling
+        - `final`
+            - to allow code to be executed
+        - `throw`
+            - to display information about error
+            - specified message to display
 
 - conventions
     - declarations at start
@@ -449,6 +486,63 @@ All Past Paper Questions: https://docs.google.com/document/d/1huzD3ywePF8riWc9sY
             - ![alt text](image-18.png)
             - answer
                 - ![alt text](image-20.png) 
+        - question 10
+            - ![alt text](image-21.png)
+            - answer
+                - ![alt text](image-23.png)
+                - ![alt text](image-22.png)
+        - question 11
+            - ![alt text](image-24.png)
+            - answer
+                - A colon (:) is shown instead of a semi-colon (;) in line 6
+                    - this is a syntax error
+                - Syntax errors prevent JavaScript from being executed
+                - The web browser displays nothing
+                - The variable 'tableout' has not been declared before it is used
+                    - Some browsers will ignore
+                - Results can be different in different browsers.
+        - question 12
+            - ![alt text](image-25.png)
+            - ![alt text](image-26.png)
+            - ![alt text](image-27.png)
+            - answer (tetsing)
+                - Checking each line of code
+                - Ensures that each line of code is executed at least once
+                - Ensures that var y and z assign the collected numbers as required
+                - Checks that the additon of y and z is correct
+                - Ensures that the correct message is displayed when result assigned to A
+                - Checking each branch/decision in the code
+                - Checks that decisions are carried out correctly
+                - So that values put in A can be compared
+                - Ensures that result is checked against > 10
+                - Ensures that the correct result is put in var x as required
+                - Checks every possible pathway through the code
+                - So that test values in var y and z cause each subsequent path to be followed
+                - So that test values in x are assigned to A to produce both the messages "is greater than 10" and "is not greater than 10" depending on value in A.
+            - ![alt text](image-28.png)
+            - answer
+                - Can separate code into different functional
+                    - for easy understanding, maintainance, testing
+                - Separating HTML and JavaScript code provides modularity to code
+                - Which is easier to maintain
+                - Can re-use the code
+                - No need to rewrite copies on each web page
+                - Code only tested once once
+                - JavaScript file gets cached by web browser
+                - No need to reload/fetch it if need on other pages
+                - Reduces network access cost
+                - JavaScript code embedded reduce browser performance
+                - Web page can slow down while browser executes code.
+        - question 13
+            - ![alt text](image-29.png)
+            - answer
+                ```js
+                const b1 = document.getElementById("button1");
+                b1.addEventListener("click", checkreadpagefunction)
+
+                // its better to single-line it
+                document.getElementById("button1").addEventListener("click", checkreadpagefunction);
+                ```
 
 
 - other
