@@ -55,6 +55,25 @@ All Past Paper Questions: https://docs.google.com/document/d/1p6zdtykNDrZA5Sp1qg
         - `\o` request prompt only once 
             - and then appears in all subsequent merged invitations.
 
+### Syntax
+
+- `IF-THEN-ELSE`
+    - condition to be met is defined
+    - if condition is met
+        - specific information selected
+    - else (not met)
+        - specific information selected
+
+- `NEXT RECORD IF`
+    - used to compare two values
+    - compares contents of data field and value
+    - can use comparison operators
+        - eg: equal to, greater than, less than
+    - results of comparison determines whether to select record
+- `SKIP RECORD IF`
+    - compared contents (of data field) to value
+    - if comparison is true
+        - current record not included in letter
 
 ## Questions
 

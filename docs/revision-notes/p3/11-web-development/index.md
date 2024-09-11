@@ -16,6 +16,23 @@ All Past Paper Questions: https://docs.google.com/document/d/1huzD3ywePF8riWc9sY
         - to give a value to a variable
     - literals
         - fixed values (/numbers/strings) assigned to a variable
+    - string
+        - text/characters within double/single quotes
+    - global
+        - variable declared outside function
+        - used throughout script
+        - value assigned to an undeclared variable
+    - regular expression
+        - sequence of characters to search from
+        - character patterns used with functions to search strings
+        - a description of whats being searched for
+    - operator
+        - arithmatic operators
+            - to perform (arithmatic) calculations
+        - or logical operators
+            - to compare values
+    - statement
+        - instructions to be executed by interpreter
 
 - terms (javascript)
     - how object given a new property
@@ -31,6 +48,19 @@ All Past Paper Questions: https://docs.google.com/document/d/1huzD3ywePF8riWc9sY
         - use code to pass results to HTML to display
             - eg: `document.getElementById("id").innerHTML = xxx`
         - use `console.log(...)` for debugging
+
+- DOM
+    - HTML element
+        - Component of a HTML document
+        - contained between tags.
+        - starts with`<name of tag>` and ends with `</name of tag>`
+        - Node which can have attributes.
+        - Node can have 'child nodes'.
+        - Part of the Document Object Model (DOM) when document is parsed (by browser)
+    - how to change DOM
+        - select element, by ID or by query Selector
+        - use `.innerHTML` to change it's contents
+
 
 - data types
     - string
@@ -196,7 +226,20 @@ All Past Paper Questions: https://docs.google.com/document/d/1huzD3ywePF8riWc9sY
             - script is paused until box is closed
             - additional code required to validate data
             - some browsers support a default value feature
-
+    - `eval()`
+        - why not run string as code
+            - allows inserted code to run
+            - security issues
+    - `console.log()`
+        - writes message to browser console
+        - need supporting browsers (new versions)
+        - need to open console to see them
+        - used for testing purposes
+        - message within brackets will appear in console
+            - is a string / object
+            - is required
+            - can have more than one object
+                - objects can be variables
     - comparisons
         - `setTimeout()` vs `setInterval()`
             - similarities
@@ -206,6 +249,23 @@ All Past Paper Questions: https://docs.google.com/document/d/1huzD3ywePF8riWc9sY
                     - first parameter: function to be executed
                     - second parameter: a time in miliseconds
                 - both can be interrupted using `clearInterval()` function
+
+- event handlers
+    - `onerror()`
+        - eg: `window.onerror = function_name(msg, url, line);`
+        - triggered when an exception occurs
+        - `onerror()`
+            - only captures error
+            - stores details for later
+        - function passes event details to alter box
+        - variables to pass paramaters of errors
+        - parameters
+            - `msg`
+                - message that browser displays
+            - `url`
+                - file name of code in which error occured
+            - `line`
+                - line which contains the error
 
 
 - debugging / finding errors
@@ -222,4 +282,74 @@ All Past Paper Questions: https://docs.google.com/document/d/1huzD3ywePF8riWc9sY
                 - or use a backslash `\` to escape it
 
 - exception handling
-    - pg20
+    - use '`throw`' to trap error
+    - Use '`try`' to handle the error
+    - Use '`catch`' to run code after if error
+        - to show custom error message
+        - eg: `message.innerHTML = "Error"`
+    - Use '`finally`' to execute code regardless of error or not
+    - Use '`error`' to provide information about the error, eg:
+        - EvalError
+        - RangeError
+        - ReferenceError
+        - SyntaxError
+        - TypeError
+        - URlError
+
+- conventions
+    - declarations at start
+        - creates cleaner code
+        - single place to look for all local variables
+        - easier to avoid unwanted local variables
+        - reduce unwanted re-declarations
+    - initialize variables when first declared
+        - avoids undefined values
+        - create conside code, easier to follow
+        - single place to initialize variables
+    - always declare local variables
+        - local variables declared with `var` keyword
+        - otherwise, they become global variables
+
+- program execution flow
+    - questions
+        - question 1
+            - ![alt text](image-2.png)
+            - answer
+                - Script embedded in HTML code
+                - between` <script> </script>` tags
+                - Variables `x` and `y` declared
+                - vairables initialized with values
+                    - x stores 12 and y stores 6
+                - `window.alert(x + y);` 
+                    - sums x and y to produce 18
+                    - displays an alert box
+                - Appears as popup
+                - User must press OK to clear
+        - question 2
+            - ![alt text](image-3.png)
+            - ![alt text](image-4.png)
+            - ![alt text](image-5.png)
+            - answer
+                - Line 9 `<script>` declares the code to be JavaScript.
+                - Line 10 declares a function called
+                - Line 11 declares variable report.
+                - Line 12 declares variable result.
+                - Line 12 collects value/18 of 'myTScore' from user input into HTML code at line 5 and stores it in variable 'result
+                - Line 14 'switch' function is used to compare the value in 'result' against pre- set 'case' values.
+                - Line 15 checks value of 'result' to see if condition is TRUE.
+                - Line 18 checks value of 'result' to see if condition is TRUE.
+                - Line 21 checks value of 'result' to see if condition is TRUE.
+                - Line 24 checks value of 'result' to see if condition is TRUE
+                    - all of these are FALSE
+                    - control moves to next case
+                - Line 27 checks value of 'result to see if condition <20 is TRUE
+                    - this is TRUE so control passes to Line 28 and FAIL comment is stored in variable `report`
+                - Line 33 function displays contents of variable '`report`' on webpage/displays "Your result is a Fail";
+                - '`break`' is included to exit/jump out of any case
+                - '`default`' is included in case no preceding is TRUE
+                - Including '`default`' is good coding practice even if not required.
+
+- other
+    - why javascript uses browser to display results?
+        - lacks capability for displaying output
+
