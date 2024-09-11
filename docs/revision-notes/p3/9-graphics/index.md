@@ -577,6 +577,9 @@ Questions left out:
                 - so, most printers use black catridge when printing CMYK
                 - (inkjet printers, both catridges being used)
 
+- HSL (in [Web Development Chapter](../11-web-development/index.md))
+    - not sure if it also belongs here...
+
 - comparisons
     - RGB vs CMYK
         - similarities

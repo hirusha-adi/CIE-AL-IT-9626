@@ -35,19 +35,47 @@ All Past Paper Questions: https://docs.google.com/document/d/1huzD3ywePF8riWc9sY
         - instructions to be executed by interpreter
     - array
         - stores multiple values in a single variable
+        - why?
+            - suitable for storing a large number of items
+            - reduced complexity of code
+            - easy to understand
+            - increases code execution speed
+            - can loop through
+                - using an iterative function
     - variable
         - containers for storing data values
     - function
         - block of code to do a task
         - executed when 'call'ed
     - comment
-        - single line comment
-            - text starting from `//`
-        - multi line comment
-            - like: `/* text */`
-        - used to explain code
-        - ignored by interpreter
-        - ?? used to halt execution of code ??
+        - types
+            - single line comment
+                - like: `// comment here`
+            - multi line comment
+                - like: `/* body of the comment  */`
+        - description
+            - used to explain code
+            - ignored by interpreter
+            - ?? used to halt execution of code ??
+        - why
+            - to explain what code does
+            - to make code more readable
+            - doesn't affect intepreter, its all neglected
+        - accessing elements
+            - example
+                ```js
+                var cities = ["London", "Cambridge", "Oxford", "Manchester"]
+                ```
+                - access single elemtn
+                    ```js
+                    var place = cities[2]
+                    ```
+                - access first 3 elements
+                    ```js
+                    for (i=0, i<=3, i++) {  // 0, 1, 2 -> then break
+                        document.write( cities[i] )
+                    }
+                    ```
     - object
         - collection of variables and functions
         - represents attributes & behaviour of an 'item'
@@ -71,6 +99,37 @@ All Past Paper Questions: https://docs.google.com/document/d/1huzD3ywePF8riWc9sY
         - use code to pass results to HTML to display
             - eg: `document.getElementById("id").innerHTML = xxx`
         - use `console.log(...)` for debugging
+
+- using javascript
+    - embedded
+        - example
+            ```html
+            <script>
+                document.getElementById("text").innerHTML = "123"
+            </script>
+            ```
+    - in a seperate file
+        - example
+            - index.html
+                ```html
+                <script language="JavaScript" src="index.js"></script>
+                ```
+            - index.js
+                ```js
+                document.getElementById("text").innerHTML = "123"
+                ```
+        - why?
+            - separate html and JavaScript code so easier maintain.
+            - Can re-use the code (from different pages)
+            - No need to have several copies
+            - Code only has to be tested once
+            - JavaScript File is cached by web browser
+            - reduced network usage
+            - slow loading times
+            - low browser performance
+            - webpage dont work (as expected) until everything loads
+            - Can separate code into different functional areas
+                - provides modularity to code
 
 - DOM
     - HTML element
@@ -100,30 +159,36 @@ All Past Paper Questions: https://docs.google.com/document/d/1huzD3ywePF8riWc9sY
 
 
 - iterations
-    - `for` loop
-        - how
-            - loops through a block of code, given number of times
-                - until condition is broken
-            - requires 3 expressions
-                - a declared variable
-                - expression to evaluvated 
-                    - at start maybe omitted
-                    - at end, increment value ( of declared variable)
-            - incrementing variable at end is optional
-            - loop continues 
-                - until condition is met
-                - forever
-            - if evaluvate statement omitted
-                - `break` must be included
-                - to exit the loop 
-    - `while`
-        - test condition at beginning
-        - executes block if condition is true
-        - may never be executed
-    - `do ... while`
-        - test condition at end
-        - executes block even if condition is false
-        - always executed, atleast once (first time, before checking condition)
+    - types
+        - `for` loop
+            - how
+                - loops through a block of code, given number of times
+                    - until condition is broken
+                - requires 3 expressions
+                    - a declared variable
+                    - expression to evaluvated 
+                        - at start maybe omitted
+                        - at end, increment value ( of declared variable)
+                - incrementing variable at end is optional
+                - loop continues 
+                    - until condition is met
+                    - forever
+                - if evaluvate statement omitted
+                    - `break` must be included
+                    - to exit the loop 
+        - `while`
+            - test condition at beginning
+            - executes block if condition is true
+            - may never be executed
+        - `do ... while`
+            - test condition at end
+            - executes block even if condition is false
+            - always executed, atleast once (first time, before checking condition)
+    - `break` statements
+        - to break about a loop / switch-case
+        - the loop stops
+        - code outside is then executed
+
 
 - operators
     - logical operators
@@ -191,6 +256,15 @@ All Past Paper Questions: https://docs.google.com/document/d/1huzD3ywePF8riWc9sY
             - Use of break to end out of `switch(...)` when variable matches case
             - Use of default at end of code block to specify code to be executed if no match found
 
+- functions
+    - javascript objects with properties
+    - declared by function statement
+    - to save section of code for later use
+    - set of statements
+        - that performs a task
+        - and returns a value
+        - when valled
+    - only invoked when called
 
 - inbuilt functions
     - `setTimeout()`
@@ -543,9 +617,150 @@ All Past Paper Questions: https://docs.google.com/document/d/1huzD3ywePF8riWc9sY
                 // its better to single-line it
                 document.getElementById("button1").addEventListener("click", checkreadpagefunction);
                 ```
+        - question 14
+            - ![alt text](image-30.png)
+            - ![alt text](image-31.png)
+            - ![alt text](image-32.png)
+            - answer
+                - Use validation to apply a format check to email address
+                - Ensures email has @ symbol and domain name
+                - Use drop-down list to select the security question
+                - To select date numbers from drop down lists
+                - range check for month/day/years allowed
+                - Check if date is sensible
+                - Use of radio buttons with Boolean choices
+                - Select check box for terms and conditions
+                - Check password for strength
+                    - check length
+                    - Compare the two password
+                - presence check ensures that all required fields are completed
+                - Customer visually reads form to check for possible errors
+                - When submit button pressed
+                    - data is checked and validated
+                    - before sending to the backend
 
+            - ![alt text](image-33.png)
+            - answer
+                - submit button
+                - to send data to backend
+        - question 15
+            - ![alt text](image-34.png)
+            - answer
+                - Variables X and 'displayresult' are declared
+                - and cleared before use by
+                - Loop starts with X at 1
+                - X is incremented by 3 each time it
+                - Continues until X reaches 10/while X is less than 10
+                - Displays result as 1, 4, 7
+                - on separate lines
+            - ![alt text](image-35.png)
+            - answer
+                ```html
+                <p id="Number"></p> 
+                ```
+                ```js
+                var x = 1;
+                const pNum = document.getElementById("Number");
+                
+                do {
+                    pNum.innerHTML += x + "<br>";
+                    x = x + 3
+                    // with a stepping of 3
+                } while (x < 10)
+
+                ```
+            - ![alt text](image-36.png)
+            - answer
+                - The code is executed by the web browser
+                - Not on the web server
+                - Web browser may not support the code language
+                - So the code may not execute property/at all/produce errors
+                - Different browsers run code in different ways
+                - Developers must test all code with all browsers
+                - Same browsers on different operating systems behave differently
+                - Code may produce different results
+                - Code requires high processing power
+                - So webpages may display slowly/not at all
+                - Non-functioning code may deter viewers leading to loss of audience/sales
+                - via the website.
+        - question 16
+            - ![alt text](image-37.png)
+            - ![alt text](image-38.png)
+            - answer
+                ```js
+                var AgeNow, CanApply;
+                
+                const AgeNowElement = document.getElementById("AgeNow")
+                AgeNow = Number(AgeNowElement.value);
+                
+                if (isNaN(AgeNow)) {
+                    CanApply = "Please enter your age in numbers"
+                } else {
+                    // using ternary operator here
+                    CanApply = (AgeNow < 16) ? "You are too young to apply" : "You are old enough to apply"
+                }
+                ```
+        - question 17
+            - ![alt text](image-39.png)
+            - ![alt text](image-40.png)
+            - answer
+                ```js
+                if (timenow < 12) {
+                    welcome = "Sorry, we are closed"
+                } 
+                else if (timenow < 22) {
+                    welcome = "Hello, we are open now"
+                } 
+                else {
+                    welcome = "Please try again tommorow"
+                }
+                ```
+        - question 18
+            - ![alt text](image-41.png)
+            - ![alt text](image-42.png)
+            - ![alt text](image-43.png)
+            - answer
+                - Code is embedded to the `<body>` of document
+                - (global) variable is declared
+                - The HTML table values are placed within the variable
+                - (first) outer loop (on 4th line of JS code) executes 10 times
+                - to create each row (using `<tr>`)
+                - (Second) inner loop is executed each time outer loop executes
+                - to create 10 columns
+                - First time inner loop executes, the cell contains 1+1=1
+                - second time inner loop executes, the cell contains 1 *2=2
+                - third time inner loop executes, the cell contains 1+3=3
+                - up to cell that contains 1* 10=10
+                - When inner loop reaches 10, first row of cells is complete...
+                    - next row is started with ? 1=2, etc.
+                    - up to 2'10=20
+                - The process continues until outer loop reaches 10 
+                - and all 10 rows have been created and filled.
 
 - other
     - why javascript uses browser to display results?
         - lacks capability for displaying output
 
+- css
+    - colors
+        - HSL (Hue-Saturation-Luminence)
+            - syntax: `hsl()` used in CSS
+            - to specify a color
+            - creates gradients of colors from the RGB model
+            - Hue
+                - value/degree on standard color wheel
+                - from 0 to 360
+                    - 0: red
+                    - 120: gren
+                    - 240: blue
+                - is brightness
+                    - how much white is added to a color
+            - Saturation
+                - intensity of color
+                    - from grey to full color
+                - is a percentage
+                    - must include `%` characters
+            - Lightness / Luminence
+                - from black to white 
+                - is a percentage
+                    - must include `%` characters
