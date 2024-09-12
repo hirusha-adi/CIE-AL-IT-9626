@@ -283,7 +283,7 @@ Summary: Average of everything in the selected range(s).
 Paramaters:
 
 - `range` 
-    - is called a cell reference.
+    - range to calculate average of.
     - eg: `c1:c9`
 - `[range2]`
     - other ranges to calculate average of
@@ -388,6 +388,157 @@ Examples:
 - if person is Female (if "`Female`" in `b1:b9`) and
 - if person's salary is greater than 1500 (if `c1:c9` is `>1500`)
 - (average of salaries of every female working in Sales who earns more than 1500)
+
+## MIN
+
+### `MIN`
+
+Syntax: `=MIN(range, [range2], ...)`
+
+Summary: Get the minimum value of everything in the selected range(s) with numerical values. 
+
+Paramaters:
+
+- `range` 
+    - range to find minimum value of.
+    - should only have numerican data values
+    - eg: `c1:c9`
+- `[range2]`
+    - other ranges with numerical vata to find minimum value of
+
+Examples:
+
+`=MIN(c1:c9)`
+
+- minimum numerical value in cell range `c1:c9`
+
+`=MIN(c1:c9, d1:d9)`
+
+- minimum numerical value 
+    - in cell range `c1:c9`
+    - and `d1:d9`
+
+### `MINA`
+
+No idea about this.
+
+### `MINIFS`
+
+Syntax: `=MINIFS(min_range, criteria_range1, crtieria1, [criteria_range2, crtieria2], ...)`
+
+Summary: Get the minimum value of everything in the selected range(s) with numerical values if given conditions are met. 
+
+Paramaters:
+
+- `min_range`
+    - cell range to select minimum value from
+- `criteria_range1`
+    - where to look for first condition
+- `criteria1`
+    - first condition
+- `criteria_range2`
+    - where to look for the second condition
+- `criteria2`
+    - second condition
+- can have as many `criteria_rangeX` and `criteriaX` as possible
+
+Examples:
+
+- `a1:a9` is job descriptions
+- `b1:b9` is gender
+- `c1:c9` is salary
+- `d1:d9` is bonus
+
+`=MINIFS(C1:C9, A1:A9, "Tech")`
+
+- minimum value in range `C1:C9`
+- if department is Tech (`A1:A9` vale in Tech)
+- (minimum salary of a Tech employee)
+
+
+`=MINIFS(C1:C9, A1:A9, "Tech", D1:D9, ">1500")`
+
+- minimum value in range `C1:C9`
+- if department is Tech (`A1:A9` value in Tech)
+- if bonus is greater than 1500 (in range `D1:D9`)
+- (minimum salary of a Tech employee if bonus is greater than 1500)
+
+## MAX
+
+### `MAX`
+
+Syntax: `=MAX(range, [range2], ...)`
+
+Summary: Get the maximum value of everything in the selected range(s) with numerical values. 
+
+Paramaters:
+
+- `range` 
+    - range to find maximum value of.
+    - should only have numerican data values
+    - eg: `c1:c9`
+- `[range2]`
+    - other ranges with numerical vata to find maximum value of
+
+Examples:
+
+`=MAX(c1:c9)`
+
+- maximum numerical value in cell range `c1:c9`
+
+`=MAX(c1:c9, d1:d9)`
+
+- maximum numerical value 
+    - in cell range `c1:c9`
+    - and `d1:d9`
+
+### `MAXA`
+
+No idea about this.
+
+### `MAXIFS`
+
+Syntax: `=MAXIFS(min_range, criteria_range1, crtieria1, [criteria_range2, crtieria2], ...)`
+
+Summary: Get the maximum value of everything in the selected range(s) with numerical values if given conditions are met. 
+
+Paramaters:
+
+- `min_range`
+    - cell range to select maximum value from
+- `criteria_range1`
+    - where to look for first condition
+- `criteria1`
+    - first condition
+- `criteria_range2`
+    - where to look for the second condition
+- `criteria2`
+    - second condition
+- can have as many `criteria_rangeX` and `criteriaX` as possible
+
+Examples:
+
+- `a1:a9` is job descriptions
+- `b1:b9` is gender
+- `c1:c9` is salary
+- `d1:d9` is bonus
+
+`=MAXIFS(C1:C9, A1:A9, "Tech")`
+
+- maximum value in range `C1:C9`
+- if department is Tech (`A1:A9` vale in Tech)
+- (maximum salary of a Tech employee)
+
+
+`=MAXIFS(C1:C9, A1:A9, "Tech", D1:D9, ">1500")`
+
+- maximum value in range `C1:C9`
+- if department is Tech (`A1:A9` value in Tech)
+- if bonus is greater than 1500 (in range `D1:D9`)
+- (maximum salary of a Tech employee if bonus is greater than 1500)
+
+
+## MAX
 
 ## ROUND
 
