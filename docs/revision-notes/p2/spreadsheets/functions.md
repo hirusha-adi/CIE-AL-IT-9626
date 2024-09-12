@@ -4,6 +4,10 @@ title: Functions
 
 ## SUM
 
+Learn more:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1jakUHLzL6M?si=e3RMoz3fXtxT2KAj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### `SUM`
 
 Syntax: `=SUM(cell1:cell2)`
@@ -61,7 +65,7 @@ Examples:
 
 Syntax: `=SUMIF(sum_range, criteria_range1, criteria1, [criteria_range2, criteria2], ...)`
 
-Summary: Sum if multiple ranges are met
+Summary: Sum if multiple conditions are met
 
 Paramaters:
 
@@ -86,14 +90,14 @@ Examples:
 
 `=SUMIFS(c1:c9, a1:a9, "Sales", b1:b9, "Female")`
 
-- sum salaries: `c1:c9`
+- sum salaries in `c1:c9`
 - if person in Sales (if "`Sales`" in `a1:a9`) and
 - if person is Female (if "`Female`" in `b1:b9`)
 - (sum of salaries of every female working in Sales)
 
 `=SUMIFS(c1:c9, a1:a9, "Sales", b1:b9, "Female", c1:c9, ">1500")`
 
-- sum salaries: `c1:c9`
+- sum salaries in `c1:c9`
 - if person in Sales (if "`Sales`" in `a1:a9`) and
 - if person is Female (if "`Female`" in `b1:b9`) and
 - if person's salary is greater than 1500 (if `c1:c9` is `>1500`)
@@ -101,6 +105,10 @@ Examples:
 
 
 ## COUNT
+
+Learn more:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5RFLncJuMng?si=SPXGME1CrXWE_aGz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### `COUNT`
 
@@ -262,6 +270,10 @@ Examples:
 
 ## AVERAGE
 
+Learn more:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QROdEqL1T3E?si=q397Zb8SZEf_vlWC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### `AVERAGE`
 
 Syntax: `=AVERAGE(range, [range2], ...)`
@@ -334,9 +346,46 @@ Examples:
 - calculate average of salaries
 - if person works in Sales
 
+### `AVERAGEIFS`
 
+Syntax: `=AVERAGEIFS(average_range, criteria_range1, criteria1, [criteria_range2, criteria2], ...)`
 
+Summary: Average if multiple conditions are met
 
+Paramaters:
 
+- `average_range`
+    - range of cells to average from 
+    - if conditions are met
+- `criteria_range1`
+    - where to look for the first condition
+- `criteria1`
+    - first condition
+- `criteria_range2`
+    - where to look for the second condition
+- `criteria2`
+    - second condition
+- can have as many `criteria_rangeX` and `criteriaX` as possible
 
+Examples:
+
+- `a1:a9` is job descriptions
+- `b1:b9` is gender
+- `c1:c9` is salary
+- `d1:d9` is bonus
+
+`=AVERAGEIFS(c1:c9, a1:a9, "Sales", b1:b9, "Female")`
+
+- average salaries in `c1:c9`
+- if person in Sales (if "`Sales`" in `a1:a9`) and
+- if person is Female (if "`Female`" in `b1:b9` )
+- (average of salaries of every female working in Sales)
+
+`=AVERAGEIFS(c1:c9, a1:a9, "Sales", b1:b9, "Female", c1:c9, ">1500")`
+
+- average salaries in `c1:c9`
+- if person in Sales (if "`Sales`" in `a1:a9`) and
+- if person is Female (if "`Female`" in `b1:b9`) and
+- if person's salary is greater than 1500 (if `c1:c9` is `>1500`)
+- (average of salaries of every female working in Sales who earns more than 1500)
 
