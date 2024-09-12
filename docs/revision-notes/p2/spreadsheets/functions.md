@@ -525,7 +525,7 @@ Examples:
 
 Syntax: `=INDEX(array, row_num, [col_num], ...)`
 
-Summary: Get the value in a selected cell range using an index for columns and rows.
+Summary: Get the value in a selected cell range using an index for columns and rows. Value from Index
 
 Parameters:
 
@@ -572,7 +572,7 @@ Examples:
 
 Syntax: `=OFFSET(refernce, rows, cols)`
 
-Summary: Get the value at an offset of rows and columns from a selected cell
+Summary: Get the value at an offset of rows and columns from a selected cell. Value from Index
 
 Parameters:
 
@@ -597,7 +597,7 @@ Examples:
 
 Syntax: `=OFFSET(refernce, rows, cols, [height], [width])`
 
-Summary: Get the value at an offset of rows and columns from a selected cell
+Summary: Get the value at an offset of rows and columns from a selected cell. Value from Index
 
 Parameters:
 
@@ -633,3 +633,93 @@ Compound usage: these functions are used with another function most of the time.
     - and 2 columns
 - and `SUM` all of it
 
+### `MATCH`
+
+Syntax: `=MATCH(lookup_value, lookup_array, match_type)`
+
+Summary: Get the index of a value in the specified cell reference range. Index from Value 
+
+Parameters:
+
+- `lookup_value`
+    - what to search for 
+    - index of this will be returned
+- `lookup_array`
+    - where to search for
+- `match_type`
+    - values
+        - `1`: Less than
+        - `0`: Exact match
+        - `-1`: Greater than
+
+Examples:
+
+`=MATCH("CEO", b2:b10, 0)`
+
+- ![alt text](image-11.png)
+- select an exact match (`0`)
+- from the selected cell range (column) (`b2:b10`)
+- and get the index of where `CEO` is to be found 
+
+`=MATCH("Tech", b2:b10, 0)`
+
+![alt text](image-12.png)
+- select an exact match (`0`)
+- from the selected cell range (column) (`b2:b10`)
+- and get the index of where `Tech` is to be found 
+- NOTE:
+    - can be found 3 times
+    - only the index of first time is given 
+
+### `INDEX(MATCH)` Combined Usage
+
+Example:
+
+`=INDEX(A1:D7, MATCH($G$2, B1:B7, 0), 3)`
+
+- ![alt text](image-13.png)
+- where
+    - `$G$2` is the search field (set with absolute cell referencing)
+    - `A1:D7` is the full table (with data), **including titles**
+    - `3` is the column with the pricing information
+- functions breakdown
+    1. `MATCH($G$2, B1:B7, 0)`
+        - get (input) value from G2 cell
+        - look for and exact match for this (input) value 
+        - in `B1:B7` cell range
+            - as the selected table also includes titles
+            - make sure select he titles here as well
+        - and get it's index
+    2. `=INDEX(A1:D7, XXX, 3)`
+        - in the table `A1:D7`
+            - go `XXX` number of cells down (from stage 1) (rows)
+            - then, 3 cells to right (columns) 
+        - return its value
+
+BUT, in the above example, we hardcode the column index ourselves. It's hard to find it and we will have to change stuff if the column order is changed in the table. Also, we can lookup for other stuff (like Quantity) easily without having to write new formulas. So, we will get the column index dynamically. 
+
+`=INDEX(A1:D7, MATCH($G$2, B1:B7, 0), MATCH($G$1, A1:D1, 0))`
+
+- ![alt text](image-14.png)
+- where
+    - `$G$1` is the catgeory field (set with absolute cell referencing). This mentions to catgeory to return from result.
+    - `$G$2` is the search field (set with absolute cell referencing). This mentions what to search for.
+    - `A1:D7` is the full table (with data), **including titles**
+    - `3` is the column with the pricing information
+- functions breakdown
+    1. `MATCH($G$2, B1:B7, 0)`
+        - get (input) value from G2 cell
+        - look for and exact match for this (input) value 
+        - in `B1:B7` cell range
+            - as the selected table also includes titles
+            - make sure select he titles here as well
+        - and get it's index
+    2. `MATCH($G$1, A1:D1, 0)`
+        - get (input) value from G1 cell
+        - look for and exact match for this (input) value 
+        - in `A1:D1` cell range (titles row)
+    3. `=INDEX(A1:D7, XXX, YYY)`
+        - in the table `A1:D7`
+            - go `XXX` number of cells down (from stage 1) (rows)
+            - then, `YYY` cells to right (from stage 2) (columns) 
+        - return its value
