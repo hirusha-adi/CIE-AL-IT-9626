@@ -519,3 +519,117 @@ Examples:
 - ![alt text](image-4.png)
 - contents of `a15` + `" "` contents of `b15`
 
+## Selecting Data
+
+### `INDEX`
+
+Syntax: `=INDEX(array, row_num, [col_num], ...)`
+
+Summary: Get the value in a selected cell range using an index for columns and rows.
+
+Parameters:
+
+- `array`
+    - cell reference range
+    - either one dimentional (only a row or a column)
+    - or two dimentional (a table)
+- `row_num`
+    - number of row 
+    - start countng from 1
+- `col_num`
+    - optional
+        - only if `array` is two dimentional (a table)
+    - number of column 
+    - start countng from 1
+
+Examples:
+
+`=INDEX(b2:b10, 6)`
+
+- ![alt text](image-6.png)
+- from the top left corner (of selected row)
+    - go 6 cells down (rows)
+- and get its value
+
+`=INDEX(b2:d4, 2)`
+
+- ![alt text](image-7.png)
+- from the top left corner (of selected column)
+    - go 2 cells right (columns)
+- and get its value
+
+`=INDEX(b2:d10, 3, 2)`
+
+- ![alt text](image-5.png)
+- (this proves that it doesn't count from A1)
+- from the top left corner (of selected array of cells)
+    - go 3 cells down (rows)
+    - go 2 cells right (columns)
+- and get the value at that index
+- from this selected table
+
+### `OFFSET` (Basic)
+
+Syntax: `=OFFSET(refernce, rows, cols)`
+
+Summary: Get the value at an offset of rows and columns from a selected cell
+
+Parameters:
+
+- `array`
+    - cell to start moving from
+- `rows`
+    - number of rows to go down
+- `cols`
+    - number of columns to go right
+
+Examples:
+
+`=OFFSET(b3, 3, 1)`
+
+- ![alt text](image-8.png)
+- start from cell `b3`
+    - go 3 cells down (rows)
+    - go 1 cell right (columns)
+- and get that value
+
+### `OFFSET` (Advanced)
+
+Syntax: `=OFFSET(refernce, rows, cols, [height], [width])`
+
+Summary: Get the value at an offset of rows and columns from a selected cell
+
+Parameters:
+
+- `array`
+    - cell to start moving from
+- `rows`
+    - number of rows to go down
+- `cols`
+    - number of columns to go right
+
+Examples:
+
+`=OFFSET(b3, 3, 1, 3, 2)`
+
+- ![alt text](image-9.png)
+- start from cell `b3`
+    - go 3 cells down (rows)
+    - go 1 cell right (columns)
+- and get values
+    - of 3 rows
+    - and 2 columns
+
+Compound usage: these functions are used with another function most of the time.
+
+`=SUM(OFFSET(b3, 3, 1, 3, 2))`
+
+- ![alt text](image-10.png)
+- start from cell `b3`
+    - go 3 cells down (rows)
+    - go 1 cell right (columns)
+- and get values
+    - of 3 rows
+    - and 2 columns
+- and `SUM` all of it
+
