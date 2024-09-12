@@ -389,3 +389,133 @@ Examples:
 - if person's salary is greater than 1500 (if `c1:c9` is `>1500`)
 - (average of salaries of every female working in Sales who earns more than 1500)
 
+## ROUND
+
+### `ROUND`
+
+Syntax: `=ROUND(number, num_digits)`
+
+Summary: Rounds the decimal places of a number by the specified number
+
+Paramaters:
+
+- `number`
+    - a number 
+    - a cell reference containing a number
+- `num_digits`
+    - number of decimal places
+    - to round off to
+
+Examples:
+
+- `c1` has 14.7261
+
+`=ROUND(c1, 2)` or `=ROUND(14.7261, 2)`
+
+- result: `14.73`
+- `num_digits` is 2, so, rounds off to 2 decimal places
+
+### `ROUNDUP`
+
+Syntax: `=ROUNDUP(number, num_digits)`
+
+Summary: Rounds a number up.
+
+- `number`
+    - a number 
+    - a cell reference containing a number
+- `num_digits`
+    - number of decimal places
+    - to round up to
+
+Examples:
+
+- `c1` has 14.7261
+
+`=ROUNDUP(c1, 1)` or `=ROUNDUP(14.7261, 1)`
+
+- result: `14.8`
+- `num_digits` is 1, so, rounds up to 1 decimal places
+
+For easy understanding, consider the set of examples below:
+
+- `=ROUNDUP(13.9, 0)` ---> `14`
+- `=ROUNDUP(14.0, 0)` ---> `14`
+- `=ROUNDUP(14.1, 0)` ---> `15`
+- and
+- `=ROUNDUP(14.1, 1)` ---> `14.1`
+- `=ROUNDUP(14.11, 1)` ---> `14.2`
+- `=ROUNDUP(14.12, 1)` ---> `14.2`
+- ...
+- `=ROUNDUP(14.19, 1)` ---> `14.2`
+- `=ROUNDUP(14.2, 1)` ---> `14.2`
+- `=ROUNDUP(14.21, 1)` ---> `14.3`
+- ...
+- `=ROUNDUP(14.13, 2)` ---> `14.13`
+- `=ROUNDUP(14.131, 2)` ---> `14.14`
+
+
+### `ROUNDDOWN`
+
+Syntax: `=ROUNDDOWN(number, num_digits)`
+
+Summary: Rounds a number down
+
+- `number`
+    - a number 
+    - a cell reference containing a number
+- `num_digits`
+    - number of decimal places
+    - to round down to
+
+Examples:
+
+- `c1` has 14.7261
+
+`=ROUNDDOWN(c1, 1)` or `=ROUNDDOWN(14.7261, 1)`
+
+- result: `14.7`
+- `num_digits` is 1, so, rounds down to 1 decimal places
+
+For easy understanding, consider the set of examples below:
+
+- `=ROUNDDOWN(13.9, 0)` ---> `13`
+- `=ROUNDDOWN(14.0, 0)` ---> `14`
+- `=ROUNDDOWN(14.1, 0)` ---> `14`
+- and
+- `=ROUNDDOWN(14.1, 1)` ---> `14.1`
+- `=ROUNDDOWN(14.11, 1)` ---> `14.1`
+- `=ROUNDDOWN(14.12, 1)` ---> `14.1`
+- ...
+- `=ROUNDDOWN(14.19, 1)` ---> `14.1`
+- `=ROUNDDOWN(14.2, 1)` ---> `14.2`
+- `=ROUNDDOWN(14.21, 1)` ---> `14.2`
+- ...
+- `=ROUNDDOWN(14.13, 2)` ---> `14.13`
+- `=ROUNDDOWN(14.131, 2)` ---> `14.13`
+
+## Text Manipulation
+
+### `CONCAT`
+
+Syntax: `=CONCAT(text, ...)`
+
+Summary: Concatenate/Join values together but with no seperation in middle. (like `print(*args, sep="")` in Python) 
+
+Parameters:
+
+- `text`
+    - any cell references
+        - ranges
+            - but will get no space at middle (sep)
+        - individual cells
+    - hardcoded characters
+    - anything...
+
+Examples:
+
+`=CONCAT(a15, " ", b15)`
+
+- ![alt text](image-4.png)
+- contents of `a15` + `" "` contents of `b15`
+
