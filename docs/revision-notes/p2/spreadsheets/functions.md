@@ -647,6 +647,10 @@ For easy understanding, consider the set of examples below:
 
 ## Text Manipulation
 
+Learn more:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tcineQX2xyM?si=5V2aWtlR3Yh1qRat" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### `CONCAT`
 
 Syntax: `=CONCAT(text, ...)`
@@ -670,7 +674,168 @@ Examples:
 - ![alt text](image-4.png)
 - contents of `a15` + `" "` contents of `b15`
 
-## Selecting Data
+### `LEFT`
+
+Syntax: `=LEFT(text, [num_chars])`
+
+Summary: Get the left most characters of a selected value.
+
+Parameters:
+
+- `text`
+    - a single cell reference or a hard coded value
+    - to extract the characters from
+- `num_chars` 
+    - the number of characters to extract
+    - start counting from 1 (not from 0, like in programming languages)
+
+Examples:
+
+- assume `a1` has ABCD1290
+
+`=LEFT(a1, 4)`
+
+- would result in: `ABCD`
+
+### `RIGHT`
+
+Syntax: `=RIGHT(text, [num_chars])`
+
+Summary: Get the right most characters of a selected value.
+
+Parameters:
+
+- `text`
+    - a single cell reference or a hard coded value
+    - to extract the characters from
+- `num_chars` 
+    - the number of characters to extract
+    - start counting from 1 (not from 0, like in programming languages)
+
+Examples:
+
+- assume `a1` has ABCD1290
+
+`=RIGHT(a1, 4)`
+
+- would result in: `1290`
+
+### `LEN`
+
+Syntax: `=LEN(text)`
+
+Summary: Count the number of characters. Like the `len()` function in Python.
+
+Parameters:
+
+- `text`
+    - a single cell reference or a hard coded value
+    - to count the number of characters of
+    - if this cell
+        - has a text
+            - no. of characters in text is counted
+        - has a number
+            - no. of characters in number is counted
+        - has a formula
+            - no. of characters in the result is counted
+
+Examples:
+
+`=RIGHT(a2, LEN(a2)-3)`
+
+- ![alt text](image-15.png)
+- in this example
+    - the length of numeric part changes
+    - so, to get the `RIGHT` part of it
+    - we use the `LEN` function
+- stages
+    1. `LEN(a2)-3` -> `7-3` -> 4
+    2. `=RIGHT(a2, 4)` -> get the right most 4 characters
+
+### `FIND`
+
+Syntax: `=FIND(find_text, within_text, [start_num])`
+
+Summary: Find for something and return it's index.
+
+Parameters:
+
+- `find_text`
+    - what character / set of characters to search for
+- `within_text`
+    - where to search
+- `start_num`
+    - optional
+        - defaults to 0 (from very first character)
+    - which charater to start counting from
+    - if 0, and starts with "` `", it will return 1
+    - if 1, and starts with "` `", it won't find it
+
+Examples:
+
+`=FIND(" ", a2)`
+
+- ![alt text](image-16.png)
+- find for a "` `" (space) in value in cell `a2`
+
+`=LEFT(A2, B2)`
+
+- ![alt text](image-17.png)
+- get the first name
+- `b2` is the cell with the index of the "` `" (space)
+
+`=RIGHT(A2, LEN(A2)-B2)`
+
+- ![alt text](image-18.png)
+- get the last name
+- similiar to the example of the [`LEN function`](#len)
+
+### `MID`
+
+Learn more: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MPqxvmI6zF4?si=JbXm77GLj9PuUsCa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Syntax: `=MID(text, start_num, num_chars)`
+
+Summary: Returns characters from the middle, given a starting position and length
+
+Parameters:
+
+- `text`
+    - source text to use
+    - can be a single cell reference or a hardcoded value
+    - works with both numbers and strings
+- `start_num`
+    - index of the character to go to
+    - bring the pointer here (from left)
+    - value at his index is inclusive to our selection/stripping
+- `num_chars`
+    - and move the pointer this many times to the right (from left)
+
+Basically, `num_chars` characters starting from the `start_num` index of `text` (from left to right, as usual)
+
+Examples:
+
+![alt text](image-19.png)
+
+- `num_chars` being negative 
+    - doesn't mean it will 
+    - go from right to left
+    - it will error out (eg: `C10`) 
+
+## Lookup (Basic)
+
+### `LOOKUP`
+
+### `VLOOKUP`
+
+### `HLOOKUP`
+
+### `XLOOKUP`
+
+
+## Lookup (Advanced)
 
 ### `INDEX`
 
