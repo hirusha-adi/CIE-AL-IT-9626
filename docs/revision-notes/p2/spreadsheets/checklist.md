@@ -30,6 +30,12 @@ Done
 - MID function
 - LEN function
 - FIND function
+- ISTEXT function
+- ISNUMBER function
+- ISNONTEXT function
+- UPPER function
+- LOWER function
+- EXACT function
 
 Done but not in note
 
@@ -64,13 +70,8 @@ To-Do
 - VLOOKUP function
 - XLOOKUP function
 
-- data type checking
-    - ISTEXT function
-    - ISNUMBER function
-    - ISNONTEXT function
-- UPPER function
-- LOWER function
-- EXACT function
+
+
 - CODE function
 - CHAR function
 - DEC2BIN function
@@ -78,6 +79,7 @@ To-Do
 - BIN2DEC function
 - BIN2HEX function
 - HEX2BIN function
+
 - HEX2DEC function
 - WEEKDAY function
 - DAY function

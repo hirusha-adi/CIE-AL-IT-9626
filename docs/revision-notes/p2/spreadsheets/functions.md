@@ -645,6 +645,91 @@ For easy understanding, consider the set of examples below:
 - `=ROUNDDOWN(14.13, 2)` ---> `14.13`
 - `=ROUNDDOWN(14.131, 2)` ---> `14.13`
 
+## Data Checking
+
+Learn more: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HbnCagPSi3w?si=-ug9Ybedkkkjp7Ah" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Examples: 
+
+![alt text](image-20.png)
+
+### `ISTEXT`
+
+Syntax: `=ISTEXT(value)`
+
+Summary: TRUE if it only has text, else FALSE 
+
+Parameters:
+
+- `value`
+    - a cell reference or a hard coded value
+    - this is what will be checked
+
+### `ISNUMBER`
+
+Syntax: `=ISNUMBER(value)`
+
+Summary: TRUE if it only has numbers, else FALSE 
+
+Parameters:
+
+- `value`
+    - a cell reference or a hard coded value
+    - this is what will be checked
+
+### `ISNONTEXT`
+
+Syntax: `=ISNONTEXT(value)`
+
+Summary: Check if a value is not text. Blank cells are not text. Returns TRUE or FALSE accordingly.
+
+Parameters:
+
+- `value`
+    - a cell reference or a hard coded value
+    - this is what will be checked
+
+### `ISBLANK`
+
+Syntax: `=ISBLANK(value)`
+
+Summary: TRUE if its blank, else FALSE 
+
+Parameters:
+
+- `value`
+    - a cell reference or a hard coded value
+    - this is what will be checked
+
+### `ISODD`
+
+Syntax: `=ISODD(value)`
+
+Summary: TRUE if it the number is odd, else FALSE 
+
+Parameters:
+
+- `value`
+    - a cell reference or a hard coded value
+    - this is what will be checked
+    - must be a number
+
+### `ISEVEN`
+
+Syntax: `=ISEVEN(value)`
+
+Summary: TRUE if it the number is even, else FALSE 
+
+Parameters:
+
+- `value`
+    - a cell reference or a hard coded value
+    - this is what will be checked
+    - must be a number
+
+
 ## Text Manipulation
 
 Learn more:
@@ -823,6 +908,56 @@ Examples:
     - doesn't mean it will 
     - go from right to left
     - it will error out (eg: `C10`) 
+
+### `UPPER`
+
+Syntax: `=UPPER(value)`
+
+Summary: Converts a text string to all uppercase letters. Numbers will remain as it is. 
+
+Parameters:
+
+- `value`
+    - a cell reference or a hard coded value
+    - this is what will be converted
+
+Examples: Mentioned in the example with [`LOWER` function](#lower)
+
+### `LOWER`
+
+Syntax: `=LOWER(value)`
+
+Summary: Converts a text string to all lowercase letters. Numbers will remain as it is. 
+
+Parameters:
+
+- `value`
+    - a cell reference or a hard coded value
+    - this is what will be converted
+
+Examples:
+
+`=UPPER(A11)` and `=LOWER(A11)`
+
+![alt text](image-21.png)
+
+### `EXACT`
+
+Syntax: `=EXACT(text1, text2)`
+
+Summary: Checks whether two values are exactly the same and returns TRUE or FALSE accordingly. This is case sensitive. 
+
+Parameters:
+
+- `text1`
+    - first value to compare
+- `text2`
+    - second value to compare
+
+Examples:
+
+![alt text](image-22.png)
+
 
 ## Lookup (Basic)
 
