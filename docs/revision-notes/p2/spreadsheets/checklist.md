@@ -36,6 +36,14 @@ Done
 - UPPER function
 - LOWER function
 - EXACT function
+- CODE function
+- CHAR function
+- DEC2BIN function
+- DEC2HEX function
+- BIN2DEC function
+- BIN2HEX function
+- HEX2BIN function
+- HEX2DEC function
 
 Done but not in note
 
@@ -72,15 +80,8 @@ To-Do
 
 
 
-- CODE function
-- CHAR function
-- DEC2BIN function
-- DEC2HEX function
-- BIN2DEC function
-- BIN2HEX function
-- HEX2BIN function
 
-- HEX2DEC function
+
 - WEEKDAY function
 - DAY function
 - MONTH function
@@ -89,6 +90,7 @@ To-Do
 - HOUR function
 - MINUTE function
 - SECOND function
+
 - Validation Rules (pg206)
 - Cell Formatting
 - Conditional Formatting

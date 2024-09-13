@@ -1174,3 +1174,148 @@ BUT, in the above example, we hardcode the column index ourselves. It's hard to 
             - go `XXX` number of cells down (from stage 1) (rows)
             - then, `YYY` cells to right (from stage 2) (columns) 
         - return its value
+
+## CS Data Types Stuff
+
+Examples: 
+
+![alt text](image-23.png)
+
+### `CODE`
+
+Syntax: `=CODE(value)`
+
+Summary: Returns the numeric code for the first character in a text string. Numeric code will be from the character set used by the computer.
+
+Parameters: 
+
+- `value`
+    - a single cell reference or a hard coded value
+    - if it has many characters
+        - only the first character is considered/used
+
+
+### `CHAR`
+
+Syntax: `=CHAR(value)`
+
+Summary: Returns the character specified by the code number from the character set of your computer.
+
+Parameters: 
+
+- `value`
+    - a single cell reference or a hard coded value
+
+### `DEC2BIN`
+
+Syntax: `=DEC2BIN(number, [places])`
+
+Summary: Convert a decimal number to binary form.
+
+Parameters: 
+
+- `number`
+    - a single cell reference or a hard coded value
+    - a number
+    - this number is what will be converted
+- `places`
+    - like the word length
+    - add zeros to the front 
+    - to get the binary number to the required length
+
+### `DEC2HEX`
+
+Syntax: `=DEC2HEX(number, [places])`
+
+Summary: Convert a decimal number to hexadecimal form.
+
+Parameters: 
+
+- `number`
+    - a single cell reference or a hard coded value
+    - a number
+    - this number is what will be converted
+- `places`
+    - like the word length
+    - add zeros to the front 
+    - to get the hex number to the required length
+
+### `BIN2DEC`
+
+Syntax: `=BIN2DEC(number)`
+
+Summary: Convert a binary number to decimal form.
+
+Parameters: 
+
+- `number`
+    - a single cell reference or a hard coded value
+    - a number
+    - this number is what will be converted
+
+### `BIN2HEX`
+
+Syntax: `=BIN2HEX(number, [places])`
+
+Summary: Convert a binary number to hexadecimal form.
+
+Parameters: 
+
+- `number`
+    - a single cell reference or a hard coded value
+    - a number
+    - this number is what will be converted
+- `places`
+    - like the word length
+    - add zeros to the front 
+    - to get the hex number to the required length
+
+### `HEX2BIN`
+
+Syntax: `=BIN2HEX(number, [places])`
+
+Summary: Convert a hexadecimal number to binary form.
+
+Parameters: 
+
+- `number`
+    - a single cell reference or a hard coded value
+    - a number
+    - this number is what will be converted
+- `places`
+    - like the word length
+    - add zeros to the front 
+    - to get the hex number to the required length
+
+
+### `HEX2DEC`
+
+Syntax: `=HEX2DEC(number)`
+
+Summary: Convert a hexadecimal number to decimal form.
+
+Parameters: 
+
+- `number`
+    - a single cell reference or a hard coded value
+    - a number
+    - this number is what will be converted
+
+## Datetime
+
+### `WEEKDAY`
+
+### `DAY`
+
+### `MONTH`
+
+### `YEAR`
+
+### `DATEDIF`
+
+### `HOUR`
+
+### `MINUTE`
+
+### `SECOND`
+
