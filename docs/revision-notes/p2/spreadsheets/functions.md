@@ -2,6 +2,27 @@
 title: Functions
 ---
 
+## Operators
+
+![alt text](image-27.png)
+
+### Arithmetic Operators
+
+Performed in the BODMAS arithmetic operator precedence.
+
+Examples:
+
+- Addition: `=A2+A3`
+- Subtraction: `=A2-A3`
+- Multiplication: `=A2*A3`
+- Division: `=A2/A3`
+- Indices: `=A2^A3`
+
+### Logical Operators
+
+Can be found under the [Conditionals section](#conditionals)
+
+
 ## SUM
 
 Learn more:
@@ -80,7 +101,7 @@ Paramaters:
     - where to look for the second condition
 - `criteria2`
     - second condition
-- can have as many `criteria_rangeX` and `criteriaX` as possible
+- can have 127 `criteria_rangeX` and `criteriaX` 
 
 Examples:
 
@@ -365,7 +386,7 @@ Paramaters:
     - where to look for the second condition
 - `criteria2`
     - second condition
-- can have as many `criteria_rangeX` and `criteriaX` as possible
+- can have 127 `criteria_rangeX` and `criteriaX` 
 
 Examples:
 
@@ -440,7 +461,7 @@ Paramaters:
     - where to look for the second condition
 - `criteria2`
     - second condition
-- can have as many `criteria_rangeX` and `criteriaX` as possible
+- can have 127 `criteria_rangeX` and `criteriaX` 
 
 Examples:
 
@@ -514,7 +535,7 @@ Paramaters:
     - where to look for the second condition
 - `criteria2`
     - second condition
-- can have as many `criteria_rangeX` and `criteriaX` as possible
+- can have 127 `criteria_rangeX` and `criteriaX` 
 
 Examples:
 
@@ -644,6 +665,220 @@ For easy understanding, consider the set of examples below:
 - ...
 - `=ROUNDDOWN(14.13, 2)` ---> `14.13`
 - `=ROUNDDOWN(14.131, 2)` ---> `14.13`
+
+## Conditionals
+
+Of course! these can be nested in whatever the way you want.
+
+### `OR`
+
+Syntax: `=OR(condition1, condition3, [condition3], ...)`
+
+Summary: Returns TRUE if atleast one condition is TRUE (even if all others are FALSE - except one). If all conditions are FALSE, return FALSE. Basically the OR operator. 
+
+Parameters:
+
+- `conditionX`
+    - conditions
+
+### `AND`
+
+Syntax: `=AND(condition1, condition3, [condition3], ...)`
+
+Summary: Returns TRUE only if all conditions are TRUE. Otherwise, returns False. Basically the AND operator. 
+
+Parameters:
+
+- `conditionX`
+    - conditions
+
+### `NOT`
+
+Syntax: `=NOT(condition)`
+
+Summary: Evaluvate the condition and return the oppsite of the result. If the result is TRUE, this will return FALSE and vice versa. Basically the NOT operator.
+
+Parameters:
+
+- `condition`
+    - a condition 
+    - to be evaluvated
+
+### `IF` (Basic)
+
+Syntax: `=IF(logical_test, value_if_true, value_if_false)`
+
+Summary: A conditional. Evaluvate `logical_test`, if its TRUE: return `value_if_true` and if its FALSE: return: `value_if_false`
+
+Parameters: 
+
+- `logical_test`
+    - condition(al) to be evaluvates
+- `value_if_true`
+    - this will be returned
+    - if the condition is TRUE
+- `value_if_false`
+    - this will be returned
+    - if the condition is FALSE
+
+Example:
+
+`=IF(B2=C2, "Yes. Correct!", "No! Wrong")`
+
+- ![alt text](image-29.png)
+- check if `B2=C2` is true? 
+    - (is contents of `B2` cell equal to contents of `C2` cell)
+    - it its correct
+        - return "`Yes. Correct!`"
+    - if its wrong
+        - return "`No! Wrong`"
+
+### `IFS`
+
+Learn more:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pdJ_OiTqzT4?si=aFCxS4POiNuI4s87" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Syntax: `=IFS(condition1, result1, [condition2, result2], ...)`
+
+Summary: Basically a if-elif-else scenario.
+
+Parameters:
+
+- `condition1`
+    - The condition you want to test
+- `result1`
+    - The value that is returned
+    - if corresponding condition is TRUE
+- can have 127 `conditionX` and `resultX` 
+
+Examples:
+
+`=IFS(A4="Apple", "Fruit", A4="Potato", "Vegetable")`
+
+- if cell contents equal to "Apple"
+    - return "Fruit"
+- if cell contents equal to "Potato"
+    - return "Vegetable"
+- no ELSE condition
+    - `#N/A` will be returned
+
+`=IFS(A4="Apple", "Fruit", A4="Potato", "Vegetable", TRUE, "Other")`
+
+
+- if cell contents equal to "Apple"
+    - return "Fruit"
+- if cell contents equal to "Potato"
+    - return "Vegetable"
+- else
+    - (from the `TRUE, "Other"` part)
+    - if no condition is met
+    - return "Other"
+
+
+### `IF` (Nested)
+
+`=IF(condition1, true_result1, IF(condition2, true_result2, false_else_final))`
+
+OR
+
+```
+=IF(condition1, true_result1, 
+    IF(condition2, true_result2, 
+        IF(condition3, true_result3, false_else_final)
+    )
+)
+```
+
+is similiar to
+
+`=IFS(condition1, true_result1, condition2, true_result2, TRUE, false_else_final)`
+
+
+## Errors
+
+
+## `IFNA`
+
+Syntax: `=IFNA(value, value_if_na)`
+
+Summary: Returns the value you specify if expression resolves to `#N/A`, otherwise, return the result of the expression.
+
+Parameters:
+
+- `value`
+    - value (mostly from a function)
+    - which might return `#N/A`
+        - eg: `IFS` without an else part
+    - if its `#N/A`
+        - show `value_if_na`
+    - else
+        - show the `value`
+- `value_if_na`
+    - returned if `value` returns `#N/A`
+
+Example:
+
+`=IFS(condition1, true_result1, condition2, true_result2, TRUE, false_else_final)`
+
+is equal to
+
+`=IFNA(IFS(condition1, true_result1, condition2, true_result2), false_else_final)`
+
+## `IFERROR`
+
+Syntax: `=IFERROR(value, value_if_error)`
+
+Summary: Returns the value you specify if expression is an error and the value of the expression itself otherwise
+
+- `value`
+    - value (mostly from a function)
+    - which might raise an error
+        - eg: mistyped function names
+    - if it raises an error
+        - show `value_if_error`
+    - else
+        - show the `value`
+- `value_if_error`
+    - returned if `value` raises an error
+
+Example:
+
+`=IFERROR(A1, "oops")` 
+
+- ![alt text](image-30.png)
+- (where `A1` has an error (mistyped function name - no such function exists))
+- since A1 has `A1` has an error: `#NAME?`
+- the text: `oops` will be displayed
+
+## `ISERR`
+
+Syntax: `=ISERR(value)`
+
+Summary: Checks whether a value is an error other than `#N/A`, and returns TRUE or FALSE
+
+Parameters:
+
+- `value`
+    - might raise an error
+
+Examples: Available at [`ISERROR`](#iserror)
+
+## `ISERROR`
+
+Syntax: `=ISERROR(value)`
+
+Summary: Checks whether a value is an error, and returns TRUE or FALSE
+
+Parameters:
+
+- `value`
+    - might raise an error
+
+Example:
+
+![alt text](image-31.png)
+
 
 ## Data Checking
 
@@ -1520,6 +1755,8 @@ Paramaters:
     - in a number
     - just select from the drop down menu
     - ![alt text](image-26.png)
+    - REMEBER THESE FOR PAPER 1
+        - ![alt text](image-28.png)
 - `range1` 
     - range to perform the calculation.
     - eg: `c1:c9`

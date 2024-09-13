@@ -55,6 +55,12 @@ Done
 - MEDIAN function
 - MODE function
 - SUBTOTAL function
+- IF function (pg182)
+- Nested IF functions (pg188)
+- IFS function
+- ISERROR function
+- IFERROR 
+
 
 
 Done but not in note
@@ -69,6 +75,11 @@ Done but not in note
 - INT function
 - Nested functions
 
+
+
+
+
+
 To-Do
 
 - importing csv
@@ -78,22 +89,12 @@ To-Do
 - Split window and freeze panes
 - Freeze and unfreeze panes
 
-- IF function (pg182)
-- Nested IF functions (pg188)
-- IFS function
-- ISERROR function
-- IFERROR 
 
 
 - LOOKUP function
 - HLOOKUP function
 - VLOOKUP function
 - XLOOKUP function
-
-
-
-
-
 
 
 - Validation Rules (pg206)
