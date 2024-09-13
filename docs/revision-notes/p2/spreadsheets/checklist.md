@@ -44,6 +44,18 @@ Done
 - BIN2HEX function
 - HEX2BIN function
 - HEX2DEC function
+- WEEKDAY function
+- DAY function
+- MONTH function
+- YEAR function
+- HOUR function
+- MINUTE function
+- SECOND function
+- DATEDIF function
+- MEDIAN function
+- MODE function
+- SUBTOTAL function
+
 
 Done but not in note
 
@@ -65,14 +77,14 @@ To-Do
 - Protecting cells and their contents
 - Split window and freeze panes
 - Freeze and unfreeze panes
+
 - IF function (pg182)
 - Nested IF functions (pg188)
 - IFS function
 - ISERROR function
-- IFERROR function
-- MEDIAN function
-- MODE function
-- SUBTOTAL function
+- IFERROR 
+
+
 - LOOKUP function
 - HLOOKUP function
 - VLOOKUP function
@@ -82,14 +94,7 @@ To-Do
 
 
 
-- WEEKDAY function
-- DAY function
-- MONTH function
-- YEAR function
-- DATEDIF function
-- HOUR function
-- MINUTE function
-- SECOND function
+
 
 - Validation Rules (pg206)
 - Cell Formatting

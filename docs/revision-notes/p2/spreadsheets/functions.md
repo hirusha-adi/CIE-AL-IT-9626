@@ -1303,19 +1303,242 @@ Parameters:
 
 ## Datetime
 
+Cells with date(time) can be added, subtracted to calculate timedeltas. 
+
+Maybe keep everything in the same format as a good practice.
+
+Examples: 
+
+- ![alt text](image-24.png)
+- (`WEEKDAY` -> 6 -> means its "Friday")
+
+
+### `TODAY`
+
+Syntax: `TODAY()`
+
+Summary: Return the current date formatted as a date
+
+Parameters: None
+
+### `NOW`
+
+Syntax: `NOW()`
+
+Summary: Return the current date and time formatted as a date and time
+
+Parameters: None
+
 ### `WEEKDAY`
+
+Syntax: `WEEKDAY(serial_number, [return_type])`
+
+Summary: Return the current date and time formatted as a date and time
+
+Parameters: 
+
+- `serial_number`
+    - a cell reference with a date
+        - either custom date(time) and formatted
+        - or from `NOW()`
+        - or from `TODAY()`
+- `return_type`
+    - optional
+    - defaults to 1
+    - just dont touch it
+    - it will change the order of how dates are indexed (scope: this usage of the function only)
+    - ![alt text](image-25.png)
+    - we will be sticking to the default thing
+
+Examples:
+
+- Days and numbers returned in this order:
+    - `Sunday` -> `1`
+    - `Monday` -> `2`
+    ...
+    - `Friday` -> `6`
+    - `Saturday` -> `7`
+
 
 ### `DAY`
 
+Syntax: `DAY(serial_number)`
+
+Summary: Return the day of a month. A value from `0` to `31`
+
+Parameters: 
+
+- `serial_number`
+    - a cell reference with a date
+        - either custom date(time) and formatted
+        - or from `NOW()`
+        - or from `TODAY()`
+
 ### `MONTH`
+
+Syntax: `MONTH(serial_number)`
+
+Summary: Return the month. A number from `1` (January) to `12` (December)
+
+Parameters: 
+
+- `serial_number`
+    - a cell reference with a date
+        - either custom date(time) and formatted
+        - or from `NOW()`
+        - or from `TODAY()`
 
 ### `YEAR`
 
-### `DATEDIF`
+Syntax: `YEAR(serial_number)`
+
+Summary: Returns the year of a date. An integer in the range `1900 - 9999`
+
+Parameters: 
+
+- `serial_number`
+    - a cell reference with a date
+        - either custom date(time) and formatted
+        - or from `NOW()`
+        - or from `TODAY()`
+
 
 ### `HOUR`
 
+Syntax: `HOUR(serial_number)`
+
+Summary: Returns the hour as a number. From `0` (12:00 AM) to `23` (11:00 PM)
+
+Parameters: 
+
+- `serial_number`
+    - a cell reference with a date and time
+        - either custom datetime and formatted
+        - or from `TODAY()`
+
 ### `MINUTE`
 
+Syntax: `MINUTE(serial_number)`
+
+Summary: Returns the minute. A number from `0` to `59`.
+
+Parameters: 
+
+- `serial_number`
+    - a cell reference with a date and time
+        - either custom datetime and formatted
+        - or from `TODAY()`
+
 ### `SECOND`
+
+Syntax: `SECOND(serial_number)`
+
+Summary: Returns the second. A number from `0` to `59`.
+
+Parameters: 
+
+- `serial_number`
+    - a cell reference with a date and time
+        - either custom datetime and formatted
+        - or from `TODAY()`
+
+### `DATEDIF`
+
+Not in Microsoft Office: Excel 2021 LTS.
+
+## Statistics
+
+### MEAN ??
+
+Learn more at the [Average section](#average)
+
+### `MEDIAN`
+
+Syntax: `=MEDIAN(range, [range2], ...)`
+
+Summary: Median of everything in the selected range(s). 
+
+Paramaters:
+
+- `range` 
+    - range to calculate median of.
+    - eg: `c1:c9`
+- `[range2]`
+    - other ranges to calculate median of
+
+Examples:
+
+- `a1:a9` is job descriptions
+- `b1:b9` is gender
+- `c1:c9` is salary
+
+`=MEDIAN(c1:c9)`
+
+- median of all numerical values in range `c1:c9`
+
+
+### `MODE`
+
+
+Syntax: `=MODE(range, [range2], ...)`
+
+Summary: Mode of everything in the selected range(s). 
+
+Paramaters:
+
+- `range` 
+    - range to calculate mode of.
+    - eg: `c1:c9`
+- `[range2]`
+    - other ranges to calculate mode of
+
+Examples:
+
+- `a1:a9` is job descriptions
+- `b1:b9` is gender
+- `c1:c9` is salary
+
+`=MODE(c1:c9)`
+
+- Mode of all numerical values in range `c1:c9`
+
+
+### `SUBTOTAL`
+
+Lean more:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/f7ITbGlYt7A?si=ptIE1_i32My7YkQX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Syntax: `=SUBTOTAL(function_num, range1, [range2], ...)`
+
+Summary: Basically select and perform a a function from a list of functions to a selected range. You can calculate the sum, average, or anything else from the 15+ other choices.
+
+Paramaters:
+
+- `function_num`
+    - what function to actually perform
+    - in a number
+    - just select from the drop down menu
+    - ![alt text](image-26.png)
+- `range1` 
+    - range to perform the calculation.
+    - eg: `c1:c9`
+- `[range2]`
+    - other ranges to perform the calculation.
+
+Examples:
+
+- `a1:a9` is job descriptions
+- `b1:b9` is gender
+- `c1:c9` is salary
+
+`=SUBTOTAL(9, c1:c9)` 
+
+- Sum everything in `c1:c9`
+- similiar to running `=SUM(c1:c9)`
+
+`=SUBTOTAL(101, c1:c9)` 
+
+- Average everything in `c1:c9`
+- similiar to running `=AVERAGE(c1:c9)`
 
