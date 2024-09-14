@@ -548,7 +548,7 @@ All Past Paper Questions: https://docs.google.com/document/d/1huzD3ywePF8riWc9sY
         - Line 24 checks value of 'result' to see if condition is TRUE
             - all of these are FALSE
             - control moves to next case
-        - Line 27 checks value of 'result to see if condition <20 is TRUE
+        - Line 27 checks value of 'result to see if condition \<20 is TRUE
             - this is TRUE so control passes to Line 28 and FAIL comment is stored in variable `report`
         - Line 33 function displays contents of variable '`report`' on webpage/displays "Your result is a Fail";
         - '`break`' is included to exit/jump out of any case
@@ -558,11 +558,11 @@ All Past Paper Questions: https://docs.google.com/document/d/1huzD3ywePF8riWc9sY
     - ![alt text](image-6.png)
     - answer
         - If statement specifies block of code that is executed if a condition is TRUE
-        - Line 4 if statement compares 'age' with condition <10
+        - Line 4 if statement compares 'age' with condition \<10
         - if TRUE 'You are not old enough...'is stored in variable 'statement'
         - if FALSE execution is passed to line 6
         - Else-if statement specifies a new condition to be checked if the first condition is FALSE
-        - Line 6 else if statement compares 'age' with condition <18
+        - Line 6 else if statement compares 'age' with condition \<18
         - if TRUE 'You can go to this is stored in variable 'statement'
         - if FALSE execution is passed to line 8 and "You are too old to go to this school" is stored in variable 'statement'
         - Else statement specifies the code to be executed if condition is FALSE.
@@ -612,7 +612,7 @@ All Past Paper Questions: https://docs.google.com/document/d/1huzD3ywePF8riWc9sY
         - (var) show is set to the current value of show concatenated with next crop value
         - Loop terminates when array has no more items/final value in array is reached
         - Final values of (var) show are displayed on screen/web page
-        - Values shown in vertical list as <br> code forces carriage return/line feed.
+        - Values shown in vertical list as `<br>` code forces carriage return/line feed.
 - question 8
     - ![alt text](image-12.png)
     - answer
