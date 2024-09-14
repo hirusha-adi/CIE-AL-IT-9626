@@ -1196,13 +1196,119 @@ Examples:
 
 ## Lookup (Basic)
 
-### `LOOKUP`
-
 ### `VLOOKUP`
+
+Learn more: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3MdPSHkyfdI?si=kMhCe2p-_09qAcH1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Syntax: `=VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])`
+
+Summary: Look for a value (leftmost column of the table) and returns a value in the same row of a column you specify. By default, the table must be in ascending order. The table should be a normal vertical table.
+
+Parameters:
+
+- `lookup_value`
+    - what to search for
+    - in the table, the column with this value should be in the leftmost column of the table
+    - (if its to the right or middle, you should [use `INDEX(MATCH)`](#indexmatch-combined-usage) for it)
+- `table_array`
+    - the table
+    - eg: `Client.csv!$A$2:$B$10`
+        - means, select table from `A2:B10`
+        - with absolute cell referencing
+        - from Client.csv
+        - (in the current working directory)
+- `col_index_num`
+    - how many columns to go to right
+    - from the 1st column of the table
+- `[range_lookup]`
+    - possible values
+        - `TRUE`
+            - Approximate Match
+            - no idea what this is
+        - `FALSE`
+            - Exact Match
+            - just use this
+
+Example:
+
+`=VLOOKUP(G3, A1:D4, 4, TRUE)`
+
+- ![alt text](image-32.png)
 
 ### `HLOOKUP`
 
+Syntax: `=HLOOKUP(lookup_value, table_array, row_index_num, [range_lookup])`
+
+Summary: Look for a value in the top(most) row of a table (or an array of values) and returns the value in a same column of a row you specify (from the index). The table should be a weird horizontal table.
+
+
+Parameters:
+
+- `lookup_value`
+    - what to search for
+    - in the table, the row with this value should be in the top row of the table
+    - (if its to the bottom or middle, you should [use `INDEX(MATCH)`](#indexmatch-combined-usage) for it - but i have no idea about using it with a horizontal table... uhhhh)
+- `table_array`
+    - the table
+- `row_index_num`
+    - how many rows to go to bottom
+    - from the 1st row of the table
+- `[range_lookup]`
+    - possible values
+        - `TRUE`
+            - Approximate Match
+            - no idea what this is
+        - `FALSE`
+            - Exact Match
+            - just use this
+
+Example:
+
+`=HLOOKUP(B7, B1:D4, 4, FALSE)`
+
+- ![alt text](image-33.png)
+
+
 ### `XLOOKUP`
+
+Syntax: `=XLOOKUP(lookup_value, lookup_array, return_array, [if_not_found], [match_mode], [search_model])`
+
+Summary: Searches a range or an array for a match and returns the corresponding item from a second range or array. By default, an exact method is used. We can also pass values to return if not found. Can be used for both normal vertical tables and weird horizontal tables. 
+
+Parameters:
+
+- `lookup_value`
+    - what to search for
+- `lookup_array`
+    - where to search for the `lookup_value` (a row)
+    - search for value and get its index (`X`)
+- `return_array`
+    - value we are looking from will be returned from this row
+    - return the item at the `X` index of this row
+- `if_not_found`
+    - return this value if no result is found
+- `match_mode`
+    - possible values
+        - `-1`: exact match or next smaller item
+        - `0`: exact match
+        - `1`: exact match or next larger item
+        - `2`: wildcard character match
+- `search_model`
+    - possible values
+        - `-2`: binary search (sorted descending order)
+        - `-1`: search last to first
+        - `1`: search first to last
+        - `2`: binary search (sorted ascending order)
+
+Examples:
+
+`=XLOOKUP(F3, D2:D4, B2:B4, "Not Found")`
+
+- ![alt text](image-34.png)
+- ![alt text](image-35.png)
+- We are searching from a column to the right compared to the column we are getting the result from.
 
 
 ## Lookup (Advanced)

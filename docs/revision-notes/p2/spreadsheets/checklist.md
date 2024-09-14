@@ -60,7 +60,10 @@ Done
 - IFS function
 - ISERROR function
 - IFERROR 
-
+- LOOKUP function
+- HLOOKUP function
+- VLOOKUP function
+- XLOOKUP function
 
 
 Done but not in note
@@ -91,10 +94,6 @@ To-Do
 
 
 
-- LOOKUP function
-- HLOOKUP function
-- VLOOKUP function
-- XLOOKUP function
 
 
 - Validation Rules (pg206)
