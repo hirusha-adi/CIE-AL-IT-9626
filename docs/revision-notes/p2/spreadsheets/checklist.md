@@ -76,10 +76,6 @@ Done but not in note
 - Using absolute and relative cell references (pg173)
 - Name Manager (of cell range references)
 - INT function
-- Nested functions
-
-
-
 
 
 
@@ -91,10 +87,6 @@ To-Do
 - Protecting cells and their contents
 - Split window and freeze panes
 - Freeze and unfreeze panes
-
-
-
-
 
 - Validation Rules (pg206)
 - Cell Formatting
@@ -114,7 +106,4 @@ To-Do
 - Export graphs and charts
 - what if analysis (pg261)
 - Goal Seek
-
-
-
 
