@@ -91,32 +91,6 @@ title: Past Paper Questions
 
 ### Oct/Nov
 
-- Past Paper: https://pastpapers.papacambridge.com/viewer/caie/as-and-a-level-information-technology-9626-2021-oct-nov-9626-w21-qp-04-pdf
-- Marking Scheme: https://pastpapers.papacambridge.com/viewer/caie/as-and-a-level-information-technology-9626-2021-oct-nov-9626-w21-ms-4-pdf
-- Videos (in order)
-    - Mail Merge: https://youtu.be/gFDjMERg9vI?si=Ne7VdNwRfOStDSIt
-    - Spreadsheet: https://youtu.be/NTEQ5HCfbxI?si=mjnVZbZ6lwLkRpUe
-    - Graphics: https://youtu.be/Httody2zBoc?si=Ix_17zYiZXi9PUGA
-    - Web Programming: https://youtu.be/I4kWGtc2u2Y?si=BFCcMyrOP2-k7l3P 
-    
-### May/June
-
-- Past Paper: https://pastpapers.papacambridge.com/viewer/caie/as-and-a-level-information-technology-9626-2021-may-june-9626-s21-qp-04-pdf
-- Marking Scheme: https://pastpapers.papacambridge.com/viewer/caie/as-and-a-level-information-technology-9626-2021-may-june-9626-s21-ms-4-pdf
-- Videos (in order)
-    - Mail Merge: https://youtu.be/LaKIB9n6KqU?si=NImlQsm7wRTRfQP_
-    - Database: https://youtu.be/1HkNPrgbdM0?si=XNs431MRRsDmymIC
-    - Graphics and Animation: https://youtu.be/aI6uig_LD0s?si=81zlUrT885VT0Zo0
-
-### March
-
-- Past Paper: https://pastpapers.papacambridge.com/viewer/caie/as-and-a-level-information-technology-9626-2021-march-9626-m21-qp-04-pdf
-- Marking Scheme: https://pastpapers.papacambridge.com/viewer/caie/as-and-a-level-information-technology-9626-2021-march-9626-m21-ms-4-pdf
-- Videos (in order)
-    - Graphics and Animation: https://youtu.be/yp-03HPil88?si=3-vIuk6wx9hZOaeq
-    - Database: https://youtu.be/1HkNPrgbdM0?si=CXvjNGahnr57UE_D
-    - Mail Merge: https://youtu.be/bi1xy7sHB4Q?si=VsOKZ8kEQgkztzJk
-    - Web Programming: https://youtu.be/AahDJnksE5w?si=WDTcKVMBsaZir_zv
 
 
 ## 2020
