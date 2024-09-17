@@ -54,3 +54,9 @@ title: Query
     - at front page and last page
 - Page Header/Footer
     - at top and bottom on every page
+
+## Input Mask
+
+- `LLL0000`
+    - `L` means letter
+    - `0` means number 
