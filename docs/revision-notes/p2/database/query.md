@@ -48,6 +48,13 @@ title: Query
     - append:
     - ![alt text](image-5.png)
 
+- ![alt text](image-6.png)
+    - put dates inside `#` (hashtags) 
+    - eg: `#01/03/2024#` 
+
+- criteria
+    - same row: and
+
 ## Reports
 
 - Report Header/Footer
