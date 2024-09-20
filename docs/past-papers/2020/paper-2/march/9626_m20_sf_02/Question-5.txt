@@ -1,0 +1,1 @@
+Right click on report -> Export -> as PDF
