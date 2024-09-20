@@ -9,4 +9,4 @@ title: 3. October
     - Spreadsheet: https://youtu.be/NTEQ5HCfbxI?si=mjnVZbZ6lwLkRpUe
     - Graphics: https://youtu.be/Httody2zBoc?si=Ix_17zYiZXi9PUGA
     - Web Programming: https://youtu.be/I4kWGtc2u2Y?si=BFCcMyrOP2-k7l3P 
-
+    - Animation: https://www.youtube.com/watch?v=wIQb1PuFBbY
