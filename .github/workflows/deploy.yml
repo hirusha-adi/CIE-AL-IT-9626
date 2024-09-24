@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+
 jobs:
   build:
     name: Build Docusaurus
@@ -29,7 +30,7 @@ jobs:
 
   deploy:
     name: Deploy to GitHub Pages
-    needs: dist
+    needs: build  # Corrected from 'dist' to 'build'
 
     # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
     permissions:
