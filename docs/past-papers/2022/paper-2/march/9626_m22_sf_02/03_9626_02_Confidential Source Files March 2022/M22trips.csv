@@ -1,0 +1,270 @@
+Student ID,Name,Trip ID,Cost,Paid,To Pay,Destination
+THS0001,Alice Aebi,G48,95,20,75,Cliff erosion
+THS0001,Alice Aebi,G43,40,20,20,Sedimentary rivers I
+THS0002,Salma Abdulrahman,G46,620,490,130,Cambridge - population demography
+THS0003,Mohamed Hazem,G47,600,420,180,Cambridge - river pollution
+THS0004,Evert Bayer,G48,95,30,65,Cliff erosion
+THS0005,Fabian Berger,G46,620,180,440,Cambridge - population demography
+THS0006,Friedhelm Beyer,G44,42,0,42,Sedimentary rivers II
+THS0007,Adrian Bircher,G44,42,30,12,Sedimentary rivers II
+THS0008,Lydia Blenkinsop,G48,95,10,85,Cliff erosion
+THS0009,Julian Bohm,G43,40,10,30,Sedimentary rivers I
+THS0010,Livio Bohm,G47,600,600,0,Cambridge - river pollution
+THS0010,Livio Bohm,G48,95,50,45,Cliff erosion
+THS0010,Livio Bohm,G44,42,20,22,Sedimentary rivers II
+THS0011,Matteo Bohm,G48,95,95,0,Cliff erosion
+THS0012,Romina Brandstatter,G43,40,40,0,Sedimentary rivers I
+THS0013,Kamol Brown,G48,95,30,65,Cliff erosion
+THS0014,Jana Brunner,G43,40,20,20,Sedimentary rivers I
+THS0015,Anja Bruster,G43,40,40,0,Sedimentary rivers I
+THS0016,Chaka Burke,G43,40,30,10,Sedimentary rivers I
+THS0017,Saanvi Campbell,G48,95,60,35,Cliff erosion
+THS0018,Moshe Chalmers,G41,210,210,0,Mountain geology
+THS0019,Sara Charles,G44,42,0,42,Sedimentary rivers II
+THS0020,Holly Chase,G47,600,420,180,Cambridge - river pollution
+THS0021,Louis Claes,G44,42,10,32,Sedimentary rivers II
+THS0022,Elliot Cotterill,G41,210,100,110,Mountain geology
+THS0023,Kratika Dhiman,G41,210,210,0,Mountain geology
+THS0024,Felix Eder,G43,40,40,0,Sedimentary rivers I
+THS0025,Toni Fernandez,G46,620,550,70,Cambridge - population demography
+THS0025,Toni Fernandez,G47,600,600,0,Cambridge - river pollution
+THS0028,Leandro Fink,G41,210,80,130,Mountain geology
+THS0029,Magdalena Fink,G48,95,0,95,Cliff erosion
+THS0030,Miriam Fink,G43,40,40,0,Sedimentary rivers I
+THS0031,Florian Fischer,G41,210,80,130,Mountain geology
+THS0032,Amelie Forrer,G47,600,240,360,Cambridge - river pollution
+THS0033,Sebastian Frank,G44,42,30,12,Sedimentary rivers II
+THS0034,Raphael Friedl,G47,600,540,60,Cambridge - river pollution
+THS0035,Lilly Fritz,G41,210,210,0,Mountain geology
+THS0036,Matteo Fritz,G44,42,20,22,Sedimentary rivers II
+THS0037,Niklas Fritz,G41,210,120,90,Mountain geology
+THS0038,Alexander Frueh,G47,600,420,180,Cambridge - river pollution
+THS0039,Fabio Fuchs,G47,600,300,300,Cambridge - river pollution
+THS0041,Siddharth Gad,G47,600,60,540,Cambridge - river pollution
+THS0042,Naomi Gale,G48,95,20,75,Cliff erosion
+THS0045,Emily Gantert,G44,42,10,32,Sedimentary rivers II
+THS0046,Annika Ganz,G41,210,60,150,Mountain geology
+THS0047,Pablo Garrido,G41,210,210,0,Mountain geology
+THS0048,David Ging,G46,620,60,560,Cambridge - population demography
+THS0049,Christoph Gisi,G41,210,20,190,Mountain geology
+THS0050,Mali Gopaul,G41,210,140,70,Mountain geology
+THS0050,Mali Gopaul,G47,600,300,300,Cambridge - river pollution
+THS0052,Pia Grabner,G44,42,20,22,Sedimentary rivers II
+THS0053,Adi Green,G43,40,30,10,Sedimentary rivers I
+THS0055,Min Greenhalgh,G41,210,210,0,Mountain geology
+THS0057,Lei Gunn,G41,210,80,130,Mountain geology
+THS0058,Kratika Gupta,G41,210,210,0,Mountain geology
+THS0059,Alessandro Haby,G46,620,620,0,Cambridge - population demography
+THS0059,Alessandro Haby,G47,600,480,120,Cambridge - river pollution
+THS0060,Laura Hackl,G43,40,40,0,Sedimentary rivers I
+THS0061,Luisa Hackl,G41,210,210,0,Mountain geology
+THS0062,Mia Hackl,G41,210,20,190,Mountain geology
+THS0063,Ben Haener,G41,210,20,190,Mountain geology
+THS0064,Sofia Hager,G47,600,600,0,Cambridge - river pollution
+THS0065,Tobias Hager,G48,95,70,25,Cliff erosion
+THS0066,Lotte Hall,G43,40,30,10,Sedimentary rivers I
+THS0067,Raphael Hartl,G43,40,40,0,Sedimentary rivers I
+THS0068,Kilian Hauser,G48,95,40,55,Cliff erosion
+THS0068,Kilian Hauser,G43,40,40,0,Sedimentary rivers I
+THS0069,Luca Hauser,G47,600,600,0,Cambridge - river pollution
+THS0071,Matthias Hauser,G46,620,620,0,Cambridge - population demography
+THS0072,Fatima Hegde,G48,95,60,35,Cliff erosion
+THS0072,Fatima Hegde,G44,42,30,12,Sedimentary rivers II
+THS0073,Anna-Lena Hegler,G44,42,10,32,Sedimentary rivers II
+THS0074,Alice Heitz,G48,95,95,0,Cliff erosion
+THS0075,Emil Hilty,G47,600,600,0,Cambridge - river pollution
+THS0076,Konstantin Hofbauer,G46,620,620,0,Cambridge - population demography
+THS0077,Luca Hofbauer,G43,40,20,20,Sedimentary rivers I
+THS0078,Mattia Hofbauer,G41,210,20,190,Mountain geology
+THS0078,Mattia Hofbauer,G44,42,10,32,Sedimentary rivers II
+THS0079,Thomas Hoffmann,G44,42,10,32,Sedimentary rivers II
+THS0080,Viktoria Hoffmann,G43,40,10,30,Sedimentary rivers I
+THS0081,Leonardo Hofmann,G41,210,40,170,Mountain geology
+THS0082,Marlene Hofmann,G43,40,20,20,Sedimentary rivers I
+THS0082,Marlene Hofmann,G41,210,160,50,Mountain geology
+THS0083,Nico Hofmann,G41,210,210,0,Mountain geology
+THS0084,Noah Holler,G47,600,360,240,Cambridge - river pollution
+THS0085,Samuel Horvath,G44,42,0,42,Sedimentary rivers II
+THS0086,Bex Hull,G43,40,20,20,Sedimentary rivers I
+THS0087,Selina Hutter,G44,42,30,12,Sedimentary rivers II
+THS0088,Clara Isch,G41,210,100,110,Mountain geology
+THS0089,Tomas Jacobs,G46,620,490,130,Cambridge - population demography
+THS0090,Philipp Jager,G48,95,95,0,Cliff erosion
+THS0092,Holly Jenkinson,G41,210,160,50,Mountain geology
+THS0093,Brian Jones,G43,40,40,0,Sedimentary rivers I
+THS0094,Dawid Jones,G44,42,10,32,Sedimentary rivers II
+THS0095,Kate Jones,G43,40,0,40,Sedimentary rivers I
+THS0096,Dekke Joost,G41,210,210,0,Mountain geology
+THS0097,Arenwald Jud,G47,600,600,0,Cambridge - river pollution
+THS0098,Daniel Jud,G46,620,620,0,Cambridge - population demography
+THS0099,Stefan Kainz,G46,620,620,0,Cambridge - population demography
+THS0100,Valentina Kainz,G41,210,120,90,Mountain geology
+THS0101,Julian Kaiser,G43,40,0,40,Sedimentary rivers I
+THS0103,Matteo Kaiser,G43,40,10,30,Sedimentary rivers I
+THS0104,Leon Karner,G41,210,210,0,Mountain geology
+THS0105,Marie Karner,G48,95,60,35,Cliff erosion
+THS0106,Nico Karner,G43,40,30,10,Sedimentary rivers I
+THS0107,Lara Kaufmann,G46,620,310,310,Cambridge - population demography
+THS0108,Luca Kaufmann,G43,40,30,10,Sedimentary rivers I
+THS0109,Mattia Kaufmann,G43,40,30,10,Sedimentary rivers I
+THS0109,Mattia Kaufmann,G46,620,240,380,Cambridge - population demography
+THS0111,Peter Kelly,G46,620,430,190,Cambridge - population demography
+THS0113,Laura Kern,G44,42,42,0,Sedimentary rivers II
+THS0114,Lukas Kern,G43,40,0,40,Sedimentary rivers I
+THS0115,Mia Kern,G47,600,600,0,Cambridge - river pollution
+THS0115,Mia Kern,G43,40,40,0,Sedimentary rivers I
+THS0116,Mohamed  Khaled,G41,210,100,110,Mountain geology
+THS0116,Mohamed  Khaled,G43,40,10,30,Sedimentary rivers I
+THS0117,John Koch,G47,600,540,60,Cambridge - river pollution
+THS0118,Sophia Kofler,G44,42,20,22,Sedimentary rivers II
+THS0119,Tobias Kofler,G48,95,30,65,Cliff erosion
+THS0120,Lea Kogler,G46,620,490,130,Cambridge - population demography
+THS0121,Lukas Kogler,G46,620,180,440,Cambridge - population demography
+THS0122,Michael Kogler,G41,210,210,0,Mountain geology
+THS0123,Julia Konig,G47,600,420,180,Cambridge - river pollution
+THS0124,Lisa Konig,G44,42,42,0,Sedimentary rivers II
+THS0124,Lisa Konig,G41,210,120,90,Mountain geology
+THS0125,Matteo Konig,G46,620,180,440,Cambridge - population demography
+THS0125,Matteo Konig,G44,42,42,0,Sedimentary rivers II
+THS0127,Jonathan Krenn,G43,40,10,30,Sedimentary rivers I
+THS0128,Johanna Lackner,G43,40,10,30,Sedimentary rivers I
+THS0129,Elena Laqua,G48,95,10,85,Cliff erosion
+THS0130,Rajesh Leadbetter,G47,600,600,0,Cambridge - river pollution
+THS0131,Salah Lee,G44,42,42,0,Sedimentary rivers II
+THS0131,Salah Lee,G46,620,620,0,Cambridge - population demography
+THS0132,Fabian Leitner,G44,42,42,0,Sedimentary rivers II
+THS0133,Jasmine Lewis,G47,600,420,180,Cambridge - river pollution
+THS0134,Dominik Lichty,G47,600,120,480,Cambridge - river pollution
+THS0135,Sophie Lindner,G44,42,30,12,Sedimentary rivers II
+THS0136,Valentin Lindner,G43,40,10,30,Sedimentary rivers I
+THS0137,Eugenio Lopez,G41,210,100,110,Mountain geology
+THS0141,Emma Lutz,G43,40,0,40,Sedimentary rivers I
+THS0142,Dragos Macdonald,G41,210,80,130,Mountain geology
+THS0143,Helena Maier,G47,600,420,180,Cambridge - river pollution
+THS0144,Katharina Mair,G44,42,42,0,Sedimentary rivers II
+THS0145,Lorenz Mair,G47,600,180,420,Cambridge - river pollution
+THS0146,Matteo Mair,G46,620,620,0,Cambridge - population demography
+THS0147,Lena Maurer,G41,210,210,0,Mountain geology
+THS0148,Manuel Maurer,G43,40,10,30,Sedimentary rivers I
+THS0149,Nathan Maurer,G48,95,95,0,Cliff erosion
+THS0150,Fabian Mayer,G46,620,490,130,Cambridge - population demography
+THS0151,Jan Mayr,G44,42,30,12,Sedimentary rivers II
+THS0152,Leo Mayrhofer,G48,95,95,0,Cliff erosion
+THS0153,Marcel Mayrhofer,G41,210,20,190,Mountain geology
+THS0154,Nathan Mayrhofer,G41,210,180,30,Mountain geology
+THS0156,Arda Messerli,G44,42,10,32,Sedimentary rivers II
+THS0156,Arda Messerli,G46,620,550,70,Cambridge - population demography
+THS0157,Christian Michlig,G46,620,310,310,Cambridge - population demography
+THS0157,Christian Michlig,G44,42,42,0,Sedimentary rivers II
+THS0158,Suzanne Miller,G46,620,240,380,Cambridge - population demography
+THS0159,Simon Mullner,G44,42,20,22,Sedimentary rivers II
+THS0159,Simon Mullner,G46,620,370,250,Cambridge - population demography
+THS0160,Paul Neubauer,G41,210,210,0,Mountain geology
+THS0163,Nikos Nicolaides,G47,600,120,480,Cambridge - river pollution
+THS0164,Liam Norfolk,G44,42,0,42,Sedimentary rivers II
+THS0165,Arne Nufer,G48,95,60,35,Cliff erosion
+THS0166,Emely Oberlin,G43,40,10,30,Sedimentary rivers I
+THS0171,Pablo Onyancha,G43,40,10,30,Sedimentary rivers I
+THS0171,Pablo Onyancha,G48,95,70,25,Cliff erosion
+THS0172,Laura Ortner,G48,95,0,95,Cliff erosion
+THS0173,Luis Ortner,G44,42,0,42,Sedimentary rivers II
+THS0174,Mia Ortner,G48,95,95,0,Cliff erosion
+THS0175,Pilar Pagan,G43,40,40,0,Sedimentary rivers I
+THS0176,Lauren Patel,G46,620,490,130,Cambridge - population demography
+THS0177,Peter Perfection,G47,600,540,60,Cambridge - river pollution
+THS0178,Jeremy Pinoir,G43,40,40,0,Sedimentary rivers I
+THS0179,Elias Polt,G47,600,600,0,Cambridge - river pollution
+THS0180,Karla Pooley,G43,40,40,0,Sedimentary rivers I
+THS0181,Leon Posch,G44,42,0,42,Sedimentary rivers II
+THS0182,Marco Posch,G47,600,600,0,Cambridge - river pollution
+THS0183,Nico Posch,G46,620,620,0,Cambridge - population demography
+THS0184,Pat Pushing,G43,40,0,40,Sedimentary rivers I
+THS0185,Oliver Rainer,G44,42,0,42,Sedimentary rivers II
+THS0186,Camille Ramseyer,G48,95,40,55,Cliff erosion
+THS0186,Camille Ramseyer,G46,620,620,0,Cambridge - population demography
+THS0188,Yi Reid,G41,210,210,0,Mountain geology
+THS0189,Leonardo Reisinger,G48,95,95,0,Cliff erosion
+THS0190,Markus Reisinger,G48,95,0,95,Cliff erosion
+THS0191,Nico Reisinger,G44,42,0,42,Sedimentary rivers II
+THS0192,Jakob Reiter,G48,95,20,75,Cliff erosion
+THS0193,Leonie Resch,G44,42,42,0,Sedimentary rivers II
+THS0194,Martin Resch,G46,620,430,190,Cambridge - population demography
+THS0195,Nicolas Resch,G43,40,40,0,Sedimentary rivers I
+THS0196,Duncan Rhodes,G41,210,60,150,Mountain geology
+THS0197,Lina Riedl,G47,600,240,360,Cambridge - river pollution
+THS0198,Matteo Riedl,G41,210,180,30,Mountain geology
+THS0199,Nina Riedl,G44,42,20,22,Sedimentary rivers II
+THS0200,Larissa Riegler,G46,620,620,0,Cambridge - population demography
+THS0201,Luca Riegler,G47,600,540,60,Cambridge - river pollution
+THS0202,Maximilian Riegler,G48,95,95,0,Cliff erosion
+THS0203,Maximilian Riegler,G46,620,550,70,Cambridge - population demography
+THS0204,Alina Rim,G47,600,540,60,Cambridge - river pollution
+THS0205,Arda Roser,G48,95,10,85,Cliff erosion
+THS0206,Karl Roth,G43,40,20,20,Sedimentary rivers I
+THS0207,Karl Roth,G43,40,10,30,Sedimentary rivers I
+THS0208,Sandy Rydell,G46,620,180,440,Cambridge - population demography
+THS0209,Sandy Rydell,G47,600,480,120,Cambridge - river pollution
+THS0210,Ratana Ryder,G47,600,120,480,Cambridge - river pollution
+THS0211,Franziska Schmid,G43,40,40,0,Sedimentary rivers I
+THS0212,Gunther Schmitt,G43,40,40,0,Sedimentary rivers I
+THS0212,Gunther Schmitt,G48,95,80,15,Cliff erosion
+THS0214,Isabella Schneider,G48,95,10,85,Cliff erosion
+THS0215,Olga Schneider,G43,40,20,20,Sedimentary rivers I
+THS0216,Leon Schober,G44,42,10,32,Sedimentary rivers II
+THS0217,Maria Schober,G44,42,20,22,Sedimentary rivers II
+THS0218,Nico Schober,G41,210,120,90,Mountain geology
+THS0219,Nora Schwaiger,G44,42,30,12,Sedimentary rivers II
+THS0220,Hannah Schwarz,G46,620,620,0,Cambridge - population demography
+THS0221,Thomas Schweiger,G47,600,300,300,Cambridge - river pollution
+THS0222,Vanessa Schweiger,G44,42,30,12,Sedimentary rivers II
+THS0223,Leandro Seidl,G46,620,620,0,Cambridge - population demography
+THS0224,Maja Seidl,G47,600,60,540,Cambridge - river pollution
+THS0225,Moritz Seidl,G46,620,310,310,Cambridge - population demography
+THS0226,Aran Smith,G48,95,95,0,Cliff erosion
+THS0227,Daniu Smith,G47,600,420,180,Cambridge - river pollution
+THS0228,Tim Sommer,G43,40,30,10,Sedimentary rivers I
+THS0228,Tim Sommer,G47,600,180,420,Cambridge - river pollution
+THS0229,Yannick Sommer,G46,620,60,560,Cambridge - population demography
+THS0230,Jon Stadler,G41,210,210,0,Mountain geology
+THS0231,Benjamin Stager,G48,95,10,85,Cliff erosion
+THS0232,Oral Strauss,G46,620,620,0,Cambridge - population demography
+THS0233,Noah Strobl,G43,40,0,40,Sedimentary rivers I
+THS0234,Si Stuart,G43,40,40,0,Sedimentary rivers I
+THS0235,Clemens Thoeny,G46,620,240,380,Cambridge - population demography
+THS0236,David Thomson,G44,42,42,0,Sedimentary rivers II
+THS0238,Alessandro Tobler,G43,40,40,0,Sedimentary rivers I
+THS0239,Friederike Trommler,G47,600,480,120,Cambridge - river pollution
+THS0240,Camille Truby,G44,42,42,0,Sedimentary rivers II
+THS0241,Simone Unger,G48,95,95,0,Cliff erosion
+THS0242,Tim Unger,G47,600,240,360,Cambridge - river pollution
+THS0243,Lauren Vercoe,G43,40,30,10,Sedimentary rivers I
+THS0244,Andri Gunten,G46,620,310,310,Cambridge - population demography
+THS0245,Anna Walp,G41,210,210,0,Mountain geology
+THS0246,Didier Watson,G47,600,600,0,Cambridge - river pollution
+THS0247,Linda Watson,G47,600,60,540,Cambridge - river pollution
+THS0248,Giulia Weber,G46,620,430,190,Cambridge - population demography
+THS0249,Raphael Weis,G48,95,80,15,Cliff erosion
+THS0249,Raphael Weis,G44,42,10,32,Sedimentary rivers II
+THS0250,Jonas Weiss,G43,40,20,20,Sedimentary rivers I
+THS0251,Gerhardt Weissmuller,G44,42,30,12,Sedimentary rivers II
+THS0252,Fred Wells,G43,40,10,30,Sedimentary rivers I
+THS0253,Chloe Weston,G43,40,10,30,Sedimentary rivers I
+THS0254,Johannes Wieser,G47,600,120,480,Cambridge - river pollution
+THS0255,Theresa Wiesinger,G47,600,600,0,Cambridge - river pollution
+THS0257,Valerie Wiesinger,G43,40,10,30,Sedimentary rivers I
+THS0258,Ieuan Williams,G48,95,95,0,Cliff erosion
+THS0259,Yo-Yo Williams,G43,40,20,20,Sedimentary rivers I
+THS0260,Jasmin Wimmer,G44,42,30,12,Sedimentary rivers II
+THS0261,Gabriel Winkler,G48,95,80,15,Cliff erosion
+THS0263,Lara Winter,G47,600,420,180,Cambridge - river pollution
+THS0263,Lara Winter,G46,620,620,0,Cambridge - population demography
+THS0264,Luca Winter,G41,210,210,0,Mountain geology
+THS0265,Max Winter,G48,95,80,15,Cliff erosion
+THS0266,Clemantine Wu,G48,95,95,0,Cliff erosion
+THS0267,Andri Wurgler,G48,95,10,85,Cliff erosion
+THS0268,Andreas Zwinky,G44,42,42,0,Sedimentary rivers II
+THS0269,Andreas Zwinky,G43,40,40,0,Sedimentary rivers I
+THS0270,Livio Kaiser,G43,40,20,20,Sedimentary rivers I
+THS0270,Livio Kaiser,G48,95,95,0,Cliff erosion
+THS0271,Sarah Klein,G44,42,30,12,Sedimentary rivers II
+THS0272,Emilia Leupp,G46,620,310,310,Cambridge - population demography
