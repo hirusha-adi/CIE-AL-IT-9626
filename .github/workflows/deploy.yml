@@ -26,11 +26,11 @@ jobs:
       - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: build  # Update 'dist' to 'build' (Docusaurus default)
 
   deploy:
     name: Deploy to GitHub Pages
-    needs: build  # Corrected from 'dist' to 'build'
+    needs: build
 
     # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
     permissions:
