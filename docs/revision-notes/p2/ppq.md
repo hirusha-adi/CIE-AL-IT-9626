@@ -38,9 +38,3 @@ title: Past Paper Questions
     - Database: https://youtu.be/Rc_PMOZVkc4?si=Fz5Mkcu5YoF4mWIR
     - Sound Editing: https://youtu.be/8d8c3wPmzH4?si=1SvM4pSFNUksVHBa
 
-### March
-
-- Past Paper: https://pastpapers.papacambridge.com/viewer/caie/as-and-a-level-information-technology-9626-2023-march-9626-m23-qp-02-pdf
-- Marking Scheme: https://pastpapers.papacambridge.com/viewer/caie/as-and-a-level-information-technology-9626-2023-march-9626-m23-ms-2-pdf
-- Videos (in order)
-    - Spreadsheet: https://youtu.be/BlAeB49YJ_A?si=1eG7zgMlYJ5vp5zm
