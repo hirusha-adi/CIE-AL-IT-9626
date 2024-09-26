@@ -1,0 +1,121 @@
+Product Code,Stock Held,Stock Ordered,Style,Item,Metal,Stone,Cost Price,Sale Price
+JJ000001,0,3,A3,Ring,Silver,Blue Opal,148.3,250
+JJ000002,2,3,A7,Ring,Silver,Blue Opal,185,280
+JJ000003,0,6,A3,Ring,Gold,Blue Opal,242.5,380
+JJ000004,1,3,A7,Ring,Gold,Blue Opal,263.8,430
+JJ000005,10,6,A2,Ring,Silver,Green Opal,158.3,250
+JJ000006,4,2,A7,Ring,Silver,Green Opal,169,280
+JJ000007,10,6,A2,Ring,Gold,Green Opal,301.8,470
+JJ000008,0,4,A7,Ring,Gold,Green Opal,275.8,430
+JJ000009,2,4,A3,Ring,Platinum,Blue Opal,384.5,620
+JJ000010,0,1,A7,Ring,Platinum,Blue Opal,348,560
+JJ000011,6,3,A2,Ring,Platinum,Green Opal,382.5,620
+JJ000012,6,1,A7,Ring,Platinum,Green Opal,345,560
+JJ000013,0,2,A4,Ring,Silver,Black Opal,133.8,230
+JJ000014,0,3,A5,Ring,Silver,Black Opal,178.8,270
+JJ000015,0,5,A4,Ring,Gold,Black Opal,324.3,530
+JJ000016,4,4,A5,Ring,Gold,Black Opal,381,600
+JJ000017,3,5,A2,Ring,Silver,Fire Opal,169.5,260
+JJ000018,2,3,A7,Ring,Silver,Fire Opal,192.5,300
+JJ000019,0,2,A2,Ring,Gold,Fire Opal,310.3,490
+JJ000020,0,1,A7,Ring,Gold,Fire Opal,282.5,460
+JJ000021,4,5,A2,Ring,Platinum,Fire Opal,440.5,700
+JJ000022,10,1,A7,Ring,Platinum,Fire Opal,387.5,620
+JJ000023,0,0,A3,Ring,Silver,Red Opal,167.8,270
+JJ000024,0,5,A7,Ring,Silver,Red Opal,162.3,250
+JJ000025,0,5,A3,Ring,Gold,Red Opal,330.5,540
+JJ000026,3,2,A7,Ring,Gold,Red Opal,314.3,490
+JJ000027,0,2,A3,Ring,Platinum,Red Opal,424,680
+JJ000028,2,1,A7,Ring,Platinum,Red Opal,397.3,650
+JJ000029,0,6,A1,Ring,Silver,Topaz,285.3,450
+JJ000030,9,6,A2,Ring,Silver,Topaz,304.3,490
+JJ000031,9,6,C1,Chain,Silver,,52,80
+JJ000032,0,3,C2,Chain,Silver,,52.4,95
+JJ000033,10,3,C3,Chain,Silver,,68.8,110
+JJ000034,0,5,C4,Chain,Silver,,84.1,125
+JJ000035,3,4,D1,Chain,Silver,,68,120
+JJ000036,0,6,D2,Chain,Silver,,97.5,140
+JJ000037,5,1,D3,Chain,Silver,,110,160
+JJ000038,0,3,D4,Chain,Silver,,123.5,180
+JJ000039,0,1,C1,Chain,Gold,,92,160
+JJ000040,5,5,C2,Chain,Gold,,114.8,190
+JJ000041,4,4,C4,Chain,Gold,,155.3,250
+JJ000042,0,6,C3,Chain,Platinum,,149.3,250
+JJ000043,9,0,C4,Chain,Platinum,,177.5,300
+JJ000044,9,5,E2,Chain,Silver,,41.5,60
+JJ000045,0,2,E3,Chain,Silver,,28.5,60
+JJ000046,9,3,B1,Ear rings,Silver,Blue Opal,30.3,50
+JJ000047,0,0,B1,Ear rings,Silver,Green Opal,40.3,50
+JJ000048,0,4,B1,Ear rings,Silver,Black Opal,29.3,50
+JJ000049,0,3,B1,Ear rings,Silver,Fire Opal,25.4,55
+JJ000050,0,1,B1,Ear rings,Silver,Red Opal,39.5,60
+JJ000051,5,5,B3,Ear rings,Silver,Blue Opal,48,80
+JJ000052,0,5,B3,Ear rings,Silver,Green Opal,43,80
+JJ000053,0,0,B3,Ear rings,Silver,Black Opal,46,80
+JJ000054,0,1,B3,Ear rings,Silver,Fire Opal,47.1,85
+JJ000055,0,2,B3,Ear rings,Silver,Red Opal,53.3,90
+JJ000056,0,2,B4,Ear rings,Silver,Blue Opal,39.5,60
+JJ000057,5,6,B4,Ear rings,Silver,Green Opal,49.5,60
+JJ000058,8,0,B4,Ear rings,Silver,Fire Opal,52.6,65
+JJ000059,0,3,B1,Ear rings,Gold,Blue Opal,89.5,140
+JJ000060,0,0,B1,Ear rings,Gold,Green Opal,99.5,140
+JJ000061,0,0,B1,Ear rings,Gold,Black Opal,82.5,140
+JJ000062,0,4,B1,Ear rings,Gold,Fire Opal,91.8,150
+JJ000063,0,0,B1,Ear rings,Gold,Red Opal,103,160
+JJ000064,0,6,B4,Ear rings,Gold,Fire Opal,83,120
+JJ000065,0,3,B4,Ear rings,Gold,Red Opal,69,120
+JJ000066,6,5,B1,Ear rings,Platinum,Fire Opal,136,200
+JJ000067,0,0,B1,Ear rings,Platinum,Red Opal,135.8,230
+JJ000068,7,3,B4,Ear rings,Platinum,Black Opal,131,200
+JJ000069,10,3,B4,Ear rings,Platinum,Fire Opal,112,160
+JJ000070,10,3,B4,Ear rings,Platinum,Red Opal,109,160
+JJ000071,0,5,P1,Pendant,Silver,Blue Opal,333.1,525
+JJ000072,5,1,P1,Pendant,Silver,Green Opal,387.6,625
+JJ000073,4,1,P1,Pendant,Silver,Black Opal,431.9,675
+JJ000074,3,1,P1,Pendant,Silver,Fire Opal,405.3,650
+JJ000075,2,5,P1,Pendant,Silver,Red Opal,428,680
+JJ000076,0,4,P4,Pendant,Silver,Fire Opal,392.8,630
+JJ000077,0,4,P3,Pendant,Gold,Black Opal,575,920
+JJ000078,0,2,P2,Pendant,Gold,Fire Opal,626.3,1010
+JJ000079,0,6,P2,Pendant,Gold,Red Opal,651.3,1050
+JJ000080,5,3,P3,Pendant,Gold,Fire Opal,554.5,900
+JJ000081,0,5,P3,Pendant,Gold,Red Opal,583.5,940
+JJ000082,6,6,P8,Pendant,Platinum,Fire Opal,650.3,1050
+JJ000083,9,3,P8,Pendant,Platinum,Red Opal,679.5,1100
+JJ000084,2,5,P7,Pendant,Silver,Topaz,508.6,825
+JJ000085,1,0,P1,Pendant,Silver,Topaz,569.5,900
+JJ000086,2,3,P2,Pendant,Silver,Topaz,515.8,830
+JJ000087,1,5,P3,Pendant,Silver,Topaz,533.8,870
+JJ000088,4,0,P4,Pendant,Silver,Topaz,537.3,850
+JJ000089,3,1,P5,Pendant,Silver,Topaz,558,880
+JJ000090,9,3,P6,Pendant,Silver,Topaz,563.5,900
+JJ000091,0,3,F3,Bracelet,Silver,,62.3,90
+JJ000092,0,3,F4,Bracelet,Silver,,72.5,100
+JJ000093,0,3,F5,Bracelet,Silver,,87,120
+JJ000094,2,6,F6,Bracelet,Silver,,93,160
+JJ000095,0,6,F7,Bracelet,Silver,,30.4,55
+JJ000096,0,3,F8,Bracelet,Silver,,60,80
+JJ000097,0,0,F1,Bracelet,Silver,Blue Opal,93,160
+JJ000098,0,4,F1,Bracelet,Silver,Green Opal,115.1,165
+JJ000099,5,2,F2,Bracelet,Gold,Blue Opal,239.3,370
+JJ000100,0,4,F1,Bracelet,Gold,Fire Opal,221.3,370
+JJ000101,0,5,F3,Bracelet,Gold,,165.3,250
+JJ000102,2,0,F2,Bracelet,Platinum,Fire Opal,283.3,450
+JJ000103,0,1,F2,Bracelet,Platinum,Red Opal,294,480
+JJ000104,7,0,F1,Bracelet,Silver,Black Opal,38.8,70
+JJ000105,0,5,F1,Bracelet,Silver,Fire Opal,33.8,70
+JJ000106,0,6,F1,Bracelet,Silver,Red Opal,34.8,70
+JJ000107,6,6,F2,Bracelet,Silver,Black Opal,109.3,170
+JJ000108,0,6,F2,Bracelet,Silver,Fire Opal,108.4,175
+JJ000109,10,4,F2,Bracelet,Silver,Red Opal,119.8,190
+JJ000110,3,2,F9,Bracelet,Silver,Blue Opal,60.5,100
+JJ000111,3,1,F9,Bracelet,Silver,Green Opal,56.5,100
+JJ000112,0,5,F9,Bracelet,Silver,Black Opal,80.8,110
+JJ000113,0,1,F9,Bracelet,Silver,Fire Opal,83.3,130
+JJ000114,3,5,F4,Bracelet,Gold,,156.5,260
+JJ000115,8,1,F5,Bracelet,Gold,,251.3,410
+JJ000116,1,6,F6,Bracelet,Gold,,466.8,750
+JJ000117,1,1,F5,Bracelet,Platinum,,323,520
+JJ000118,0,6,F8,Bracelet,Platinum,,565.5,900
+JJ000119,4,4,F10,Bracelet,Silver,Fire Opal,96,160
+JJ000120,0,4,F10,Bracelet,Silver,Red Opal,110.5,180
