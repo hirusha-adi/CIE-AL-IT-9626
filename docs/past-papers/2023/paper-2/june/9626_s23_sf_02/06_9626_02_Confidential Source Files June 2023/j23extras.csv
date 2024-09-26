@@ -1,0 +1,8 @@
+Extras Code,Extras,Extras Cost
+C,Cruise control,650
+L,LED lighting,200
+S,Satellite navigation,420
+CL,"Cruise control, LED lighting",850
+CS,"Cruise control, Satellite navigation",1070
+LS,"LED lighting, Satellite navigation",620
+CLS,"Cruise control, LED lighting, Satellite navigation",1270
