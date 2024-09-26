@@ -1,0 +1,18 @@
+Soil type,Width,Depth
+,Millimetres,Millimetres
+Gravel,650,800
+Sedimentary rock,600,600
+Sand,650,800
+Limestone,600,500
+Granite,600,500
+Sandstone,600,500
+Shale,600,500
+Chalk (hard solid),450,700
+Chalk (soft),X,X
+Clay (no trees nearby),750,1000
+Clay (trees nearby),800,3000
+Peat,X,X
+Sandy clay,X,X
+Silty sand,X,X
+,,
+X shows the soil is unsuitable for strip foundations,,
