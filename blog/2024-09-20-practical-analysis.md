@@ -5,42 +5,23 @@ authors: hirusha
 tags: [exam, analysis]
 ---
 
-## Comparison
+## Guess
 
-Here is the updated table with separators between each year:
-
-| Year | Month   | Paper 2                                         | Paper 4                                  |
-|------|---------|-------------------------------------------------|------------------------------------------|
-| 2020 | March   | Spreadsheet                                     | Database                                 |
-|      | June    | NONE                                            | Spreadsheet, Database (basic)            |
-|      | October | Database                                        | Spreadsheet                              |
-| 2021 | March   | Database                                        | Spreadsheet                              |
-|      | June    | Spreadsheet                                     | Spreadsheet                              |
-|      | October | Spreadsheet                                     | Database                                 |
-| 2022 | March   | Spreadsheet                                     | Database                                 |
-|      | June    | Spreadsheet                                     | Spreadsheet                              |
-|      | October | Spreadsheet (27), Database (28) - Total: 55 marks| Database                                |
-| 2023 | March   | Spreadsheet                                     | Spreadsheet                              |
-|      | June    | Spreadsheet                                     | Database                                 |
-|      | October | NONE                                            | Spreadsheets, ER Diagram (only)          |
-| 2024 | March   | Spreadsheet                                     | Database                                 |
-|      | June    | Spreadsheet                                     | Database                                 |
-|      | October | ?? Database ?? (or NONE if lucky)               | ?? Spreadsheet ??                        |
-
-
-## Conclusion
+- 2024 October: Paper **2: Spreadsheets**
+- 2024 October: Paper **4: Database**
 
 ## Data
 
 ### Paper 2
 
-| Year | March         | June  | October                          |
-|------|---------------|-------|----------------------------------|
-| 2020 | Spreadsheet   | NONE  | Database                         |
-| 2021 | Database      | Spreadsheet | Spreadsheet                  |
-| 2022 | Spreadsheet   | Spreadsheet | Spreadsheet (27), Database (28) - Total: 55 marks |
-| 2023 | Spreadsheet   | Spreadsheet | NONE                          |
-| 2024 | Spreadsheet   | Spreadsheet | ?? Database ?? (or NONE if lucky) |
+| Year | March         | June                        | October                        |
+|------|---------------|-----------------------------|--------------------------------|
+| 2020 | Database      | Spreadsheet, Database (basic) | Spreadsheet                   |
+| 2021 | Spreadsheet   | Spreadsheet                 | Database                       |
+| 2022 | Database      | Spreadsheet                 | Database                       |
+| 2023 | Spreadsheet   | Database                    | Spreadsheets, ER Diagram (only) |
+| 2024 | Database      | Database                    | ?? Spreadsheet ??              |
+
 
 <details>
 <summary>Long (Database or Spreadsheet only)</summary>
@@ -105,14 +86,13 @@ Here is the updated table with separators between each year:
 
 ### Paper 4
 
-| Year | March         | June                        | October                        |
-|------|---------------|-----------------------------|--------------------------------|
-| 2020 | Database      | Spreadsheet, Database (basic) | Spreadsheet                   |
-| 2021 | Spreadsheet   | Spreadsheet                 | Database                       |
-| 2022 | Database      | Spreadsheet                 | Database                       |
-| 2023 | Spreadsheet   | Database                    | Spreadsheets, ER Diagram (only) |
-| 2024 | Database      | Database                    | ?? Spreadsheet ??              |
-
+| Year | March         | June  | October                          |
+|------|---------------|-------|----------------------------------|
+| 2020 | Spreadsheet   | NONE  | Database                         |
+| 2021 | Database      | Spreadsheet | Spreadsheet                  |
+| 2022 | Spreadsheet   | Spreadsheet | Spreadsheet (27), Database (28) - Total: 55 marks |
+| 2023 | Spreadsheet   | Spreadsheet | NONE                          |
+| 2024 | Spreadsheet   | Spreadsheet | ?? Database ?? (or NONE if lucky) |
 
 <details>
 <summary>Long (Database or Spreadsheet only)</summary>
@@ -144,4 +124,25 @@ Here is the updated table with separators between each year:
 
 </details>
 
+## Comparison
+
+Here is the updated table with separators between each year:
+
+| Year | Month   | Paper 4                                         | Paper 2                                  |
+|------|---------|-------------------------------------------------|------------------------------------------|
+| 2020 | March   | Spreadsheet                                     | Database                                 |
+|      | June    | NONE                                            | Spreadsheet, Database (basic)            |
+|      | October | Database                                        | Spreadsheet                              |
+| 2021 | March   | Database                                        | Spreadsheet                              |
+|      | June    | Spreadsheet                                     | Spreadsheet                              |
+|      | October | Spreadsheet                                     | Database                                 |
+| 2022 | March   | Spreadsheet                                     | Database                                 |
+|      | June    | Spreadsheet                                     | Spreadsheet                              |
+|      | October | Spreadsheet (27), Database (28) - Total: 55 marks| Database                                |
+| 2023 | March   | Spreadsheet                                     | Spreadsheet                              |
+|      | June    | Spreadsheet                                     | Database                                 |
+|      | October | NONE                                            | Spreadsheets, ER Diagram (only)          |
+| 2024 | March   | Spreadsheet                                     | Database                                 |
+|      | June    | Spreadsheet                                     | Database                                 |
+|      | October | ?? Database ?? (or NONE if lucky)               | ?? Spreadsheet ??                        |
 
