@@ -1,5 +1,6 @@
 ---
 title: 2. June
+sidebar_position: 2
 ---
 
 - Past Paper: https://pastpapers.papacambridge.com/viewer/caie/as-and-a-level-information-technology-9626-2021-may-june-9626-s21-qp-02-pdf

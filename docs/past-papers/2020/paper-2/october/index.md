@@ -1,5 +1,6 @@
 ---
 title: 3. October
+sidebar_position: 3
 ---
 
 - Past Paper: https://pastpapers.papacambridge.com/viewer/caie/as-and-a-level-information-technology-9626-2020-oct-nov-9626-w20-qp-02-pdf
