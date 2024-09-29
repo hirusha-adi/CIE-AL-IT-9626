@@ -1,0 +1,22 @@
+Christine's Construction Company,,,,,,,,,,,
+,,,,,,,,,,,
+Building foundation planner for brick/block walls,,,,Soil/Rock data,,,Dry,Wet,Dry,Wet,kg/m2
+,,,,,,,,,,,
+Data entry ,,Enter all dimensions in metres,,Soil code,Soil/Rock type,,Width,Width,Depth,Depth,Load bearing pressure
+Building weighting factor,1.36,,,,,,in mm,in mm,in mm,in mm,
+Type of construction:,,Enter W (freestanding Wall) or B (building),,,,,,,,,
+Length of wall:,,Enter length in metres,,L,Limestone,Strip/trench fill,600,600,500,600,30000
+Height of wall:,,Enter height in metres,,G,Granite,Strip/trench fill,600,600,200,200,59000
+Code for the type of soil:,,"Enter soil code: C,G,H,J,L,P,S,T,U,V or W",,S,Sandstone,Strip/trench fill,600,600,500,500,30000
+Thickness of wall:,,Enter S (single) or D (double) ,,T,Shale,Strip/trench fill,600,600,500,500,27000
+Soil moisture level:,,Enter W (wet) or D (dry),,V,Firm Chalk,Strip/trench fill,450,450,700,700,30000
+,,,,W,Soft chalk,Unsuitable,,,,,
+Foundations,,,,J,Gravel,Strip/trench fill,450,900,700,800,25000
+Depth:,,metres,,H,Gravel and sand,Strip/trench fill,450,900,700,700,20000
+Width:,,metres,,C,Clay,Strip/trench fill,700,1000,1000,3000,10000
+Length:,,metres,,P,Peat,Raft foundation only,,,,,
+The volume of foundations will be:,,cubic metres,,U,Sand,Strip/trench fill,600,600,800,700,15000
+The volume of concrete will be:,,cubic metres,,,,,,,,,
+Weight of the wall will be:,,kilograms,,Costs per cubic metre,,,,,,,
+,,,,Concrete:,85.3,,,,,,
+The concrete for the foundations will cost:,,,,Empty portion:,22,,,,,,
