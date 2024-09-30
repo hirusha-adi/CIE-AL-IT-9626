@@ -40,3 +40,17 @@ sidebar_position: 1
     *1.1, 0
 )
 ```
+
+- single line
+```
+=ROUNDUP((ROUNDUP((B3*100)/B13, 0)*ROUNDUP((B4*100)/B14, 0))-(ROUNDDOWN((B10*100)/B13, 0)*ROUNDDOWN((B11*100)/B14, 0))*1.1, 0)
+```
+
+- my answer
+
+```
+=ROUNDUP((ROUNDUP((B3*100)/B13, 0)*ROUNDUP((B4*100)/B14, 0))-(ROUNDUP((B10*100)/B13, 0)*ROUNDUP((B11*100)/B14, 0))*1.1, 0)
+```
+
+- note that in the second part, we `ROUNDDOWN` instead of `ROUNDUP` because of the "Do
+not include any part tiles." part of the question

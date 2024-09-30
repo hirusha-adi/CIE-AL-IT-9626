@@ -1,0 +1,7 @@
+Climate for region where building will take place,
+Climate type,Frost factor
+Never frosty,0
+Occasionally frosty,0.1
+Sometimes frosty,0.15
+Long periods of frost,0.2
+Permafrost,0.4
