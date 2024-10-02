@@ -250,6 +250,11 @@ All Past Paper Questions: [Click here](https://drive.google.com/drive/folders/16
     - this is done until last record of transaction file
     - then, at last: all remaining old master file records are written to the new master file.
 
+
+- examples
+    - ![alt text](image-2.png)
+    - ![alt text](image-3.png)
+
 ## Other
 
 ### Proof Reading
