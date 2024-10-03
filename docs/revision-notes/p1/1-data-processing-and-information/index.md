@@ -6,6 +6,8 @@ title: 1. Data and Information
 
 All Past Paper Questions: [Click here](https://drive.google.com/drive/folders/169hxE5eR4Hxhvmr3-AwoyhbqAcX-ahEW?usp=sharing)
 
+pg141
+
 ## Data
 
 ### Introduction
@@ -38,14 +40,15 @@ All Past Paper Questions: [Click here](https://drive.google.com/drive/folders/16
 
 - why?
     - cant gaurantee is data is accurate
-    - checking is data is sensible
+    - checking is data is sensible and follows rules
     - checks if data entered is reasonable
     - even if data is copied correctly
         - it might be in an invalid format
     - only "check digit" can check for transportation issues
     - cant find transcription errors
     - eg: format -> DOB should be as `nn/nn/nnnn` (where `n` is a real positive integer) 
-
+    - pickup invalid data
+    - cant pickup transposition errors, except for "Check Digit"
 - approaches
     - length check
         - check how many characters long
@@ -98,10 +101,14 @@ All Past Paper Questions: [Click here](https://drive.google.com/drive/folders/16
         - this would not prevent accepting out of range numbers
         - eg:
             - no alpha to a numeric field
+    
+    - presence check
+        - make sure data is entered
 
 - examples
     - ![alt text](image-4.png)
     - ![alt text](image-5.png)
+    - ![alt text](image-11.png)
 
 ### Verification
 
@@ -112,6 +119,8 @@ All Past Paper Questions: [Click here](https://drive.google.com/drive/folders/16
     - will pick up transcription errors
     - cant gaurantee is data is accurate
     - can find transcription errors
+    - can only check data that is copied
+    - done by both human or by computer
 - methods
     - visual verification
         - compare data being entered to another copy
@@ -140,7 +149,15 @@ All Past Paper Questions: [Click here](https://drive.google.com/drive/folders/16
         - (the goal is to have an even number of 1s)
         - parity bits are sent along with data
         - if number of 1s is odd after adding the parity byte, it means an error
-
+    - hash total
+        - a key number is calculated
+        - all account numbers would be added together
+        - to create a single number
+        - data is transmitted along with hash total
+        - hash total is recalculated once recieved
+        - original hash total is compared to the new one
+        - if they do not match, an error has occured
+        - the fields hold data ad will not be used with calculations
 
 
 ### Test Data
@@ -286,6 +303,9 @@ All Past Paper Questions: [Click here](https://drive.google.com/drive/folders/16
 - has an oppotunity to sell data
 - source of data is known exactly, making it easier to judge its reliability
 
+- examples
+    - ![alt text](image-10.png)
+
 ###  Direct Data Sources
 
 - meaning
@@ -312,6 +332,7 @@ All Past Paper Questions: [Click here](https://drive.google.com/drive/folders/16
         - less amount of data gathered
         - might not be enough
     - pollution, its affected by weather seaons... 
+    - need clerks, (for data entry), more expensive
 - inaccurate information
     - errors made when data entering
     - misconfigured/uncalibrated sensors
@@ -409,6 +430,9 @@ All Past Paper Questions: [Click here](https://drive.google.com/drive/folders/16
     - electoral register
         - what
             - list of adults who are entitled to vote in a national / national election
+            - readily available
+            - need to visit to city's council
+            - dont need to go from person to person collecting info
         - data might be out of date
             - address they live in
             - people new to area aren't included
@@ -581,7 +605,54 @@ All Past Paper Questions: [Click here](https://drive.google.com/drive/folders/16
     - seats can be booked at any time of the day, day or night
     - customers are able to retry to re-book if something went wrong the first time
 
+### Comparisons
+
+- online processing vs batch processing
+    - online processing
+        - advantages
+            - orders processed right away
+            - completing orders can start sooner (no waiting)
+            - errors revealed immediately
+            - so, can fix quickly
+            - data is accurate and upto date all the time
+        - disadvantages
+            - high hardware requirements
+            - more expensive
+            - have to be active all day
+            - need workers at all time
+            - need more employees
+            - expensive salaries
+    - batch processing
+        - advantages
+            - only limited number of workers to enter data
+            - only uses when nobody uses it
+                - eg: evening, night time
+            - processing does not slow the network down
+        - disadvantages
+            - if error
+                - reported after batch is completed
+                - delay in fixing
+            - if DB is interrogates
+                - can recieve results quickly
+                - why?
+                    - sales invoices, customer queries bill
+                    - BUT with online-systems, its available anytime
+            - more expensive
+            - more computer processing time required
 ## Other
+
+### File Access
+
+- sequential file access
+    - meaning
+        - records are accessed in order they were entered
+        - each record is read one by one
+        - until a match is found
+    - indexed sequential search
+        - index table would contain corresponding part of disk
+        - where names beginning with each letter of the alphebet are found
+        - for name beginning with Js, the part of a file containing records starting with As to Is can be ignored
+        - All records beginning with J will be read one by one until Johnson is found
 
 ### Proof Reading
 
