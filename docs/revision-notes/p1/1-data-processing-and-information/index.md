@@ -32,6 +32,7 @@ All Past Paper Questions: [Click here](https://drive.google.com/drive/folders/16
         - "and the information we have might be ###, ###, ###, ###" 
     - example:
         - ![alt text](image.png)
+        - ![alt text](image-8.png)
 
 ### Validation
 
@@ -130,6 +131,17 @@ All Past Paper Questions: [Click here](https://drive.google.com/drive/folders/16
         - reliable: high chance of identifying errors
         - but, if both people made the same error, big oof
         - discrepencies (differences) highlighted as second copy is entered.
+    - parity check
+        - only when transferring data from computer to computer
+        - when data is transferred, computer counts the number of 1s in each byte
+        - each byte is checked individually
+        - if no. of 1s is even, parity bit is set to 0
+        - if no. of 1s is odd, pairty bit is set to 1
+        - (the goal is to have an even number of 1s)
+        - parity bits are sent along with data
+        - if number of 1s is odd after adding the parity byte, it means an error
+
+
 
 ### Test Data
 
@@ -209,10 +221,35 @@ All Past Paper Questions: [Click here](https://drive.google.com/drive/folders/16
 
 ### Quality
 
-- accuracy of collected information affects quality
-- extremely high detail affects the quality of information somtimes
-- irrelevant information affects quality
-- more complete it is, better the quality
+- description
+    - accuracy of collected information affects quality
+    - extremely high detail affects the quality of information somtimes
+    - irrelevant information affects quality
+    - more complete it is, better the quality
+
+- accuracy
+    - meaning
+        - information that is free from errors
+        - is true
+        - has been proven to be correct
+    - factors affecting
+        - info. must be accurate to be good quality
+        - if data is inaccurate, info produced will be inaccurate
+        - method of collection affects accuracy
+        - if questions asked arent phrased properly
+            - respondents will give inaccurate irrelevant responses
+        - if data entered is inaccurate, information will also be inaccurate
+- relevance
+    - factors affecting
+        - relates to the situation
+        - information collected should be relevant to our need
+        - it should not concentrate only on one aspect of the problem
+        - it should not relate to different area of one being studied
+        - should not have too much information
+        - information should be complete to be useful
+        - if information is incomplete
+            - only some required information is present
+            - hard to solve problems using the data
 
 ### Age
 
@@ -255,12 +292,15 @@ All Past Paper Questions: [Click here](https://drive.google.com/drive/folders/16
     - data collected for specific purpose / task
     - by many methods: questionairres, data logging, etc...
     - gives data thats called "original source data"
+    - gives upto date information
+    - can gain qualitative and quantative data
 - advantages
     - full control of how data is gathers
     - size of sample size can be as required
     - ensures data collected is relevant to the study
     - has an opportunity to sell the data
     - source of data is exactly know, so, more reliable
+    - data is more utpo date
 - diadvantages
     - expensive 
         - need to hire people/company to gather data
@@ -282,16 +322,59 @@ All Past Paper Questions: [Click here](https://drive.google.com/drive/folders/16
     - if MCQ, no enough choices for answers
 - types
     - questionairres
-        - distributed among people
+        - stuff
+            - distributed among people
+        - may affect accuracy
+            - people might not answer questions truthfully
+            - people may be biased
+            - questions maybe badly phrased
+            - cant expand on what the question means
+            - MCQs dont have sufficient number of answers
+            - possibility of people collecting data making errors
+        - disadvantages
+            - not taken seriously by people, ignored.
     - interview
-        - if question is not clear, we get irrelevant answers
+        - stuff
+            - if question is not clear, we get irrelevant answers
+            - more time consuming
+            - as should interview everyone individually
+        - may affect accuracy
+            - can clarify the answer
+            - can ask questions based on previous answers
+            - includes open-ended questions
+                - so, its hard to quantify
+            - possibility of people collecting data making errors
+        - advantages
+            - ask questions based on previous answers
+            - can aks more in-depth follow up questions
+            - can interpret body language (eg: facial expressions)
+            - tends to be taken more seriously by people
+            - 
     - observation
         - might be inaccurate
             - people act different
             - because they know that they are being monitored
+
     - data logging
-        - sensors used to gather data that could be processed & interpreted
-- examples
+        - description (short)
+            - sensors used to gather data that could be processed & interpreted
+        - description (long)
+            - automatic collection and storage of data
+            - using a computer and sensors to collect data
+            - this data is analyzed
+            - results are output in the form of graphs/charts
+            - data is collected over a period of time
+                - continuously at regular intervals
+            - analysis usually requires special software
+            - examples of physical variables that can be logged:
+                - temperature
+                - sound
+                - light
+                - pressure, etc... 
+        - sound level monitor
+            - example: (in streets)
+                - more noise = more traffic
+                - less noise = less traffic
 
 ### Indirect Data Sources
 
@@ -309,16 +392,34 @@ All Past Paper Questions: [Click here](https://drive.google.com/drive/folders/16
     - low costs
     - less time taken
     - poorly written transcripts do not have to be read through to create data source by gatherer
+    - data already grouped and collated (grouped) into meaningful categories
 - diadvantages
     - data collected for a different purpose than the current use/research
     - more time to filter unwanted information
     - may have a sampling bias
-    - inconsistent in coding
+    - inconsistent codings used in different sources
+    - data is already coded, difficult to understand 
     - different data sources vary in reliablility
         - depending on
             - who collected the data
             - how old is the data 
-- types
+    - may not be able to sell. it depends on the lisence.
+- sources
+    - census data
+    - electoral register
+        - what
+            - list of adults who are entitled to vote in a national / national election
+        - data might be out of date
+            - address they live in
+            - people new to area aren't included
+            - new homes may have been built
+            - people may have died
+            - not all people who live at the same address are from the same family, eg: homestay 
+    - customers in stores provide personal information when they buy products
+    - a news paper
+    - encyclopedia
+    - medical records
+    - meauseum arhives
 - example
     - asking bussinesses for customer details to produce a mailing list
 
@@ -327,14 +428,43 @@ All Past Paper Questions: [Click here](https://drive.google.com/drive/folders/16
 ### Batch Processing
 
 - meaning (payroll)
+    - data is grouped and collected
     - colecting data & processing it all at once
     - jobs setup to run without human interaciton
     - input data collected to batches & processed in whole
+    - data is processed at a set time
     - batch processing happens when resources are less busy
     - batches stored (queued) in work hours and run at night
     - transaction file of input data is kept for later processing (hours worked)
     - master files with employee details updated only monthly
     - transaciton file used with master file to update master file at end of every month
+    - exmamples
+        - ![alt text](image-9.png)
+
+
+- advantages
+    - dont always need resources (but others might require)
+    - eg: payroll, runs only once a month / week
+    - but realtime processing happens all the time
+    - can be run in less busy time, eg: evening/night
+    - hours worked (in payroll) is known at the end of the day
+    - dont require immediate processing
+    - dont need more complex computers
+- disadvantages
+    - time delay in collecting input data
+    - information updates only after processing the transaction file
+    - system errors only revealed during processing (night)
+    - cannot toubleshoot until batch has finished processing
+    - admins cant stop processing until it ends after it starts
+- types of transactions
+    - Create (/Add) record
+        - eg: when a new worker joins the company
+    - Update (/Change/Amend) record
+        - eg: a worker changes department
+    - Delete (/Remove) record
+        - when a record is no longer needed
+        - eg: employee quits
+
 - uses
     - in printing of electricity bills
     - rocket scientists to moon
@@ -345,10 +475,58 @@ All Past Paper Questions: [Click here](https://drive.google.com/drive/folders/16
         - jobs setup to run without human intervention
         - can use computer when its less busy
 
+- process (generic, detailed)
+    - before process happens
+        - transaction file is validated
+        - transaction file must be stored in the same order as master file
+    - how transaction file is used to update the master file?
+        - first record from transaction file is read
+        - first record from master file is read
+        - these two records are compared
+        - if they do not match
+            - computer writes master file record to new master file
+        - if it matches
+            - transaction is carried out
+            - computer does the calculation
+                - (tell what happens here)
+                - (examples)
+                    - calculates the rate of pay: pay * no. of hours worked.
+                    - (using rate from master file and hours worked from transaction file)
+            - processed record is written to new master file
+        - next record from transaction file is read
+        - and compared to the next reocrd of the master file
+        - and so on...
+        - this is done until last record of transaction file
+        - then, at last: all remaining old master file records are written to the new master file.
+
+- process (algorithm)
+    ```
+    READ first record in transaction file
+    READ first record in master file
+    WHILE not end of transaction file
+        IF transaction file's record (ID) = master file's record (ID)
+        THEN
+            # processing
+            TotalPay <-- HoursWorked*RateOfPay
+
+            WRITE updated master file record
+            READ next record in transaction file
+        ENDIF 
+        READ next record in master file
+    ENDWHILE
+    ```
+
+- examples
+    - ![alt text](image-2.png)
+    - ![alt text](image-3.png)
         
 
 ### Realtime Processing
 
+- stuff
+    - requires immediate processing
+    - ened more complex computers
+    - always upto date
 - uses
     - suitable for controlling a car park barrier
     - rocket scientists to moon
@@ -360,12 +538,32 @@ All Past Paper Questions: [Click here](https://drive.google.com/drive/folders/16
         - controlling rockets often involve the use of sensors & control systems
         - allows scientists to take immediate action
         - if rocket goes off track, computer would immediately fire engines to correct in 
+    - rocket guidance
+        - response time of computer is immediate
+        - responses are in order of miliseconds
+        - means that inputs are processed to produce and output
+            - which in turn affects the input
+        - processing for rocket guidance has to be continuous - should never end
+        - eg:
+            - if too much time is taken for the respone of the path
+            - rocket might collide with a rock in space
     - for payroll (bad, unwanted)
         - constant use of resources (which might be needed for other tasks)
         - unncessary
         - hours worked known only at end of day
         - so, running at end of month/week is enough
         - realtime processing does not involve processing of large volumes of data, such as running a whole companies payroll
+
+
+### Online processing
+
+- data is processed as quickly as possible
+- user is in direct communication with central CPU
+- data is accurate and upto date all the time
+- requires more hardware
+- erros revealed immediately
+- errors can be fixed immediately
+
 
 ### Interative processing
 
@@ -382,44 +580,6 @@ All Past Paper Questions: [Click here](https://drive.google.com/drive/folders/16
     - when DB is updated immediately, it wont overbook
     - seats can be booked at any time of the day, day or night
     - customers are able to retry to re-book if something went wrong the first time
-
-
-
-## Files
-
-### Transaction File
-
-### Master File
-
-### Questions
-
-- before process happens
-    - transaction file is validated
-    - transaction file must be stored in the same order as master file
-- how transaction file is used to update the master file?
-    - first record from transaction file is read
-    - first record from master file is read
-    - these two records are compared
-    - if they do not match
-        - computer writes master file record to new master file
-    - if it matches
-        - transaction is carried out
-        - computer does the calculation
-            - (tell what happens here)
-            - (examples)
-                - calculates the rate of pay: pay * no. of hours worked.
-                - (using rate from master file and hours worked from transaction file)
-        - processed record is written to new master file
-    - next record from transaction file is read
-    - and compared to the next reocrd of the master file
-    - and so on...
-    - this is done until last record of transaction file
-    - then, at last: all remaining old master file records are written to the new master file.
-
-
-- examples
-    - ![alt text](image-2.png)
-    - ![alt text](image-3.png)
 
 ## Other
 
@@ -449,6 +609,47 @@ All Past Paper Questions: [Click here](https://drive.google.com/drive/folders/16
     - read forwards, to make sure subjects & verbs agree.
     - use a blank paper to cover lines below
         - to stop potentially skipping lines
+
+### Electronic Funds Transfer
+
+- describe how
+    - chip is checked
+        - make sure its not marked as stolen
+        - is not expired
+        - is valid
+        - if error, show error
+    - PIN entered by customer is compared in PIN on chip
+    - if PIN is not verified
+        - error appears
+        - prompts user to re-enter the PIN
+        - upto 3 attempts
+        - if still fails
+            - reject the transaction
+    - if PIN is verified
+        - transaction continues
+        - computer connects to customer's bank to see if there's money
+        - if has money
+            - transaction is completed
+            - amount deducted from customer's bank account
+            - amount credited to supermarket's bank account
+        - if has no money
+            - insufficient funds
+            - transaction is rejected
+
+### Online Store
+
+- how to buy
+    - go to store website
+    - choose goods category
+    - select items to view more
+    - add to card if you like it
+    - at last, go to cart
+    - click on Buy Now
+    - proceed with the payment
+    - confirm billing address
+    - select payment method
+    - enter credit card information + OTP when it asks
+    - confirm the order
 
 ### Charts
 
