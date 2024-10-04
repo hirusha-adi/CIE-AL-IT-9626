@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Task</title>
+
+  <style>
+    h1 {
+      font-family: "Times New Roman", Times, serif;
+      font-size: 48px;
+      font-style: italic;
+      color: #ff0000;
+      text-align: center
+    }
+
+    h2 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      color: #000000;
+      text-align: left
+    }
+
+    h3 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 24px;
+      color: #000000
+    }
+
+    body {
+      background-image: url('TTCpale.png');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <table width=100% border="1" cellspacing="0" cellpadding="10">>
+    <tr> <!-- Row1 -->
+      <td scope="col">
+        <center><img src="TTC.svg" width="450"></center>
+      </td>
+      <td width="611" scope="col">
+        <center>
+          <h3>Javascript Task</h3>
+          <h1> Tawara Technology College</h1>
+          <h3>Faculty information</h3>
+        </center>
+      </td>
+      <td scope="col">
+        <center><img src="TTC.svg" width="450"></center>
+      </td>
+    </tr>
+
+    <tr><!-- Row2 -->
+      <td width="611" scope="col">
+        <center>
+          <h1>Science</h1>
+          <center>
+            <!-- Placeholder id for Science faculty text -->
+            <h2 id="Science" onmouseover="Sci1()" onmouseout="Sci2()">MouseOver here for information about the Science
+              faculty</h2>
+      </td>
+
+      <td>
+        <center>
+          <h1>Computer Science</h1>
+        </center>
+        <!-- Placeholder id for Computer Science faculty text -->
+        <h2 id="ComputerScience" onmouseover="CompSci1()" onmouseout="CompSci2()">MouseOver here for information about
+          the Computer Science faculty</h2>
+      </td>
+
+      <td>
+        <center>
+          <h1>Engineering</h1>
+        </center>
+        <!-- Placeholder id for Engineering faculty text -->
+        <h2 id="Engineering" onmouseover="Eng1()" onmouseout="Eng2()">MouseOver here for information about the
+          Engineering faculty</h2>
+      </td>
+    </tr>
+  </table>
+
+</body>
+
+<!-- 
+Text to display when no MouseOver event
+Science:	MouseOver here for information about the Science faculty
+Computer Science:	MouseOver here for information about the Computer Science faculty
+Engineering: 	MouseOver here for information about the Engineering faculty
+
+
+Text for MouseOver display
+Science:	Our Science faculty rates as one of the best in the world. Our award-winning staff include a Nobel prize winner and 2 winners of the prestigious Norma Dent Prize. With state-of-the-art equipment, including our own ‘Collider’, our research facilities are second to none.
+Computer Science:	Our Computer facilities and resources are world beating. Students have full access to a network of innovative Quantum computers and can investigate all the answers to everything in the Universe. 
+Engineering:	Our Engineering faculty is a world leader in the search for a perpetual motion machine and the generation of free energy. Recently we have received universal acclaim for improvements to the design of the wheel.
+ -->
+
+<script>
+
+  // #Science (onmouseover)
+  function Sci1() {
+    const el = document.getElementById("Science");
+    el.innerHTML = "Our Science faculty rates as one of the best in the world. Our award-winning staff include a Nobel prize winner and 2 winners of the prestigious Norma Dent Prize. With state-of-the-art equipment, including our own 'Collider', our research facilities are second to none."
+  }
+
+  // #Science (onmouseout)
+  function Sci2() {
+    const el = document.getElementById("Science");
+    el.innerHTML = "MouseOver here for information about the Science faculty"
+  }
+
+  // #ComputerScience (onmouseover)
+  function CompSci1() {
+    const el = document.getElementById("ComputerScience");
+    el.innerHTML = "Our Computer facilities and resources are world beating. Students have full access to a network of innovative Quantum computers and can investigate all the answers to everything in the Universe. "
+  }
+
+  // #ComputerScience (onmouseout)
+  function CompSci2() {
+    const el = document.getElementById("ComputerScience");
+    el.innerHTML = "MouseOver here for information about the Computer Science faculty"
+  }
+
+  // #Engineering (onmouseover)
+  function Eng1() {
+    const el = document.getElementById("Engineering");
+    el.innerHTML = "Our Engineering faculty is a world leader in the search for a perpetual motion machine and the generation of free energy. Recently we have received universal acclaim for improvements to the design of the wheel."
+  }
+
+  // #Engineering (onmouseout)
+  function Eng2() {
+    const el = document.getElementById("Engineering");
+    el.innerHTML = "MouseOver here for information about the Engineering faculty"
+  }
+
+</script>
+
+</html>

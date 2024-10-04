@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="688.34" height="198.128">
+	<defs>
+		<linearGradient id="grad_dp_001" gradientUnits="userSpaceOnUse" x1="853.36" y1="674.292" x2="866.338" y2="675.421">
+			<stop offset="0" stop-color="white"/>
+			<stop offset="1" stop-color="#b7b7b7"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_002" gradientUnits="userSpaceOnUse" x1="917.116" y1="582.039" x2="1109.87" y2="700.916">
+			<stop offset="0" stop-color="#c4d4e0"/>
+			<stop offset="1" stop-color="#c4d4e0"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_003" gradientUnits="userSpaceOnUse" x1="917.116" y1="582.039" x2="1109.87" y2="700.916">
+			<stop offset="0" stop-color="#c4d4e0"/>
+			<stop offset="1" stop-color="#c4d4e0"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_004" gradientUnits="userSpaceOnUse" x1="917.116" y1="582.039" x2="1109.87" y2="700.916">
+			<stop offset="0" stop-color="#c4d4e0"/>
+			<stop offset="1" stop-color="#c4d4e0"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_005" gradientUnits="userSpaceOnUse" x1="917.116" y1="582.039" x2="1109.87" y2="700.916">
+			<stop offset="0" stop-color="#c4d4e0"/>
+			<stop offset="1" stop-color="#c4d4e0"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_006" gradientUnits="userSpaceOnUse" x1="237.101" y1="674.179" x2="277.021" y2="675.308">
+			<stop offset="0" stop-color="white"/>
+			<stop offset="1" stop-color="#b7b7b7"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_007" gradientUnits="userSpaceOnUse" x1="325.909" y1="581.926" x2="518.661" y2="700.803">
+			<stop offset="0" stop-color="#c4d4e0"/>
+			<stop offset="1" stop-color="#c4d4e0"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_008" gradientUnits="userSpaceOnUse" x1="325.909" y1="581.926" x2="518.661" y2="700.803">
+			<stop offset="0" stop-color="#c4d4e0"/>
+			<stop offset="1" stop-color="#c4d4e0"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_009" gradientUnits="userSpaceOnUse" x1="325.909" y1="581.926" x2="518.661" y2="700.803">
+			<stop offset="0" stop-color="#c4d4e0"/>
+			<stop offset="1" stop-color="#c4d4e0"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_010" gradientUnits="userSpaceOnUse" x1="325.909" y1="581.926" x2="518.661" y2="700.803">
+			<stop offset="0" stop-color="#c4d4e0"/>
+			<stop offset="1" stop-color="#c4d4e0"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_011" gradientUnits="userSpaceOnUse" x1="325.909" y1="581.926" x2="518.661" y2="700.803">
+			<stop offset="0" stop-color="#c4d4e0"/>
+			<stop offset="1" stop-color="#c4d4e0"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_012" gradientUnits="userSpaceOnUse" x1="325.909" y1="581.926" x2="518.661" y2="700.803">
+			<stop offset="0" stop-color="#c4d4e0"/>
+			<stop offset="1" stop-color="#c4d4e0"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_013" gradientUnits="userSpaceOnUse" x1="325.909" y1="581.926" x2="518.661" y2="700.803">
+			<stop offset="0" stop-color="#c4d4e0"/>
+			<stop offset="1" stop-color="#c4d4e0"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_014" gradientUnits="userSpaceOnUse" x1="325.909" y1="581.926" x2="518.661" y2="700.803">
+			<stop offset="0" stop-color="#c4d4e0"/>
+			<stop offset="1" stop-color="#c4d4e0"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_015" gradientUnits="userSpaceOnUse" x1="325.909" y1="581.926" x2="518.661" y2="700.803">
+			<stop offset="0" stop-color="#c4d4e0"/>
+			<stop offset="1" stop-color="#c4d4e0"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_016" gradientUnits="userSpaceOnUse" x1="325.909" y1="581.926" x2="518.661" y2="700.803">
+			<stop offset="0" stop-color="#c4d4e0"/>
+			<stop offset="1" stop-color="#c4d4e0"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_017" gradientUnits="userSpaceOnUse" x1="325.909" y1="581.926" x2="518.661" y2="700.803">
+			<stop offset="0" stop-color="#c4d4e0"/>
+			<stop offset="1" stop-color="#c4d4e0"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_018" gradientUnits="userSpaceOnUse" x1="325.909" y1="581.926" x2="518.661" y2="700.803">
+			<stop offset="0" stop-color="#c4d4e0"/>
+			<stop offset="1" stop-color="#c4d4e0"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_019" gradientUnits="userSpaceOnUse" x1="325.909" y1="581.926" x2="518.661" y2="700.803">
+			<stop offset="0" stop-color="#c4d4e0"/>
+			<stop offset="1" stop-color="#c4d4e0"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_020" gradientUnits="userSpaceOnUse" x1="325.909" y1="581.926" x2="518.661" y2="700.803">
+			<stop offset="0" stop-color="#c4d4e0"/>
+			<stop offset="1" stop-color="#c4d4e0"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_021" gradientUnits="userSpaceOnUse" x1="929.581" y1="622.052" x2="572.021" y2="624.435">
+			<stop offset="0" stop-color="white"/>
+			<stop offset="1" stop-color="#b7b7b7"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_022" gradientUnits="userSpaceOnUse" x1="620.909" y1="581.425" x2="813.661" y2="700.302">
+			<stop offset="0" stop-color="#0090ff"/>
+			<stop offset="1" stop-color="#c4d4e0"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_023" gradientUnits="userSpaceOnUse" x1="620.909" y1="581.425" x2="813.661" y2="700.302">
+			<stop offset="0" stop-color="#0090ff"/>
+			<stop offset="1" stop-color="#c4d4e0"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_024" gradientUnits="userSpaceOnUse" x1="620.909" y1="581.425" x2="813.661" y2="700.302">
+			<stop offset="0" stop-color="#0090ff"/>
+			<stop offset="1" stop-color="#c4d4e0"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_025" gradientUnits="userSpaceOnUse" x1="620.909" y1="581.425" x2="813.661" y2="700.302">
+			<stop offset="0" stop-color="#0090ff"/>
+			<stop offset="1" stop-color="#c4d4e0"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_026" gradientUnits="userSpaceOnUse" x1="620.909" y1="581.425" x2="813.661" y2="700.302">
+			<stop offset="0" stop-color="#0090ff"/>
+			<stop offset="1" stop-color="#c4d4e0"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_027" gradientUnits="userSpaceOnUse" x1="620.909" y1="581.425" x2="813.661" y2="700.302">
+			<stop offset="0" stop-color="#0090ff"/>
+			<stop offset="1" stop-color="#c4d4e0"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_028" gradientUnits="userSpaceOnUse" x1="620.909" y1="581.425" x2="813.661" y2="700.302">
+			<stop offset="0" stop-color="#0090ff"/>
+			<stop offset="1" stop-color="#c4d4e0"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_029" gradientUnits="userSpaceOnUse" x1="620.909" y1="581.425" x2="813.661" y2="700.302">
+			<stop offset="0" stop-color="#0090ff"/>
+			<stop offset="1" stop-color="#c4d4e0"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_030" gradientUnits="userSpaceOnUse" x1="620.909" y1="581.425" x2="813.661" y2="700.302">
+			<stop offset="0" stop-color="#0090ff"/>
+			<stop offset="1" stop-color="#c4d4e0"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_031" gradientUnits="userSpaceOnUse" x1="620.909" y1="581.425" x2="813.661" y2="700.302">
+			<stop offset="0" stop-color="#0090ff"/>
+			<stop offset="1" stop-color="#c4d4e0"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_032" gradientUnits="userSpaceOnUse" x1="620.909" y1="581.425" x2="813.661" y2="700.302">
+			<stop offset="0" stop-color="#0090ff"/>
+			<stop offset="1" stop-color="#c4d4e0"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_033" gradientUnits="userSpaceOnUse" x1="620.909" y1="581.425" x2="813.661" y2="700.302">
+			<stop offset="0" stop-color="#0090ff"/>
+			<stop offset="1" stop-color="#c4d4e0"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_034" gradientUnits="userSpaceOnUse" x1="620.909" y1="581.425" x2="813.661" y2="700.302">
+			<stop offset="0" stop-color="#0090ff"/>
+			<stop offset="1" stop-color="#c4d4e0"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_035" gradientUnits="userSpaceOnUse" x1="620.909" y1="581.425" x2="813.661" y2="700.302">
+			<stop offset="0" stop-color="#0090ff"/>
+			<stop offset="1" stop-color="#c4d4e0"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_036" gradientUnits="userSpaceOnUse" x1="620.909" y1="581.425" x2="813.661" y2="700.302">
+			<stop offset="0" stop-color="#0090ff"/>
+			<stop offset="1" stop-color="#c4d4e0"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_037" gradientUnits="userSpaceOnUse" x1="620.909" y1="581.425" x2="813.661" y2="700.302">
+			<stop offset="0" stop-color="#0090ff"/>
+			<stop offset="1" stop-color="#c4d4e0"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_038" gradientUnits="userSpaceOnUse" x1="620.909" y1="581.425" x2="813.661" y2="700.302">
+			<stop offset="0" stop-color="#0090ff"/>
+			<stop offset="1" stop-color="#c4d4e0"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_039" gradientUnits="userSpaceOnUse" x1="620.909" y1="581.425" x2="813.661" y2="700.302">
+			<stop offset="0" stop-color="#0090ff"/>
+			<stop offset="1" stop-color="#c4d4e0"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_040" gradientUnits="userSpaceOnUse" x1="620.909" y1="581.425" x2="813.661" y2="700.302">
+			<stop offset="0" stop-color="#0090ff"/>
+			<stop offset="1" stop-color="#c4d4e0"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_041" gradientUnits="userSpaceOnUse" x1="620.909" y1="581.425" x2="813.661" y2="700.302">
+			<stop offset="0" stop-color="#0090ff"/>
+			<stop offset="1" stop-color="#c4d4e0"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_042" gradientUnits="userSpaceOnUse" x1="620.909" y1="581.425" x2="813.661" y2="700.302">
+			<stop offset="0" stop-color="#0090ff"/>
+			<stop offset="1" stop-color="#c4d4e0"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_043" gradientUnits="userSpaceOnUse" x1="620.909" y1="581.425" x2="813.661" y2="700.302">
+			<stop offset="0" stop-color="#0090ff"/>
+			<stop offset="1" stop-color="#c4d4e0"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_044" gradientUnits="userSpaceOnUse" x1="620.909" y1="581.425" x2="813.661" y2="700.302">
+			<stop offset="0" stop-color="#0090ff"/>
+			<stop offset="1" stop-color="#c4d4e0"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_045" gradientUnits="userSpaceOnUse" x1="620.909" y1="581.425" x2="813.661" y2="700.302">
+			<stop offset="0" stop-color="#0090ff"/>
+			<stop offset="1" stop-color="#c4d4e0"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_046" gradientUnits="userSpaceOnUse" x1="620.909" y1="581.425" x2="813.661" y2="700.302">
+			<stop offset="0" stop-color="#0090ff"/>
+			<stop offset="1" stop-color="#c4d4e0"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_047" gradientUnits="userSpaceOnUse" x1="620.909" y1="581.425" x2="813.661" y2="700.302">
+			<stop offset="0" stop-color="#0090ff"/>
+			<stop offset="1" stop-color="#c4d4e0"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_048" gradientUnits="userSpaceOnUse" x1="620.909" y1="540.796" x2="813.661" y2="694.498">
+			<stop offset="0" stop-color="#0090ff"/>
+			<stop offset="1" stop-color="#c4d4e0"/>
+		</linearGradient>
+		<linearGradient id="grad_dp_049" gradientUnits="userSpaceOnUse" x1="620.909" y1="581.425" x2="813.661" y2="700.302">
+			<stop offset="0" stop-color="#0090ff"/>
+			<stop offset="1" stop-color="#c4d4e0"/>
+		</linearGradient>
+	</defs>
+	<g id="dp_dp001" transform="matrix(1,0,0,1,-273.556,-522.447)">
+		<path id="dp_path002" fill="url(#grad_dp_001)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 865.427,635.728 L 961.331,635.728 L 961.331,720.728 L 865.427,720.728 Z "/>
+		<path id="dp_path003" fill="url(#grad_dp_002)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 885.991,682.727 L 912.117,682.727 L 912.117,709.228 L 885.991,709.228 Z "/>
+		<path id="dp_path004" fill="url(#grad_dp_003)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 914.865,682.727 L 940.992,682.727 L 940.992,709.228 L 914.865,709.228 Z "/>
+		<path id="dp_path005" fill="url(#grad_dp_004)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 885.991,643.727 L 912.117,643.727 L 912.117,670.228 L 885.991,670.228 Z "/>
+		<path id="dp_path006" fill="url(#grad_dp_005)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 914.865,643.727 L 940.992,643.727 L 940.992,670.228 L 914.865,670.228 Z "/>
+		<path id="dp_path007" fill="url(#grad_dp_006)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 274.223,635.615 L 569.223,635.615 L 569.223,720.615 L 274.223,720.615 Z "/>
+		<path id="dp_path008" fill="url(#grad_dp_007)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 495.784,643.613 L 521.911,643.613 L 521.911,670.115 L 495.784,670.115 Z "/>
+		<path id="dp_path009" fill="url(#grad_dp_008)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 524.659,643.613 L 550.785,643.613 L 550.785,670.115 L 524.659,670.115 Z "/>
+		<path id="dp_path010" fill="url(#grad_dp_009)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 495.784,682.613 L 521.911,682.613 L 521.911,709.115 L 495.784,709.115 Z "/>
+		<path id="dp_path011" fill="url(#grad_dp_010)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 524.659,682.613 L 550.785,682.613 L 550.785,709.115 L 524.659,709.115 Z "/>
+		<path id="dp_path012" fill="url(#grad_dp_011)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 294.784,682.613 L 320.911,682.613 L 320.911,709.115 L 294.784,709.115 Z "/>
+		<path id="dp_path013" fill="url(#grad_dp_012)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 323.659,682.613 L 349.785,682.613 L 349.785,709.115 L 323.659,709.115 Z "/>
+		<path id="dp_path014" fill="url(#grad_dp_013)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 294.784,643.613 L 320.911,643.613 L 320.911,670.115 L 294.784,670.115 Z "/>
+		<path id="dp_path015" fill="url(#grad_dp_014)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 323.659,643.613 L 349.785,643.613 L 349.785,670.115 L 323.659,670.115 Z "/>
+		<path id="dp_path016" fill="url(#grad_dp_015)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 379.847,642.613 L 405.973,642.613 L 405.973,669.115 L 379.847,669.115 Z "/>
+		<path id="dp_path017" fill="url(#grad_dp_016)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 408.721,642.613 L 434.848,642.613 L 434.848,669.115 L 408.721,669.115 Z "/>
+		<path id="dp_path018" fill="url(#grad_dp_017)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 437.721,642.613 L 463.848,642.613 L 463.848,669.115 L 437.721,669.115 Z "/>
+		<path id="dp_path019" fill="url(#grad_dp_018)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 379.909,685.113 L 406.036,685.113 L 406.036,711.615 L 379.909,711.615 Z "/>
+		<path id="dp_path020" fill="url(#grad_dp_019)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 408.784,685.113 L 434.911,685.113 L 434.911,711.615 L 408.784,711.615 Z "/>
+		<path id="dp_path021" fill="url(#grad_dp_020)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 437.784,685.113 L 463.911,685.113 L 463.911,711.615 L 437.784,711.615 Z "/>
+		<path id="dp_path022" fill="url(#grad_dp_021)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 569.223,540.613 L 864.223,540.613 L 864.223,720.113 L 569.223,720.113 Z "/>
+		<path id="dp_path023" fill="url(#grad_dp_022)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 588.784,561.612 L 614.911,561.612 L 614.911,588.113 L 588.784,588.113 Z "/>
+		<path id="dp_path024" fill="url(#grad_dp_023)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 617.659,561.612 L 643.785,561.612 L 643.785,588.113 L 617.659,588.113 Z "/>
+		<path id="dp_path025" fill="url(#grad_dp_024)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 790.784,561.612 L 816.911,561.612 L 816.911,588.113 L 790.784,588.113 Z "/>
+		<path id="dp_path026" fill="url(#grad_dp_025)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 819.659,561.612 L 845.785,561.612 L 845.785,588.113 L 819.659,588.113 Z "/>
+		<path id="dp_path027" fill="url(#grad_dp_026)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 789.409,602.112 L 815.536,602.112 L 815.536,628.613 L 789.409,628.613 Z "/>
+		<path id="dp_path028" fill="url(#grad_dp_027)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 818.284,602.112 L 844.411,602.112 L 844.411,628.613 L 818.284,628.613 Z "/>
+		<path id="dp_path029" fill="url(#grad_dp_028)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 790.784,643.112 L 816.911,643.112 L 816.911,669.613 L 790.784,669.613 Z "/>
+		<path id="dp_path030" fill="url(#grad_dp_029)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 819.659,643.112 L 845.785,643.112 L 845.785,669.613 L 819.659,669.613 Z "/>
+		<path id="dp_path031" fill="url(#grad_dp_030)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 790.784,682.112 L 816.911,682.112 L 816.911,708.613 L 790.784,708.613 Z "/>
+		<path id="dp_path032" fill="url(#grad_dp_031)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 819.659,682.112 L 845.785,682.112 L 845.785,708.613 L 819.659,708.613 Z "/>
+		<path id="dp_path033" fill="url(#grad_dp_032)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 589.784,682.112 L 615.911,682.112 L 615.911,708.613 L 589.784,708.613 Z "/>
+		<path id="dp_path034" fill="url(#grad_dp_033)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 618.659,682.112 L 644.785,682.112 L 644.785,708.613 L 618.659,708.613 Z "/>
+		<path id="dp_path035" fill="url(#grad_dp_034)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 589.784,643.112 L 615.911,643.112 L 615.911,669.613 L 589.784,669.613 Z "/>
+		<path id="dp_path036" fill="url(#grad_dp_035)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 618.659,643.112 L 644.785,643.112 L 644.785,669.613 L 618.659,669.613 Z "/>
+		<path id="dp_path037" fill="url(#grad_dp_036)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 589.784,601.612 L 615.911,601.612 L 615.911,628.113 L 589.784,628.113 Z "/>
+		<path id="dp_path038" fill="url(#grad_dp_037)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 618.659,601.612 L 644.785,601.612 L 644.785,628.113 L 618.659,628.113 Z "/>
+		<path id="dp_path039" fill="url(#grad_dp_038)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 676.284,562.112 L 702.411,562.112 L 702.411,588.613 L 676.284,588.613 Z "/>
+		<path id="dp_path040" fill="url(#grad_dp_039)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 705.159,562.112 L 731.285,562.112 L 731.285,588.613 L 705.159,588.613 Z "/>
+		<path id="dp_path041" fill="url(#grad_dp_040)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 734.159,562.112 L 760.285,562.112 L 760.285,588.613 L 734.159,588.613 Z "/>
+		<path id="dp_path042" fill="url(#grad_dp_041)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 674.784,601.612 L 700.911,601.612 L 700.911,628.113 L 674.784,628.113 Z "/>
+		<path id="dp_path043" fill="url(#grad_dp_042)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 703.659,601.612 L 729.785,601.612 L 729.785,628.113 L 703.659,628.113 Z "/>
+		<path id="dp_path044" fill="url(#grad_dp_043)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 732.659,601.612 L 758.785,601.612 L 758.785,628.113 L 732.659,628.113 Z "/>
+		<path id="dp_path045" fill="url(#grad_dp_044)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 674.847,642.112 L 700.973,642.112 L 700.973,668.613 L 674.847,668.613 Z "/>
+		<path id="dp_path046" fill="url(#grad_dp_045)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 703.721,642.112 L 729.848,642.112 L 729.848,668.613 L 703.721,668.613 Z "/>
+		<path id="dp_path047" fill="url(#grad_dp_046)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 732.721,642.112 L 758.848,642.112 L 758.848,668.613 L 732.721,668.613 Z "/>
+		<path id="dp_path048" fill="url(#grad_dp_047)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 674.909,684.612 L 701.036,684.612 L 701.036,711.113 L 674.909,711.113 Z "/>
+		<path id="dp_path049" fill="url(#grad_dp_048)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 703.784,674.213 L 729.911,674.213 L 729.911,720.113 L 703.784,720.113 Z "/>
+		<path id="dp_path050" fill="url(#grad_dp_049)" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 732.784,684.612 L 758.911,684.612 L 758.911,711.113 L 732.784,711.113 Z "/>
+		<path id="dp_path051" fill="#dbdbdb" fill-rule="evenodd" stroke="black" stroke-width="1.33333" d="M 595.472,523.113 L 837.972,523.113 L 837.972,553.113 L 595.472,553.113 Z "/>
+	</g>
+	<text id="dp_text052" transform="matrix(1,0,0,1,352.073,19.3893)" xml:space="preserve" fill="black" font-family="Times New Roman" font-size="16" font-weight="400" x="0" y="0">Tawara Technology College</text>
+	<g id="dp_dp053" transform="matrix(1,0,0,1,-273.556,-522.447)">
+		<path id="dp_path054" fill="#47a700" fill-rule="evenodd" stroke="none" stroke-width="0" d="M 555.723,660.113 C 563.179,660.113 569.223,665.709 569.223,672.613 C 569.223,679.517 563.179,685.113 555.723,685.113 C 548.267,685.113 542.223,679.517 542.223,672.613 C 542.223,665.709 548.267,660.113 555.723,660.113 Z "/>
+		<path id="dp_path055" fill="#47a700" fill-rule="evenodd" stroke="none" stroke-width="0" d="M 565.228,650.584 C 572.684,650.584 578.728,656.18 578.728,663.084 C 578.728,669.988 572.684,675.584 565.228,675.584 C 557.772,675.584 551.728,669.988 551.728,663.084 C 551.728,656.18 557.772,650.584 565.228,650.584 Z "/>
+		<path id="dp_path056" fill="#47a700" fill-rule="evenodd" stroke="none" stroke-width="0" d="M 578.728,663.084 C 586.184,663.084 592.228,668.68 592.228,675.584 C 592.228,682.488 586.184,688.084 578.728,688.084 C 571.272,688.084 565.228,682.488 565.228,675.584 C 565.228,668.68 571.272,663.084 578.728,663.084 Z "/>
+		<path id="dp_path057" fill="#47a700" fill-rule="evenodd" stroke="none" stroke-width="0" d="M 574.728,678.584 C 582.184,678.584 588.228,684.18 588.228,691.084 C 588.228,697.988 582.184,703.584 574.728,703.584 C 567.272,703.584 561.228,697.988 561.228,691.084 C 561.228,684.18 567.272,678.584 574.728,678.584 Z "/>
+		<path id="dp_path058" fill="#47a700" fill-rule="evenodd" stroke="none" stroke-width="0" d="M 555.723,675.584 C 563.179,675.584 569.223,681.18 569.223,688.084 C 569.223,694.988 563.179,700.584 555.723,700.584 C 548.267,700.584 542.223,694.988 542.223,688.084 C 542.223,681.18 548.267,675.584 555.723,675.584 Z "/>
+		<path id="dp_path059" fill="olive" fill-rule="evenodd" stroke="#c15700" stroke-width="1.33333" d="M 558.223,720.113 L 565.228,691.084 L 561.725,667.113 L 566.116,678.584 L 574.728,670.973 L 571.091,685.893 L 571.091,700.584 L 571.091,720.115 Z "/>
+		<path id="dp_path060" fill="#47a700" fill-rule="evenodd" stroke="none" stroke-width="0" d="M 859.921,659.368 C 867.377,659.368 873.421,664.964 873.421,671.868 C 873.421,678.772 867.377,684.368 859.921,684.368 C 852.465,684.368 846.421,678.772 846.421,671.868 C 846.421,664.964 852.465,659.368 859.921,659.368 Z "/>
+		<path id="dp_path061" fill="#47a700" fill-rule="evenodd" stroke="none" stroke-width="0" d="M 869.427,649.839 C 876.883,649.839 882.927,655.435 882.927,662.339 C 882.927,669.243 876.883,674.839 869.427,674.839 C 861.971,674.839 855.927,669.243 855.927,662.339 C 855.927,655.435 861.971,649.839 869.427,649.839 Z "/>
+		<path id="dp_path062" fill="#47a700" fill-rule="evenodd" stroke="none" stroke-width="0" d="M 882.927,662.339 C 890.383,662.339 896.427,667.935 896.427,674.839 C 896.427,681.743 890.383,687.339 882.927,687.339 C 875.471,687.339 869.427,681.743 869.427,674.839 C 869.427,667.935 875.471,662.339 882.927,662.339 Z "/>
+		<path id="dp_path063" fill="#47a700" fill-rule="evenodd" stroke="none" stroke-width="0" d="M 878.927,677.839 C 886.383,677.839 892.427,683.435 892.427,690.339 C 892.427,697.243 886.383,702.839 878.927,702.839 C 871.471,702.839 865.427,697.243 865.427,690.339 C 865.427,683.435 871.471,677.839 878.927,677.839 Z "/>
+		<path id="dp_path064" fill="#47a700" fill-rule="evenodd" stroke="none" stroke-width="0" d="M 859.921,674.839 C 867.377,674.839 873.421,680.435 873.421,687.339 C 873.421,694.243 867.377,699.839 859.921,699.839 C 852.465,699.839 846.421,694.243 846.421,687.339 C 846.421,680.435 852.465,674.839 859.921,674.839 Z "/>
+		<path id="dp_path065" fill="olive" fill-rule="evenodd" stroke="#c15700" stroke-width="1.33333" d="M 862.421,719.368 L 869.427,690.339 L 865.924,666.368 L 870.315,677.839 L 878.927,670.228 L 875.289,685.148 L 875.289,699.839 L 875.289,719.369 Z "/>
+		<path id="dp_path066" fill="#c0c3db" fill-rule="evenodd" stroke="#dbdbdb" stroke-width="1.33333" d="M 695.035,714.613 L 739.535,714.613 L 739.535,720.113 L 695.035,720.113 Z "/>
+	</g>
+</svg>

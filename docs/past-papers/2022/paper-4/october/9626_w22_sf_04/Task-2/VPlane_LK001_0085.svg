@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1270 720" style="enable-background:new 0 0 1270 720;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#000000;stroke-width:1.9135;stroke-miterlimit:10;}
+	.st1{fill:#FFF200;stroke:#000000;stroke-width:5.5369;stroke-miterlimit:10;}
+	.st2{fill:#FFFFFF;stroke:#000000;stroke-width:2.7684;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#000000;stroke-width:2.7684;stroke-miterlimit:10;}
+	.st4{stroke:#000000;stroke-width:2.7684;stroke-miterlimit:10;}
+	.st5{fill:#BCBEC0;}
+</style>
+<symbol  id="New_Symbol" viewBox="-46.9 -43.6 93.7 87.2">
+	<path id="XMLID_20_" class="st0" d="M39.4,0c0-23.6-19.1-42.7-42.7-42.7S-45.9-23.6-45.9,0s19.1,42.7,42.7,42.7S39.4,23.6,39.4,0z"
+		/>
+	<polygon id="XMLID_11_" style="fill:none;" points="46.9,-30 -40.1,-30 -40.1,30 46.9,30 	"/>
+	<text id="XMLID_8_" transform="matrix(1 0 0 -1 -40.1367 -21.1191)" style="font-family:'MyriadPro-Regular'; font-size:72px;">42</text>
+</symbol>
+<g id="Layer_1">
+	<path id="XMLID_1_" class="st1" d="M243.9,245.8c0,0,238.1-12.9,538-7.4l45.2,31.4l325.8,33.2l7.4,22.1l64.6,26.8
+		c0,0,13.8,20.3,0,28.1c-13.8,7.8-187.3,56.8-187.3,56.8L876,444.2L681.3,606.6l-183.6-17.5l50.8-156.9l-145.8-39.7l-47.1-31.4
+		l-180.9-39.7l-32.3,12.9l-71.1-11.1l21.2-24L64,274.4l9.2-179.9h77.5L243.9,245.8z"/>
+	<polygon id="XMLID_3_" class="st1" points="222.9,211.6 240.7,193.7 315,198.7 286.5,243.8 243.9,245.8 	"/>
+	<polygon id="XMLID_4_" class="st1" points="746,237 826.7,169.3 954.7,173.5 926.6,279.9 826.7,269.8 781.9,238.4 	"/>
+</g>
+<g id="Layer_2">
+	<path id="XMLID_16_" class="st2" d="M622.3,237l-30.5,41.5c16.5,11.1,42.8,25.4,77.5,31.2c80.3,13.4,142.6-29.3,157.3-40
+		c-14.9-10.5-29.8-20.9-44.8-31.4L622.3,237z"/>
+	<path id="XMLID_15_" class="st3" d="M548.4,432.2l13.8-27.7c0,0,248.2-66,331.8,19.8l-18,19.8"/>
+	<polyline id="XMLID_14_" class="st3" points="92.6,299.3 129.7,260.3 243.9,245.8 276.4,264.5 174.7,321.5 	"/>
+	<path id="XMLID_13_" class="st4" d="M1160.3,325.2c0,0,5.6,32.4-6.2,77.9l65.6-20.8c0,0,21.3-3.8,5.1-30.4L1160.3,325.2z"/>
+</g>
+<g id="Layer_3">
+	<path id="XMLID_9_" class="st5" d="M1162.8,323.1c-0.3-18.2,0.4-38.5,2.8-60.4c3.5-32.5,9.9-60.9,16.8-84.8c3,8.1,6.7,19.7,9,34.1
+		c1.8,11.6,2.6,24.1,1.2,46.8c-1.2,18.1-3.8,42.8-9.9,72.4"/>
+	<path id="XMLID_10_" class="st5" d="M1152.3,406.1c-2.8,14.2-4.9,30.1-5.7,47.6c-1.9,42.9,5.1,79.3,12.9,105.9
+		c5.7-25.9,10.6-54.7,14.1-86c3-26.7,4.5-51.8,5-75"/>
+</g>
+<g id="Layer_4">
+	
+		<use xlink:href="#New_Symbol"  width="93.7" height="87.2" id="XMLID_2_" x="-46.9" y="-43.6" transform="matrix(1 0 0 -1 460.1365 321.4624)" style="overflow:visible;"/>
+	
+		<use xlink:href="#New_Symbol"  width="93.7" height="87.2" id="XMLID_5_" x="-46.9" y="-43.6" transform="matrix(-0.5244 0.5503 1.3626 0.1379 619.4198 549.1491)" style="overflow:visible;"/>
+	
+		<use xlink:href="#New_Symbol"  width="93.7" height="87.2" id="XMLID_12_" x="-46.9" y="-43.6" transform="matrix(-0.4667 0.4898 1.2128 0.1227 867.6597 205.968)" style="overflow:visible;"/>
+</g>
+</svg>
