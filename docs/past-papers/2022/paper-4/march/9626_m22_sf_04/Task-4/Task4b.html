@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        h1 {
+            font-family: serif;
+            font-size: 36px;
+            color: #ff0000;
+            text-align: center
+        }
+
+        h2 {
+            font-family: sans-serif;
+            font-size: 24px;
+            color: #0000ff;
+            text-align: center
+        }
+
+        button {
+            height: 30px;
+            width: 170px
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>Guessing game</title>
+</head>
+
+<body>
+    <h1>Guess my number</h1>
+    <h2>Please enter your guess for a number between 1 and 10 (inclusive)</h2>
+    <h2>Your guess: <input id="guess" type="number"></h2>
+    <div align="center">
+        <button onclick="check()">Submit guess</button>
+        <h1 id="Result"></h1>
+    </div>
+
+    <script>
+
+        var RandomNumber = Math.floor(Math.random() * 10) + 1;
+        //This statement generates a random number between 1 and 10 for the RandomNumber variable
+
+        var count = 0
+        var uinp = document.getElementById("guess")
+
+        // test
+        console.log(RandomNumber)
+
+        function check() {
+            count++
+            uVal = Number(uinp.value)
+            if (uVal === RandomNumber) {
+                alert(`Well Done. You took ${count} tries.`);
+            }
+            else {
+                alert("Try Again");
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        h1 {
+            font-family: serif;
+            font-size: 36px;
+            color: #ff0000;
+            text-align: center
+        }
+
+        h2 {
+            font-family: sans-serif;
+            font-size: 24px;
+            color: #0000ff;
+            text-align: center
+        }
+
+        button {
+            height: 30px;
+            width: 170px
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>Guessing game</title>
+</head>
+
+<body>
+    <h1>Guess my number</h1>
+    <h2>Please enter your guess for a number between 1 and 10 (inclusive)</h2>
+    <h2>Your guess: <input id="guess" type="number"></h2>
+    <div align="center">
+        <button onclick="check()">Submit guess</button>
+        <h1 id="Result"></h1>
+    </div>
+
+    <script>
+
+        //This statement generates a random number between 1 and 10 for the RandomNumber variable
+        var RandomNumber = Math.floor(Math.random() * 10) + 1;
+
+        // test the random number generated
+        // console.log(RandomNumber)
+
+
+        // keep track of the count
+        var count = 0
+
+        // select elements (by Id)
+        const guessInput = document.getElementById("guess")
+        const resultText = document.getElementById("Result")
+
+        // function, which will be run onclick of "Submit guess" (#guess) button
+        function check() {
+
+            // count how many times, increment by 1 (postfix increment)
+            count++
+
+            // get the value entered by the user
+            uVal = Number(guessInput.value)
+
+            // does the random number equal to the user's input?
+            if (uVal === RandomNumber) {
+                // show this if user wins
+                resultText.innerHTML = `Well Done. You took <i>${count}</i> tries.`;
+            }
+            else {
+                // show this if user loses
+                resultText.innerHTML = "Try Again";
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>
