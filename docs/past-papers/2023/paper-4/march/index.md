@@ -10,3 +10,4 @@ title: 1. March
     - Adobe Illustrator: https://youtu.be/CFjgnTYTua8?si=DIORuaaO7zWM1MVp
     - Adobe Animate: https://youtu.be/rC92CUY9kGk?si=sdyCRU8vS7DN2Sp0
 
+- Didn't complete Task 3, due to lack of time.
