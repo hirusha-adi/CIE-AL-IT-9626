@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+
+<title>JavaScript Task</title>
+
+<style>
+table {margin-right:auto; margin-left:auto}
+td { border: 1px solid black; height:25px;}
+h1 {font-family:"Times New Roman", Times, serif; font-size:48px; font-style:italic; color:#ff0000; text-align:center}
+h2 {font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#000000; text-align:center}
+h3 {font-family:Arial, Helvetica, sans-serif; font-size:24px; color:#FF0000}
+
+</style>
+
+</head>
+
+<body>
+
+<div style="text-align:center">
+   <h1>Tawara UK<br>(Trial) Sales Recording form <br></h1>
+   <h3>Please complete all the information daily</h3>
+   <h2>Sales for (Select day) <h2>
+   <select name="day" id="day" >
+    <option value="Monday">Monday      </option>
+    <option value="Tuesday">Tuesday    </option>
+    <option value="Wednesday">Wednesday</option>
+    <option value="Thursday">Thursday  </option>
+	<option value="Friday">Friday      </option>
+  </select>
+</div>
+
+<h2>Please enter the morning sale numbers here</h2>
+
+<table style="width:50%;text-align:center"> 
+
+<tr>
+	<td>8am </td>
+	<td>9am	</td>
+	<td>10am</td>
+	<td>11am</td>
+	<td>12pm</td>
+</tr>
+
+<tr>
+    <td><input id="am8" type="number" value="">	</td>
+	<td><input id="am9" type="number" value="">	</td>
+	<td><input id="am10" type="number" value=""></td>
+	<td><input id="am11" type="number" value=""></td>
+	<td><input id="pm12" type="number" value=""></td>
+</tr>
+
+<tr>
+    <td colspan="5" style="border:0px"><h2>Please enter the afternoon sale numbers here</h2>        </td>
+</tr>
+
+<tr>
+	<td>1pm	</td>
+	<td>2pm	</td>
+	<td>3pm	</td>
+	<td>4pm	</td>
+	<td>5pm	</td>	
+</tr>
+
+<tr>
+	<td><input id="pm1" type="number" value="">	</td>
+	<td><input id="pm2" type="number" value="">	</td>
+	<td><input id="pm3" type="number" value="">	</td>
+	<td><input id="pm4" type="number" value="">	</td>
+	<td><input id="pm5" type="number" value="">	</td>	
+</tr>
+	
+<tr>
+	<td colspan="5" style="border:0px">	</td>
+</tr>
+
+<tr>
+	<td style="border:0px">     </td>
+	<td>Morning Sales figures	</td>
+	<td>Afternoon Sales figures	</td>
+	<td>Total Sales figures 	</td>
+</tr>
+
+<tr style="height:85px">
+	<td style="border:0px">      </td>
+	<td> <h3 id="amtotal"></h3>  </td>
+	<td> <h3 id="pmtotal"></h3>  </td>
+	<td> <h3 id="total">  </h3>  </td>
+</tr>
+	
+	
+</table>
+
+	
+<h2><button style="font-size:24px; height:50px; width:300px";> Click to total the sales </button></h2>
+	
+</body>
+
+</html>
