@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<head>
+	<title>JavaScript Task</title>
+
+	<style>
+		table {
+			margin-left: auto;
+			margin-right: auto
+		}
+
+		table,
+		td {
+			border: none
+		}
+
+		h1,
+		h2,
+		p {
+			text-align: center
+		}
+
+		h2 {
+			color: #ff0000
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<h1> Task 5<br>Programming for the web<br>JavaScript</h1>
+
+	<br>
+
+	<h2>A stop motion animation</h2>
+
+	<table>
+
+		<tr>
+			<td style="height:150px">
+				<img src="Spiral0.png" id="ImageDisplay" width="120px" alt="display here">
+			</td>
+			<!--The initial image source for the id element is set to Spiral0.png-->
+		</tr>
+
+	</table>
+
+	<p>Click the button to start the animation</p><br>
+	<p>
+		<button id="startAni" type="button" onClick="Animate()">
+			<h2>Start</h2>
+		</button>
+		<button id="stopAni" type="button" onClick="StopAnimation()" hidden>
+			<h2>Stop</h2>
+		</button>
+	</p>
+
+	<script>
+		const startAni = document.getElementById("startAni");
+		const stopAni = document.getElementById("stopAni");
+		const imageDisplay = document.getElementById("ImageDisplay");
+
+		function Animate() {
+			startAni.hidden = true;
+			stopAni.hidden = false;
+			setInterval(() => { imageDisplay.src = "Spiral0.png" }, 100); // run every 100ms
+			setInterval(() => { imageDisplay.src = "Spiral1.png" }, 200); // run every 200ms
+			setInterval(() => { imageDisplay.src = "Spiral2.png" }, 300); // run every 300ms
+		};
+
+		function StopAnimation() {
+			startAni.hidden = false;
+			stopAni.hidden = true;
+			window.location.reload()
+		};
+
+	</script>
+
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<head>
+	<title>JavaScript Task</title>
+
+	<style>
+		table {
+			margin-left: auto;
+			margin-right: auto
+		}
+
+		table,
+		td {
+			border: none
+		}
+
+		h1,
+		h2,
+		p {
+			text-align: center
+		}
+
+		h2 {
+			color: #ff0000
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<h1> Task 5<br>Programming for the web<br>JavaScript</h1>
+
+	<br>
+
+	<h2>A stop motion animation</h2>
+
+	<table>
+
+		<tr>
+			<td style="height:150px">
+				<img src="Spiral0.png" id="ImageDisplay" width="120px" alt="display here">
+			</td>
+			<!--The initial image source for the id element is set to Spiral0.png-->
+		</tr>
+
+	</table>
+
+	<p>Click the button to start the animation</p><br>
+	<p>
+		<button type="button" id="toggleButton" onClick="Animate()">
+			<h2>Start</h2>
+		</button>
+	</p>
+
+	<script>
+		let rotating = false;
+		let image = document.getElementById("ImageDisplay");
+		let button = document.getElementById("toggleButton");
+
+		function Animate() {
+			if (!rotating) {
+				image.style.animation = "rotate 2s linear infinite";
+				button.innerHTML = "<h2>Stop</h2>";
+			} else {
+				image.style.animation = "none";
+				button.innerHTML = "<h2>Start</h2>";
+			}
+			rotating = !rotating;
+		}
+
+		// css for rotation animation
+		let style = document.createElement('style');
+		style.innerHTML = `
+		@keyframes rotate {
+			0% { transform: rotate(0deg); }
+			100% { transform: rotate(360deg); }
+		}
+		`;
+		document.head.appendChild(style);
+	</script>
+
+</body>
+
+</html>
