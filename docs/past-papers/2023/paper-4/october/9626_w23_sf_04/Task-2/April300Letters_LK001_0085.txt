@@ -1,0 +1,3 @@
+customers whose total April bill is more than £300. Didn’t save it because I have not set the data type of April_Owed column to numbers? I think? No idea. Microsoft Access is DOG SHIT. 
+
+Also, im tired and have no time left to re-do this crap.

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<Title>Tree Height Calculator</title>
+<style>
+  body  {background-color:#ff0;
+         background-image:url(trig.png);
+         background-repeat:no-repeat;
+         background-position:center top;
+	    }
+			   
+table   { border: 1px solid #000000;
+          border-collapse: separate;
+	      border-spacing:20px;
+    	  min-width: 100px;
+          margin-top:450px;
+		  margin-left:auto;
+		  margin-right:auto;
+		}
+
+td      { text-align:center; border: 1px solid #000000;}
+
+h1,h2,h3,p    {font-family:sans-serif;text-align: center; color: red;}
+
+h3	    { font-size:12pt;}
+</style>
+</head>
+<body>
+<table style="width:30%;">
+<tr>
+<td> <h3>Angle of inclination<br>(in degrees)</h3>
+</td>
+<td><h3>Distance from tree<br>(in metres)</h3>
+</td>
+<td><h3>Eye height of viewer<br>(in metres)</h3>
+</tr>
+<tr>
+<td><input id="angle" type="number" value size="5"> degrees
+</td>
+<td><input id="distance" type="number" value size="5"> m
+</td>
+<td><input id="viewheight" type="number" value size="5"> m
+</td>
+</tr>
+<tr>
+<td style="border:none" colspan="3"><button style="font-size:12pt; height:50px; width:300px" ; onClick="if (!window.__cfRLUnblockHandlers) return false; calculate()" data-cf-modified-3b83f1c7b239ad8c4b105840-> Click to calculate the height of the tree </button>
+</td>
+<tr>
+<td colspan="3" height="70px"><h3 id="Treeheight Result"></h3></td>
+</tr>
+</table>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="3b83f1c7b239ad8c4b105840-|49" defer></script></body>
+</html>
