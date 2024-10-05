@@ -10,3 +10,4 @@ sidebar_position: 1
     - Spreadsheet and Database: https://youtu.be/8lEWXx8tZSY?si=UKc_Z_PiLZjNIJeh
     - Video Editing: https://youtu.be/yKCQNw_qnjM?si=_8xvPSzle7Dy9p9T
 
+Did not attempt this due the unavailability of the resource files.
