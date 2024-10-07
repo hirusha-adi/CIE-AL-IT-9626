@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    h1 {
+      font-family: "Times New Roman", Times, serif;
+      font-size: 48px;
+      color: #ff0000;
+      text-align: center
+    }
+
+    h2 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 24px;
+      color: #000000;
+      text-align: left
+    }
+
+    h3,
+    h5 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-style: italic;
+      font-size: 42px;
+      color: #FF0000
+    }
+
+    h5 {
+      font-size: 30px;
+    }
+
+
+    input[type="number"] {
+      width: 75px;
+      font-size: 24px;
+      color: #ff0000;
+      text-align: center
+    }
+  </style>
+
+  <title>Commission Calculator</title>
+
+</head>
+
+
+<h1>Art Work Sales<br>
+  Commission Modelling <br>
+</h1>
+
+<h2>Enter Sale price boundaries</h2>
+
+<p><strong>Sale prices below &#163
+
+    <!--Lower Range upper limit input box -->
+    <input id="LowerRange" type="number" value=50> will be charged 5% commission<br><br>
+
+    Sale prices equal to this value and up to &#163
+
+    <!--Upper range upper limit input box -->
+    <input id="UpperRange" type="number" value=100> will be charged 10% commission<br><br>
+    Sale prices above this value will be charged 12.5% commission
+
+</p>
+<p>
+<h2>Enter Artwork Price:</h2>
+
+&#163 <input id="ArtPrice" type="number" value=""> <br><br></strong>
+</p>
+<button type="button" onClick="Calculate()">Display Commission</button>
+<br>
+
+<!-- Display the message here, at the center of the screen -->
+<center>
+  <h5 id="finalMessage">
+  </h5>
+</center>
+
+<script>
+  // get elements
+  const lowerRange = document.getElementById("LowerRange")
+  const upperRange = document.getElementById("UpperRange")
+  const artPrice = document.getElementById("ArtPrice")
+
+  // start with a commision of zero
+  var commission = 0
+
+  function Calculate() {
+
+    // get numeric values from input fields
+    lower = Number(lowerRange.value)
+    upper = Number(upperRange.value)
+    price = Number(artPrice.value)
+
+    // compare price with boundaries and set commision
+    if (price > upper) {
+      commission = price * 0.125
+    }
+    else if (price < lower) {
+      commission = price * 0.05
+    }
+    else {
+      commission = price * 0.1
+    }
+
+    // update the message
+    document.getElementById("finalMessage").innerHTML = `Commision for sale of \$${price} will be \$${commission}`
+
+  }
+</script>
+
+</body>
+
+</html>

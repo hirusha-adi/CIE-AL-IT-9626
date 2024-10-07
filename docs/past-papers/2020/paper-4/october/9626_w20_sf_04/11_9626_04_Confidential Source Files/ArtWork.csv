@@ -1,0 +1,437 @@
+Art id,Image name,Media,Price,Sold,Artist id
+1,Norfolk Windmill,Watercolour,£35.00,FALSE,12
+2,Low Tide,Watercolour,£35.00,FALSE,12
+3,The New Hat,Watercolour,£35.00,FALSE,12
+4,Barges at Maldon,Watercolour,£35.00,FALSE,12
+5,Norfolk Wherry,Watercolour,£35.00,FALSE,12
+6,Snape Maltings Aldeburgh,Watercolour,£35.00,FALSE,12
+7,In Hiding,Hand-coloured (acrylic) etching,£235.00,FALSE,139
+8,Broken Wall,Acrylic on Canvas,£125.00,FALSE,139
+9,Under Renovation,Acrylic on Paper,£375.00,FALSE,139
+10,Ober II Wil graag,Screen print (hand printed),£55.00,FALSE,139
+11,One,Screen print (hand printed),£70.00,FALSE,139
+12,Maldon Scaffolding House,Acrylic on Paper,£325.00,FALSE,139
+13,Rooster,Watercolour,£75.00,FALSE,1
+14,Abstract Landscape,Pastel,£95.00,FALSE,1
+15,Radish 1,Watercolour,£40.00,TRUE,1
+16,Radish 2,Watercolour,£40.00,TRUE,1
+17,Norfolk Day (Coastal 1),Watercolour,£375.00,FALSE,120
+18,Frinton Day (Coastal 2),Watercolour,£375.00,FALSE,120
+19,Colourful Flowers,Watercolour & Acrylic,£40.00,FALSE,38
+20,The Wonder of Snow,Watercolour & Acrylic,£40.00,FALSE,38
+21,Trees in Blue Skies,Watercolour & Acrylic,£40.00,FALSE,38
+22,Stargazer,Watercolour,£40.00,FALSE,42
+23,Night Seascape Untitled,Watercolour & Mixed Media,£40.00,FALSE,42
+24,Poppies & Allium I,Ink & Pastel,£85.00,FALSE,24
+25,Poppies & Allium II,Ink & Pastel,£85.00,FALSE,24
+26,Poppies & Allium III,Ink & Pastel,£85.00,FALSE,24
+27,Gerberas I,Ink & Pastel,£70.00,FALSE,24
+28,Gerberas II,Ink & Pastel,£60.00,FALSE,24
+29,Gerberas III,Ink & Pastel,£75.00,FALSE,24
+30,Waterfall,Acrylic,£50.00,FALSE,14
+31,Seascape,Acrylic,£50.00,FALSE,14
+32,Hopeful!,Watercolour,£25.00,FALSE,14
+33,Pick A Flower,Watercolour,£50.00,FALSE,140
+34,Truth,Pen & Ink,£45.00,FALSE,140
+35,Etude,Brush & Ink,£40.00,FALSE,140
+36,The Hunter,Watercolour/pencil,£65.00,FALSE,115
+37,Best pals,Watercolour/pencil,£65.00,FALSE,115
+38,Bright Eyes,Watercolour/pencil,£50.00,FALSE,115
+39,Jack,Watercolour/pencil,£60.00,FALSE,115
+40,Looks Tasty,Watercolour/pencil,£50.00,FALSE,115
+41,Wasnt me,Watercolour/pencil,£50.00,FALSE,115
+42,Lina,Oil on Canvas,£230.00,FALSE,141
+43,Heaven and Hell,Digital on canvas 1/10,£220.00,FALSE,141
+44,Reflection,Oil on Canvas,£270.00,FALSE,141
+45,Sum of Years,Mixed media on board,£270.00,FALSE,141
+46,Irrational Fear 1/10,Digital on canvas,£250.00,FALSE,141
+47,Scarlett,Digital on canvas,£170.00,FALSE,141
+48,Sun Flowers,Watercolour,£80.00,FALSE,142
+49,Pineapple with Pomegranate,Oil on Canvas,£120.00,FALSE,142
+50,Appaloosa,Watercolour,£65.00,FALSE,143
+51,Daffodils,Watercolour,£40.00,FALSE,143
+52,Storm in a Teacup,Watercolour,£35.00,FALSE,143
+53,Winter Veg,Watercolour,£30.00,FALSE,143
+54,Grandmas Cupbd,Watercolour,£35.00,FALSE,143
+55,English Lavender,Watercolour,£40.00,FALSE,144
+56,Mans Best Friend,Watercolour,£40.00,FALSE,144
+57,Mediterranean Arcade,Watercolour,£65.00,FALSE,144
+58,Veronicas,Watercolour,£40.00,FALSE,144
+59,Spaniel,Watercolour,£40.00,FALSE,144
+60,Arabian Knight,Watercolour,£50.00,FALSE,144
+61,Willy Lotts Cottage,Watercolour,£48.00,FALSE,83
+62,Camelias,Watercolour,£48.00,FALSE,83
+63,Flatford,Oil,£40.00,FALSE,83
+64,Eruption,Watercolour,£25.00,FALSE,83
+65,Bedroom Corner,Watercolour,£35.00,FALSE,83
+66,Landscape,Watercolour,£35.00,FALSE,83
+67,Abandoned,Photograph,£75.00,FALSE,145
+68,Wintersun,Photograph,£65.00,FALSE,145
+69,Ocelot,Photograph,£45.00,FALSE,145
+70,Golden Glow,Photograph,£45.00,FALSE,145
+71,Love Gift,Photograph,£45.00,FALSE,145
+72,Tern,Photograph,£45.00,FALSE,145
+73,By The Mountain,Acrylic,£65.00,FALSE,106
+74,Sweet Peppers,Acrylic,£65.00,FALSE,106
+75,Bowl of Lemons,Watercolour,£65.00,FALSE,106
+76,Sail Away,Acrylic,£55.00,FALSE,106
+77,Wagtail,Lino Print,£50.00,FALSE,106
+78,Zebra,Lino Print,£50.00,FALSE,106
+79,The Rose,Photograph,£75.00,FALSE,146
+80,Out of the Blue,Photograph,£70.00,FALSE,146
+81,Monkton Farleigh Ammo Depot,Photograph,£75.00,FALSE,146
+82,Reflection of Industry,Photograph,£70.00,FALSE,146
+83,Forest Walk,Photograph,£60.00,FALSE,146
+84,Path Through the Snow,Photograph,£60.00,FALSE,146
+85,Black Bird,Acrylic,£140.00,FALSE,40
+86,Kingfisher,Acrylic,£140.00,FALSE,40
+87,Great Spotted Woodpecker,Acrylic,£140.00,FALSE,40
+88,Robin,Acrylic,£90.00,FALSE,40
+89,Nuthatch,Acrylic,£90.00,FALSE,40
+90,Great Tit,Acrylic,£60.00,FALSE,40
+91,The Potting Shed,Watercolour,£55.00,FALSE,147
+92,The Rape Field,Watercolour,£35.00,FALSE,147
+93,St Osyth Priory Walls,Watercolour,£35.00,FALSE,147
+94,Blue Iris,Oil on Canvas,£70.00,FALSE,5
+95,Monochrome Seascape,Oil on Canvas,£70.00,FALSE,5
+96,Pot and Flowers,Oil on Canvas,£65.00,FALSE,5
+97,Single Rose,Oil on Canvas,£30.00,FALSE,5
+98,Yellow Iris,Oil on Canvas,£70.00,FALSE,5
+99,Sunset Seas,Oil on Canvas,£70.00,FALSE,5
+100,March Hare,Watercolour,£70.00,FALSE,7
+101,Still Water,Watercolour,£50.00,FALSE,7
+102,Woodland,Acrylic,£35.00,FALSE,7
+103,Sea Scape,Acrylic,£29.00,FALSE,7
+104,Essex Country,Pastel,£45.00,FALSE,7
+105,Heathland,Acrylic,£29.00,FALSE,7
+106,Swept on Shore,Watercolour & Ink,£180.00,FALSE,123
+107,The Copper Kettle,Acrylic,£120.00,FALSE,123
+108,Oxeye Daisies,Acrylic,£90.00,FALSE,123
+109,Family Picnic,Watercolour,£80.00,FALSE,123
+110,Threes a Crowd,Acrylic,£75.00,FALSE,74
+111,A Panda,Acrylic,£85.00,FALSE,74
+112,Queen Elizabeth II,Acrylic,£40.00,FALSE,74
+113,French Partridges,Watercolour,£45.00,FALSE,74
+114,Sunset Over Scottish Lock,Acrylic,£30.00,FALSE,37
+115,Scottish Glen,Oil,£56.00,FALSE,37
+116,Bullfinch,Acrylic,£15.00,FALSE,37
+117,Blackbird on Dawn Guard,Acrylic,£19.50,FALSE,37
+118,Long Tailed Tits,Acrylic,£18.00,FALSE,37
+119,Horses in Winter,Oil,£25.00,FALSE,37
+120,Venice,Watercolour,£40.00,FALSE,148
+121,Grouse Display,Watercolour,£40.00,FALSE,148
+122,Bird - Kingfisher,Watercolour,£40.00,FALSE,148
+123,Wildflower Field,Pastel,£60.00,FALSE,43
+124,Let Us Go This Way,Pastel,£50.00,FALSE,43
+125,Trees in Winter,Watercolour,£45.00,FALSE,43
+126,Cottages in Lexden,Mixed Media,£45.00,FALSE,43
+127,Road to Dedham Hall,Pastel,£45.00,FALSE,43
+128,Durdle Door,Pastel,£40.00,FALSE,43
+129,The Shearer,Pastel Drawing,£60.00,FALSE,113
+130,Still Life,Oil,£45.00,FALSE,113
+131,Melon in Provence,Oil,£55.00,FALSE,113
+132,Evening Light,Watercolour,£70.00,FALSE,50
+133,Mediterranean Harbour,Watercolour,£55.00,FALSE,50
+134,Tor Bay,Acrylic,£60.00,FALSE,50
+135,Aldeburgh,Acrylic,£60.00,FALSE,50
+136,Highland Cattle,Watercolour,£30.00,FALSE,17
+137,Paddling Dog,Watercolour,£30.00,FALSE,17
+138,Barn Owl,Watercolour,£30.00,FALSE,17
+139,Harvest Mice,Watercolour,£25.00,FALSE,17
+140,Estuary Sunset,Watercolour,£25.00,FALSE,17
+141,Fuchsia,Watercolour,£25.00,FALSE,17
+142,Summer Grasses,Oil,£310.00,FALSE,149
+143,Frosty Morning Hillyfields,Oil,£310.00,FALSE,149
+144,Colne Reedbeds,Oil,£310.00,FALSE,149
+145,Pretty as a Picture,Watercolour,£50.00,FALSE,22
+146,The Magic of Tuscany,Watercolour,£40.00,FALSE,22
+147,Which Way Do We Go,Watercolour,£45.00,FALSE,22
+148,Alpensee,Acrylic,£40.00,FALSE,49
+149,Ullswater,Watercolour,£50.00,FALSE,49
+150,Trees,Pastel,£30.00,FALSE,49
+151,Springtime,Acrylic,£40.00,FALSE,49
+152,Grasmere,Pastel,£35.00,FALSE,49
+153,Jelly Fish,Inks,£65.00,TRUE,150
+154,Jelly Fish II,Inks,£65.00,FALSE,150
+155,Jelly Fish III,Inks,£65.00,TRUE,150
+156,Jelly Fish IV,Inks,£65.00,TRUE,150
+157,Jelly Fish V,Inks,£65.00,TRUE,150
+158,Jelly Fish VI,Inks,£65.00,TRUE,150
+159,Abberton,Line & Watercolour,£75.00,FALSE,102
+160,La Desirade,Line & Watercolour,£65.00,FALSE,102
+161,Silver Birches,Acrylic,£55.00,FALSE,102
+162,African Savannah,Watercolour,£50.00,FALSE,102
+163,Caribbean Paradise,Acrylic,£45.00,FALSE,102
+164,Philadelphus,Watercolour,£45.00,FALSE,102
+165,Hazy lily,Watercolour,£50.00,FALSE,58
+166,Magnolia,Watercolour,£50.00,FALSE,58
+167,Blue Poppies,Watercolour,£50.00,FALSE,58
+168,Fishing Done,Acrylic,£45.00,FALSE,153
+169,Seascape,Acrylic,£45.00,FALSE,153
+170,Highland Scene,Pastel,£50.00,FALSE,153
+171,Love bade me welcome,Gouache Artist's Print from Original,£12.00,FALSE,67
+172,Out of the Ghetto,Gouache Artist's Print from Original,£12.00,FALSE,67
+173,St Ephraems Prayer,Gouache Artist's Print from Original,£15.00,FALSE,67
+174,Under the Olive Tree,Gouache Artist's Print from Original,£12.00,FALSE,67
+175,The Hound of Heaven,Gouache,£40.00,FALSE,67
+176,In a Fox Hole,Gouache,£35.00,FALSE,67
+177,Blessings,Gouache,£25.00,FALSE,67
+178,Wells Next the Sea,Watercolour,£40.00,FALSE,30
+179,Dare I Go In,Pastel,£50.00,FALSE,30
+180,Thames Barges,Watercolour,£35.00,FALSE,30
+181,The Three Graces,Watercolour,£450.00,FALSE,151
+182,Rialto,Watercolour,£125.00,FALSE,151
+183,Family Outing,Watercolour,£110.00,FALSE,151
+184,High Tide Alresford,Oil,£98.00,FALSE,20
+185,R Stour Dedham,Oil,£130.00,FALSE,20
+186,As Night Approaches,Pastel,£60.00,FALSE,20
+187,Bluebells Wrabness Wood,Pastel,£75.00,FALSE,20
+188,Poppies,Acrylic,£55.00,FALSE,20
+189,Low Tide R Exe,Oil,£98.00,FALSE,20
+190,Street Urchins,Oil,£85.00,FALSE,82
+191,Pigs and Piglets,Gouache,£68.00,FALSE,82
+192,Blue Tits and Blossom,Oil,£55.00,FALSE,82
+193,Girl and Hair,Gouache,£65.00,FALSE,82
+194,Violets and Primroses,Oil,£48.00,FALSE,82
+195,Kingfisher and Mill,Oil,£55.00,FALSE,82
+196,Bad landing !!,Acrylic on Canvas,£80.00,FALSE,4
+197,Autumn Leaves,Acrylic on Canvas,£50.00,FALSE,4
+198,Seascape,Pastel,£75.00,FALSE,4
+199,Seascape (1),Pastel,£75.00,FALSE,4
+200,Seascape (2),Pastel,£80.00,FALSE,4
+201,Bluebells,Pastel,£75.00,TRUE,4
+202,Corner Plot,Etching,£150.00,FALSE,152
+203,Stoke by Nayland,Photo Etching,£150.00,FALSE,152
+204,Garden in Rayleigh,Etching,£150.00,FALSE,152
+205,Neo-Greco,Silkscreen,£100.00,FALSE,152
+206,Neo-Classicism,Silkscreen,£100.00,FALSE,152
+207,Ne-Platonism,Silkscreen,£100.00,FALSE,152
+208,Low Tide Pin Mill,Oil,£150.00,FALSE,34
+209,Sir Nigel Gresley Arrives,Acrylic,£125.00,FALSE,34
+210,Lavenham Suffolk,Line & Wash,£45.00,FALSE,34
+211,Dutch Quarter Colchester,Line & Wash,£45.00,FALSE,34
+212,St Peters StreetColchester,Line & Wash,£45.00,FALSE,34
+213,Crouch Street Colchester,Line & Wash,£45.00,FALSE,34
+214,Blue Landscape,Acrylic,£65.00,FALSE,122
+215,Lazy River,Acrylic,£65.00,FALSE,122
+216,Seascape,Acrylic,£65.00,FALSE,122
+217,Landscape,Acrylic,£65.00,FALSE,122
+218,Seascape,Acrylic,£45.00,FALSE,122
+219,Tree Study,Acrylic,£45.00,FALSE,122
+220,Autumn Walk,Acrylic,£75.00,FALSE,35
+221,Four Donkeys,Watercolour,£75.00,FALSE,35
+222,Fruit and Veg Stall Colchester,Pastel,£50.00,FALSE,161
+223,Waiting for the Tide,Acrylic,£50.00,FALSE,35
+224,Grand Canal Venice,Acrylic,£75.00,FALSE,35
+225,Bluebells - Gravel Woods Beaumont,Acrylic,£175.00,FALSE,154
+226,Agapanthus,Acrylic & Collage,£250.00,FALSE,154
+227,Fingringhoe Wick,Acrylic,£175.00,FALSE,154
+228,Babbling Brook,Acrylic,£175.00,FALSE,154
+229,Old Man of the Sea,Acrylic,£185.00,FALSE,154
+230,Shady Pool Fingringhoe,Acrylic,£175.00,FALSE,154
+231,Winter Barge,Watercolour,£10.00,FALSE,155
+232,The Village Match,Watercolour,£15.00,FALSE,155
+233,Distant Spire,Watercolour,£15.00,FALSE,155
+234,Young Owl,Watercolour,£85.00,FALSE,32
+235,Last Man Aboard,Watercolour,£60.00,FALSE,32
+236,Gold Crest & Dog Rose,Watercolour,£45.00,FALSE,32
+237,Leafy View,Pen & Watercolour,£40.00,FALSE,8
+238,Colchester - a different view,Pen & Watercolour,£60.00,FALSE,8
+239,Colchester - a birds eye view,Pen & Watercolour,£60.00,FALSE,8
+240,Breakwaters,Watercolour,£45.00,FALSE,8
+241,Bolenuevo Spain,Oil,£75.00,FALSE,133
+242,J Class Yacht,Oil,£85.00,FALSE,133
+243,Still Life 3,Oil,£60.00,FALSE,133
+244,River Colne Colchester,Watercolour,£70.00,FALSE,80
+245,Mersea,Watercolour,£70.00,FALSE,80
+246,East Anglian Scene I,Watercolour,£70.00,FALSE,80
+247,East Anglian Scene II,Watercolour,£80.00,FALSE,80
+248,East Anglian Scene III,Watercolour,£80.00,FALSE,80
+249,East Anglian Scene IV,Watercolour,£80.00,FALSE,80
+250,Farm Buildings,Gouache,£85.00,FALSE,138
+251,Alresford Creek,Gouache,£85.00,FALSE,138
+252,Willy Lotts House,Mixed Media,£75.00,FALSE,138
+253,Thames Barge,Mixed Media,£75.00,FALSE,138
+254,St Botolphs Priory Ruins,Pen & Wash,£75.00,FALSE,138
+255,Mute Swan,Watercolour,£70.00,FALSE,138
+256,Woodland Stream,Watercolour,£40.00,FALSE,78
+257,Summertime,Pen & Wash,£40.00,FALSE,78
+258,Polar Bears,Watercolour,£40.00,FALSE,78
+259,Dedham Conversation,Acrylic,£90.00,FALSE,6
+260,Through Colchester Park,Acrylic,£70.00,FALSE,6
+261,Las Alpujarras Spain,Acrylic,£92.00,FALSE,6
+262,The Smiling Angel,Acrylic,£60.00,FALSE,27
+263,Foibles and Flaws,Pastel,£45.00,FALSE,27
+264,You Saucy Monkey,Pastel,£50.00,FALSE,27
+265,Her Letter,Oil,£60.00,FALSE,27
+266,Golden Girl,Pastel,£50.00,FALSE,27
+267,A Faithful Friend,Oil,£60.00,FALSE,27
+268,Chicken Family,Pencil & Watercolour,£35.00,FALSE,28
+269,Sanderlings,Watercolour,£40.00,FALSE,28
+270,Waxwings,Watercolour,£40.00,FALSE,28
+271,Harvest Mice,Watercolour,£35.00,FALSE,28
+272,Mobbing,Watercolour,£40.00,FALSE,28
+273,Golden Eagle,Watercolour,£35.00,FALSE,28
+274,Seascape I,Watercolour,£30.00,FALSE,114
+275,Seascape II,Watercolour,£30.00,FALSE,114
+276,Datura,Watercolour,£55.00,FALSE,114
+277,Cavtat Croatia,Watercolour,£40.00,FALSE,114
+278,Lilies,Watercolour,£30.00,FALSE,114
+279,Thornham Quay,Watercolour,£40.00,FALSE,15
+280,Golden Eagle,Watercolour,£40.00,FALSE,15
+281,Old Boat House,Watercolour,£40.00,FALSE,15
+282,Ashore,Oil,£35.00,FALSE,15
+283,Camper Van,Watercolour,£30.00,FALSE,15
+284,Summer Day on the Stour,Oil on Canvas,£75.00,FALSE,157
+285,Rowing on the River,Oil on Canvas,£75.00,FALSE,157
+286,Green Island Gardens,Oil on Canvas,£75.00,FALSE,157
+287,The Low Light Dovercourt,Acrylic,£45.00,FALSE,157
+288,Dedham Mill,Oil on Canvas,£65.00,FALSE,157
+289,Autumn Oaks,Oil on Board,£35.00,FALSE,157
+290,Snowdonia,Pastel Landscape,£100.00,FALSE,158
+291,The Little Bay,Pastel Landscape,£100.00,FALSE,158
+292,Daffodils,Pastel Still Life,£50.00,FALSE,158
+293,The Old Boat,Pastel Landscape,£100.00,FALSE,158
+294,Stiffkey Marshes,Pastel Landscape,£80.00,FALSE,158
+295,High Flyer,Acrylic,£135.00,FALSE,11
+296,Fleece Loss,Acrylic,£140.00,FALSE,11
+297,Wool Gathering,Acrylic,£75.00,FALSE,11
+298,Garden Patrol,Acrylic,£65.00,FALSE,11
+299,Giving Chase,Acrylic,£65.00,FALSE,11
+300,Precipitation,Acrylic,£65.00,FALSE,11
+301,Chase Me,Watercolour,£35.00,FALSE,44
+302,Fruit & Crossword,Watercolour,£25.00,FALSE,44
+303,Waterhole,Watercolour,£25.00,FALSE,44
+304,Peaceful Read,Watercolour,£25.00,FALSE,44
+305,Bluetit,Watercolour,£25.00,FALSE,44
+306,Winter Scene,Watercolour,£40.00,FALSE,44
+307,Pheasants in Winter,Watercolour,£85.00,FALSE,70
+308,Maldon,Watercolour,£78.00,FALSE,70
+309,Wivenhoe,Watercolour,£78.00,FALSE,70
+310,Donkeys & Blackbird,Watercolour,£85.00,FALSE,70
+311,Pin Mill,Watercolour,£75.00,FALSE,70
+312,Woodbridge Mill,Watercolour,£78.00,FALSE,70
+313,West Stockwell Street Colchester,Acrylic,£165.00,FALSE,9
+314,Ryegate Road Colchester,Acrylic,£165.00,FALSE,9
+315,Wivenhoe,Acrylic,£165.00,FALSE,9
+316,East Street Colchester,Acrylic,£95.00,FALSE,9
+317,West Stockwell Street Colchester,Acrylic,£95.00,FALSE,9
+318,Hythe Hill Colchester,Acrylic,£165.00,FALSE,9
+319,Red Tractor,Watercolour,£400.00,FALSE,97
+320,Cochin Chickens,Pencil,£200.00,FALSE,97
+321,Butterflies,Watercolour,£90.00,FALSE,97
+322,Fordson Triple D,Watercolour,£400.00,FALSE,97
+323,Blue Orpington Chickens,Pencil,£200.00,FALSE,97
+324,Watching,Pencil,£90.00,FALSE,97
+325,In The Wings * can be sold with 326 as a pair for £50,Pastel,£30.00,FALSE,59
+326,So To Dance * can be sold with 325 as a pair for £50,Pastel,£30.00,FALSE,59
+327,Cats Eyes,Pastel,£35.00,FALSE,59
+328,Eden Project Exotic Flower,Pastel,£20.00,FALSE,59
+329,A Day at the Races (priced as a pair with 330,Pastel,£35.00,FALSE,59
+330,Ladies Day (priced as a pair with 329),Pastel,,FALSE,59
+331,Cinnamon,Acrylic,£45.00,FALSE,137
+332,Colchester Castle,Acrylic,£50.00,FALSE,137
+333,Red Sails in the Sunset,Acrylic,£45.00,FALSE,137
+334,Sanctuary,Acrylic,£60.00,FALSE,137
+335,Golden Tulips,Acrylic,£45.00,FALSE,137
+336,Spains Hall,Acrylic,£45.00,FALSE,137
+337,Clematis on my patio,Acrylic,£75.00,FALSE,2
+338,The Sky at Night,Acrylic,£80.00,FALSE,2
+339,Rough Sea,Acrylic,£180.00,TRUE,2
+340,A.P.McCoy,Watercolour,£45.00,TRUE,2
+341,Hogwarts,Acrylic,£75.00,TRUE,2
+342,Summer Flowers on Plinth,Acrylic,£75.00,FALSE,2
+343,A Young Beachcomber,Watercolour,£65.00,FALSE,45
+344,Its a Dogs Life,Watercolour,£35.00,FALSE,45
+345,High Flyer,Watercolour,£35.00,FALSE,45
+346,The Mount at Dusk,Acrylic,£65.00,FALSE,85
+347,Spring Near Dedham,Acrylic,£38.00,FALSE,85
+348,Cupcake,Oil,£25.00,FALSE,85
+349,Stripes Rule,Watercolour,£49.00,FALSE,36
+350,A Good Novel,Watercolour,£49.00,FALSE,36
+351,Yellow Cabs,Watercolour,£49.00,FALSE,36
+352,Happy Feet No 1,Watercolour,£49.00,FALSE,36
+353,Happy Feet No 2,Watercolour,£49.00,FALSE,36
+354,Paris in the Rain,Watercolour,£49.00,FALSE,36
+355,Saturday Market,Acrylic,£50.00,FALSE,105
+356,Rocky Shore Lerwick,Acrylic,£50.00,FALSE,105
+357,Doorway in Crete,Acrylic,£50.00,FALSE,105
+358,Coastal Scene,Watercolour,£375.00,FALSE,53
+359,Coastal Scene,Watercolour,£375.00,FALSE,53
+360,Coastal Scene,Watercolour,£375.00,FALSE,53
+361,And Then It Rained,Watercolour,£70.00,FALSE,117
+362,Winter Floods,Watercolour,£70.00,FALSE,117
+363,Frosty Morning,Watercolour,£70.00,FALSE,117
+364,Autumn Haze,Watercolour,£70.00,FALSE,117
+365,Scottish Islands,Watercolour,£60.00,FALSE,117
+366,Lake District,Watercolour,£60.00,FALSE,117
+367,Rose & Crown,Watercolour,£145.00,FALSE,101
+368,Fag Break,Watercolour,£150.00,FALSE,101
+369,Man & Boy,Watercolour,£95.00,FALSE,101
+370,Who Spilled the Paint,Watercolour,£145.00,FALSE,101
+371,Seaview Cafe Walton,Watercolour,£145.00,FALSE,101
+372,House in Easthorpe,Watercolour,£100.00,FALSE,101
+373,The Old Harbour La Roche-Bernard,Pen & Ink & Watercolour,£110.00,FALSE,66
+374,Home of Sir Alfred Munnings Dedham,Pen & Ink & Watercolour,£50.00,FALSE,66
+375,Christmas in the Tyrol,Pen & Ink & Watercolour,£45.00,FALSE,66
+376,Blue Handle Jug,Watercolour,£60.00,FALSE,25
+377,Chickens,Watercolour,£60.00,FALSE,25
+378,Flowers,Watercolour,£50.00,FALSE,25
+379,Across Derwentwater,Watercolour,£70.00,FALSE,48
+380,Iris Leaves Abstract,Mixed Media,£45.00,FALSE,48
+381,Lands End Strumble Head,Mixed Media,£75.00,FALSE,48
+382,Fritillaria,Watercolour,£45.00,FALSE,48
+383,Anemones,Mixed Media,£70.00,FALSE,48
+384,Morning Glories,Monoprint,£50.00,FALSE,48
+385,A Frosty Morning,Ink & Watercolour,£60.00,FALSE,47
+386,A Sketch of St Cedds Church Shrub End,Ink & Watercolour,£40.00,FALSE,47
+387,North Hill Colchester,Ink & Watercolour,£50.00,FALSE,47
+388,Poppy Fields,Acrylic,£48.00,FALSE,119
+389,West Quay Wivenhoe,Watercolour,£48.00,FALSE,119
+390,Felixstowe Cranes,Oil,£48.00,FALSE,119
+391,Harmony,Watercolour,£50,FALSE,61
+392,A Refuge in sight,Watercolour,£50.00,FALSE,61
+393,A Fair Breeze,Watercolour,£50.00,FALSE,61
+394,A Day Out,Decoupage,£24.00,FALSE,33
+395,Poppy Line,Decoupage,£24.00,FALSE,33
+396,Wood Bridge Mill,Decoupage,£24.00,FALSE,33
+397,Balancing Clown,Decoupage,£18.00,FALSE,33
+398,Steam Days,Decoupage,£24.00,FALSE,33
+399,MN15 at Wivenhoe,Ink & Watercolour,£140.00,FALSE,162
+400,Beach Huts Norfolk,Acrylic,£150.00,FALSE,162
+401,Wivenhoe Church,Ink & Watercolour,£150.00,FALSE,162
+402,Footpath to Wivenhoe,Watercolour,£130.00,FALSE,162
+403,Bridge Over the Douro-Porto,Ink,£110.00,FALSE,162
+404,Fish Market Venice,Ink & Watercolour,£150.00,FALSE,162
+405,Take Five,Acrylics Collage,£85.00,FALSE,163
+406,Down to the River,Mixed Media,£85.00,FALSE,163
+407,Sunday Afternoon,Acrylics,£85.00,FALSE,163
+408,Camelia,Watercolour,£40.00,FALSE,73
+409,Dancing at Bouvg (after Renoir),Watercolour,£40.00,FALSE,73
+410,Spring Flowers,Watercolour,£40.00,FALSE,73
+411,Blue Vase and Wildflower,Watercolour,£40.00,FALSE,73
+412,Landscape - no title,Acrylic,£120.00,FALSE,160
+413,Landscape - no title,Acrylic/Graphite,£120.00,FALSE,160
+414,Collage - no title,Ink/acrylic/graphite,£200.00,FALSE,160
+415,Ellie,Graphite,£120.00,FALSE,160
+416,Ullswater Spring,Watercolour,£30.00,FALSE,100
+417,A Cold Lunch,Watercolour,£30.00,TRUE,100
+418,Bee Feast,Watercolour/Pen & Ink,£35.00,TRUE,100
+419,Japanese Lady,Watercolour,£35.00,FALSE,100
+420,Prickly Feast,Watercolour,£25.00,TRUE,100
+421,Quiet Beach,Watercolour,£15.00,TRUE,100
+422,Tobermory,Acrylic,£55.00,FALSE,164
+423,Sunset,Acrylic,£55.00,FALSE,164
+424,Gracie,Pencil,£40.00,FALSE,156
+425,Pride,Pencil,£40.00,FALSE,156
+426,Highland,Pencil,£40.00,FALSE,156
+427,Alfie,Pencil,£40.00,FALSE,156
+428,Dylan,Pencil,£30.00,FALSE,156
+429,Thomas,Pencil,£30.00,FALSE,156
+430,Foxgloves,Acrylic on Canvas,£390.00,FALSE,159
+431,Drift,Acrylic on Canvas,£250.00,FALSE,159
+432,Poppy,Acrylic on Canvas,£200.00,FALSE,159
+433,Japanese Garden with waterfall,Acrylic,£90.00,FALSE,89
+434,West Coast of Scotland,Acrylic,£40.00,FALSE,89
+435,Loughrigg Tarn (Lake District),Acrylic,£70.00,FALSE,89
+436,.Sailing,Acrylic,£40.00,FALSE,89
