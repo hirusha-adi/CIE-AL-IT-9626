@@ -19,6 +19,8 @@ The paper mainly focused on spreadsheets (using Microsoft Office), followed by a
 
 ### Paper 4
 
+This paper is almost UNPREDICTABLE!
+
 I was expecting the entire paper to be about Microsoft Access, as mentioned [here](./2024-09-20-practical-analysis.md#paper-4): "? Database ?? (or NONE if lucky)." Well, I got lucky, and the paper wasn’t about databases. There were 4 tasks.
 
 The first task involved basic Microsoft Excel, with graphs/charts. I think the graphs/charts were worth about 5 or 9 marks. I didn’t specifically learn them, but I had accidentally practiced them in one of the Paper 4 past papers. In the exam, they even showed us what the final graph should look like, so a monkey with a keyboard and mouse could figure it out. It took me 5–8 extra minutes, but I eventually got what they asked for. There was also a what-if analysis, I think? I’m not exactly sure, but it probably cost me 1 or 2 marks in the first question. At this point, I’m not too concerned about losing 1–2 marks.
