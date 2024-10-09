@@ -5,6 +5,7 @@ authors: hirusha
 tags: [life]
 ---
 
+
 With two months left until the exam, I've just started my preparations.
 
 A bad experience with a teacher convinced me that self-learning is the best approach for me. The four hours with that teacher were unproductive, showing that self-guided learning can be more effective.

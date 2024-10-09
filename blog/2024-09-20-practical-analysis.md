@@ -5,10 +5,13 @@ authors: hirusha
 tags: [exam, analysis]
 ---
 
-## Guess
+
+Guess: 
 
 - 2024 October: Paper **2: Spreadsheets**
 - 2024 October: Paper **4: Database**
+
+<!--truncate-->
 
 ## Data
 

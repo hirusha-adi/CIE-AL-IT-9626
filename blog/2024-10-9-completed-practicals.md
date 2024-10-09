@@ -9,6 +9,7 @@ tags: [life]
 In short, I completed both practical papers, and they went well.  
 On October 1st, I did Paper 02, and on October 8th, I did Paper 04.
 
+<!--truncate-->
 
 ### Paper 2
 
